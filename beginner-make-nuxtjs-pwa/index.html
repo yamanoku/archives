@@ -1,0 +1,285 @@
+<!doctype html>
+<html data-n-head-ssr lang="ja" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22ja%22%7D%7D">
+  <head>
+    <title>よく分かってなくてもNuxt.jsでPWAが作れた話</title><meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" name="og:title" content="アーカイブ"><meta data-n-head="ssr" name="og:description" content="このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。"><meta data-n-head="ssr" name="og:image" content="https://yamanoku.net/ogp/ogp-archive@2x.png"><meta data-n-head="ssr" name="og:image:alt" content="アーカイブ"><meta data-n-head="ssr" name="twitter:card" content="summary_large_image"><meta data-n-head="ssr" name="twitter:site" content="@yamanoku"><meta data-n-head="ssr" name="twitter:image:alt" content="アーカイブ"><meta data-n-head="ssr" data-hid="description" name="description" content="PWA nuxt.js Slack AWSLambda Netlify"><meta data-n-head="ssr" data-hid="og:title" property="og:title" content="よく分かってなくてもNuxt.jsでPWAが作れた話"><meta data-n-head="ssr" data-hid="og:description" property="og:description" content="PWA nuxt.js Slack AWSLambda Netlify"><meta data-n-head="ssr" data-hid="og:image" property="og:image" content="https://yamanoku.net/ogp/ogp-archive@2x.png"><meta data-n-head="ssr" data-hid="og:image:alt" property="og:image:alt" content="よく分かってなくてもNuxt.jsでPWAが作れた話"><meta data-n-head="ssr" data-hid="twitter:card" name="twitter:card" content="summary"><meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="よく分かってなくてもNuxt.jsでPWAが作れた話"><meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="PWA nuxt.js Slack AWSLambda Netlify"><meta data-n-head="ssr" data-hid="twitter:image" property="twitter:image" content="https://yamanoku.net/ogp/ogp-twitter_summary-archives@2x.png"><meta data-n-head="ssr" data-hid="twitter:image:alt" property="twitter:image:alt" content="よく分かってなくてもNuxt.jsでPWAが作れた話"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="preload" href="/_nuxt/25efc03.js" as="script"><link rel="preload" href="/_nuxt/19ce6fa.js" as="script"><link rel="preload" href="/_nuxt/3c7c8a0.js" as="script"><link rel="preload" href="/_nuxt/b9dbe70.js" as="script"><link rel="preload" href="/_nuxt/301f533.js" as="script"><style data-vue-ssr-id="7372a3d1:0 b1ef8cd8:0 1e8a95a9:0 019e1cef:0 932a8f60:0 e45ee55a:0 4163f6a2:0 0c43074a:0 1c26a4e0:0">/*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */*,:after,:before{box-sizing:border-box}:root{-moz-tab-size:4;-o-tab-size:4;tab-size:4}html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,Noto Sans,sans-serif,"Segoe UI",Helvetica,Arial,"Apple Color Emoji","Segoe UI Emoji"}hr{height:0;color:inherit}abbr[title]{-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Consolas,"Liberation Mono",Menlo,monospace;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit}button,input,optgroup,select,textarea{font-family:inherit;font-size:100%;line-height:1.15;margin:0}button,select{text-transform:none}[type=button],[type=reset],[type=submit],button{-webkit-appearance:button}::-moz-focus-inner{border-style:none;padding:0}:-moz-focusring{outline:1px dotted ButtonText}:-moz-ui-invalid{box-shadow:none}legend{padding:0}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}:root{--black:#15202b;--white:#d2d2d2;--gray:rgba(70,70,70,0.5);--blue:#5abeff;--purple:#dc64dc;--linkBlue:#127ac8;--linkVisited:var(--black);--rhythm:.5rem}html{color:#15202b;color:var(--black);font:inherit;font-size:100%;line-height:1.5rem;line-height:calc(var(--rhythm)*3);word-wrap:break-word;-webkit-font-smoothing:antialiased;font-family:Arial,Helvetica,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";font-weight:400}*,:after,:before{box-sizing:border-box}:focus{outline:2px solid #5abeff;outline:2px solid var(--blue);outline-offset:2px}body{margin:0}a{color:#127ac8;color:var(--linkBlue)}a:visited{color:#15202b;color:var(--linkVisited)}@media (prefers-color-scheme:dark){html{background-color:#15202b;background-color:var(--black);color:#d2d2d2;color:var(--white)}a{color:#5abeff;color:var(--blue);text-shadow:1px 1px 0 #15202b,0 1px 0 #15202b;text-shadow:1px 1px 0 var(--black),0 1px 0 var(--black)}a:visited{color:#dc64dc;color:var(--purple)}}footer,header,main{display:block;max-width:80ch;margin:auto;padding:0 1rem;padding:0 calc(var(--rhythm)*2)}h1{font-size:1.953em}h1,h2{margin:2.5rem 0;margin:calc(var(--rhythm)*5) 0;line-height:2.5rem;line-height:calc(var(--rhythm)*5)}h2{font-size:1.563em}h3{font-size:1.25em}h3,h4{margin:1.5rem 0;margin:calc(var(--rhythm)*3) 0;line-height:1.5rem;line-height:calc(var(--rhythm)*3)}h4{font-size:1rem}h5{margin:1rem 0;margin:calc(var(--rhythm)*2) 0;font-size:.8em;line-height:1rem;line-height:calc(var(--rhythm)*2)}h6{margin:.5rem 0;margin:calc(var(--rhythm)*1) 0;font-size:.64em;line-height:.5rem;line-height:calc(var(--rhythm)*1)}section{display:block}article,section{margin:1.5rem 0;margin:calc(var(--rhythm)*3) 0}article{position:relative;padding-bottom:1.5rem;padding-bottom:calc(var(--rhythm)*3)}article:before{content:"";width:100%;height:1px;background-color:rgba(70,70,70,.5);background-color:var(--gray);position:absolute;bottom:0;left:0}@media (prefers-color-scheme:dark){article:before{background-color:#d2d2d2;background-color:var(--white)}}p{margin:1.5rem 0;margin:calc(var(--rhythm)*3) 0;font-size:1rem;line-height:1.5rem;line-height:calc(var(--rhythm)*3)}img{max-width:100%;vertical-align:bottom}figure{margin:1.5rem 0;margin:calc(var(--rhythm)*3) 0}figcaption{margin-top:1.5rem;margin-top:calc(var(--rhythm)*3);font-size:1rem}small{line-height:1}ul:not([class]){margin:1.5rem 0;margin:calc(var(--rhythm)*3) 0;line-height:1;padding-left:1rem;padding-left:calc(var(--rhythm)*2);list-style-type:none;position:relative}ul:not([class]) ul{margin:0}ul:not([class]) li{line-height:1.5rem;line-height:calc(var(--rhythm)*3);font-size:1rem}ul:not([class]) li:before{background-color:#15202b;background-color:var(--black);border-radius:50%;color:#fff;content:"";width:6px;height:6px;margin:9px 0 0;position:absolute;left:0}ol:not([class]){margin:1.5rem 0;margin:calc(var(--rhythm)*3) 0;line-height:1;padding-left:1rem;padding-left:calc(var(--rhythm)*2)}ol:not([class]) ol{margin:0}ol:not([class]) li{line-height:1.5rem;line-height:calc(var(--rhythm)*3);font-size:1rem}@media (prefers-color-scheme:dark){ul:not([class]) li:before{background-color:#d2d2d2;background-color:var(--white)}}details>summary{margin:1.5rem 0;margin:calc(var(--rhythm)*3) 0;cursor:pointer}blockquote{border-left:6px solid #5abeff;border-left:6px solid var(--blue);margin:.5rem 0 .5rem .5rem;margin:var(--rhythm) 0 var(--rhythm) var(--rhythm);padding:0 1rem;padding:0 calc(var(--rhythm)*2)}address,hr,pre{margin:1.5rem 0;margin:calc(var(--rhythm)*3) 0}hr{display:block;width:100%;height:1px;border:0;background-color:rgba(70,70,70,.5);background-color:var(--gray)}@media (prefers-color-scheme:dark){hr{background-color:#d2d2d2;background-color:var(--white)}}.visually-hidden{position:fixed!important;top:0!important;left:0!important;width:4px!important;height:4px!important;opacity:0!important;overflow:hidden!important;border:none!important;margin:0!important;padding:0!important;display:block!important;visibility:visible!important}code[class*=language-],pre[class*=language-]{color:#f8f8f2;background:0 0;font-family:Consolas,Monaco,"Andale Mono","Ubuntu Mono",monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.5;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:1em;margin:.5em 0;overflow:auto;border-radius:.3em}:not(pre)>code[class*=language-],pre[class*=language-]{background:#2b2b2b}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal}.token.cdata,.token.comment,.token.doctype,.token.prolog{color:#d4d0ab}.token.punctuation{color:#fefefe}.token.constant,.token.deleted,.token.property,.token.symbol,.token.tag{color:#ffa07a}.token.boolean,.token.number{color:#00e0e0}.token.attr-name,.token.builtin,.token.char,.token.inserted,.token.selector,.token.string{color:#abe338}.language-css .token.string,.style .token.string,.token.entity,.token.operator,.token.url,.token.variable{color:#00e0e0}.token.atrule,.token.attr-value,.token.function{color:gold}.token.keyword{color:#00e0e0}.token.important,.token.regex{color:gold}.token.bold,.token.important{font-weight:700}.token.italic{font-style:italic}.token.entity{cursor:help}@media screen and (-ms-high-contrast:active){code[class*=language-],pre[class*=language-]{color:windowText;background:window}:not(pre)>code[class*=language-],pre[class*=language-]{background:window}.token.important{background:highlight;color:window;font-weight:400}.token.atrule,.token.attr-value,.token.function,.token.keyword,.token.operator,.token.selector{font-weight:700}.token.attr-value,.token.comment,.token.doctype,.token.function,.token.keyword,.token.operator,.token.property,.token.string{color:highlight}.token.attr-value,.token.url{font-weight:400}}.nuxt-progress{position:fixed;top:0;left:0;right:0;height:2px;width:0;opacity:1;transition:width .1s,opacity .4s;background-color:#000;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}html[lang=ja]{font-feature-settings:"kern" off;-webkit-font-kerning:none;font-kerning:none}html:not([lang=ja]) body{-webkit-hyphens:auto;-ms-hyphens:auto;hyphens:auto}html[lang=ja] body{line-break:loose}html[lang=ja] footer,html[lang=ja] header,html[lang=ja] main,html[lang=ja] nav{max-width:45rem}code.hljs{padding:calc(var(--rhythm)*3)}img{height:auto}header[data-v-9f65dbda]{max-width:80ch;margin:auto;padding:0 calc(var(--rhythm)*2)}a[data-v-9f65dbda]{display:inline-flex;align-items:center;grid-gap:8px;gap:8px;margin:calc(var(--rhythm)*2) 0;text-decoration:none}svg[data-v-9f65dbda]{width:48px;height:48px;vertical-align:middle}.cls-1[data-v-9f65dbda]{fill:#36465d;fill-rule:evenodd}@media (prefers-color-scheme:dark){.cls-1[data-v-9f65dbda]{fill:var(--white)}}.article-header[data-v-bc2fc8ea]{display:flex;flex-wrap:wrap;justify-content:space-between;margin:calc(var(--rhythm)/2*-1);padding:0}.article-header>[data-v-bc2fc8ea]{margin:calc(var(--rhythm)/2)}div[data-v-384c9139]{margin:calc(var(--rhythm)*3) 0}footer[data-v-0c6734cd]{padding:calc(var(--rhythm)*3);text-align:center}footer p[data-v-0c6734cd]{font-size:1rem;line-height:calc(var(--rhythm)*3)}</style><link rel="preload" href="/_nuxt/static/1618657237/beginner-make-nuxtjs-pwa/state.js" as="script"><link rel="preload" href="/_nuxt/static/1618657237/beginner-make-nuxtjs-pwa/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1618657237/manifest.js" as="script">
+  </head>
+  <body>
+    <div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div><header data-v-9f65dbda><a href="/" class="nuxt-link-active" data-v-9f65dbda><svg xmlns="http://www.w3.org/2000/svg" width="246" height="242" viewBox="0 0 246 242" role="img" aria-labelledby="title" data-v-9f65dbda><title id="title" data-v-9f65dbda>yamanoku.net</title> <path d="M64,67v54l82,82-46,46v60h56L310,155V96H230l-21,20L160,67H64ZM176,203l-45,46h25L293,113H230l-39,39-31-31H94Z" transform="translate(-64 -67)" class="cls-1" data-v-9f65dbda></path></svg>
+    アーカイブ
+  </a></header> <main id="main" role="main" data-v-bc2fc8ea><article data-v-bc2fc8ea><h1 data-v-bc2fc8ea>よく分かってなくてもNuxt.jsでPWAが作れた話</h1> <div class="article-header" data-v-bc2fc8ea><div lang="en" data-v-bc2fc8ea>
+        created at:
+        <time datetime="2018-12-06" data-v-bc2fc8ea>2018-12-06</time></div> <div lang="en" data-v-bc2fc8ea><a href="https://github.com/yamanoku/yamanoku.github.io/edit/nuxt/content/beginner-make-nuxtjs-pwa.md" target="_blank" rel="noopener" data-v-bc2fc8ea>
+          GitHub Edit Page
+        </a></div></div> <div data-v-384c9139 data-v-bc2fc8ea><strong data-v-384c9139>
+    この記事は公開から1年以上が経過しています。内容が一部古い箇所があります。
+  </strong></div> <div class="nuxt-content" data-v-bc2fc8ea data-v-bc2fc8ea><p data-v-bc2fc8ea data-v-bc2fc8ea>この記事は<a href="https://qiita.com/advent-calendar/2018/pwa" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>PWA Advent Calendar 2018</a>の6日目の記事になります。
+既視感のあるタイトルですが気にしないでください。</p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>毎年何かしら自分のレベルに合わせて新技術に触れてみる・作ってみるみたいなのを課してるのですが、
+今年個人的にチャレンジしてみようと思ったものの１つにPWAがあります。</p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>毎年何かしら自分のレベルに合わせて新技術に触れてみる・作ってみるみたいなのを課してるのですが、
+今年個人的にチャレンジしてみようと思ったものの１つにPWAがあります。</p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>そこで今回は大した知識が無くともPWAを作ることができた話をしようと思います。
+内容として他の皆様と大したことやってないかもですが、こんなんでも形になったぞというのを知ってもらいたいのもあるので温かい目で見てくださいませ。</p>
+<h2 id="reading" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#reading" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>Reading…</h2>
+<img width="320" height="700" src="https://gyazo.com/60ae2a3a628a1c6b7ed77bc356fbaeab/thumb/1000" alt="Reading… Logo" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea>
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Link: <a href="https://reading.yamanoku.net/" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>https://reading.yamanoku.net</a></li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>GitHub: <a href="https://github.com/yamanoku/reading/" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>https://github.com/yamanoku/reading/</a></li>
+</ul>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>日頃自分が見ているニュースを集約してまとめてみたらどうなるだろうか、情報の蓄積・可視化みたいなのを考えておりそういうのができないかなと思ってそれを題材にPWAにしてみようと思いました。以下は経緯みたいなやつです。</p>
+<blockquote data-v-bc2fc8ea data-v-bc2fc8ea>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://yamanoku.net/LT/lt04/" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>情報収集ってどうしてる？ - YAMALT vol.04</a></p>
+</blockquote>
+<h3 id="動作イメージ" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#%E5%8B%95%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>動作イメージ</h3>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://gyazo.com/8418eadc1713fd8f083a625706757786" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea><img width="370" height="656" alt="Reading… iPhoneシュミレーターによる実動作イメージ図" src="https://gyazo.com/8418eadc1713fd8f083a625706757786/thumb/1000" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea></a></p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>自分が最近見た20件のニュース×５ページ分にした計100件を表示。
+ページ間はページネーションで動きます。</p>
+<h3 id="使用技術" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#%E4%BD%BF%E7%94%A8%E6%8A%80%E8%A1%93" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>使用技術</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table data-v-bc2fc8ea data-v-bc2fc8ea><thead data-v-bc2fc8ea data-v-bc2fc8ea><tr data-v-bc2fc8ea data-v-bc2fc8ea><th align="left" data-v-bc2fc8ea data-v-bc2fc8ea>API</th><th align="left" data-v-bc2fc8ea data-v-bc2fc8ea>ホスティング</th><th align="left" data-v-bc2fc8ea data-v-bc2fc8ea>フレームワーク</th></tr></thead><tbody data-v-bc2fc8ea data-v-bc2fc8ea><tr data-v-bc2fc8ea data-v-bc2fc8ea><td align="left" data-v-bc2fc8ea data-v-bc2fc8ea>Slack API <br data-v-bc2fc8ea data-v-bc2fc8ea> AWS API GateWay</td><td align="left" data-v-bc2fc8ea data-v-bc2fc8ea>Netlify</td><td align="left" data-v-bc2fc8ea data-v-bc2fc8ea>Nuxt.js</td></tr></tbody></table>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>Nuxt.jsのプラグイン・モジュールは以下を使用</p>
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://github.com/TahaSh/vue-paginate" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>vue-paginate</a>
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>ページネーション。asyncもあって複数で連携できたり、</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>個人的には色々あるページネーションの中で導入が簡単（な印象）</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://github.com/nuxt-community/pwa-module" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>nuxt-community/pwa-module</a>
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>皆様ご存知のNuxt.jsでPWAにするなら必要になる</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>PWAにしなくともキャッシュ高速化にも使える</li>
+</ul>
+</li>
+</ul>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>あと当初はNuxt1.0で作成していましたが、今年の2.0の発表に合わせて<a href="https://github.com/yamanoku/reading/commit/6124198e300dc1f8ccc74e14c6b9118e09f36a5d" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>アップデートしました</a>。</p>
+<blockquote data-v-bc2fc8ea data-v-bc2fc8ea>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>Nuxt 2でgenerateしたPWAサイトです
+<a href="https://twitter.com/yamanoku/status/1043119076489318401" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>https://twitter.com/yamanoku/status/1043119076489318401</a></p>
+</blockquote>
+<h3 id="フローチャート" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#%E3%83%95%E3%83%AD%E3%83%BC%E3%83%81%E3%83%A3%E3%83%BC%E3%83%88" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>フローチャート</h3>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>図です。</p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><img width="720" height="291" alt="フローチャート 以下説明" src="https://i.gyazo.com/6c87beb1a40364b5520050b0963fa3e9.png" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea></p>
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>投稿自体はTwitter
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>シェアする内容の文頭に<code data-v-bc2fc8ea data-v-bc2fc8ea>Reading...</code>とつけてツイート
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>例：<a href="https://twitter.com/yamanoku/status/998900479487692800" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>https://twitter.com/yamanoku/status/998900479487692800</a></li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>別に「Reading」じゃなくてもいいけど、昔使ってた<a href="http://fladdict.net/blog/2012/10/news-storm.html" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>ニュースアプリ</a>の名残で自発的にやってる</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>主な発言地帯がTwitterなだけなので、別にIFTTTと連携できるならなんでもいい</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>DBは個人用Slack
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>IFTTTで投稿連携
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Twitterから「Reading...」と紐づけた特定のものを拾ってくる</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>連携して個人Slackに投稿されて全件検索される</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://gyazo.com/1948eaf267fa165a4b4b1fef5afff211" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea><img width="720" height="207" alt="Image" src="https://gyazo.com/1948eaf267fa165a4b4b1fef5afff211/thumb/1000" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea></a></li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Slack APIの制約もあり100件までを抽出。古いものは取得内から消えていく。</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>なぜSlackをデータベースにしたのか？
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>お手軽サーバーレス体験</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Slack側のメッセージの修正や消去で即JSONに反映してくれる</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>無料で作れて垢バンの心配がない
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Twitter単体だと心配</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>日経の米朝首脳会談の速報ページで前例あり
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://twitter.com/koni/status/1006452321583271936" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>こに@SocialDog/whotwiさんのツイート: 日経の米朝首脳会談の速報ページ、気味の悪い拡張子のファイルによるとSlackが使われているっぽい。現地からSlackに投稿するとそのまま公開される仕組みっぽい。すごい今風。</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>AWSでAPI GatewayとLambda FunctionにてAPI変換
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Slack APIから直接経由だと制約があってしんどかった
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>devtools使うとどのslackから持ってきてるのかとかがわかっちゃう</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>tokenを隠蔽しても<code data-v-bc2fc8ea data-v-bc2fc8ea>nuxt generate</code>しビルドしたJS内にtokenとかが見えると警告メールが来てAPI止められる（計4敗）</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://gyazo.com/22343b9c3de68ed9a44d24d81064bc6b" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea><img width="720" height="434" alt="Image" src="https://gyazo.com/22343b9c3de68ed9a44d24d81064bc6b/thumb/1000" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea></a></li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>変えてよかったこと
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>tokenを完全隠蔽した</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>CORS対応したのでどこでも取得できる</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>gzip配信もできる</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>今のところは自分用なのもあって無料枠で収まる内容になってる</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://netlify-meetup-tokyo.connpass.com/event/100705/" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>Netlify Meetup Tokyo #2</a>で<code data-v-bc2fc8ea data-v-bc2fc8ea>Netlify Functions</code>でもいけそうって話を@mottox2さんから聞けたのでNetlify内で完結できる方向に変えようかと考え中</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://scrapbox.io/yamanoku/Netlify" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>Netlify</a>でホスティング
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://scrapbox.io/yamanoku/GitHub" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>GitHub</a>リポジトリと紐づけてる</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><code data-v-bc2fc8ea data-v-bc2fc8ea>nuxt generate</code> &  <code data-v-bc2fc8ea data-v-bc2fc8ea>push-dir --dir=dist --branch=master --cleanup</code></li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>静的書き出しした<code data-v-bc2fc8ea data-v-bc2fc8ea>dist</code>を<code data-v-bc2fc8ea data-v-bc2fc8ea>master</code>ブランチにプッシュ</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><code data-v-bc2fc8ea data-v-bc2fc8ea>master</code>ブランチをホスティング
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://gyazo.com/89e1780586aa0aee4322c9a1cdee3fed" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea><img width="720" height="347" alt="Image from Gyazo" src="https://i.gyazo.com/89e1780586aa0aee4322c9a1cdee3fed.png" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea></a></li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>SSL化やらカスタムドメイン可やらプレレンダリング（今回は未使用）やら無料でやってくれてすごい。</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>あとプライベートリポジトリも使える。</li>
+</ul>
+</li>
+</ul>
+<h3 id="パフォーマンス" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>パフォーマンス</h3>
+<h4 id="lighthouse" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#lighthouse" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>lighthouse</h4>
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Device: Emulated Nexus 5X</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Network throttling: 150 ms TCP RTT, 1,638.4 Kbps throughput (Simulated)</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>CPU throttling: 4x slowdown (Simulated)</li>
+</ul>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>上記設定で計測。Perfomance部分は変動ある感じですがだいたいこんな感じ</p>
+<h5 id="201896-計測" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#201896-%E8%A8%88%E6%B8%AC" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>2018/9/6 計測</h5>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://gyazo.com/798f53d86ca89daf3d3d2c02187c44c2" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea><img width="720" height="120" alt="Perfomance 91, PWA 96, Accessibility 88, Best Practice 100, SEO 100" src="https://gyazo.com/798f53d86ca89daf3d3d2c02187c44c2/thumb/1000" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea></a></p>
+<h5 id="2018122-計測" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#2018122-%E8%A8%88%E6%B8%AC" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>2018/12/2 計測</h5>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://gyazo.com/62f8aebc83ef63c8637401dca55fa6bd" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea><img width="720" height="100" alt="Perfomance 95, PWA 96, Accessibility 90, Best Practice 100, SEO 100" src="https://gyazo.com/62f8aebc83ef63c8637401dca55fa6bd/raw" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea></a></p>
+<h4 id="webpagetest" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#webpagetest" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>WebPageTest</h4>
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>From: Tokyo, Japan - EC2 - Chrome - Cable</li>
+</ul>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>上記設定で計測。</p>
+<h5 id="201896-計測-1" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#201896-%E8%A8%88%E6%B8%AC-1" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>2018/9/6 計測</h5>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://www.webpagetest.org/result/180905_90_60fd3b52c101b6aaeb61fda8ac192468/" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>https://www.webpagetest.org/result/180905_90_60fd3b52c101b6aaeb61fda8ac192468/</a></p>
+<h5 id="2018122-計測-1" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#2018122-%E8%A8%88%E6%B8%AC-1" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>2018/12/2 計測</h5>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://www.webpagetest.org/result/181202_Q9_0b087ea9b135cf3ee5e8c790e07853a7/" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>https://www.webpagetest.org/result/181202_Q9_0b087ea9b135cf3ee5e8c790e07853a7/</a></p>
+<h3 id="fixed--updates" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#fixed--updates" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>Fixed & Updates</h3>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>あんまりPWA要素と関係ないかもですが、更新したことなど。</p>
+<h4 id="ページネーションをクリックするとスクロール位置が保存されたままになってる" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#%E3%83%9A%E3%83%BC%E3%82%B8%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%92%E3%82%AF%E3%83%AA%E3%83%83%E3%82%AF%E3%81%99%E3%82%8B%E3%81%A8%E3%82%B9%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%AB%E4%BD%8D%E7%BD%AE%E3%81%8C%E4%BF%9D%E5%AD%98%E3%81%95%E3%82%8C%E3%81%9F%E3%81%BE%E3%81%BE%E3%81%AB%E3%81%AA%E3%81%A3%E3%81%A6%E3%82%8B" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>ページネーションをクリックするとスクロール位置が保存されたままになってる</h4>
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>中間くらいまでスクロールした状態で移動するとページ間でその位置のまま
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><code data-v-bc2fc8ea data-v-bc2fc8ea>position: fixed</code>と<code data-v-bc2fc8ea data-v-bc2fc8ea>vh</code>を使っているせい</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>ページが切り替わったときの制御に<code data-v-bc2fc8ea data-v-bc2fc8ea>scrollTop</code>をかませた</li>
+</ul>
+<div class="nuxt-content-highlight" data-v-bc2fc8ea data-v-bc2fc8ea><pre class="line-numbers language-javascript" data-v-bc2fc8ea data-v-bc2fc8ea><code data-v-bc2fc8ea data-v-bc2fc8ea>methods<span class="token operator" data-v-bc2fc8ea data-v-bc2fc8ea>:</span> <span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>{</span>
+  <span class="token function" data-v-bc2fc8ea data-v-bc2fc8ea>onPageChange</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>(</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>)</span> <span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>{</span>
+    <span class="token dom variable" data-v-bc2fc8ea data-v-bc2fc8ea>document</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>.</span><span class="token method function property-access" data-v-bc2fc8ea data-v-bc2fc8ea>getElementsByClassName</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>(</span><span class="token string" data-v-bc2fc8ea data-v-bc2fc8ea>'news-list'</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>)</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>[</span><span class="token number" data-v-bc2fc8ea data-v-bc2fc8ea>0</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>]</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>.</span><span class="token property-access" data-v-bc2fc8ea data-v-bc2fc8ea>scrollTop</span> <span class="token operator" data-v-bc2fc8ea data-v-bc2fc8ea>=</span> <span class="token number" data-v-bc2fc8ea data-v-bc2fc8ea>0</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>;</span>
+  <span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>}</span>
+<span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>}</span>
+</code></pre></div>
+<div class="nuxt-content-highlight" data-v-bc2fc8ea data-v-bc2fc8ea><pre class="line-numbers language-html" data-v-bc2fc8ea data-v-bc2fc8ea><code data-v-bc2fc8ea data-v-bc2fc8ea><span class="token tag" data-v-bc2fc8ea data-v-bc2fc8ea><span class="token tag" data-v-bc2fc8ea data-v-bc2fc8ea><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>&lt;</span>paginate-links</span>
+  <span class="token attr-name" data-v-bc2fc8ea data-v-bc2fc8ea>for</span><span class="token attr-value" data-v-bc2fc8ea data-v-bc2fc8ea><span class="token punctuation attr-equals" data-v-bc2fc8ea data-v-bc2fc8ea>=</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>"</span>lists<span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>"</span></span>
+  <span class="token attr-name" data-v-bc2fc8ea data-v-bc2fc8ea>@change</span><span class="token attr-value" data-v-bc2fc8ea data-v-bc2fc8ea><span class="token punctuation attr-equals" data-v-bc2fc8ea data-v-bc2fc8ea>=</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>"</span>onPageChange<span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>"</span></span> <span class="token attr-name" data-v-bc2fc8ea data-v-bc2fc8ea>&lt;!--</span> <span class="token attr-name" data-v-bc2fc8ea data-v-bc2fc8ea>ここ</span> <span class="token attr-name" data-v-bc2fc8ea data-v-bc2fc8ea>--</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>></span></span>
+  :show-step-links="true"
+  :limit="2">
+<span class="token tag" data-v-bc2fc8ea data-v-bc2fc8ea><span class="token tag" data-v-bc2fc8ea data-v-bc2fc8ea><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>&lt;/</span>paginate-links</span><span class="token punctuation" data-v-bc2fc8ea data-v-bc2fc8ea>></span></span>
+</code></pre></div>
+<h4 id="絵文字がパースされていない" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#%E7%B5%B5%E6%96%87%E5%AD%97%E3%81%8C%E3%83%91%E3%83%BC%E3%82%B9%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>絵文字がパースされていない</h4>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://gyazo.com/515ea122571f395b03d8be35b82e4469" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea><img width="720" height="273" alt="🔥の絵文字が :fire: として出力されている" src="https://gyazo.com/515ea122571f395b03d8be35b82e4469/thumb/1000" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea></a></p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>単純にパースしてあげればいいのかなと思ったので、
+<a href="https://www.npmjs.com/package/node-emoji" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>node-emoji</a> を使いました。</p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://gyazo.com/6586344df213347f483f99f7ea95c014" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea><img width="720" height="304" alt="🔥絵文字が適応された" src="https://gyazo.com/6586344df213347f483f99f7ea95c014/thumb/1000" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea></a></p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>👍👍👍👍👍</p>
+<h4 id="ページネーションのボタンアクセシビリティ対応" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#%E3%83%9A%E3%83%BC%E3%82%B8%E3%83%8D%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E3%83%9C%E3%82%BF%E3%83%B3%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B7%E3%83%93%E3%83%AA%E3%83%86%E3%82%A3%E5%AF%BE%E5%BF%9C" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>ページネーションのボタンアクセシビリティ対応</h4>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>今回ページネーションのライブラリで使用した<a href="https://github.com/TahaSh/vue-paginate" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>vue-paginate</a>ですが、<code data-v-bc2fc8ea data-v-bc2fc8ea>&lt;a></code>タグのみで<code data-v-bc2fc8ea data-v-bc2fc8ea>href</code>で明確なリンク遷移が明示されていない、リンクとして未完成な状態のままでした。
+また、<code data-v-bc2fc8ea data-v-bc2fc8ea>tabindex</code>指定もないのでタブキーでのフォーカスも効かない状態でした。</p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>そこでページネーションのボタン部分をリンク要素としてではなく<code data-v-bc2fc8ea data-v-bc2fc8ea>button</code>タグに変更して、意味あるタグを設置・タブにおけるフォーカスの両方を解消しようと思いました。</p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>ただ、この内容についてIssueで報告する・プルリクエストを提出することを考えた時、個人での運用なのでいつ見てもらえるか・かつ受け入れられるかもわからないという不安がありました。</p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>そこで、リポジトリをforkして自分専用用のモジュールを作ったほうが早いと感じたので、早速対応しました。</p>
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://github.com/yamanoku/vue-paginate" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>https://github.com/yamanoku/vue-paginate</a></li>
+</ul>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://gyazo.com/42475acc4d4f26575615095b57d77a70" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea><img width="222" height="84" alt="aタグからbuttonタグに変更してタブキーのフォーカスが効くようになった" src="https://gyazo.com/42475acc4d4f26575615095b57d77a70/thumb/1000" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea></a></p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>ただ、開閉時の<code data-v-bc2fc8ea data-v-bc2fc8ea>aria-expanded</code>ほかWAI-ARIA部分などはまだまだ対応しきれていないので、今後も改良する余地はありそうです（自前実装になる？）。</p>
+<h4 id="今後の更新・todoなど" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#%E4%BB%8A%E5%BE%8C%E3%81%AE%E6%9B%B4%E6%96%B0%E3%83%BBtodo%E3%81%AA%E3%81%A9" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>今後の更新・TODOなど</h4>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>以下Scrapboxのページにて順次手作業で更新予定です</p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://scrapbox.io/yamanoku/Reading%E2%80%A6" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>https://scrapbox.io/yamanoku/Reading…</a></p>
+<h3 id="pwaを作ってみての感想" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#pwa%E3%82%92%E4%BD%9C%E3%81%A3%E3%81%A6%E3%81%BF%E3%81%A6%E3%81%AE%E6%84%9F%E6%83%B3" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>PWAを作ってみての感想</h3>
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Nuxt.jsにおけるPWA導入が圧倒的にやりやすい・分かりやすいかなと思いました
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Vue.js依存ですが…</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>PWAだけに限らないですが、何かしら動くものを作ってみると、新しいものがきたらそこから派生してみる・検証することができる</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>まだまだ改善の余地は大きい部分はあるが試行錯誤していろんなことが検証できるのが楽しい
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>こうしたらいいよ的なアドバイスお待ちしております（コメントでもTwitterでも）</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>今後の派生として、妻を個人Slackに招待して、家族間でのURL共有みたいなのがやれたらいいかなと思っている
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>妻が結構検索しまくって共有してくれる（育児・買い物・行きたいところ等）</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>夫婦間での共有を簡易・履歴として残すようにしたい</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>自分でPWAを実装してみてAndroid実機で動かせるのがこれまでにない感覚で面白かった
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>ちなみに<a href="https://yamanoku.net" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>ポートフォリオサイト</a>もPWA化しています</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>GitHub Pagesと紐づけているので、配下のページ（リポジトリ）も自動的にPWA判定になっている？
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://yamanoku.net/birthday-countdown-js/" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>Birthday-Countdown.js</a> など</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Service Workerがルートディレクトリで設定されているから？</li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>実際にPWAとして使えるものを使ってみたり検証したりしてみる
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>Service Workerがどのような感じで使われているかとか</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>自分はTwitterはネイティブではなく<a href="https://mobile.twitter.com" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>Twitter Lite</a>（PWA版）のを使うようにしています。</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>企業の制作実体験記みたいなのが気になりだす（業務内でのノウハウや失敗など）
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>最近だとHTML5カンファレンスや7月のHTML5 APP CONFERENCE 2018でその辺が聞けました
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://speakerdeck.com/sisidovski/nikkei-pwa-html5conf2018" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>PWAの導入で得られた成果と見えてきた課題</a></li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://scrapbox.io/yamanoku/Web_%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E5%86%8D%E8%80%83_%EF%BD%9EPWA_%E3%81%AE%E3%82%82%E3%81%9F%E3%82%89%E3%81%99%E6%9C%AA%E6%9D%A5%E3%81%AE%E5%85%89%E3%81%A8%E5%BD%B1_%EF%BD%9E" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>Web プラットフォーム再考 ～PWA のもたらす未来の光と影 ～</a></li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://speakerdeck.com/ikasoumen/pixiv-chatstory-false-pwa-tositefalsequ-rizu-mi" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>pixiv chatstory の PWA としての取り組み</a></li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://speakerdeck.com/kasanomo/mobairuneiteibuapurinidai-warucun-zai-chu-metefalsepwa" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>モバイルネイティブアプリに代わる存在！？初めてのPWA</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>**iOSマジお前．．．**となる気持ちがよくわかる</li>
+</ul>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>以上になります。ご覧いただきありがとうございました。
+明日（12/7）は@_lemon2003_さんになります。</p>
+<h2 id="【弊社アドベントカレンダーpr】" data-v-bc2fc8ea data-v-bc2fc8ea><a href="#%E3%80%90%E5%BC%8A%E7%A4%BE%E3%82%A2%E3%83%89%E3%83%99%E3%83%B3%E3%83%88%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BCpr%E3%80%91" aria-hidden="true" tabindex="-1" data-v-bc2fc8ea data-v-bc2fc8ea><span class="icon icon-link" data-v-bc2fc8ea data-v-bc2fc8ea></span></a>【弊社アドベントカレンダーPR】</h2>
+<p data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://gyazo.com/a2ce676febed730106792e210ad75eba" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea><img width="320" height="320" alt="株式会社GEEK ロゴ" src="https://i.gyazo.com/a2ce676febed730106792e210ad75eba.jpg" loading="lazy" data-v-bc2fc8ea data-v-bc2fc8ea></a></p>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>最後に宣伝になりますが、私が所属している<a href="https://qiita.com/organizations/geekinc" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>株式会社GEEK</a>でもアドベントカレンダーをやっております。良ければご覧になってみてください。
+自分はこのアドベントカレンダーほか色んな所に出張執筆予定です。</p>
+<ul data-v-bc2fc8ea data-v-bc2fc8ea>
+<li data-v-bc2fc8ea data-v-bc2fc8ea><a href="https://adventar.org/calendars/3108" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>GEEK Inc. Advent Calendar 2018</a></li>
+<li data-v-bc2fc8ea data-v-bc2fc8ea>去年 → <a href="https://adventar.org/calendars/2422" rel="noopener noreferrer" target="_blank" data-v-bc2fc8ea data-v-bc2fc8ea>GEEK Inc. Advent Calendar 2017</a></li>
+</ul>
+<p data-v-bc2fc8ea data-v-bc2fc8ea>GEEKアドベントカレンダーの次回担当はマークアップエンジニアの大房さんになります。</p></div></article> <p data-v-bc2fc8ea>
+    アーカイブ記事のため、内容に関する更新依頼は受け付けておりませんが、誤字や脱字などありましたらご連絡ください。
+  </p> <details data-v-bc2fc8ea><summary data-v-bc2fc8ea>この記事に関する修正依頼</summary> <ul role="list" data-v-bc2fc8ea><li role="listitem" data-v-bc2fc8ea><a href="https://github.com/yamanoku/yamanoku.github.io/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=document,feedback&body=URL：https://yamanoku.net/archive//beginner-make-nuxtjs-pwa%0A修正内容" target="_blank" rel="noopener" data-v-bc2fc8ea>
+          GitHub Issue を作成する
+        </a></li> <li role="listitem" data-v-bc2fc8ea><a href="https://twitter.com/share?url=https://yamanoku.net/archive//beginner-make-nuxtjs-pwa&text=@yamanoku" target="_blank" rel="noopener" data-v-bc2fc8ea>
+          著者にツイートする
+        </a></li></ul></details> <a href="/" class="nuxt-link-active" data-v-bc2fc8ea> アーカイブ一覧へ戻る </a></main> <footer data-v-0c6734cd><p data-v-0c6734cd>© Copyright 2021, Okuto Oyama</p></footer></div></div></div><script defer src="/_nuxt/static/1618657237/beginner-make-nuxtjs-pwa/state.js"></script><script src="/_nuxt/25efc03.js" defer></script><script src="/_nuxt/301f533.js" defer></script><script src="/_nuxt/19ce6fa.js" defer></script><script src="/_nuxt/3c7c8a0.js" defer></script><script src="/_nuxt/b9dbe70.js" defer></script>
+  </body>
+</html>
