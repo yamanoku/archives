@@ -8,7 +8,7 @@ author: yamanoku
 [![Image](https://gyazo.com/48d84dac71d8c0ece8e16379ede834ba/thumb/1000)](https://gyazo.com/48d84dac71d8c0ece8e16379ede834ba)
 
 - feat. [平成ドロー生成](https://walkingmask.github.io/heiseidraw/)
-- 2017年 => [PlayBackTech2017](/archive/playback-tech-2017)
+- 2017年 => [PlayBackTech2017](playback-tech-2017)
 
 ## CSS Grid Layout
 
@@ -219,7 +219,7 @@ author: yamanoku
     - Nuxt.jsで作成
   - [Reading…](https://reading.yamanoku.net/)
     - 去年のRSS作成の流れを受けてやってみた
-    - [自分用rssリーダーを作ろうとした](/archive/playback-tech-2017#自分用rssリーダーを作ろうとした)
+    - [自分用rssリーダーを作ろうとした](/playback-tech-2017#自分用rssリーダーを作ろうとした)
     - 詳しくは [PWA Advent Calendar 2018 - Qiita](https://qiita.com/advent-calendar/2018/pwa) ６日目にて
 
 ## 勉強会・MeetUp・ワークショップ・カンファレンスへの参加、登壇

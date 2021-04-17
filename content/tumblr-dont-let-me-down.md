@@ -63,4 +63,4 @@ TumblrはTwitterと同時期くらいに同じくSNS・ショートブログコ�
 果たして真に健全で公平なことなのかどうなのかを、皆さんにも今一度考えてみていただきたいと思っています。
 
 ## 関連リンク
-- [多様性社会について思うこと](/archive/i-think-inclusive-society)
+- [多様性社会について思うこと](i-think-inclusive-society)
