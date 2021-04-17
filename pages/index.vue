@@ -1,65 +1,47 @@
 <template>
-  <div class="container">
+  <main id="main" role="main">
+    <h1>アーカイブ一覧</h1>
+    <p>
+      このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。
+    </p>
+    <p>
+      移行時にリンク切れなど修正しましたが、内容自体は特にアップデートしておりませんので参照する際はその点ご注意ください。
+    </p>
     <div>
-      <Logo />
-      <h1 class="title">archive</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      <article v-for="article in articles" :key="article.slug">
+        <p>
+          <time :datetime="dateTime(article.date)">
+            {{ dateTime(article.date) }}
+          </time>
+        </p>
+        <h2>
+          <nuxt-link :to="article.path">
+            {{ article.title }}
+          </nuxt-link>
+        </h2>
+        <p>
+          {{ article.description }}
+        </p>
+      </article>
     </div>
-  </div>
+  </main>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
+<script>
+import dayjs from 'dayjs'
 
-export default Vue.extend({})
+export default {
+  async asyncData({ $content }) {
+    const query = $content('/', { deep: true }).sortBy('date', 'desc')
+    const articles = await query.fetch()
+    return {
+      articles,
+    }
+  },
+  methods: {
+    dateTime(time) {
+      return dayjs(time).format('YYYY-MM-DD')
+    },
+  },
+}
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
