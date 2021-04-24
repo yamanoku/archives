@@ -1,4 +1,4 @@
-# archive
+# archives
 
 ## Build Setup
 
