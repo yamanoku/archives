@@ -43,7 +43,7 @@ export default {
       return dayjs(time).format('YYYY-MM-DD')
     },
     articleUrl(path) {
-      return `/archives${path}`;
+      return `/archives${path}`
     },
   },
 }
