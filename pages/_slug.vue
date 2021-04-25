@@ -60,9 +60,9 @@ export default {
   },
   data() {
     return {
-      gitHubLink: `https://github.com/yamanoku/yamanoku.github.io/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=document,feedback&body=URL：https://yamanoku.net/archive/${this.$route.path}%0A修正内容`,
-      twitterLink: `https://twitter.com/share?url=https://yamanoku.net/archive/${this.$route.path}&text=@yamanoku`,
-      editLink: `https://github.com/yamanoku/yamanoku.github.io/edit/nuxt/content${this.$route.path}.md`,
+      gitHubLink: `https://github.com/yamanoku/yamanoku.github.io/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=document,feedback&body=URL：https://yamanoku.net/archive${this.$route.path}%0A修正内容`,
+      twitterLink: `https://twitter.com/share?url=https://yamanoku.net/archive${this.$route.path}&text=@yamanoku`,
+      editLink: `https://github.com/yamanoku/archives/edit/main/content${this.$route.path}.md`,
     }
   },
   head() {
