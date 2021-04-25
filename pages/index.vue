@@ -15,7 +15,7 @@
           </time>
         </p>
         <h2>
-          <nuxt-link :to="article.path">
+          <nuxt-link :to="articleUrl(article.path)">
             {{ article.title }}
           </nuxt-link>
         </h2>
@@ -41,6 +41,9 @@ export default {
   methods: {
     dateTime(time) {
       return dayjs(time).format('YYYY-MM-DD')
+    },
+    articleUrl(path) {
+      return `/archives${path}`
     },
   },
 }
