@@ -1,5 +1,5 @@
 <template>
-  <main id="main" role="main">
+  <main id="main">
     <article>
       <h1>{{ page.title }}</h1>
       <div class="article-header">
@@ -21,13 +21,13 @@
     </p>
     <details>
       <summary>この記事に関する修正依頼</summary>
-      <ul role="list">
-        <li role="listitem">
+      <ul>
+        <li>
           <a :href="gitHubLink" target="_blank" rel="noopener">
             GitHub Issue を作成する
           </a>
         </li>
-        <li role="listitem">
+        <li>
           <a :href="twitterLink" target="_blank" rel="noopener">
             著者にツイートする
           </a>

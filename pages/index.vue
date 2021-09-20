@@ -1,5 +1,5 @@
 <template>
-  <main id="main" role="main">
+  <main id="main">
     <h1>アーカイブ一覧</h1>
     <p>
       このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。
