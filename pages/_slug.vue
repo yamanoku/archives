@@ -136,10 +136,10 @@ export default {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: calc(var(--rhythm) / 2 * -1);
+  margin: calc(var(--y-rhythm-2) * -1);
   padding: 0;
 }
 .article-header > * {
-  margin: calc(var(--rhythm) / 2);
+  margin: var(--y-rhythm-2);
 }
 </style>
