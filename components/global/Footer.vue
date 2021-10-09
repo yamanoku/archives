@@ -1,6 +1,15 @@
 <template>
   <footer>
     <p>&copy; Copyright {{ currentYear }}, Okuto Oyama</p>
+    <p>
+      Source :
+      <a
+        href="https://github.com/yamanoku/archives/"
+        target="_blank"
+        rel="noopener"
+        >yamanoku/archives</a
+      >
+    </p>
   </footer>
 </template>
 
