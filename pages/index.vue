@@ -43,6 +43,21 @@ export default {
       title: 'アーカイブ',
       meta: [
         {
+          hid: 'description',
+          name: 'description',
+          content: 'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
+        },
+        {
+          hid: 'og:title',
+          property: 'og:title',
+          content: 'アーカイブ',
+        },
+        {
+          hid: 'og:description',
+          property: 'og:description',
+          content: 'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
+        },
+        {
           hid: 'og:image',
           property: 'og:image',
           content: 'https://yamanoku.net/ogp/ogp-archive@2x.png',
@@ -51,6 +66,16 @@ export default {
           hid: 'og:image:alt',
           property: 'og:image:alt',
           content: 'Archive Document',
+        },
+        {
+          hid: 'twitter:title',
+          name: 'twitter:title',
+          content: 'アーカイブ',
+        },
+        {
+          hid: 'twitter:description',
+          name: 'twitter:description',
+          content: 'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
         },
         {
           hid: 'twitter:image',

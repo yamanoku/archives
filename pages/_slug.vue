@@ -95,11 +95,6 @@ export default {
           content: `${this.page.title}`,
         },
         {
-          hid: 'twitter:card',
-          name: 'twitter:card',
-          content: 'summary_large_image',
-        },
-        {
           hid: 'twitter:title',
           name: 'twitter:title',
           content: `${this.page.title}`,
