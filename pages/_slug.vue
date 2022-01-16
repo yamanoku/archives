@@ -87,7 +87,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: `/og-images${this.page.path}.png`,
+          content: `https://archives.yamanoku.net/og-images${this.page.path}.png`,
         },
         {
           hid: 'og:image:alt',
@@ -112,7 +112,7 @@ export default {
         {
           hid: 'twitter:image',
           property: 'twitter:image',
-          content: `/og-images${this.page.path}.png`,
+          content: `https://archives.yamanoku.net/og-images${this.page.path}.png`,
         },
         {
           hid: 'twitter:image:alt',
