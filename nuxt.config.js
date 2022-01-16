@@ -25,6 +25,7 @@ export default {
       { name: 'twitter:site', content: '@yamanoku' },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [{ src: "https://unpkg.com/budoux/bundle/budoux-ja.min.js", type: "module" }]
   },
   css: ['modern-normalize', 'yama-normalize'],
   buildModules: ['@nuxt/typescript-build'],

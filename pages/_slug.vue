@@ -1,7 +1,11 @@
 <template>
   <main id="main">
     <article>
-      <h1>{{ page.title }}</h1>
+      <h1>
+        <budoux-ja>
+          {{ page.title }}
+        </budoux-ja>
+      </h1>
       <div class="article-header">
         <div lang="en">
           created at:
@@ -39,8 +43,11 @@
 </template>
 
 <script>
+import Vue from "vue";
 import dayjs from 'dayjs'
 import DeprecationAlertOneYear from '@/components/global/DeprecationAlertOneYear.vue'
+
+Vue.config.ignoredElements = ["budoux-ja"];
 
 export default {
   name: 'ArchiveDocumentSlug',
