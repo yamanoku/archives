@@ -1,12 +1,3 @@
-const baseName = process.env.BASE_NAME || 'アーカイブ'
-const baseDesc =
-  process.env.BASE_DISC ||
-  'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。'
-const baseUrl = process.env.BASE_URL || 'https://yamanaoku.net/archive'
-const baseOgp =
-  process.env.BASE_OGP || 'https://yamanoku.net/ogp/ogp-archive@2x.png'
-const baseOgpAlt = baseName
-
 const rehypePlugins = [
   'rehype-plugin-auto-resolve-layout-shift',
   'rehype-plugin-image-native-lazy-loading',
@@ -22,13 +13,6 @@ if (process.env.NODE_ENV === 'production') {
 export default {
   target: 'static',
   telemetry: false,
-  env: {
-    baseName,
-    baseDesc,
-    baseUrl,
-    baseOgp,
-    baseOgpAlt,
-  },
   head: {
     title: 'アーカイブ',
     htmlAttrs: {
@@ -37,23 +21,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      {
-        hid: 'description',
-        name: 'description',
-        content: baseDesc,
-      },
-      {
-        hid: 'og:image',
-        name: 'og:image',
-        content: baseOgp,
-      },
-      { name: 'og:title', content: baseName },
-      { name: 'og:description', content: baseDesc },
-      { name: 'og:image', content: baseOgp },
-      { name: 'og:image:alt', content: baseOgpAlt },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@yamanoku' },
-      { name: 'twitter:image:alt', content: baseOgpAlt },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },
