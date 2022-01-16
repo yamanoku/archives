@@ -43,11 +43,11 @@
 </template>
 
 <script>
-import Vue from "vue";
+import Vue from 'vue'
 import dayjs from 'dayjs'
 import DeprecationAlertOneYear from '@/components/global/DeprecationAlertOneYear.vue'
 
-Vue.config.ignoredElements = ["budoux-ja"];
+Vue.config.ignoredElements = ['budoux-ja']
 
 export default {
   name: 'ArchiveDocumentSlug',

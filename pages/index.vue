@@ -30,10 +30,10 @@
 </template>
 
 <script>
-import Vue from "vue";
+import Vue from 'vue'
 import dayjs from 'dayjs'
 
-Vue.config.ignoredElements = ["budoux-ja"];
+Vue.config.ignoredElements = ['budoux-ja']
 
 export default {
   async asyncData({ $content }) {
