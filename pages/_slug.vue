@@ -87,7 +87,7 @@ export default {
         {
           hid: 'og:image',
           property: 'og:image',
-          content: 'https://yamanoku.net/ogp/ogp-archive@2x.png',
+          content: `https://archives.yamanoku.net/og-images${this.page.path}.png`,
         },
         {
           hid: 'og:image:alt',
@@ -97,7 +97,7 @@ export default {
         {
           hid: 'twitter:card',
           name: 'twitter:card',
-          content: 'summary',
+          content: 'summary_large_image',
         },
         {
           hid: 'twitter:title',
@@ -112,8 +112,7 @@ export default {
         {
           hid: 'twitter:image',
           property: 'twitter:image',
-          content:
-            'https://yamanoku.net/ogp/ogp-twitter_summary-archives@2x.png',
+          content: `https://archives.yamanoku.net/og-images${this.page.path}.png`,
         },
         {
           hid: 'twitter:image:alt',
