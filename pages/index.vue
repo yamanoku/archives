@@ -40,7 +40,7 @@ export default {
   },
   head() {
     return {
-      title: `${this.page.title}`,
+      title: 'アーカイブ',
       meta: [
         {
           hid: 'og:image',
@@ -50,7 +50,7 @@ export default {
         {
           hid: 'og:image:alt',
           property: 'og:image:alt',
-          content: `${this.page.title}`,
+          content: 'Archive Document',
         },
         {
           hid: 'twitter:image',
@@ -60,7 +60,7 @@ export default {
         {
           hid: 'twitter:image:alt',
           property: 'twitter:image:alt',
-          content: `${this.page.title}`,
+          content: 'Archive Document',
         },
       ],
     }
