@@ -45,7 +45,8 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
+          content:
+            'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
         },
         {
           hid: 'og:title',
@@ -55,7 +56,8 @@ export default {
         {
           hid: 'og:description',
           property: 'og:description',
-          content: 'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
+          content:
+            'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
         },
         {
           hid: 'og:image',
@@ -75,7 +77,8 @@ export default {
         {
           hid: 'twitter:description',
           name: 'twitter:description',
-          content: 'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
+          content:
+            'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
         },
         {
           hid: 'twitter:image',
