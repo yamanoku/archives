@@ -10,7 +10,7 @@
     "lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
     "lint:fix": "eslint --fix --ext \".js,.vue\" --ignore-path .gitignore .",
     "deploy": "gh-pages -d dist -b gh-pages -m 'chore: deploy [skip ci]' -t",
-    "ogp-image": "node ogp/generate-og-image.mjs"
+    "generate-og-image": "node ogp/generate-og-image.mjs"
   },
   "dependencies": {
     "@nuxt/content": "^1.15.1",
