@@ -23,7 +23,7 @@ async function main() {
     // テンプレートファイルを開く
     await page.goto('file:///' + join(process.cwd(), 'ogp/template.html'));
     // BudouXを適用したタイトルを取得する
-    const parsedTitle = parser.translateHTMLString(title);
+    const parsedTitle = parser.translateHTMLString(title, 500);
     console.log(parsedTitle);
     // h1要素のinnerHTMLを置き換える
     await page.$eval(
