@@ -3,9 +3,6 @@ const baseDesc =
   process.env.BASE_DISC ||
   'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。'
 const baseUrl = process.env.BASE_URL || 'https://yamanaoku.net/archive'
-const baseOgp =
-  process.env.BASE_OGP || 'https://yamanoku.net/ogp/ogp-archive@2x.png'
-const baseOgpAlt = baseName
 
 const rehypePlugins = [
   'rehype-plugin-auto-resolve-layout-shift',
@@ -26,8 +23,6 @@ export default {
     baseName,
     baseDesc,
     baseUrl,
-    baseOgp,
-    baseOgpAlt,
   },
   head: {
     title: 'アーカイブ',
@@ -42,18 +37,10 @@ export default {
         name: 'description',
         content: baseDesc,
       },
-      {
-        hid: 'og:image',
-        name: 'og:image',
-        content: baseOgp,
-      },
       { name: 'og:title', content: baseName },
       { name: 'og:description', content: baseDesc },
-      { name: 'og:image', content: baseOgp },
-      { name: 'og:image:alt', content: baseOgpAlt },
       { name: 'twitter:card', content: 'summary_large_image' },
       { name: 'twitter:site', content: '@yamanoku' },
-      { name: 'twitter:image:alt', content: baseOgpAlt },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },

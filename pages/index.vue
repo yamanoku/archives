@@ -38,6 +38,33 @@ export default {
       articles,
     }
   },
+  head() {
+    return {
+      title: `${this.page.title}`,
+      meta: [
+        {
+          hid: 'og:image',
+          property: 'og:image',
+          content: 'https://yamanoku.net/ogp/ogp-archive@2x.png',
+        },
+        {
+          hid: 'og:image:alt',
+          property: 'og:image:alt',
+          content: `${this.page.title}`,
+        },
+        {
+          hid: 'twitter:image',
+          property: 'twitter:image',
+          content: 'https://yamanoku.net/ogp/ogp-archive@2x.png',
+        },
+        {
+          hid: 'twitter:image:alt',
+          property: 'twitter:image:alt',
+          content: `${this.page.title}`,
+        },
+      ],
+    }
+  },
   methods: {
     dateTime(time) {
       return dayjs(time).format('YYYY-MM-DD')
