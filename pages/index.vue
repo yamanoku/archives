@@ -16,7 +16,9 @@
         </p>
         <h2>
           <nuxt-link :to="article.path">
-            {{ article.title }}
+            <budoux-ja>
+              {{ article.title }}
+            </budoux-ja>
           </nuxt-link>
         </h2>
         <p>
@@ -28,7 +30,10 @@
 </template>
 
 <script>
+import Vue from 'vue'
 import dayjs from 'dayjs'
+
+Vue.config.ignoredElements = ['budoux-ja']
 
 export default {
   async asyncData({ $content }) {
