@@ -38,7 +38,9 @@
         </li>
       </ul>
     </details>
-    <nuxt-link to="/"> アーカイブ一覧へ戻る </nuxt-link>
+    <nuxt-link to="/">
+      アーカイブ一覧へ戻る
+    </nuxt-link>
   </main>
 </template>
 
@@ -46,24 +48,24 @@
 import dayjs from 'dayjs'
 import DeprecationAlertOneYear from '@/components/global/DeprecationAlertOneYear.vue'
 
-const dateTime = (time: string):string => {
+const dateTime = (time: string): string => {
   return dayjs(time).format('YYYY-MM-DD')
-};
+}
 
-const { path } = useRoute();
+const { path } = useRoute()
 const { data: page } = await useAsyncData(`content-${path}`, () => {
   return queryContent().where({ _path: path }).findOne()
-});
+})
 
 const gitHubLink = computed(() => {
   return `https://github.com/yamanoku/archives/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=feedback&body=URL：https://archives.yamanoku.net${path}%0A修正依頼内容：%0A`
-});
+})
 const twitterLink = computed(() => {
-  return `https://twitter.com/share?url=https://archives.yamanoku.net${path}&text=@yamanoku`;
-});
+  return `https://twitter.com/share?url=https://archives.yamanoku.net${path}&text=@yamanoku`
+})
 const editLink = computed(() => {
-  return `https://github.com/yamanoku/archives/edit/main/content${path}.md`;
-});
+  return `https://github.com/yamanoku/archives/edit/main/content${path}.md`
+})
 
 useHead({
   title: page.title,
@@ -71,50 +73,50 @@ useHead({
     {
       hid: 'description',
       name: 'description',
-      content: page.description,
+      content: page.description
     },
     {
       hid: 'og:title',
       property: 'og:title',
-      content: page.title,
+      content: page.title
     },
     {
       hid: 'og:description',
       property: 'og:description',
-      content: page.description,
+      content: page.description
     },
     {
       hid: 'og:image',
       property: 'og:image',
-      content: `https://archives.yamanoku.net/og-images${path}.png`,
+      content: `https://archives.yamanoku.net/og-images${path}.png`
     },
     {
       hid: 'og:image:alt',
       property: 'og:image:alt',
-      content: page.title,
+      content: page.title
     },
     {
       hid: 'twitter:title',
       name: 'twitter:title',
-      content: page.title,
+      content: page.title
     },
     {
       hid: 'twitter:description',
       name: 'twitter:description',
-      content: page.description,
+      content: page.description
     },
     {
       hid: 'twitter:image',
       property: 'twitter:image',
-      content: `https://archives.yamanoku.net/og-images${path}.png`,
+      content: `https://archives.yamanoku.net/og-images${path}.png`
     },
     {
       hid: 'twitter:image:alt',
       property: 'twitter:image:alt',
-      content: page.title,
-    },
+      content: page.title
+    }
   ]
-});
+})
 </script>
 
 <style scoped>

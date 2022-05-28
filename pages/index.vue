@@ -28,13 +28,15 @@
 </template>
 
 <script setup lang="ts">
-import dayjs from 'dayjs';
+import dayjs from 'dayjs'
 
-const { data: articles } = await useAsyncData('home', () => queryContent('/').sort({'date': 0}).find());
+const { data: articles } = await useAsyncData('home', () =>
+  queryContent('/').sort({ date: 0 }).find()
+)
 
-const dateTime = (time: string):string => {
+const dateTime = (time: string): string => {
   return dayjs(time).format('YYYY-MM-DD')
-};
+}
 
 useHead({
   title: 'アーカイブ',
@@ -43,50 +45,50 @@ useHead({
       hid: 'description',
       name: 'description',
       content:
-        'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
+        'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。'
     },
     {
       hid: 'og:title',
       property: 'og:title',
-      content: 'アーカイブ',
+      content: 'アーカイブ'
     },
     {
       hid: 'og:description',
       property: 'og:description',
       content:
-        'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
+        'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。'
     },
     {
       hid: 'og:image',
       property: 'og:image',
-      content: 'https://yamanoku.net/ogp/ogp-archive@2x.png',
+      content: 'https://yamanoku.net/ogp/ogp-archive@2x.png'
     },
     {
       hid: 'og:image:alt',
       property: 'og:image:alt',
-      content: 'Archive Document',
+      content: 'Archive Document'
     },
     {
       hid: 'twitter:title',
       name: 'twitter:title',
-      content: 'アーカイブ',
+      content: 'アーカイブ'
     },
     {
       hid: 'twitter:description',
       name: 'twitter:description',
       content:
-        'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。',
+        'このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。'
     },
     {
       hid: 'twitter:image',
       property: 'twitter:image',
-      content: 'https://yamanoku.net/ogp/ogp-archive@2x.png',
+      content: 'https://yamanoku.net/ogp/ogp-archive@2x.png'
     },
     {
       hid: 'twitter:image:alt',
       property: 'twitter:image:alt',
-      content: 'Archive Document',
-    },
+      content: 'Archive Document'
+    }
   ]
-});
+})
 </script>

@@ -7,22 +7,14 @@
         href="https://github.com/yamanoku/archives/"
         target="_blank"
         rel="noopener"
-        >yamanoku/archives</a
-      >
+      >yamanoku/archives</a>
     </p>
   </footer>
 </template>
 
-<script>
+<script setup lang="ts">
 import dayjs from 'dayjs'
-
-export default {
-  data() {
-    return {
-      currentYear: dayjs().year(),
-    }
-  },
-}
+const currentYear = dayjs().year()
 </script>
 
 <style scoped>

@@ -1,7 +1,9 @@
 <template>
-  <global-header />
-  <slot />
-  <global-footer />
+  <div>
+    <global-header />
+    <slot />
+    <global-footer />
+  </div>
 </template>
 
 <script lang="ts" setup>
