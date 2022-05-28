@@ -46,7 +46,7 @@
 
 <script setup lang="ts">
 import dayjs from 'dayjs'
-import DeprecationAlertOneYear from '@/components/global/DeprecationAlertOneYear.vue'
+import DeprecationAlertOneYear from '@/components/content/DeprecationAlertOneYear.vue'
 
 const dateTime = (time: string): string => {
   return dayjs(time).format('YYYY-MM-DD')
