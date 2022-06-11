@@ -22,13 +22,15 @@ export default defineNuxtConfig({
       },
     ],
   },
+  app: {
+    buildAssetsDir: '/_nuxt/',
+    baseURL: '/',
+  },
+  generate: {
+    dir: 'dist',
+  },
   css: ['modern-normalize', 'yama-normalize'],
   modules: ['@nuxt/content'],
-  content: {
-    highlight: {
-      theme: 'dark-plus'
-    },
-  },
   vue: {
     config: {
       compilerOptions: {
