@@ -13,7 +13,7 @@
     "generate-og-image": "node ogp/generate-og-image.mjs"
   },
   "dependencies": {
-    "@nuxt/content": "^2.0",
+    "@nuxt/content": "2.0.1",
     "nuxt": "^3.0.0-rc.3"
   },
   "devDependencies": {

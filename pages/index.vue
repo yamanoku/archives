@@ -31,7 +31,7 @@
 import dayjs from 'dayjs'
 
 const { data: articles } = await useAsyncData('home', () =>
-  queryContent('/').sort({ date: 0 }).find()
+  queryContent('/').sort({ date: -1 }).find()
 )
 
 const dateTime = (time: string): string => {
