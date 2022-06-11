@@ -2,9 +2,7 @@
   <main id="main">
     <article>
       <h1>
-        <budoux-ja>
-          {{ page.title }}
-        </budoux-ja>
+        {{ page.title }}
       </h1>
       <div class="article-header">
         <div lang="en">
@@ -18,7 +16,7 @@
         </div>
       </div>
       <deprecation-alert-one-year />
-      <content-renderer v-if="page" :value="page" />
+      <content-renderer :value="page" />
     </article>
     <p>
       アーカイブ記事のため、内容に関する更新依頼は受け付けておりませんが、誤字や脱字などありましたらご連絡ください。
