@@ -66,22 +66,22 @@ const editLink = computed(() => {
 })
 
 useHead({
-  title: page.title,
+  title: page.value.title,
   meta: [
     {
       hid: 'description',
       name: 'description',
-      content: page.description
+      content: page.value.description
     },
     {
       hid: 'og:title',
       property: 'og:title',
-      content: page.title
+      content: page.value.title
     },
     {
       hid: 'og:description',
       property: 'og:description',
-      content: page.description
+      content: page.value.description
     },
     {
       hid: 'og:image',
@@ -91,17 +91,17 @@ useHead({
     {
       hid: 'og:image:alt',
       property: 'og:image:alt',
-      content: page.title
+      content: page.value.title
     },
     {
       hid: 'twitter:title',
       name: 'twitter:title',
-      content: page.title
+      content: page.value.title
     },
     {
       hid: 'twitter:description',
       name: 'twitter:description',
-      content: page.description
+      content: page.value.description
     },
     {
       hid: 'twitter:image',
@@ -111,7 +111,7 @@ useHead({
     {
       hid: 'twitter:image:alt',
       property: 'twitter:image:alt',
-      content: page.title
+      content: page.value.title
     }
   ]
 })
