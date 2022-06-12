@@ -1,22 +1,14 @@
 <template>
   <div>
     <global-header />
-    <nuxt />
+    <slot />
     <global-footer />
   </div>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-import GlobalHeader from '@/components/global/Header.vue'
-import GlobalFooter from '@/components/global/Footer.vue'
-
-export default Vue.extend({
-  components: {
-    GlobalHeader,
-    GlobalFooter,
-  },
-})
+<script lang="ts" setup>
+import GlobalHeader from '@/components/content/Header.vue'
+import GlobalFooter from '@/components/content/Footer.vue'
 </script>
 
 <style>

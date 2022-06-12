@@ -1,16 +1,6 @@
-const rehypePlugins = [
-  'rehype-plugin-auto-resolve-layout-shift',
-  'rehype-plugin-image-native-lazy-loading',
-]
+import { defineNuxtConfig } from 'nuxt'
 
-if (process.env.NODE_ENV === 'production') {
-  rehypePlugins.push([
-    'rehype-plugin-auto-resolve-layout-shift',
-    { type: 'maxWidth', maxWidth: 720 },
-  ])
-}
-
-export default {
+export default defineNuxtConfig({
   target: 'static',
   telemetry: false,
   head: {
@@ -32,19 +22,20 @@ export default {
       },
     ],
   },
-  css: ['modern-normalize', 'yama-normalize'],
-  buildModules: ['@nuxt/typescript-build'],
-  modules: ['@nuxt/content'],
-  content: {
-    markdown: {
-      remarkExternalLinks: {
-        target: '_blank',
-        rel: 'noopener noreferrer',
-      },
-      prism: {
-        theme: 'prism-themes/themes/prism-a11y-dark.css',
-      },
-      rehypePlugins,
-    },
+  app: {
+    buildAssetsDir: '/_nuxt/',
+    baseURL: '/',
   },
-}
+  generate: {
+    dir: 'dist',
+  },
+  css: ['modern-normalize', 'yama-normalize'],
+  modules: ['@nuxt/content'],
+  vue: {
+    config: {
+      compilerOptions: {
+        isCustomElement: (tag: string) => tag.startsWith('budoux-ja')
+      }
+    }
+  }
+});
