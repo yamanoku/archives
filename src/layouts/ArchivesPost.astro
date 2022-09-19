@@ -16,9 +16,11 @@ const {
   content: { title, description, date },
 } = Astro.props
 
-const editLink = `https://github.com/yamanoku/archives/edit/main/content${Astro.url.pathname}.md`
-const gitHubLink = `https://github.com/yamanoku/archives/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=feedback&body=URL：https://archives.yamanoku.net${Astro.url.pathname}%0A修正依頼内容：%0A`
-const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net${Astro.url.pathname}&text=@yamanoku`
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+
+const editLink = `https://github.com/yamanoku/archives/edit/main/content${canonicalURL.pathname}.md`
+const gitHubLink = `https://github.com/yamanoku/archives/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=feedback&body=URL：https://archives.yamanoku.net${canonicalURL.pathname}%0A修正依頼内容：%0A`
+const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net${canonicalURL.pathname}&text=@yamanoku`
 ---
 
 <html lang="ja">
