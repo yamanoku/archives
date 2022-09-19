@@ -19,7 +19,7 @@
     "yama-normalize": "1.6.0"
   },
   "devDependencies": {
-    "budoux": "0.0.3",
+    "budoux": "0.2.0",
     "matter": "0.1.0",
     "prettier": "2.7.1",
     "puppeteer": "17.1.3",
