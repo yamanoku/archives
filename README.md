@@ -1,6 +1,6 @@
-# archives
+# archives.yamanoku.net
 
-[yamanoku](https://github.com/yamanoku) archive content. (Japanese Only)
+[yamanoku](https://github.com/yamanoku) archive contents. (Japanese Only)
 
 https://archives.yamanoku.net/
 
@@ -8,16 +8,11 @@ https://archives.yamanoku.net/
 
 ```bash
 # install dependencies
-$ npm install
+$ npm ci
 
 # serve with hot reload at localhost:3000
 $ npm run dev
 
-# build for production and launch server
-$ npm run build
-$ npm run start
-
 # generate static project
-$ npm run generate
+$ npm run build
 ```
-
