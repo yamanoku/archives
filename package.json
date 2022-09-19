@@ -6,7 +6,6 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "deploy": "gh-pages -d dist -b gh-pages -m 'chore: deploy [skip ci]' -t",
     "prettier": "npx prettier --write .",
     "generate-og-image": "node ogp/generate-og-image.mjs"
   },
@@ -15,13 +14,12 @@
     "@astrojs/sitemap": "1.0.0",
     "astro": "1.2.6",
     "dayjs": "1.10.4",
-    "prism-themes": "1.9.0",
     "modern-normalize": "1.1.0",
+    "prism-themes": "1.9.0",
     "yama-normalize": "1.6.0"
   },
   "devDependencies": {
     "budoux": "0.0.3",
-    "gh-pages": "3.1.0",
     "matter": "0.1.0",
     "prettier": "2.7.1",
     "puppeteer": "17.1.3",
