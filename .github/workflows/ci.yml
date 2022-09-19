@@ -40,6 +40,6 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: npm ci
 
-      - name: Run linter 👀
-        run: npm run lint
+      - name: Build Check 👀
+        run: npm run build
 
