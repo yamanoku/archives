@@ -1,0 +1,109 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import dayjs from 'dayjs'
+
+export interface Props {
+  content: {
+    title: string
+    description: string
+    date: string
+  }
+}
+
+const {
+  content: { title, description, date },
+} = Astro.props
+
+const editLink = `https://github.com/yamanoku/archives/edit/main/content${Astro.url.pathname}.md`
+const gitHubLink = `https://github.com/yamanoku/archives/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=feedback&body=URL：https://archives.yamanoku.net${Astro.url.pathname}%0A修正依頼内容：%0A`
+const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net${Astro.url.pathname}&text=@yamanoku`
+---
+
+<html lang="ja">
+  <head>
+    <BaseHead title={title} description={description} />
+    <style>
+      .notes {
+        margin: var(--y-rhythm-3) 0;
+      }
+      .article-header {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin: calc(var(--y-rhythm-2) * -1);
+        padding: 0;
+      }
+      .article-header > * {
+        margin: var(--y-rhythm-2);
+      }
+    </style>
+    <style is:global>
+      .footnotes {
+        position: relative;
+        padding-top: var(--y-rhythm-3);
+      }
+      .footnotes::before {
+        content: '';
+        width: 100%;
+        height: 1px;
+        background-color: var(--y-arcticle-border-color);
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .footnotes h2 {
+        position: absolute;
+        left: -10000px;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+      }
+      .footnotes li p {
+        margin: 0;
+      }
+    </style>
+  </head>
+
+  <body>
+    <Header />
+    <main>
+      <article>
+        <h1 class="title">
+          <budoux-ja>{title}</budoux-ja>
+        </h1>
+        <div class="article-header">
+          <time>created at: {dayjs(date).format('YYYY-MM-DD')}</time>
+          <a href={editLink} target="_blank" rel="noopener">GitHub Edit Page</a>
+        </div>
+        <div class="notes">
+          <strong>
+            この記事は公開から1年以上が経過しています。内容が一部古い箇所があります。
+          </strong>
+        </div>
+        <slot />
+      </article>
+      <p>
+        アーカイブ記事のため、内容に関する更新依頼は受け付けておりませんが、誤字や脱字などありましたらご連絡ください。
+      </p>
+      <details>
+        <summary>この記事に関する修正依頼</summary>
+        <ul>
+          <li>
+            <a href={gitHubLink} target="_blank" rel="noopener">
+              GitHub Issue を作成する
+            </a>
+          </li>
+          <li>
+            <a href={twitterLink} target="_blank" rel="noopener">
+              著者にツイートする
+            </a>
+          </li>
+        </ul>
+      </details>
+      <a href="/">アーカイブ一覧へ戻る</a>
+    </main>
+    <Footer />
+  </body>
+</html>
