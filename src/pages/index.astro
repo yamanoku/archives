@@ -1,0 +1,48 @@
+---
+import BaseHead from '../components/BaseHead.astro'
+import Header from '../components/Header.astro'
+import Footer from '../components/Footer.astro'
+import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
+import dayjs from 'dayjs'
+
+const posts = (await Astro.glob('./*.md')).sort(
+  (a, b) =>
+    new Date(b.frontmatter.date).valueOf() -
+    new Date(a.frontmatter.date).valueOf()
+)
+---
+
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>アーカイブ一覧</h1>
+      <p>
+        このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。
+      </p>
+      <p>
+        移行時にリンク切れなど修正しましたが、内容自体は特にアップデートしておりませんので参照する際はその点ご注意ください。
+      </p>
+      {
+        posts.map((post) => (
+          <article>
+            <time datetime={dayjs(post.frontmatter.date).format('YYYY-MM-DD')}>
+              {dayjs(post.frontmatter.date).format('YYYY-MM-DD')}
+            </time>
+            <h2>
+              <a href={post.url}>
+                <budoux-ja>{post.frontmatter.title}</budoux-ja>
+              </a>
+            </h2>
+            <p>{post.frontmatter.description}</p>
+          </article>
+        ))
+      }
+    </main>
+    <Footer />
+  </body>
+</html>
