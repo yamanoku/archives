@@ -6,7 +6,7 @@ author: yamanoku
 layout: '../layouts/ArchivesPost.astro'
 ---
 
-[![](https://i.gyazo.com/fe4a2e7b145af6bdeed58321dc1e0c84.png)](https://gyazo.com/fe4a2e7b145af6bdeed58321dc1e0c84)
+![](https://i.gyazo.com/fe4a2e7b145af6bdeed58321dc1e0c84.png)
 
 こんにちは！クラウドワークスで引き続きフロントエンドとWebの可能性を模索し続けている [@yamanoku](https://twitter.com/yamanoku) です。
 
