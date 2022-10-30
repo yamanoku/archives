@@ -26,7 +26,6 @@ const { Content } = await post.render();
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const pathName = canonicalURL.pathname.split('/').join('');
 const parser = loadDefaultJapaneseParser();
-const titleBudox = parser.parse(post.data.title);
 
 const editLink = `https://github.com/yamanoku/archives/edit/main/src/pages/${pathName}.md`;
 const gitHubLink = `https://github.com/yamanoku/archives/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=feedback&body=URL：https://archives.yamanoku.net/${pathName}%0A修正依頼内容：%0A`;
@@ -87,13 +86,7 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
     <Header />
     <main>
       <article>
-        <h1 class="title">
-<<<<<<< HEAD:src/pages/[slug].astro
-          {titleBudox}
-=======
-          {parser.translateHTMLString(title)}
->>>>>>> b2eb686 (use translateHTMLString):src/layouts/ArchivesPost.astro
-        </h1>
+        <h1 class="title" set:html={parser.translateHTMLString(title)} />
         <nav class="bread-crumbs">
           <a href="/">ホーム</a>&emsp;/&emsp;<span aria-current="page">{post.data.title}</span>
         </nav>
