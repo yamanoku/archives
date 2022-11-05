@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "budoux": "0.2.0",
-    "matter": "0.2.0",
+    "gray-matter": "4.0.3",
     "prettier": "2.7.1",
     "puppeteer": "19.2.2",
     "rehype-external-links": "2.0.1",
