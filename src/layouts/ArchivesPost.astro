@@ -9,11 +9,12 @@ export interface Props {
     title: string
     description: string
     date: string
+    noindex: boolean
   }
 }
 
 const {
-  content: { title, description, date },
+  content: { title, description, date, noindex },
 } = Astro.props
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
@@ -26,7 +27,7 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
 
 <html lang="ja">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead title={title} description={description} noindex={noindex} />
     <style>
       .notes {
         margin: var(--y-rhythm-3) 0;

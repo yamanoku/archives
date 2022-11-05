@@ -3,6 +3,7 @@ title: 東京都新型コロナウイルス対策サイトにアクセシビリ�
 description: 東京都新型コロナウイルス対策サイトにアクセシビリティ視点でコントリビュートしてみた話です。
 date: 2020-03-25
 author: yamanoku
+noindex: true
 layout: '../layouts/ArchivesPost.astro'
 ---
 
