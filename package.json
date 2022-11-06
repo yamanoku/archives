@@ -16,7 +16,7 @@
     "dayjs": "1.11.6",
     "modern-normalize": "1.1.0",
     "prism-themes": "1.9.0",
-    "yama-normalize": "1.6.0"
+    "yama-normalize": "1.8.0"
   },
   "devDependencies": {
     "budoux": "0.2.0",
