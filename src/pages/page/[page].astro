@@ -1,0 +1,55 @@
+---
+import BaseHead from '../../components/BaseHead.astro'
+import Header from '../../components/Header.astro'
+import Footer from '../../components/Footer.astro'
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../config'
+import dayjs from 'dayjs'
+
+export async function getStaticPaths({ paginate }) {
+  const allPages = (await Astro.glob('../*.md')).sort(
+  (a, b) =>
+    new Date(b.frontmatter.date).valueOf() -
+    new Date(a.frontmatter.date).valueOf()
+  );
+  allPages.splice(0, 10)
+  return paginate(allPages, { pageSize: 10 });
+}
+const { page } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <BaseHead title={`${SITE_TITLE} - ${page.currentPage}ページ目`} description={SITE_DESCRIPTION} />
+  </head>
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>{page.currentPage}ページ目</h1>
+      <nav>
+        {page.url.prev ? <a href={page.url.prev}>前へ</a> : null}
+        {page.currentPage}ページ目 / {page.lastPage} ページ中
+        {page.url.next ? <a href={page.url.next}>次へ</a> : null}
+      </nav>
+      {
+        page.data.map((post) => (
+          <article>
+            <time datetime={dayjs(post.frontmatter.date).format('YYYY-MM-DD')}>
+              {dayjs(post.frontmatter.date).format('YYYY-MM-DD')}
+            </time>
+            <h2>
+              <a href={post.url}>
+                <budoux-ja>{post.frontmatter.title}</budoux-ja>
+              </a>
+            </h2>
+            <p>{post.frontmatter.description}</p>
+          </article>
+        ))
+      }
+      <nav>
+        {page.url.prev ? <a href={page.url.prev}>前へ</a> : null}
+        {page.url.next ? <a href={page.url.next}>次へ</a> : null}
+      </nav>
+    </main>
+    <Footer />
+  </body>
+</html>

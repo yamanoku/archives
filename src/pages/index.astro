@@ -13,7 +13,8 @@ const posts = (await getCollection('files')).sort(
   (a, b) =>
     new Date(b.data.date).valueOf() -
     new Date(a.data.date).valueOf()
-);
+)
+posts.splice(10, posts.length)
 ---
 
 <!DOCTYPE html>
