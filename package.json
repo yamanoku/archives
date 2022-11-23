@@ -21,7 +21,7 @@
   "devDependencies": {
     "budoux": "0.2.1",
     "gray-matter": "4.0.3",
-    "prettier": "2.7.1",
+    "prettier": "2.8.0",
     "puppeteer": "19.2.2",
     "rehype-external-links": "2.0.1",
     "rehype-plugin-auto-resolve-layout-shift": "1.0.0",
