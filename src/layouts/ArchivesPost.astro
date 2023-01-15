@@ -29,6 +29,11 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
   <head>
     <BaseHead title={`${title} | yamanoku.net`} description={description} noindex={noindex} />
     <style>
+      .bread-crumbs {
+        margin: var(--y-rhythm-3) 0;
+      }
+    </style>
+    <style>
       .notes {
         margin: var(--y-rhythm-3) 0;
       }
@@ -77,6 +82,9 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
         <h1 class="title">
           <budoux-ja>{title}</budoux-ja>
         </h1>
+        <nav class="bread-crumbs">
+          <a href="/">ホーム</a>&emsp;/&emsp;<span aria-current="page">{title}</span>
+        </nav>
         <div class="article-header">
           <time>created at: {dayjs(date).format('YYYY-MM-DD')}</time>
           <a href={editLink} target="_blank" rel="noopener">GitHub Edit Page</a>
