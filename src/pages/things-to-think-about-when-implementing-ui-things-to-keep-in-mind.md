@@ -134,7 +134,7 @@ HTML の仕様書。内包できるものや使い方といったことを見返
 > メインコンテンツの最大幅は 80ch に設定しています。ch はチェーンと呼ばれ、文字のサイズによって可変する単位です。
 >
 > この設定にすることのメリットとして、長文が読めない読字障害の利用者のサポートができたり、文字サイズが大きくなるに従ってテキストの一部が欠けて読めなくなるような事態も発生しにくくなります。
-> https://github.com/yamanoku/yamanoku.github.io/blob/nuxt/EXPLAINING_PORTFOLIO_SITE_ja.md#%E6%9C%80%E5%A4%A7%E5%B9%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+> https://github.com/yamanoku/yamanoku.github.io/blob/dev/EXPLAINING_PORTFOLIO_SITE_ja.md#%E6%9C%80%E5%A4%A7%E5%B9%85%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
 
 このように Web 上で表現されているものの意味を突き詰めて考えてみると、それが１つのフレームワークとしてどこかで流用することもでき、迷いない意思決定がしやすくなると思っています。
 
