@@ -4,6 +4,9 @@ import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
 import dayjs from 'dayjs'
+import { loadDefaultJapaneseParser } from 'budoux';
+
+const parser = loadDefaultJapaneseParser();
 
 import { getCollection } from 'astro:content';
 const posts = (await getCollection('files')).sort(
@@ -35,9 +38,7 @@ const posts = (await getCollection('files')).sort(
               {dayjs(post.data.date).format('YYYY-MM-DD')}
             </time>
             <h2>
-              <a href={post.slug}>
-                <budoux-ja>{post.data.title}</budoux-ja>
-              </a>
+              <a href={post.slug} set:html={parser.translateHTMLString(post.data.title)} />
             </h2>
             <p>{post.data.description}</p>
           </article>
