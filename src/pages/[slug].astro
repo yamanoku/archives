@@ -9,12 +9,12 @@ import dayjs from 'dayjs'
 import { loadDefaultJapaneseParser } from 'budoux';
 
 type Props = {
-  page: Page<CollectionEntry<"files">>;
+  page: Page<CollectionEntry<'archives'>>;
 };
 
 export async function getStaticPaths() {
-  const posts = await getCollection("files");
-  return posts.map((post) => ({
+  global.data = global.data ? global.data : await getCollection('archives');
+  return global.data.map((post) => ({
     params: { slug: post.slug },
     props: { post },
   }));
