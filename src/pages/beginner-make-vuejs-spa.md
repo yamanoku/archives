@@ -69,8 +69,6 @@ vue-cli でいろいろやろうとしていた所だったんですが、Vue.js
 
 ### router 設定
 
-![e9122c8c2d50af61f34acaa0a81a7068.gif](https://qiita-image-store.s3.amazonaws.com/0/49004/12fe11ae-f0c4-0c12-d26d-b4bfc9c5c2cb.gif)
-
 ```js
 router.map({
   '/home': {
@@ -94,8 +92,6 @@ router.redirect({
 404 を出させたかったが色々と苦労した。最初は:number 部分を出していたから、どんなものでも受け入れてしまってました。うまくやれるやり方もあるんだろうけどこの形で落ち着きました。
 
 ### 詳細部分
-
-![9706be07692adf9fa25b2742f65b43bf.gif](https://qiita-image-store.s3.amazonaws.com/0/49004/86774d6c-f37e-b9c5-0bf4-bc50a4643811.gif)
 
 ```html
 <template>
@@ -133,8 +129,6 @@ router.redirect({
 最初 v-for の回し方をどこにするか考えてて結局 templete の中で書くことに成功したのだがこれでいいのかと自問自答しました。結局よい返し方が思い浮かばなかったのでここに落ち着いてます。
 
 ### 検索部分＋メイン部分
-
-![30ab3916b6c6b4adc3fd444c4e1763df.gif](https://qiita-image-store.s3.amazonaws.com/0/49004/1cd16c7f-234e-e626-499d-9130aab3662a.gif)
 
 ```html
 <template>

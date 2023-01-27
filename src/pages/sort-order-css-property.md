@@ -32,8 +32,6 @@ layout: '../layouts/ArchivesPost.astro'
 
 調べてみたら Mozilla とか W3C で使っていた CSS ガイドラインで良さ気なのがあった。
 
-![20160310215214.gif](https://qiita-image-store.s3.amazonaws.com/0/49004/01d22edc-6844-6372-471d-1261073b9af7.gif)
-
 引用：[http://unitopi.com/css-order/:title](http://unitopi.com/css-order/)
 
 これは視覚的な要素に充てられるイメージなので自分としては管理やりやすい。
@@ -50,8 +48,6 @@ layout: '../layouts/ArchivesPost.astro'
 ## CSScomb を使用してみる
 
 色々と悩んでみた中で、自分で記述順を悩むなんてアホくさいと思ったので**機械に全部処理してもらう**ということになりました。というわけで以下をインストール。
-
-<img width="903" alt="csscomb.png" src="https://qiita-image-store.s3.amazonaws.com/0/49004/e238bc9b-77cb-b6bc-ff0d-319c5ff77e23.png">
 
 ```
 npm install csscomb --save-dev
@@ -122,9 +118,7 @@ gulp.task('stylus', function () {
 
 ## 整形の設定を変えたい
 
-gulp を走らせて、保存すれば自動的に comb してくれるのですがこんな感じです。
-
-<img width="512" alt="20160508211041.png" src="https://qiita-image-store.s3.amazonaws.com/0/49004/6ac8e8d8-4381-4e15-90ea-37c7ed36b1d3.png">
+gulp を走らせて、保存すれば自動的に comb してくれます。
 
 いわゆるデフォルトのソート順であったり、それぞれのプロパティの関連順に整列して 1 段空きがあったりなど、整形はしてくれたけど見た感じは微妙な感じかもしれません。また、このデフォルトの記述欄整形では他の人との連携でルールが明確で無いのでやりづらいのでこのままでは求めている記述順の正攻法にはなりません。
 
@@ -188,10 +182,6 @@ gulp を走らせて、保存すれば自動的に comb してくれるのです
 ```
 
 すると設定をしてくれた json を吐き出すのでこれを **.csscomb.json** と命名して、gulpfile.js と同じ階層のディレクトリに保存します（もしくはプロジェクトのルートフォルダ）
-
-んで整形したのが以下の感じです。
-
-<img width="512" alt="20160508212012.png" src="https://qiita-image-store.s3.amazonaws.com/0/49004/d3bf3582-84fa-f6fa-dc4a-633580c5797e.png">
 
 アルファベット順の整形、ベンダープレフィックスの頭揃え、カラーコードは小文字で３文字省略できるものは省略するなどでいじりました。
 
