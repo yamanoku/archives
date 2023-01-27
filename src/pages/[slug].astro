@@ -86,7 +86,7 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
     <Header />
     <main>
       <article>
-        <h1 class="title" set:html={parser.translateHTMLString(title)} />
+        <h1 class="title" set:html={parser.translateHTMLString(post.data.title)} />
         <nav class="bread-crumbs">
           <a href="/">ホーム</a>&emsp;/&emsp;<span aria-current="page">{post.data.title}</span>
         </nav>
