@@ -5,11 +5,12 @@ import Footer from '../components/Footer.astro'
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
 import dayjs from 'dayjs'
 
-const posts = (await Astro.glob('./*.md')).sort(
+import { getCollection } from 'astro:content';
+const posts = (await getCollection('files')).sort(
   (a, b) =>
-    new Date(b.frontmatter.date).valueOf() -
-    new Date(a.frontmatter.date).valueOf()
-)
+    new Date(b.data.date).valueOf() -
+    new Date(a.data.date).valueOf()
+);
 ---
 
 <!DOCTYPE html>
@@ -30,15 +31,15 @@ const posts = (await Astro.glob('./*.md')).sort(
       {
         posts.map((post) => (
           <article>
-            <time datetime={dayjs(post.frontmatter.date).format('YYYY-MM-DD')}>
-              {dayjs(post.frontmatter.date).format('YYYY-MM-DD')}
+            <time datetime={dayjs(post.data.date).format('YYYY-MM-DD')}>
+              {dayjs(post.data.date).format('YYYY-MM-DD')}
             </time>
             <h2>
-              <a href={post.url}>
-                <budoux-ja>{post.frontmatter.title}</budoux-ja>
+              <a href={post.slug}>
+                <budoux-ja>{post.data.title}</budoux-ja>
               </a>
             </h2>
-            <p>{post.frontmatter.description}</p>
+            <p>{post.data.description}</p>
           </article>
         ))
       }
