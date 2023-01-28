@@ -9,7 +9,7 @@ import { loadDefaultJapaneseParser } from 'budoux';
 const parser = loadDefaultJapaneseParser();
 
 import { getCollection } from 'astro:content';
-const posts = (await getCollection('files')).sort(
+const posts = (await getCollection('archives')).sort(
   (a, b) =>
     new Date(b.data.date).valueOf() -
     new Date(a.data.date).valueOf()

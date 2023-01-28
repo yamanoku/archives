@@ -4,7 +4,7 @@ const archiveCollection = defineCollection({
   schema: z.object({
     date: z.date(),
     title: z.string(),
-    description: z.string(),
+    description: z.string().optional(),
     noindex: z.boolean().optional(),
   }),
 });
