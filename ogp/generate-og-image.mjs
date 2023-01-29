@@ -4,7 +4,7 @@ import matter from 'gray-matter';
 import puppeteer from 'puppeteer';
 import { loadDefaultJapaneseParser } from 'budoux';
 
-const postsDirectory = join(process.cwd(), 'src/pages');
+const postsDirectory = join(process.cwd(), 'src/content/archives');
 
 function getPostTitle(filename) {
   const fileContents = fs.readFileSync(
