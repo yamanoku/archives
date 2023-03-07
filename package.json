@@ -10,7 +10,7 @@
     "generate-og-image": "node ogp/generate-og-image.mjs"
   },
   "dependencies": {
-    "@astrojs/rss": "2.1.1",
+    "@astrojs/rss": "2.2.0",
     "@astrojs/sitemap": "1.1.0",
     "astro": "2.0.17",
     "dayjs": "1.11.7",
