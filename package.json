@@ -12,7 +12,7 @@
   "dependencies": {
     "@astrojs/rss": "2.3.1",
     "@astrojs/sitemap": "1.2.1",
-    "astro": "2.1.4",
+    "astro": "2.1.5",
     "dayjs": "1.11.7",
     "modern-normalize": "1.1.0",
     "prism-themes": "1.9.0",
