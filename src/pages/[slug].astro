@@ -27,7 +27,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const pathName = canonicalURL.pathname.split('/').join('');
 const parser = loadDefaultJapaneseParser();
 
-const editLink = `https://github.com/yamanoku/archives/edit/main/src/pages/${pathName}.md`;
+const editLink = `https://github.com/yamanoku/archives/edit/main/src/content/archives/${pathName}.md`;
 const gitHubLink = `https://github.com/yamanoku/archives/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=feedback&body=URL：https://archives.yamanoku.net/${pathName}%0A修正依頼内容：%0A`;
 const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net/${pathName}&text=@yamanoku`;
 ---
