@@ -3,6 +3,7 @@ title: 「HTML解体新書」HTMLのこれからと向き合うための本
 description: レビュー参加した「HTML解体新書」の感想記事
 date: 2022-04-19
 author: yamanoku
+noindex: true
 ---
 
 ![アイキャッチ：「HTML解体新書」HTMLのこれからと向き合うための本](https://i.gyazo.com/698948150ac17400939194914527cf69.png)
