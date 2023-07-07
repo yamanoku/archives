@@ -8,7 +8,7 @@ noindex: true
 
 ![](https://i.gyazo.com/fe4a2e7b145af6bdeed58321dc1e0c84.png)
 
-こんにちは！クラウドワークスで引き続きフロントエンドとWebの可能性を模索し続けている [@yamanoku](https://twitter.com/yamanoku) です。
+こんにちは！クラウドワークスで引き続きフロントエンドと Web の可能性を模索し続けている [@yamanoku](https://twitter.com/yamanoku) です。
 
 最近の取り組みとして、この度「デザイン基盤整理」という有志活動の中で[ログインページ](https://crowdworks.jp/login)を刷新しました。
 
@@ -20,14 +20,13 @@ noindex: true
 
 ![スクリーンショット：リニューアル後のログインページ](https://i.gyazo.com/1c00cf8ddb2fc2b7f5ec11b9b22f2800.png)
 
-以前はPC・モバイル画面それぞれ定義されていましたが、今回の改修でレスポンシブ対応したモバイルファーストな改修になりましたね。
+以前は PC・モバイル画面それぞれ定義されていましたが、今回の改修でレスポンシブ対応したモバイルファーストな改修になりましたね。
 
 今回はその刷新した取り組み・内容についてをフロントエンドの観点から紹介してみようと思います。
 
 8/25 更新：デザイナーブログも公開されましたのでこちらも合わせてご覧ください。
 
-[生まれ変わったログインページとデザインシステムのスタート｜タカシ｜note](https://note.com/4_taka_4/n/n7551b8d897de)
-
+[生まれ変わったログインページとデザインシステムのスタート｜タカシ｜ note](https://note.com/4_taka_4/n/n7551b8d897de)
 
 ## デザイン基盤整理とは
 
@@ -42,14 +41,14 @@ noindex: true
 当初はデザイナーが主体となって基盤整理を進めていました。<br>
 その後フロントエンドやデザインへ関心があるエンジニアも参加して徐々に大きくなってきました。
 
-そんなデザイン基盤整理の最初の取り組みとして、今年の3月から新ログインページを設計・リリースを目指す動きが始まりました。
+そんなデザイン基盤整理の最初の取り組みとして、今年の 3 月から新ログインページを設計・リリースを目指す動きが始まりました。
 
 ちなみにリニューアルに際して、コード上で判別できるようにコードネームを決めようとなり、プロダクトオーナーが何気なく提案した「Norman」がそのまま採用されました。
 
 ![ミハイ・チクセントミハイさんの後継者とか居ないかな、または誰デザの著者への敬意を込めて「Norman」とか じゃあ、Normanで（スマイルマーク）](https://i.gyazo.com/2a5c8fdb7501e8a29fa4ed577c152bc4.png)
 
 ノリで決まったところはありますが、個人的にはお気に入りです。<br>
-※ミハイの後継者、というくだりは以前作成していたCSSフレームワーク「Mihaly」のプロジェクトネームから来ています。
+※ミハイの後継者、というくだりは以前作成していた CSS フレームワーク「Mihaly」のプロジェクトネームから来ています。
 
 ## なぜログインページから着手したのか
 
@@ -63,25 +62,25 @@ noindex: true
 
 実装難易度については以下の観点で考慮しました。
 
-- GET処理だけしているページ
-  - 表示するだけのページ、POST処理ほかビジネスロジックが入り組んでいないところ
+- GET 処理だけしているページ
+  - 表示するだけのページ、POST 処理ほかビジネスロジックが入り組んでいないところ
 - バックエンド側の変更が容易そうなところ
   - メインの業務を進めつつ合間で対応可能か
-- SEO観点で見て影響が少ないところ
-  - Vue.js単体でページ実装する（後述）ためGoogle botへの考慮
+- SEO 観点で見て影響が少ないところ
+  - Vue.js 単体でページ実装する（後述）ため Google bot への考慮
 
 そうしたデザイナー・エンジニアの総合的な観点で、まずはログインページから着手するのが良さそうではないか、という結論になりました。
 
 ## 実装に関して考慮したこと
 
 新ログインページを実装するにあたり、フロントエンド観点で考慮したことを紹介します。<br>
-※ 執筆時点ではVue 2 × [@vue/composition-api](https://github.com/vuejs/composition-api)で実装したものになっています。
+※ 執筆時点では Vue 2 × [@vue/composition-api](https://github.com/vuejs/composition-api)で実装したものになっています。
 
-### デザイン基盤整理用の新たなerbファイルの作成
+### デザイン基盤整理用の新たな erb ファイルの作成
 
-今回の改修ではerbファイルをidでマウントする以外はVue.jsのみで操作できるようRails依存を極力脱した実装をしています。
+今回の改修では erb ファイルを id でマウントする以外は Vue.js のみで操作できるよう Rails 依存を極力脱した実装をしています。
 
-弊プロダクトではSprocketsとwebpackerが入り交じっており、デザイン基盤整理用に新たな分岐をつくるのはさらなる混沌を産みかねないと判断しました。
+弊プロダクトでは Sprockets と webpacker が入り交じっており、デザイン基盤整理用に新たな分岐をつくるのはさらなる混沌を産みかねないと判断しました。
 
 そこでまっさらな状態のレイアウトファイルを作成してそこにマウントできるような新たなページを作成しました。
 
@@ -133,26 +132,26 @@ const buildVue = () => {
 buildVue();
 ```
 
-`<div id='vue-container' />` のみのviewファイルを作成してそこにマウントしています。<br>
-meta情報については `vue-meta` を使用してメタ情報を認識できるように実装しています。
+`<div id='vue-container' />` のみの view ファイルを作成してそこにマウントしています。<br>
+meta 情報については `vue-meta` を使用してメタ情報を認識できるように実装しています。
 
 ### Storybook を使用した開発
 
-クラウドワークスのフロントエンド開発では去年より [@Bugfire](https://twitter.com/andobario) の方でStorybookを試験的に導入し、今年からプロダクト開発において積極的に活用するようになりました。<br>
-Storybookの導入により以下メリットのある開発ができるようになりました。
+クラウドワークスのフロントエンド開発では去年より [@Bugfire](https://twitter.com/andobario) の方で Storybook を試験的に導入し、今年からプロダクト開発において積極的に活用するようになりました。<br>
+Storybook の導入により以下メリットのある開発ができるようになりました。
 
-- Railsアプリを立ち上げなくてもNode.jsのみでStorybookを立ち上げてフロントエンド単体の開発ができるようになった
-- ビルドした静的ページをS3にアップしてエンジニア以外でも確認できるようになった
-- エラー時の見た目も実際の挙動で確認せずともStoriesで区切って確認ができるようになった
+- Rails アプリを立ち上げなくても Node.js のみで Storybook を立ち上げてフロントエンド単体の開発ができるようになった
+- ビルドした静的ページを S3 にアップしてエンジニア以外でも確認できるようになった
+- エラー時の見た目も実際の挙動で確認せずとも Stories で区切って確認ができるようになった
 - [@storybook/addon-a11y](https://www.npmjs.com/package/@storybook/addon-a11y) を用いて、コンポーネントごとのアクセシビリティチェックができるようになった
 
-Storybook開発は今年6月にリリースされた[カンタン発注プラン診断](https://crowdworks.jp/order_plan_diagnoses)でも使用されており、今回のデザイン基盤整理での開発においても活躍してくれました。
+Storybook 開発は今年 6 月にリリースされた[カンタン発注プラン診断](https://crowdworks.jp/order_plan_diagnoses)でも使用されており、今回のデザイン基盤整理での開発においても活躍してくれました。
 
-[オススメの発注方法・予算相場を約1分で知れる「カンタン発注プラン診断」機能をスタートしました – クラウドワークス　お知らせブログ](https://blog.crowdworks.jp/archives/4430/)
+[オススメの発注方法・予算相場を約 1 分で知れる「カンタン発注プラン診断」機能をスタートしました – クラウドワークス　お知らせブログ](https://blog.crowdworks.jp/archives/4430/)
 
 ### デザイントークンの活用
 
-デザインから実装へ移る際、参考にしたものの1つとして**デザイントークン**の考え方があります。<br>
+デザインから実装へ移る際、参考にしたものの 1 つとして**デザイントークン**の考え方があります。<br>
 デザイントークンとはデザインシステムを構築する上で使われるパタン・ランゲージのことです。
 
 たとえば色、フォントサイズ、余白や空きの数値などを一貫性のある値として定義し、それを共同で使用して認識できるようにします。
@@ -161,11 +160,11 @@ Storybook開発は今年6月にリリースされた[カンタン発注プラン
 ですが、まだ始まったばかりの改修から共通化を進めると、拾えきれない・想定しきれなかったユースケースが出てきたりして破綻する可能性もあります。<br>
 とはいえ、ルールなき実装のまま進めていくとデザイナー・エンジニアの認識を揃えることも難しくなります。
 
-どう進めていくか悩んでいたとき、以前参加したpixivテックカンファレンスでの[デザインシステムの発表](https://inside.pixiv.blog/2021/07/01/151500)から「コンポーネント集から作るのではなくまずは定数を決めていく」という取り組み方が参考になりました。
+どう進めていくか悩んでいたとき、以前参加した pixiv テックカンファレンスでの[デザインシステムの発表](https://inside.pixiv.blog/2021/07/01/151500)から「コンポーネント集から作るのではなくまずは定数を決めていく」という取り組み方が参考になりました。
 
 まずはユーティリティとして使うデザイントークンという共通の定数で認識を揃えていくところからはじめました。
 
-どういった粒度や命名にするかを考えるにあたり、[SmartHRのデザインシステム](https://smarthr.design/products/design-tokens/)や[GMOペパボのデザインシステム](https://design.pepabo.com/inhouse/about/)のドキュメントを拝見しました。
+どういった粒度や命名にするかを考えるにあたり、[SmartHR のデザインシステム](https://smarthr.design/products/design-tokens/)や[GMO ペパボのデザインシステム](https://design.pepabo.com/inhouse/about/)のドキュメントを拝見しました。
 
 最終的にはベーストークン（根底となる値）とセマンティクストークン（意味づけられた値）という考え方で分離することにしました。
 
@@ -197,65 +196,65 @@ Storybook開発は今年6月にリリースされた[カンタン発注プラン
 
 今現在のデザイントークン命名規則については以下のルールを決めて運用しています。
 
-- white, blackはCSS Variable化しない
-- 色に関する`color` は`色名-数字`で表し、数字は0〜1000。色名には “-” を含まない
-- フォントサイズに関する `fontsize` は `fontsize-数字` で表し、数字はpxをそのまま示す
-- 要素間の空きに関する `space` は `space-数字` で表し、数字はpxをそのまま示す
+- white, black は CSS Variable 化しない
+- 色に関する`color` は`色名-数字`で表し、数字は 0〜1000。色名には “-” を含まない
+- フォントサイズに関する `fontsize` は `fontsize-数字` で表し、数字は px をそのまま示す
+- 要素間の空きに関する `space` は `space-数字` で表し、数字は px をそのまま示す
 
-また、colorの数値を決める際には [Material Design](https://material.io/inline-tools/color/) のカラーピックツールを使用しました。
+また、color の数値を決める際には [Material Design](https://material.io/inline-tools/color/) のカラーピックツールを使用しました。
 
 ![Color palettesで青色の数値を検証しているスクリーンショット](https://i.gyazo.com/d7f3e5caf8eac27c0779f120cfebe652.png)
 
 ### レイアウト制御コンポーネント
 
-Vue.jsで実装するにあたりボタンや見出し、フォームパーツといったものは1つずつコンポーネントとして細分化して実装しています。
+Vue.js で実装するにあたりボタンや見出し、フォームパーツといったものは 1 つずつコンポーネントとして細分化して実装しています。
 
 更に要素間の空きについても `Stack` というレイアウト制御コンポーネントで管理するようにしてみました。
 
-Stackについては [Every Layout](https://every-layout.dev/layouts/stack/) で紹介されているレイアウトパターンの1つで、内部コンテンツの空き関係を親側で制御するようにしたものです。
+Stack については [Every Layout](https://every-layout.dev/layouts/stack/) で紹介されているレイアウトパターンの 1 つで、内部コンテンツの空き関係を親側で制御するようにしたものです。
 
 ```html
 <template>
   <div :class="`stack-${size}`">
-      <slot />
+    <slot />
   </div>
 </template>
 
 <script lang="ts">
-import { defineComponent, PropType } from '@vue/composition-api';
+  import { defineComponent, PropType } from '@vue/composition-api';
 
-type Spacing = 4 | 8 | 12 | 16 | 24 | 32 | 40;
+  type Spacing = 4 | 8 | 12 | 16 | 24 | 32 | 40;
 
-export default defineComponent({
-  name: 'Stack',
-  props: {
-    stackSize: {
-      type: Number as PropType<Spacing>,
-      required: true,
+  export default defineComponent({
+    name: 'Stack',
+    props: {
+      stackSize: {
+        type: Number as PropType<Spacing>,
+        required: true,
+      },
     },
-  },
-  setup(props: { stackSize: Spacing }) {
-    const size = String(props.stackSize).padStart(2, '0');
-    return { size };
-  },
-});
+    setup(props: { stackSize: Spacing }) {
+      const size = String(props.stackSize).padStart(2, '0');
+      return { size };
+    },
+  });
 </script>
 
 <style scoped>
-[class^='stack'] > * {
-  margin-top: 0;
-  margin-bottom: 0;
-}
+  [class^='stack'] > * {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
 
-.stack-04 > * + * {
-  margin-top: var(--login-space-04);
-}
+  .stack-04 > * + * {
+    margin-top: var(--login-space-04);
+  }
 
-.stack-08 > * + * {
-  margin-top: var(--login-space-08);
-}
+  .stack-08 > * + * {
+    margin-top: var(--login-space-08);
+  }
 
-/* 以下4の倍数ごとに続く */
+  /* 以下4の倍数ごとに続く */
 </style>
 ```
 
@@ -286,14 +285,20 @@ export default defineComponent({
             :redirect-to-params-value="redirectToParamsValue"
           />
         </Stack>
-        <LinkBlock :url="newPasswordResetRequestsPath" :link-text="'パスワードをお忘れですか？'" />
+        <LinkBlock
+          :url="newPasswordResetRequestsPath"
+          :link-text="'パスワードをお忘れですか？'"
+        />
       </Stack>
       <Border />
     </Stack>
     <Stack :stack-size="12">
       <HeadingLevel3 :heading-text="'他のアカウントでログイン'" />
       <div>
-        <SnsAccountList :sns-service-list="snsList" :authenticity-token="authenticityToken" />
+        <SnsAccountList
+          :sns-service-list="snsList"
+          :authenticity-token="authenticityToken"
+        />
       </div>
     </Stack>
   </Stack>
@@ -302,8 +307,8 @@ export default defineComponent({
 
 ### フォーム実装に関するベストプラクティス
 
-今回の新ログインページではメールアドレスとパスワードの入力（SNSアカウントでのログイン導線）という簡易的なフォーム構成になっています。<br>
-単純に入力フィールドを[Form Design Patternsのログインパターン](https://form-design-patterns-ja.herokuapp.com/examples/login-form)より参考にして実装しました。
+今回の新ログインページではメールアドレスとパスワードの入力（SNS アカウントでのログイン導線）という簡易的なフォーム構成になっています。<br>
+単純に入力フィールドを[Form Design Patterns のログインパターン](https://form-design-patterns-ja.herokuapp.com/examples/login-form)より参考にして実装しました。
 
 ```html
 <label :for="fieldId" class="textfield-label">{{ fieldLabel }}</label>
@@ -322,13 +327,15 @@ export default defineComponent({
 - `autocorrect="off"` ... テキストを自動修正する機能をオフにする
 - `spellcheck="false"` ... スペルミス指摘をしない設定にする
 
-`autocorrect="off"` については[標準外の属性](https://developer.mozilla.org/ja/docs/Web/HTML/Element/input#attr-autocorrect)ではあるものの、 iOS Safariユーザーの入力負荷をへらすためのユーザビリティ考慮として実装しています。
+`autocorrect="off"` については[標準外の属性](https://developer.mozilla.org/ja/docs/Web/HTML/Element/input#attr-autocorrect)ではあるものの、 iOS Safari ユーザーの入力負荷をへらすためのユーザビリティ考慮として実装しています。
 
-エラー表示箇所については `role="group"` でグループ化されているものとして、`aria-labelledby` で見出しのIDを紐付けて何のグループなのかを伝えるようにも実装しています。
+エラー表示箇所については `role="group"` でグループ化されているものとして、`aria-labelledby` で見出しの ID を紐付けて何のグループなのかを伝えるようにも実装しています。
 
 ```html
 <div role="group" aria-labelledby="error-summary-heading">
-  <h3 id="error-summary-heading" class="error-visually-hidden-heading">入力内容に問題があります</h3>
+  <h3 id="error-summary-heading" class="error-visually-hidden-heading">
+    入力内容に問題があります
+  </h3>
   <Stack :stack-size="8">
     <div class="text-center">
       <div class="alert-text">{{ error.text }}</div>
@@ -339,21 +346,21 @@ export default defineComponent({
 
 ### Rails 特有の記述への留意
 
-リニューアル前のSNSアカウントでのログイン導線は以下のように `link_to` で実装されていました。
+リニューアル前の SNS アカウントでのログイン導線は以下のように `link_to` で実装されていました。
 
 ```
 <% link_to '/auth/facebook', rel: 'nofollow', method: :post do %>
 <% end %>
 ```
 
-最初はページ遷移するリンク要素として実装していたのですが、実際に動かしてみるとSNSアカウントの連携先には遷移されませんでした。
+最初はページ遷移するリンク要素として実装していたのですが、実際に動かしてみると SNS アカウントの連携先には遷移されませんでした。
 
 原因は何かを探ってみると `link_to` の `data-method` 属性によってフォームに送信する挙動として使われていました。
 
-> この方法を用いると、リンクをクリックしたときにドキュメント内に「隠しフォーム」が1つ作成されます。隠しフォームにはリンクのhref値に対応する「action」属性やdata-method値に対応するHTTPメソッドを含まれており、そのフォームが送信されます。
-https://railsguides.jp/working_with_javascript_in_rails.html#data-method
+> この方法を用いると、リンクをクリックしたときにドキュメント内に「隠しフォーム」が 1 つ作成されます。隠しフォームにはリンクの href 値に対応する「action」属性や data-method 値に対応する HTTP メソッドを含まれており、そのフォームが送信されます。
+> https://railsguides.jp/working_with_javascript_in_rails.html#data-method
 
-リンクコンポーネントとしてではなく、POST処理を行うボタンコンポーネントとして変更するようにして動作させるように変更しました。
+リンクコンポーネントとしてではなく、POST 処理を行うボタンコンポーネントとして変更するようにして動作させるように変更しました。
 
 ```html
 <template>
@@ -370,7 +377,7 @@ https://railsguides.jp/working_with_javascript_in_rails.html#data-method
 </template>
 ```
 
-ブラウザ上のソースでは一見してわからなかったため、Railsテンプレートから素のHTMLで実装する際は、Rails特有の記法がないかをチェックしないといけないと感じました。
+ブラウザ上のソースでは一見してわからなかったため、Rails テンプレートから素の HTML で実装する際は、Rails 特有の記法がないかをチェックしないといけないと感じました。
 
 ## これからのデザイン基盤整理の開発について
 
@@ -378,18 +385,18 @@ https://railsguides.jp/working_with_javascript_in_rails.html#data-method
 
 次のステップとして今回作ったコンポーネントがほかページでも流用できるか、実装工数を削減して生産性が高い開発できるかなども検証しつつ進めていきたいと考えています。
 
-また今後の計画としてモノリシックなRailsアプリをバックエンドとフロントエンドに分離し、BFF層とNuxt.jsとを活用したフロントエンド開発にしていきたい所存です。
+また今後の計画としてモノリシックな Rails アプリをバックエンドとフロントエンドに分離し、BFF 層と Nuxt.js とを活用したフロントエンド開発にしていきたい所存です。
 
 おれたちのフロントエンド開発はこれからだ！（未完）
 
 ## （宣伝）アクセシビリティ試験されます
 
-8月27日にWP ZoomUP様が主催している勉強会にて、freee株式会社の伊原力也さんに新ログインページのアクセシビリティ試験をしていただく予定です。
+8 月 27 日に WP ZoomUP 様が主催している勉強会にて、freee 株式会社の伊原力也さんに新ログインページのアクセシビリティ試験をしていただく予定です。
 
 今回の改修についてお褒めの言葉をいただけるか、公開処刑となるか、その目で確かめてみてください（？）
 
 [続・もしあなたが『アクセシビリティ試験』をやることになったら WP ZoomUP #71 - connpass](https://wpzoom.connpass.com/event/219967/)
 
-9/14 追記：当日の試験結果のYouTubeが公開されました。1:45:00より試験が始まります。
+9/14 追記：当日の試験結果の YouTube が公開されました。1:45:00 より試験が始まります。
 
 [続・もしあなたが『アクセシビリティ試験』をやることになったら WP ZoomUP #71 - YouTube](https://youtu.be/-SjG-2l4I4g?t=6244)

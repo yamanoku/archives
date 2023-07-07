@@ -6,31 +6,35 @@ author: yamanoku
 ---
 
 ## PWA Night CONFERENCE 2021 お疲れさまでした
+
 - みなさん楽しかったですか？
 - スタッフ参加させてもらいました
-- 去年はネタLT参加してましたが今年も参加です
+- 去年はネタ LT 参加してましたが今年も参加です
 
-## 以前PWA Nightの勉強会にも登壇させてもらいました
+## 以前 PWA Night の勉強会にも登壇させてもらいました
 
 - [![Image from Gyazo](https://i.gyazo.com/5fcfe324559b7b0797cf00e174df480b.png)](https://gyazo.com/5fcfe324559b7b0797cf00e174df480b)
   - [PWA is Progressive Web Accessibility - Google スライド](https://docs.google.com/presentation/d/e/2PACX-1vROD7gIsTh1BF1q5LVec0pZSGXVtLBD_DjNonbuwdR8zfRNH_qgRazaIG0oU-Zte6EgqaKoIyfoRfpA/pub?start=false&loop=false&delayms=3000&slide=id.g85503d545f_0_0)
 
-## 今回もPWA×Webアクセシビリティネタやります
+## 今回も PWA×Web アクセシビリティネタやります
+
 - 特にオチなしヤマなしなのでゆるく聴いてください
 
-## Webアクセシビリティとは？
-- あらゆる人がWebから情報を得られるようにする考え方・対応
+## Web アクセシビリティとは？
+
+- あらゆる人が Web から情報を得られるようにする考え方・対応
   - マウス操作、キーボード操作
   - 支援技術で閲覧することができる
 
-## よりよいPWAをつくるための要件「Is fully accessible」
+## よりよい PWA をつくるための要件「Is fully accessible」
 
 [![Image from Gyazo](https://i.gyazo.com/edfe7d9160d234889d8e9f22b1641841.png)](https://gyazo.com/edfe7d9160d234889d8e9f22b1641841)
 
-## PWA版のTwitterでスクリーンリーダー検証してみよう
+## PWA 版の Twitter でスクリーンリーダー検証してみよう
+
 - スクリーンリーダー＝画面の読み上げソフトウェア
 - 検証ツール
-  - AndroidのTalkback
+  - Android の Talkback
 
 ## ユーザーページでの読み上げ順を確認
 
@@ -43,7 +47,7 @@ author: yamanoku
 - サブナビゲーション内に謎のボタン
 - `role="button"`と指定されている`div`が存在していた
 - `aria-disabled="true"`で無効になっている
--	使用用途は分からない…
+- 使用用途は分からない…
 
 ### 内部のコンテンツがすべて読み上げられる
 
@@ -51,12 +55,11 @@ author: yamanoku
 
 - [![Image from Gyazo](https://i.gyazo.com/55cfaeaec40b5830422a03443b7fecad.png)](https://gyazo.com/55cfaeaec40b5830422a03443b7fecad)
   - [![Image from Gyazo](https://i.gyazo.com/362e77040a0c4e7c33d3cb638fda17cf.png)](https://gyazo.com/362e77040a0c4e7c33d3cb638fda17cf)
-  - `aria-labelledby`で関連するIDが紐付けられている
+  - `aria-labelledby`で関連する ID が紐付けられている
 
 ### 代替テキストの設定
 
 [https://scrapbox.io/files/60d5e4e0b79b2b001c41fd04.mp4](https://storage.googleapis.com/scrapbox-file-distribute/5983f25ce54f440011c2cd40/95eb8ac158aaa492d0f70b14f8e70f4a?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=file-upload%40scrapbox-server.iam.gserviceaccount.com%2F20220920%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220920T020004Z&X-Goog-Expires=3600&X-Goog-SignedHeaders=host&X-Goog-Signature=7e8bec6a9d52768982f287a49573c749daf4bae182eb443a89f00d081c4976b3a48a5659fbbcaba48c637fdc68c7193760b99a43828fa435db29755c1e366dc4bb92bf52fd84132354c83ed6357bedccce340f6186f50d1ae87add77cf04316b947622a51c8871893475582d5fdbb72f8a041a5530e53635a1580bfda783f51a64ed3709d9176181702c7594c980f269607a6c1f3228336b9db09bc57047abfa9e664aa4cdc2fecc39d111bda90099c0bfc2e3864bd0d89808891592d1b4966197ccc44663f4b3f66295dae060623beb91ddd26cf513d5aedd93ed9be926fdff5d86b326f6b3610380c842f97471a90061e09261eb9488665b4b72b59045feee)
-
 
 - [![Image from Gyazo](https://i.gyazo.com/42e3164d5c0bdadffd5d1556182f6145.png)](https://gyazo.com/42e3164d5c0bdadffd5d1556182f6145)
 - 画像投稿
@@ -64,7 +67,8 @@ author: yamanoku
 - 挿入すると画像の読み上げをしてくれる
 
 ## 内部実装を見てみる
-- WAI-ARIAをバリバリ使っている
+
+- WAI-ARIA をバリバリ使っている
   - ただしタグの上書きをしている箇所もある
     - `<h2 role="heading" aria-level="2">`
     - `<a role="link" href="/settings/profile">`
@@ -82,6 +86,7 @@ author: yamanoku
     - ダイアログ
 
 ## まとめ
+
 - 読み上げてみて目では見えない何かが見えてきた
 - 画像にも代替テキストを
 - スクリーンリーダーを使う場合はネイティブアプリ側がやりやすそう…

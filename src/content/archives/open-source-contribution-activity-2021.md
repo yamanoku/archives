@@ -6,7 +6,7 @@ author: yamanoku
 noindex: true
 ---
 
-2021年もまもなく終わりですね。みなさんは今年どれくらいオープンソースにコントリビュートできたでしょうか？（唐突）
+2021 年もまもなく終わりですね。みなさんは今年どれくらいオープンソースにコントリビュートできたでしょうか？（唐突）
 
 私は昨年、[東京都新型コロナウイルス感染症対策サイト](https://stopcovid19.metro.tokyo.lg.jp/)のコントリビュートするようになってから、業務中や余暇時間を使って、目のついた・興味があるオープンソースにコントリビュートしていくのが趣味になっています。
 
@@ -47,6 +47,7 @@ eslint-plugin-vuejs-accessibility ドキュメントでのリンクが壊れて�
 自作してみた [Visually hidden コンポーネント](https://github.com/yamanoku/vue-visually-hidden)を追加してもらったりしました。
 
 ### vuejs/vue-test-utils
+
 Vue.js 公式のコンポーネントテストユーティリティ集
 
 [ja docs(fix): インスト => インストール by yamanoku · Pull Request #1785 · vuejs/vue-test-utils](https://github.com/vuejs/vue-test-utils/pull/1785)
@@ -55,6 +56,7 @@ Vue.js 公式のコンポーネントテストユーティリティ集
 業務中にもすぐ出せるのは良いことです。
 
 ### vuejs/vue-router
+
 Vue.js 公式のルーターライブラリ
 
 [docs: aria-current-value type `"true"` and `"false"` by yamanoku · Pull Request #3558 · vuejs/vue-router](https://github.com/vuejs/vue-router/pull/3558)
@@ -62,6 +64,7 @@ Vue.js 公式のルーターライブラリ
 WAI-ARIA 1.1 仕様書では [`aria-current` の設定値に `true` と `false` 文字列も含まれている](https://www.w3.org/TR/wai-aria-1.1/#aria-current)ため、設定できることを [vue-router のドキュメント](https://router.vuejs.org/api/#aria-current-value)にも明示できるようにしました。
 
 ### FortAwesome/vue-fontawesome
+
 Vue.js で使用できる Font Awesome 5 ライブラリ
 
 [add: Accessibility feature by yamanoku · Pull Request #319 · FortAwesome/vue-fontawesome](https://github.com/FortAwesome/vue-fontawesome/pull/319)
@@ -69,6 +72,7 @@ Vue.js で使用できる Font Awesome 5 ライブラリ
 業務上で使用している中でアイコンに装飾文字を使えないかと調べてみたところ、[実現することはできました](https://codesandbox.io/s/vuejs-font-awesome-1--getting-started-forked-11ewc?file=/src/App.vue)が README にその使い方がなかったため追加したものです。
 
 ### vueuse/vueuse
+
 [Anthony Fu](https://github.com/antfu) 氏が作成した Vue Composition ユーティリティ集
 
 [chore(useQRCode): add alt text for Docs by yamanoku · Pull Request #652 · vueuse/vueuse](https://github.com/vueuse/vueuse/pull/652)
@@ -76,15 +80,17 @@ Vue.js で使用できる Font Awesome 5 ライブラリ
 コードサンプル内の `img` において代替テキストがなかったため追加しました。
 
 ### vuejs/docs
+
 Vue.js 公式ドキュメントのリポジトリ
 
 [ A11y Docs Labels code block `Warning` => `Note` by yamanoku · Pull Request #1394 · vuejs/docs](https://github.com/vuejs/docs/pull/1394)
 
-アクセシビリティにまつわる項目において、フォーム関連のタグを `<label>` で囲むと支援技術側でのサポートを得られないため **Warning** 扱いにしており、HTMLの書き方としては間違いがないのに非推奨扱いにも感じられてしまったので、その異議を申し立てた Pull Request です。
+アクセシビリティにまつわる項目において、フォーム関連のタグを `<label>` で囲むと支援技術側でのサポートを得られないため **Warning** 扱いにしており、HTML の書き方としては間違いがないのに非推奨扱いにも感じられてしまったので、その異議を申し立てた Pull Request です。
 
 以前ドキュメントの日本語翻訳した際にレビューで目を通したはずなのですが、当時意識してできていなかったのか、何故見逃していたのかが分かりませんでした…
 
 ## resetercss/reseter.css
+
 Reset.css、Normalize.css といった CSS リセットの良いとこ取りした新しいリセット CSS
 
 [Docs: Reseter.css Web Site Display Bug · Issue #25 · krshoss/gardevoir](https://github.com/krshoss/gardevoir/issues/25)
@@ -95,11 +101,12 @@ Reset.css、Normalize.css といった CSS リセットの良いとこ取りし�
 ![スクリーンショット：reseter.css の README にあったコントリビューター一覧に Okuto Oyama として追加されている](https://i.gyazo.com/12c0d5f3c39f8c006513ab263ec90e9c.png)
 
 ## zenn-dev/zenn-community
+
 Zenn のユーザが要望や質問などを投稿できるリポジトリ
 
 [スクラップの下へジャンプボタンのキーボードフォーカス考慮 · Issue #287 · zenn-dev/zenn-community](https://github.com/zenn-dev/zenn-community/issues/287)
 
-[4/20のアップデート](https://zenn.dev/changelog#20210420)により追加されたスクラップでコメントが多い場合に「いちばん下へジャンプ」するボタンが追加されたのですが、このボタンにキーボードフォーカスが当たるようにしてほしい要望を出しました。
+[4/20 のアップデート](https://zenn.dev/changelog#20210420)により追加されたスクラップでコメントが多い場合に「いちばん下へジャンプ」するボタンが追加されたのですが、このボタンにキーボードフォーカスが当たるようにしてほしい要望を出しました。
 
 再現の確認として gif アニメーションで確認できるようにしました。
 
@@ -111,23 +118,25 @@ Zenn のユーザが要望や質問などを投稿できるリポジトリ
 ![スクリーンショット：「いちばん下へジャンプする」ボタンにフォーカスが当たっている](https://i.gyazo.com/57af09f2160b2e761e4f962a070c468f.png)
 
 ## microcmsio/microcms-blog
+
 microCMS 社が公開している公式ブログソース
 
-[Breadcrumbでカテゴリーがない場合レンダリングしないように修正 by yamanoku · Pull Request #88 · microcmsio/microcms-blog](https://github.com/microcmsio/microcms-blog/pull/88)
+[Breadcrumb でカテゴリーがない場合レンダリングしないように修正 by yamanoku · Pull Request #88 · microcmsio/microcms-blog](https://github.com/microcmsio/microcms-blog/pull/88)
 
 パンくずリストにカテゴリがない場合でも HTML としてレンダリングされてしまうのでその修正をしました。
 見た目上は違和感少ないものですが、読み上げ機能を使うと２つのリストアイテムがある」状態と判定され、２つめの中身があることを期待させてしまいかねないので、それであればない場合は描画しないように対応しました。
 
-[日付部分をtime要素でマークアップ by yamanoku · Pull Request #89 · microcmsio/microcms-blog](https://github.com/microcmsio/microcms-blog/pull/89)
+[日付部分を time 要素でマークアップ by yamanoku · Pull Request #89 · microcmsio/microcms-blog](https://github.com/microcmsio/microcms-blog/pull/89)
 
 日付が出る箇所は `<time>` 要素でマークアップするように変更しました。
 
 ## azu/philan.net
+
 [azu](https://twitter.com/azu_re)さんが作成した何処に寄付をしたかを記録できるようにしてくれるサービスソース
 
 [feat(web): donation link exists or not by yamanoku · Pull Request #43 · azu/philan.net](https://github.com/azu/philan.net/pull/43)
 
-寄付先のサイトURLがない場合、リンク先のない別窓リンクの `<a>` 要素で囲まれてしまうので、URLがない場合はリンクにしないように変更しました。
+寄付先のサイト URL がない場合、リンク先のない別窓リンクの `<a>` 要素で囲まれてしまうので、URL がない場合はリンクにしないように変更しました。
 自分でローカルで立ち上げた際には結果が目視できなかったので勘で対応したところはあります。
 
 [Feature: Make it possible to use `<MenuItem>` like `<a>` tags · Issue #57 · azu/philan.net](https://github.com/azu/philan.net/issues/57)
@@ -137,6 +146,7 @@ microCMS 社が公開している公式ブログソース
 Chakra UI の扱い方がわからなかったのですが、azu さんによって[改修していただけました](https://github.com/azu/philan.net/pull/66)。
 
 ## rits-dajare/rits-dajare.github.io
+
 立命館ダジャレサークルのオフィシャルサイトソース
 
 [ IMO ページのアクセシビリティ補強対応 by yamanoku · Pull Request #221 · rits-dajare/rits-dajare.github.io](https://github.com/rits-dajare/rits-dajare.github.io/pull/221)
@@ -146,6 +156,7 @@ Chakra UI の扱い方がわからなかったのですが、azu さんによっ
 ソースコードをオープンソースとして公開していたので、自分からもよりよくできそうなアクセシビリティ改善提案をさせてもらいました。
 
 ## nygardk/react-share
+
 React.js 製のソーシャルシェアボタンライブラリ
 
 [ShareButton's `aria-label` is interfering with what I really want to say. · Issue #397 · nygardk/react-share](https://github.com/nygardk/react-share/issues/397)
@@ -158,6 +169,7 @@ React.js 製のソーシャルシェアボタンライブラリ
 > I think we should let the developers who use the library think about the button description.
 
 ## github/catalyst
+
 GitHub による Web Components ライブラリとそれにまつわるドキュメント
 
 [Fix: code of `<pre>` element is displayed protruding. by yamanoku · Pull Request #140 · github/catalyst](https://github.com/github/catalyst/pull/140)
@@ -167,13 +179,15 @@ GitHub による Web Components ライブラリとそれにまつわるドキュ
 個人的な感想ですが、レビュワーと多少チグハグなやりとりとなってしまったため、レビュー対応の難しさを感じるなどありました。
 
 ## corocn/paternity-leave-in-japan
+
 [corocn](https://twitter.com/corocn) さんが運営している男性育休取得実績のある日本のテクノロジー企業のまとめ
 
 [add: クラウドワークス by yamanoku · Pull Request #27 · corocn/paternity-leave-in-japan](https://github.com/corocn/paternity-leave-in-japan/pull/27)
 
-所属する企業の2ヶ月以上の取得事例があったため、追加させてもらいました。
+所属する企業の 2 ヶ月以上の取得事例があったため、追加させてもらいました。
 
 ## shunito/axe-locales
+
 [shunito](https://twitter.com/shunito) さんが作成した、ウェブアクセシビリティ検証ツール [aXe](https://www.deque.com/axe/) の言語を簡易的に切り替えるライブラリ
 
 [Fix: window is not defined error pattern by yamanoku · Pull Request #1 · shunito/axe-locales](https://github.com/shunito/axe-locales/pull/1)
@@ -181,6 +195,7 @@ GitHub による Web Components ライブラリとそれにまつわるドキュ
 ローカルで起動した際に `window is undefined` となってしまうパターンに遭遇するので、空のオブジェクトで切り替えるパターンを追加しました。
 
 ## sadnessOjisan/blog.ojisan.io
+
 [sadnessOjisan](https://twitter.com/sadnessOjisan) さんの旧ブログリポジトリ
 
 [`word-break: break-all;` は即刻中止せよ by yamanoku · Pull Request #184 · sadnessOjisan/blog.ojisan.io](https://github.com/sadnessOjisan/blog.ojisan.io/pull/184)
@@ -188,8 +203,8 @@ GitHub による Web Components ライブラリとそれにまつわるドキュ
 文章中の英単語を強制的に改行する `word-break: break-all;` が見づらかったので、`overflow-wrap: break-word;` に修正しました。
 IE11 も対応しているサイトだったとのことなので使えるプロパティも考慮しました。
 
-| `word-break: break-all;` | `overflow-wrap: break-word;` |
-| ------------------------ | ---------------------------- |
+| `word-break: break-all;`                                                                                        | `overflow-wrap: break-word;`                                                                                                |
+| --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | ![スクリーンショット：記事内の英単語が改行されている](https://i.gyazo.com/46a6681a3026dd1b6ec4e61380556360.png) | ![スクリーンショット：記事内の英単語が改行されていなくなっている](https://i.gyazo.com/b3908b6b44d56acc347fd780fcb20a7f.png) |
 
 なおその後、神の怒りに触れてリバートされました（文字量でカラムサイズ決めないでおくれ）。
@@ -197,6 +212,7 @@ IE11 も対応しているサイトだったとのことなので使えるプロ
 https://twitter.com/sadnessOjisan/status/1394898107041652736
 
 ## tokyo-metropolitan-gov/covid19
+
 [東京都新型コロナウイルス感染症対策サイト](https://stopcovid19.metro.tokyo.lg.jp/) のリポジトリ
 
 [最新のお知らせのリンクリストの見た目とマークアップの齟齬修正 by yamanoku · Pull Request #6446 · tokyo-metropolitan-gov/covid19](https://github.com/tokyo-metropolitan-gov/covid19/pull/6446)
@@ -206,11 +222,12 @@ https://twitter.com/sadnessOjisan/status/1394898107041652736
 最新のお知らせのリンクリストが、日付の部分がリンクテキストではないスタイルなのにリンクの一部になっていて、見た目やインタラクション（hover）に差があるのでセマンティクスにも差が必要となっている問題を修正しました。
 読み上げについての認識違いもあったのでレビューいただいたことで自分にとっても学びが得られました。
 
-[ビルド時のアクセシビリティlint導入の検討 · Issue #6848 · tokyo-metropolitan-gov/covid19](https://github.com/tokyo-metropolitan-gov/covid19/issues/6848)
+[ビルド時のアクセシビリティ lint 導入の検討 · Issue #6848 · tokyo-metropolitan-gov/covid19](https://github.com/tokyo-metropolitan-gov/covid19/issues/6848)
 
 ビルド時のアクセシビリティ Linter を導入する提案では magi1125 さんから直接ご指名いただいたので私が分かりうる限りでアドバイスさせていただきました。
 
 ## SnO2WMaN/tohohoify
+
 [SnO2WMaN](https://twitter.com/SnO2WMaN) さん作のトホホ…な画像を生成するジェネレーター
 
 ![tohohoify で生成された画像](https://i.gyazo.com/7d69f2e4610112ae654bf628ef568ef9.png)
@@ -228,6 +245,7 @@ https://twitter.com/sadnessOjisan/status/1394898107041652736
 上記の tohohoify と同様に [aXe DevTools](https://chrome.google.com/webstore/detail/axe-devtools-web-accessib/lhdoppojpmngadmnindnejefpokejbdd) で Critical なアクセシビリティ上の問題となっていた箇所を修正したものです。
 
 ## yuiseki/crisis-news-map-next
+
 [yuiseki](https://twitter.com/yuiseki_) さんによる全国災害情報地図サイト
 
 [ニュース記事でのカテゴリラジオボタンをグループ化 by yamanoku · Pull Request #23 · yuiseki/crisis-news-map-next](https://github.com/yuiseki/crisis-news-map-next/pull/23)
@@ -236,9 +254,10 @@ https://twitter.com/sadnessOjisan/status/1394898107041652736
 
 災害関連ニュース記事ページでのラジオボタン操作の補助と、バグ報告をさせてもらいました。
 
-余談ですが yuiseki さんが[副業としてOSSコミッターで働かれる](https://twitter.com/yuiseki_/status/1466702240941752320)ようです。個人的にとても興味深い話でありました。おめでとうございます！
+余談ですが yuiseki さんが[副業として OSS コミッターで働かれる](https://twitter.com/yuiseki_/status/1466702240941752320)ようです。個人的にとても興味深い話でありました。おめでとうございます！
 
 ## miyaoka/employment-ojisan
+
 [miyaoka](https://twitter.com/miyaoka) さんによる [sadnessOjisan](https://twitter.com/sadnessOjisan) さんが就職するまでのカウントダウンサイト
 
 [読み上げ対応 by yamanoku · Pull Request #2 · miyaoka/employment-ojisan](https://github.com/miyaoka/employment-ojisan/pull/2)
@@ -248,6 +267,7 @@ https://twitter.com/sadnessOjisan/status/1394898107041652736
 詳細は[【ネタアプリ】就職カウントダウンサイトを作った話](https://zenn.dev/miyaoka/articles/dfb1ea778d43c6)を参考いただければと思いますが、その中で私はアクセシビリティ対応をしました。
 
 ## svelte-jp/svelte-site-jp
+
 有志によって運営されている Svalte 日本語サイトのリポジトリ
 
 [translate: docs/ja/05-accessibility-warnings by yamanoku · Pull Request #471 · svelte-jp/svelte-site-jp](https://github.com/svelte-jp/svelte-site-jp/pull/471)
@@ -257,10 +277,10 @@ https://twitter.com/sadnessOjisan/status/1394898107041652736
 SvelteJP の Discord にある「ドキュメント翻訳」チャンネルがあり、運営メンバーの [tomoam](https://twitter.com/tomoam_mat) さんから翻訳作業の募集が出ていたりします。
 Svelte の雰囲気を知るために翻訳作業に参加させてもらいました。
 
-現在は SvelteKit の[日本語サイト翻訳作業の募集](https://github.com/svelte-jp/kit/issues?q=is%3Aopen+is%3Aissue+label%3A%E7%BF%BB%E8%A8%B3%E8%80%85%E5%8B%9F%E9%9B%86
-)もされています。私もやってみようかなと思いますが、興味ある方はどうぞ！
+現在は SvelteKit の[日本語サイト翻訳作業の募集](https://github.com/svelte-jp/kit/issues?q=is%3Aopen+is%3Aissue+label%3A%E7%BF%BB%E8%A8%B3%E8%80%85%E5%8B%9F%E9%9B%86)もされています。私もやってみようかなと思いますが、興味ある方はどうぞ！
 
 ## microcmsio/react-hooks-use-modal
+
 microCMS 社の React Hooks を用いてモーダルを呼び出すライブラリ
 
 [Improve accessibility by dqn · Pull Request #26 · microcmsio/react-hooks-use-modal](https://github.com/microcmsio/react-hooks-use-modal/pull/26)
@@ -276,13 +296,14 @@ React.js 実装での参考となり大変学びがありました。
 [らんす](https://twitter.com/yuki0410_)さんの報告にて disable-scroll による影響であることが判明しました。ありがとうございました！
 
 ## mdn/translated-content
+
 MDN ドキュメントの翻訳コンテンツリポジトリ
 
 [fix: Missing characters by yamanoku · Pull Request #1904 · mdn/translated-content](https://github.com/mdn/translated-content/pull/1904)
 
 [Issue with "aria-describedby 属性の使用": Invalid link for example link · Issue #2057 · mdn/translated-content](https://github.com/mdn/translated-content/issues/2057)
 
-フロントエンド業務ではお世話になることが多いMDNドキュメントですが、脱字や英語コンテンツとで差分があったりします。Pull Request や Issue を通じてコントリビュートさせてもらいました。
+フロントエンド業務ではお世話になることが多い MDN ドキュメントですが、脱字や英語コンテンツとで差分があったりします。Pull Request や Issue を通じてコントリビュートさせてもらいました。
 
 日本語翻訳コンテンツは日本人のレビュワーおらっしゃるようで、報告は日本語のみでも問題ないそうです。
 
@@ -337,15 +358,16 @@ GatsbyJS のメインリポジトリ
 Next.js でも使用されている大元のものは GastbyJS で作られたものだったので、本家の方で提案してみました。
 
 ## sergeicodes/a11ymyths
+
 アクセシビリティにまつわる謬説（まちがった説や説明）をまとめたサイト
 
 [Add Japanese version. by yamanoku · Pull Request #12 · sergeicodes/a11ymyths](https://github.com/sergeicodes/a11ymyths/pull/12)
 
-MITとして公開されていたのでフォークして独自で日本語版を公開したところ、オーナーの [Sergei Kriger 氏](https://github.com/sergeicodes)が日本語版でコントリビューションしませんか？と誘われたので別途 Pull Request を作成しました。
+MIT として公開されていたのでフォークして独自で日本語版を公開したところ、オーナーの [Sergei Kriger 氏](https://github.com/sergeicodes)が日本語版でコントリビューションしませんか？と誘われたので別途 Pull Request を作成しました。
 
 最初は myth を「俗説」として訳していたのですが、[kazuhito](https://twitter.com/kazuhito) さんが「謬説」と訳されていたのでそちらが言葉として良さそうだなと思ったので参考にさせていただきました。
 
-[Webアクセシビリティの謬説 | 覚え書き | @kazuhito](https://kidachi.kazuhi.to/blog/archives/041346.html)
+[Web アクセシビリティの謬説 | 覚え書き | @kazuhito](https://kidachi.kazuhi.to/blog/archives/041346.html)
 
 ## yamanoku/awesome-japanese-a11y-companies
 
@@ -353,7 +375,7 @@ MITとして公開されていたのでフォークして独自で日本語版�
 
 [yamanoku/awesome-japanese-a11y-companies: アクセシビリティに取り組む・推進している日本企業まとめ（随時更新）](https://github.com/yamanoku/awesome-japanese-a11y-companies)
 
-最後は自分が作成したオープンソースで、今年の9月から取り組んでみたものです。
+最後は自分が作成したオープンソースで、今年の 9 月から取り組んでみたものです。
 
 Web アクセシビリティのまとめサイトとして [accrefs.jp](https://accrefs.jp/) というものがあるのですが、企業の取組事例だけを抽出したい・投稿を容易にしたいというモチベーションから GitHub で管理するようにしています。[awesome-a11y](https://github.com/brunopulis/awesome-a11y) にも追加させてもらいました。
 
@@ -369,13 +391,13 @@ Web アクセシビリティのまとめサイトとして [accrefs.jp](https://
 ## 総括
 
 タイトルからもあるように「OSS」としてではなく「オープンソース」と称したのはソフトウェア以外のものへのコントリビュートが多いところもあります。
-azu さんが[2020年の振り返りで言い換えていたこと](https://efcl.info/2020/12/31/open-source-in-2020/)も印象に残っているため自分もそう表現してみようかなと思っています。
+azu さんが[2020 年の振り返りで言い換えていたこと](https://efcl.info/2020/12/31/open-source-in-2020/)も印象に残っているため自分もそう表現してみようかなと思っています。
 
 ---
 
 こうやって挙げてみると去年よりも今年はいくつか首に突っ込めた活動ができたかなと思っています。Notion にて個人のものもまとめていますのでこちらもご覧ください。
 
-[オープンソース活動記録 2021年](https://www.notion.so/yamanoku/2021-2c4fa51b832645f494698ebd11e069f9)
+[オープンソース活動記録 2021 年](https://www.notion.so/yamanoku/2021-2c4fa51b832645f494698ebd11e069f9)
 
 すべてのコントリビュートに対して全部問題が解消できたかというと、そういうことばかりではなく問題としてそのままになっているものもあります。
 
@@ -385,7 +407,7 @@ azu さんが[2020年の振り返りで言い換えていたこと](https://efcl
 
 ---
 
-オープンソースコントリビュート活動以外の支援として GitHub Sponsors を出している私個人として応援したい人たちには継続支援させてもらっています（2021年12月現在）。
+オープンソースコントリビュート活動以外の支援として GitHub Sponsors を出している私個人として応援したい人たちには継続支援させてもらっています（2021 年 12 月現在）。
 
 - sponsors-kazupon - $5 a month
 - sponsors-azu - $5 a month
