@@ -6,7 +6,7 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "prettier": "npx prettier --write .",
+    "prettier": "prettier --write .",
     "generate-og-image": "node ogp/generate-og-image.mjs"
   },
   "dependencies": {
