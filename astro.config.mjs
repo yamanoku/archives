@@ -23,4 +23,7 @@ export default defineConfig({
       footnoteBackLabel: 'コンテンツに戻る',
     },
   },
+  experimental: {
+    viewTransitions: true
+   }
 });
