@@ -81,6 +81,15 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
         margin: 0;
       }
     </style>
+    <script>
+      const setScrollTop = () => {
+        window.scrollTo({
+          top: 0,
+          left: 0,
+        })
+      };
+      document.addEventListener('astro:beforeload', setScrollTop);
+    </script>
     <ViewTransitions />
   </head>
 
