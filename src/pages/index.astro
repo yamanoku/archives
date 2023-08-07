@@ -31,19 +31,19 @@ const posts = (await getCollection('archives')).sort(
       <p>
         移行時にリンク切れなど修正しましたが、内容自体は特にアップデートしておりませんので参照する際はその点ご注意ください。
       </p>
+      <ul>
       {
         posts.map((post) => (
-          <article>
+          <li>
             <time datetime={dayjs(post.data.date).format('YYYY-MM-DD')}>
               {dayjs(post.data.date).format('YYYY-MM-DD')}
             </time>
-            <h2>
-              <a href={post.slug} set:html={parser.translateHTMLString(post.data.title)} />
-            </h2>
-            <p>{post.data.description}</p>
-          </article>
+            -
+            <a href={post.slug} set:html={parser.translateHTMLString(post.data.title)} />
+          </li>
         ))
       }
+      </ul>
     </main>
     <Footer />
   </body>
