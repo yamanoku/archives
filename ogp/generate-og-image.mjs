@@ -9,7 +9,7 @@ const postsDirectory = join(process.cwd(), 'src/content/archives');
 function getPostTitle(filename) {
   const fileContents = fs.readFileSync(
     join(postsDirectory, `${filename}`),
-    'utf8'
+    'utf8',
   );
   const { data } = matter(fileContents);
   return data.title;
@@ -34,7 +34,7 @@ async function main() {
         (el, parsedTitle) => {
           el.innerHTML = parsedTitle;
         },
-        parsedTitle
+        parsedTitle,
       );
       // スクリーンショットを撮る
       await page.screenshot({

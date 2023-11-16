@@ -54,7 +54,7 @@ gulp.task('jade', function () {
     .pipe(
       jade({
         pretty: '\t',
-      })
+      }),
     )
     .pipe(outdent())
     .pipe(gulp.dest('/'));
