@@ -25,7 +25,7 @@ var Num = window.location.pathname.split('/')[3];
 // 全体パス
 var p = window.location.pathname.replace(
   new RegExp('(?:\\/+[^\\/]*){0,1}$'),
-  '/'
+  '/',
 );
 Cookies.set(Num, Num, { path: p });
 ```

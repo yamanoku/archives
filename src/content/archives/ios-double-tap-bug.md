@@ -92,7 +92,7 @@ if (!/iPhone|iPad|iPod/.test(ua)) {
       },
       function () {
         $(this).css('opacity', 1.0);
-      }
+      },
     );
   });
 }

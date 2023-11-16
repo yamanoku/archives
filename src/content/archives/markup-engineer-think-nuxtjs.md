@@ -46,7 +46,7 @@ block contents
 な感じで出力すると
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
@@ -93,7 +93,7 @@ block contents
 こんな感じで、ページ毎に共通のものと、そのページ独自のメタデータなどを静的ファイルとして入れ込むことができます。
 
 ```html
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />

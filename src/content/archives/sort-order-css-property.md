@@ -84,7 +84,7 @@ gulp.task('stylus', function () {
             style.define(key, conf[key]);
           }
         },
-      })
+      }),
     )
     .pipe(
       $.pleeease({
@@ -92,7 +92,7 @@ gulp.task('stylus', function () {
         rem: false,
         mqpacker: true,
         minifier: false,
-      })
+      }),
     )
     .pipe(comb())
     .pipe(gulp.dest('./src' + conf.URL + 'css'));

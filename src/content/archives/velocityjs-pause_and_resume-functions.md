@@ -42,10 +42,10 @@ $(function () {
           {
             duration: 1500,
             loop: true,
-          }
+          },
         );
       },
-    }
+    },
   );
   $('.hover').hover(
     function () {
@@ -53,7 +53,7 @@ $(function () {
     },
     function () {
       $(this).velocity('resume');
-    }
+    },
   );
 });
 ```
