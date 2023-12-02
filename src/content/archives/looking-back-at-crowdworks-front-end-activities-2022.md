@@ -18,9 +18,8 @@ noindex: true
 
 一昨年・去年もフロントエンド活動の振り返りをしてみましたが、今年もやっていきます。
 
-[crowdworks.jp のフロントエンド活動を振り返る 2021 #フロントエンド - Qiita](https://qiita.com/yamanoku/items/29a74ebf3d74b3017581)
-
-[クラウドワークスのフロントエンド活動を振り返る 2020 - クラウドワークス エンジニアブログ](https://engineer.crowdworks.jp/entry/crowdworks_frontend_2020)
+- [クラウドワークスのフロントエンド活動を振り返る 2021](./looking-back-at-crowdworks-front-end-activities-2021)
+- [クラウドワークスのフロントエンド活動を振り返る 2020](./looking-back-at-crowdworks-front-end-activities-2020)
 
 去年と変わらず crowdworks.jp にはフロントエンド専属チームというものは存在しておりません。ですが、今年は去年よりも重要なフロントエンドにまつわる活動をしてこれたと思っています。
 
@@ -60,7 +59,7 @@ Vue3 化によって安定した型開発ができるようになったのです
 
 vue-tsc を導入したことにより `<script lang="ts">` 内の型チェックはもちろんのこと、`<template>` 内の HTML タグの属性値も厳密にチェックしてくれるようになりマークアップの正しさが保証されるようになりました。以下は移行時に修正した一例です。
 
-```html
+```diff
 -  <form action="/login" accept-charset="UTF-8" method="post" novalidate="novalidate">
 +  <form action="/login" accept-charset="UTF-8" method="post" novalidate="true">
 ```
@@ -77,7 +76,7 @@ crowdworks.jp におけるフロントエンドの技術的負債としても名
 
 [CoffeeScript 辞めました - クラウドワークス エンジニアブログ](https://engineer.crowdworks.jp/entry/goodbye_coffeescript)
 
-###  Webpacker から Simpacker + webpack 構成へ
+### Webpacker から Simpacker + webpack 構成へ
 
 長らく crowdworks.jp のモダンフロントエンド開発に尽力してくれていた [Webpacker](https://github.com/rails/webpacker) ですが、今年の 1 月に[メンテナンス終了することが発表](https://twitter.com/rails/status/1483772667756957699)され、EOL 対応をどうしようかとなっていました。
 
@@ -150,31 +149,34 @@ crowdworks.jp における施策・機能開発をする際に他チームにて
 発表資料・動画は以下リンクからご覧ください。
 
 #### 負債が溜まったレガシーフロントエンド画面を Vue.js でリプレイスした話
+
 - [発表資料](https://speakerdeck.com/t0yohei/fu-zhai-galiu-matutaregasihurontoendohua-mian-wo-vue-dot-js-deripureisusitahua)
 - [YouTube](https://www.youtube.com/watch?v=HsBTx36c_kA&t=14423s)
 
 #### Vue.js でアクセシブルなコンポーネントをつくるために
+
 - [発表資料](https://speakerdeck.com/yamanoku/to-make-accessible-components-in-vuejs)
 - [YouTube](https://www.youtube.com/watch?v=dtD4p89ogKM&t=15915s)
 
 #### なるほど Vue コンポーネント
+
 - [YouTube](https://youtu.be/HsBTx36c_kA?t=20413)
 
 ### その他フロントエンド改善ピックアップ
 
 - フロントエンドに関する CI を GitHub Actions へ移行
--  [markuplint](https://markuplint.dev/) ルールの拡充
-    -  [permitted-contents](https://github.com/markuplint/markuplint/blob/90f7a432cee9b807a81448990487239615492536/packages/%40markuplint/rules/src/permitted-contents/README.ja.md) ルールの導入
-    -  `target="_blank"` 時の `rel="noopener"` を付与するルール
-    -  [wai-aria](https://github.com/markuplint/markuplint/blob/90f7a432cee9b807a81448990487239615492536/packages/%40markuplint/rules/src/wai-aria/README.ja.md) ルールの導入
-    -  `<button>` の `type` 指定を必須化するルール
--  Vue コンポーネントのスナップショットテストに markuplint を実施
+- [markuplint](https://markuplint.dev/) ルールの拡充
+  - [permitted-contents](https://github.com/markuplint/markuplint/blob/90f7a432cee9b807a81448990487239615492536/packages/%40markuplint/rules/src/permitted-contents/README.ja.md) ルールの導入
+  - `target="_blank"` 時の `rel="noopener"` を付与するルール
+  - [wai-aria](https://github.com/markuplint/markuplint/blob/90f7a432cee9b807a81448990487239615492536/packages/%40markuplint/rules/src/wai-aria/README.ja.md) ルールの導入
+  - `<button>` の `type` 指定を必須化するルール
+- Vue コンポーネントのスナップショットテストに markuplint を実施
 - node_modules アップデート・不要モジュール剪定
-    - moment.js から date-fns へ置き換え
-    - Jest を最新バージョンに追従
+  - moment.js から date-fns へ置き換え
+  - Jest を最新バージョンに追従
 - レガシーなレイアウト CSS ハックをやめる
-    - `display: inline-block` で横並びしていたレイアウトを `display: flex` に変更
-        - 割とよく目にする重要な画面でずっと使用されていました
+  - `display: inline-block` で横並びしていたレイアウトを `display: flex` に変更
+    - 割とよく目にする重要な画面でずっと使用されていました
 
 ## 個人活動編
 
@@ -236,15 +238,15 @@ Saitama.js にて Stroybook を活用したフロントエンドの負債解消�
 
 - フロントエンド・バックエンドの密結合分離
 - SSG, SSR の機構を検討していく
-    - SEO のために静的な HTML を返せるようにする
-    - Nuxt.js ？ Astro ？
-    - BFF 層の開発
+  - SEO のために静的な HTML を返せるようにする
+  - Nuxt.js ？ Astro ？
+  - BFF 層の開発
 - webpack チューニング
-    - v4 → v5 へのアップデート
-    - 不要モジュール剪定
-    - 他バンドルツールの検討（Vite, Rollup 等）
+  - v4 → v5 へのアップデート
+  - 不要モジュール剪定
+  - 他バンドルツールの検討（Vite, Rollup 等）
 - フロントエンドテストの充実
-    - Storybook バージョンアップ対応し [Play function](https://storybook.js.org/docs/vue/writing-stories/play-function) を使用したい
+  - Storybook バージョンアップ対応し [Play function](https://storybook.js.org/docs/vue/writing-stories/play-function) を使用したい
 - フロントエンド開発における参考となる Vue.js の実装パターンをつくる
 - フロントエンドに関するディレクトリを Rails 依存の構成から変更していく取り組み
 - デザインシステムの実装にまつわる参加者を増やす
