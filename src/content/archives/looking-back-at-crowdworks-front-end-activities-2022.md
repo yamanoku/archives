@@ -192,7 +192,7 @@ HTML 解体新書が発売されてよかったことの１つに社内での HT
 
 書評についても以下エンジニアブログにて公開しております。[リフロー版の電子書籍](https://twitter.com/bd_publishing/status/1581843012904452096)も販売開始されておりますので気になった方は是非購入してみてください。
 
-[「HTML解体新書」HTMLのこれからと向き合うための本](./html-anatomische-tabell)
+[「HTML解体新書」HTMLのこれからと向き合うための本](./review-html-anatomische-tabell-book)
 
 #### OSS へのコントリビュート
 
