@@ -36,11 +36,6 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
   <head>
     <BaseHead title={`${post.data.title} | yamanoku.net`} description={post.data.description} noindex={post.data.noindex} />
     <style>
-      .bread-crumbs {
-        margin: var(--y-rhythm-3) 0;
-      }
-    </style>
-    <style>
       .notes {
         margin: var(--y-rhythm-3) 0;
       }
@@ -87,9 +82,6 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
     <main>
       <article>
         <h1 class="title" set:html={parser.translateHTMLString(post.data.title)} />
-        <nav class="bread-crumbs">
-          <a href="/">トップ</a>&emsp;/&emsp;<span aria-current="page">{post.data.title}</span>
-        </nav>
         <div class="article-header">
           <time>created at: {dayjs(post.data.date).format('YYYY-MM-DD')}</time>
           <a href={editLink} target="_blank" rel="noopener">GitHub Edit Page</a>
