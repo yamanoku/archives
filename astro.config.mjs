@@ -1,15 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
-
-const rehypePlugins = [
-  'remark-gfm',
-  ['rehype-external-links', { target: ['_blank'], rel: ['noopener'] }],
-  [
-    'rehype-plugin-auto-resolve-layout-shift',
-    { type: 'maxWidth', maxWidth: 720 },
-  ],
-  'rehype-plugin-image-native-lazy-loading',
-];
+import resolveLayoutShiftPlugin from 'rehype-plugin-auto-resolve-layout-shift'
+import lazyloadPlugin from 'rehype-plugin-image-native-lazy-loading';
 
 // https://astro.build/config
 export default defineConfig({
@@ -17,7 +9,11 @@ export default defineConfig({
   integrations: [sitemap()],
   markdown: {
     syntaxHighlight: 'prism',
-    rehypePlugins,
+    gfm: true,
+    rehypePlugins: [
+      [resolveLayoutShiftPlugin, { type: 'maxWidth', maxWidth: 900 }],
+      lazyloadPlugin,
+    ],
     remarkRehype: {
       footnoteLabel: '脚注',
       footnoteBackLabel: 'コンテンツに戻る',
