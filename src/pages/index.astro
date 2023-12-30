@@ -4,9 +4,6 @@ import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
 import dayjs from 'dayjs'
-import { loadDefaultJapaneseParser } from 'budoux';
-
-const parser = loadDefaultJapaneseParser();
 
 import { getCollection } from 'astro:content';
 const posts = (await getCollection('archives')).sort(
@@ -20,6 +17,11 @@ const posts = (await getCollection('archives')).sort(
 <html lang="ja">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      .whitespace-nowrap {
+        white-space: nowrap;
+      }
+    </style>
   </head>
   <body>
     <Header title={SITE_TITLE} />
@@ -31,19 +33,31 @@ const posts = (await getCollection('archives')).sort(
       <p>
         移行時にリンク切れなど修正しましたが、内容自体は特にアップデートしておりませんので参照する際はその点ご注意ください。
       </p>
-      <ul>
-      {
-        posts.map((post) => (
-          <li>
-            <time datetime={dayjs(post.data.date).format('YYYY-MM-DD')}>
-              {dayjs(post.data.date).format('YYYY-MM-DD')}
-            </time>
-            -
-            <a href={post.slug} set:html={parser.translateHTMLString(post.data.title)} />
-          </li>
-        ))
-      }
-      </ul>
+      <h2>アーカイブ一覧</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>日付</th>
+            <th>記事タイトル</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            posts.map((post) => (
+              <tr>
+                <td>
+                  <time class="whitespace-nowrap" datetime={dayjs(post.data.date).format('YYYY-MM-DD')}>
+                    {dayjs(post.data.date).format('YYYY-MM-DD')}
+                  </time>
+                </th>
+                <td>
+                  <a href={post.slug}>{post.data.title}</a>
+                </td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
     </main>
     <Footer />
   </body>
