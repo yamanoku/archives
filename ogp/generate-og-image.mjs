@@ -1,8 +1,23 @@
 import fs from 'fs';
 import { join } from 'path';
+import { execSync } from 'child_process';
 import matter from 'gray-matter';
 import puppeteer from 'puppeteer';
 import { loadDefaultJapaneseParser } from 'budoux';
+
+function getUnstagedFiles() {
+  const output = execSync('git status --porcelain', { encoding: 'utf-8' }); // Run git status command
+  const lines = output.split('\n'); // Split output into lines
+  const unstagedFiles = lines
+    // Filter out lines that represent unstaged markdown files
+    .filter((line) => line.startsWith('??') && line.endsWith('.md'))
+    .map((line) => {
+      const filePath = line.slice(3); // Remove the '?? ' prefix
+      const fileName = filePath.split('/').pop(); // Extract the file name
+      return fileName;
+    });
+  return unstagedFiles;
+}
 
 const postsDirectory = join(process.cwd(), 'src/content/archives');
 
@@ -16,10 +31,10 @@ function getPostTitle(filename) {
 }
 
 async function main() {
-  const postFiles = fs.readdirSync(postsDirectory);
+  const unstagedFiles = getUnstagedFiles();
   const parser = loadDefaultJapaneseParser();
 
-  for (const mdFilename of postFiles) {
+  for (const mdFilename of unstagedFiles) {
     const title = getPostTitle(mdFilename);
     const browser = await puppeteer.launch({ headless: 'new' });
     const page = await browser.newPage();
@@ -41,6 +56,7 @@ async function main() {
         path: `public/og-images/${mdFilename.replace('.md', '')}.png`,
         clip: { x: 0, y: 0, width: 1200, height: 630 },
       });
+      console.log(`Create: ${mdFilename.replace('.md', '')}.png`);
     } catch (e) {} // めんどくさいので失敗パターンはスルーさせる
 
     await browser.close();
