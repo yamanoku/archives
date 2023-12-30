@@ -88,7 +88,7 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
       <article>
         <h1 class="title" set:html={parser.translateHTMLString(post.data.title)} />
         <nav class="bread-crumbs">
-          <a href="/">ホーム</a>&emsp;/&emsp;<span aria-current="page">{post.data.title}</span>
+          <a href="/">トップ</a>&emsp;/&emsp;<span aria-current="page">{post.data.title}</span>
         </nav>
         <div class="article-header">
           <time>created at: {dayjs(post.data.date).format('YYYY-MM-DD')}</time>
@@ -119,7 +119,7 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
           </li>
         </ul>
       </details>
-      <a href="/">アーカイブ一覧へ戻る</a>
+      <a href="/">トップへ戻る</a>
     </main>
     <Footer />
   </body>
