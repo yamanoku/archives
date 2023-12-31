@@ -36,12 +36,30 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
   <head>
     <BaseHead title={`${post.data.title} | yamanoku.net`} description={post.data.description} noindex={post.data.noindex} />
     <style>
+      :root {
+        --notes-border-color: var(--y-black-base);
+        --notes-background-color: rgb(243 244 246 / 100%);
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --notes-border-color: var(--y-white-medium);
+          --notes-background-color: var(--y-black-base);
+        }
+      }
       .notes {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 0.25rem;
         margin: var(--y-rhythm-3) 0;
         padding: var(--y-rhythm-2);
         border-radius: 4px;
-        background-color: rgb(243 244 246 / 100%);
-        border: 2px solid var(--y-white-medium);
+        background-color: var(--notes-background-color);
+        border: 2px solid var(--notes-border-color);
+      }
+      .notes-icon {
+        width: 1.5rem;
+        height: 1.5rem;
       }
       .article-header {
         display: flex;
@@ -91,6 +109,11 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
           <a href={editLink} target="_blank" rel="noopener">GitHub Edit Page</a>
         </div>
         <div class="notes">
+          <svg class="notes-icon" role="img" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 2L2 22h20L12 2z"></path>
+            <path d="M12 10v5"></path>
+            <path d="M12 18v.01"></path>
+          </svg>
           <strong>
             この記事は公開から1年以上が経過しています。内容が一部古い箇所があります。
           </strong>
