@@ -1,8 +1,6 @@
-# archives.yamanoku.net
+# [archives.yamanoku.net](https://archives.yamanoku.net/)
 
 [yamanoku](https://github.com/yamanoku) archive contents. (Japanese Only)
-
-https://archives.yamanoku.net/
 
 ## Build Setup
 
@@ -10,7 +8,7 @@ https://archives.yamanoku.net/
 # install dependencies
 $ npm ci
 
-# serve with hot reload at localhost:3000
+# serve with hot reload at localhost:4321
 $ npm run dev
 
 # generate static project
