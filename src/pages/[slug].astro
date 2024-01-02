@@ -35,66 +35,18 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
 <html lang="ja">
   <head>
     <BaseHead title={`${post.data.title} | yamanoku.net`} description={post.data.description} noindex={post.data.noindex} />
-    <style>
-      :root {
-        --notes-border-color: var(--y-black-base);
-        --notes-background-color: rgb(243 244 246 / 100%);
-      }
-      @media (prefers-color-scheme: dark) {
-        :root {
-          --notes-border-color: var(--y-white-medium);
-          --notes-background-color: var(--y-black-base);
-        }
-      }
-      .notes {
-        display: flex;
-        align-items: center;
-        flex-wrap: wrap;
-        gap: 0.25rem;
-        margin: var(--y-rhythm-3) 0;
-        padding: var(--y-rhythm-2);
-        border-radius: 4px;
-        background-color: var(--notes-background-color);
-        border: 2px solid var(--notes-border-color);
-      }
-      .notes-icon {
-        width: 1.5rem;
-        height: 1.5rem;
-      }
-      .article-header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        margin: calc(var(--y-rhythm-2) * -1);
-        padding: 0;
-      }
-      .article-header > * {
-        margin: var(--y-rhythm-2);
-      }
-    </style>
     <style is:global>
-      .footnotes {
-        position: relative;
-        padding-top: var(--y-rhythm-3);
-      }
-      .footnotes::before {
-        content: '';
-        width: 100%;
-        height: 1px;
-        background-color: var(--y-arcticle-border-color);
-        position: absolute;
-        top: 0;
-        left: 0;
-      }
-      .footnotes h2 {
-        position: absolute;
-        left: -10000px;
-        width: 1px;
-        height: 1px;
-        overflow: hidden;
-      }
-      .footnotes li p {
-        margin: 0;
+      @tailwind components;
+      @layer components {
+        .footnotes {
+          @apply relative pt-y-rhythm-3 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-[1px] before:bg-y-arcticle-border-color;
+        }
+        .footnotes h2 {
+          @apply sr-only;
+        }
+        .footnotes li p {
+          @apply m-0;
+        }
       }
     </style>
   </head>
@@ -103,13 +55,13 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
     <Header />
     <main>
       <article>
-        <h1 class="title" set:html={parser.translateHTMLString(post.data.title)} />
-        <div class="article-header">
-          <time>created at: {dayjs(post.data.date).format('YYYY-MM-DD')}</time>
-          <a href={editLink} target="_blank" rel="noopener">GitHub Edit Page</a>
+        <h1 set:html={parser.translateHTMLString(post.data.title)} />
+        <div class="flex flex-wrap justify-between m-[calc(var(--y-rhythm-2)*-1)] p-0">
+          <time class="m-y-rhythm-2">created at: {dayjs(post.data.date).format('YYYY-MM-DD')}</time>
+          <a class="m-y-rhythm-2" href={editLink} target="_blank" rel="noopener">GitHub Edit Page</a>
         </div>
-        <div class="notes">
-          <svg class="notes-icon" role="img" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <div class="notes flex items-center flex-wrap gap-1 my-y-rhythm-3 mx-0 p-y-rhythm-2 rounded border-2 border-solid border-y-black-base bg-[#f3f4f6] dark:border-y-white-medium dark:bg-y-black-base">
+          <svg class="w-6 h-6" role="img" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 2L2 22h20L12 2z"></path>
             <path d="M12 10v5"></path>
             <path d="M12 18v.01"></path>
