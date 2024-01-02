@@ -1,6 +1,6 @@
 ---
-import type { Page } from "astro";
 import type { CollectionEntry } from "astro:content";
+import { SITE_DESCRIPTION } from '../config'
 import { getCollection } from "astro:content";
 import BaseHead from '../components/BaseHead.astro'
 import Header from '../components/Header.astro'
@@ -9,7 +9,7 @@ import dayjs from 'dayjs'
 import { loadDefaultJapaneseParser } from 'budoux';
 
 type Props = {
-  page: Page<CollectionEntry<'archives'>>;
+  post: CollectionEntry<'archives'>;
 };
 
 export async function getStaticPaths() {
@@ -34,7 +34,7 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
 
 <html lang="ja">
   <head>
-    <BaseHead title={`${post.data.title} | yamanoku.net`} description={post.data.description} noindex={post.data.noindex} />
+    <BaseHead title={`${post.data.title} | yamanoku.net`} description={post.data.description ? post.data.description : SITE_DESCRIPTION} noindex={post.data.noindex} />
     <style is:global>
       @tailwind components;
       @layer components {
