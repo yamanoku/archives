@@ -33,3 +33,5 @@ const ogpImageURL = canonicalURL.pathname === '/' ? new URL('/ogp-image.png', As
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={ogpImageURL} />
 {noindex && <meta name="robots" content="noindex" />}
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+<script is:inline src="/pagefind/pagefind-ui.js"></script>
