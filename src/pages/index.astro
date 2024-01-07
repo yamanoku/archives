@@ -28,6 +28,31 @@ const posts = (await getCollection('archives')).sort(
       <p>
         移行時にリンク切れなど修正しましたが、内容自体は特にアップデートしておりませんので参照する際はその点ご注意ください。
       </p>
+      <details>
+        <summary>記事検索フォーム</summary>
+        <div id="search"></div>
+      </details>
+      <style is:global>
+        :root {
+          --pagefind-ui-border: var(--y-hr-border-color);
+          --pagefind-ui-text: var(--y-body-text-color);
+          --pagefind-ui-background: var(--y-body-background);
+          --pagefind-ui-border-width: 1px;
+          --pagefind-ui-image-border-radius: 0;
+          --pagefind-ui-font: san-serif;
+        }
+      </style>
+      <script>
+        window.addEventListener('DOMContentLoaded', () => {
+          // @ts-ignore
+          new PagefindUI({
+            element: "#search",
+            translations: {
+              placeholder: "",
+            },
+          });
+        });
+      </script>
       <h2>アーカイブ一覧</h2>
       <table>
         <thead>
