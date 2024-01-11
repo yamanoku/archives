@@ -11,7 +11,7 @@
     "generate-og-image": "node ogp/generate-og-image.mjs"
   },
   "dependencies": {
-    "@astrojs/rss": "4.0.1",
+    "@astrojs/rss": "4.0.2",
     "@astrojs/sitemap": "3.0.4",
     "@astrojs/tailwind": "5.1.0",
     "astro": "4.1.1",
