@@ -1,4 +1,5 @@
 ---
+import ToggleButton from "./ToggleButton.svelte"
 ---
 
 <header>
@@ -17,5 +18,16 @@
         transform="translate(-64 -67)"></path>
     </svg>
     <a href="/" title="トップへ戻る">アーカイブ</a>
+    <ToggleButton client:load />
+    <style is:global>
+      html.theme-dark {
+        background-color: var(--y-black-base);
+        color: var(--y-white-base);
+      }
+      html.theme-right {
+        background-color: var(--y-white-base);
+        color: var(--y-black-base);
+      }
+    </style>
   </div>
 </header>
