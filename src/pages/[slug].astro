@@ -29,7 +29,7 @@ const parser = loadDefaultJapaneseParser();
 
 const editLink = `https://github.com/yamanoku/archives/edit/main/src/content/archives/${pathName}.md`;
 const gitHubLink = `https://github.com/yamanoku/archives/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=feedback&body=URL：https://archives.yamanoku.net/${pathName}%0A修正依頼内容：%0A`;
-const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net/${pathName}&text=@yamanoku`;
+const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}&text=@yamanoku`;
 ---
 
 <html lang="ja">
@@ -84,8 +84,8 @@ const twitterLink = `https://twitter.com/share?url=https://archives.yamanoku.net
             </a>
           </li>
           <li>
-            <a href={twitterLink} target="_blank" rel="noopener">
-              著者にツイートする
+            <a href={xLink} target="_blank" rel="noopener">
+              著者にポストする
             </a>
           </li>
         </ul>
