@@ -1,0 +1,67 @@
+---
+---
+<button type="button" id="openModalButton">記事検索モーダルを開く</button>
+<dialog id="dialog">
+  <button type="button" id="closeModalButton">モーダルを閉じる</button>
+  <div id="search"></div>
+</dialog>
+<style is:global>
+  :root {
+    --pagefind-ui-border: var(--y-hr-border-color);
+    --pagefind-ui-text: var(--y-body-text-color);
+    --pagefind-ui-background: var(--y-body-background);
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-image-border-radius: 0;
+    --pagefind-ui-font: san-serif;
+  }
+  body:has(dialog[open]) {
+    overflow: hidden;
+  }
+  dialog {
+    max-width: 80ch;
+    width: 100%;
+    position: relative;
+  }
+  html[lang="ja"] dialog {
+    max-width: 45rem;
+  }
+  dialog[open] {
+    display: block flex;
+    align-items: flex-end;
+    flex-direction: column;
+    gap: var(--y-rhythm-2);
+    inset-block-start: auto;
+    border-bottom: 0;
+    min-height: 70%;
+  }
+  #search {
+    width: 100%;
+  }
+</style>
+<script is:inline>
+  const dialog = document.getElementById('dialog');
+  const openModalButton = document.getElementById('openModalButton');
+  const closeModalButton = document.getElementById('closeModalButton');
+  const openModal = () => {
+    dialog.showModal();
+  };
+  const closeModal = () => {
+    dialog.close();
+  };
+  openModalButton.addEventListener('click', openModal);
+  closeModalButton.addEventListener('click', closeModal);
+  dialog.addEventListener('click', (event) => {
+    if (event.target === dialog) {
+      closeModal();
+    }
+  });
+  window.addEventListener('DOMContentLoaded', () => {
+    // @ts-ignore
+    new PagefindUI({
+      element: "#search",
+      translations: {
+        placeholder: "",
+      },
+    });
+  });
+</script>
