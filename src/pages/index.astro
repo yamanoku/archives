@@ -29,8 +29,9 @@ const posts = (await getCollection('archives')).sort(
       <p>
         移行時にリンク切れなど修正しましたが、内容自体は特にアップデートしておりませんので参照する際はその点ご注意ください。
       </p>
-      <OpenPageFindModal />
       <h2>アーカイブ一覧</h2>
+      <p>現在のアーカイブ記事は{posts.length}件あります。</p>
+      <OpenPageFindModal />
       <table>
         <thead>
           <tr>
