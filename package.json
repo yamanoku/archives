@@ -11,10 +11,10 @@
     "generate-og-image": "node ogp/generate-og-image.mjs"
   },
   "dependencies": {
-    "@astrojs/rss": "4.0.7",
+    "@astrojs/rss": "4.0.8",
     "@astrojs/sitemap": "3.2.0",
-    "@astrojs/tailwind": "5.1.1",
-    "astro": "4.15.12",
+    "@astrojs/tailwind": "5.1.2",
+    "astro": "4.16.0",
     "dayjs": "1.11.13",
     "modern-normalize": "3.0.1",
     "pagefind": "1.1.1",
