@@ -181,6 +181,9 @@ HTML 解体新書をきっかけに、国内における HTML や Web 開発に�
 ※電子書籍（PDF）版は[ボーンデジタル社サイト](https://www.borndigital.co.jp/book/26006.html)からお買い求めできます。
 
 [^1]: [markuplint をプロダクトに導入してみた - クラウドワークス エンジニアブログ](https://engineer.crowdworks.jp/entry/using-markuplint)
+
 [^2]: 偶然にも私の周囲の人はそういう人が多いのだが、珍しい状態だと思いたい。
+
 [^3]: MDN Web Docs にも「アクセシビリティの考慮」セクションでまとめられている。
+
 [^4]: 仕様上は可能であっても、主要ブラウザおよび支援技術でサポートされていない場合がある。詳しくは[アクセシビリティ サポーテッド（AS）情報](https://waic.jp/guideline/as/)を参照されたし。
