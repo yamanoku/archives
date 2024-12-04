@@ -7,7 +7,7 @@ author: yamanoku
 
 ![アイキャッチ：Vue Fes Japan 2023参加レポート](https://i.gyazo.com/d22435033324a84104b87b39eec5d68b.png)
 
-皆様こんにちは。クラウドソーシングサービス「クラウドワークス」（以下crowdworks.jp）にてエンジニアをしております@okuto_oyamaです。今回は、10月28日に開催されたVue Fes Japan 2023の参加レポートをお届けします。
+皆様こんにちは。クラウドソーシングサービス「[クラウドワークス](http://crowdworks.jp/)」（以下crowdworks.jp）にてエンジニアをしております[@okuto_oyama](https://twitter.com/okuto_oyama)です。今回は、10月28日に開催された[Vue Fes Japan 2023](https://vuefes.jp/2023/)の参加レポートをお届けします。
 
 ## 久々のオフライン開催
 
