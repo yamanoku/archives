@@ -239,9 +239,15 @@ Chrome の検証ツールでは要素を選択するとその要素のコント�
 今回はチェックしたのみで終わったのですが、引き続きあらゆる人に使ってもらえるサービスにしていくため、アクセシビリティ改善活動は続けていきます。
 
 [^1]: Web 標準化を推進する為に設立された団体
+
 [^2]: https://www.amazon.co.jp/dp/4862462650
+
 [^3]: [「One CrowdWorks」で、コーポレートサイトをフルリニューアルした話。｜ Peter ｜ note](https://note.com/contrabass/n/nf7931eb0c905?magazine_key=m266243b86761#T0CYf)
+
 [^4]: https://ca11y.connpass.com/event/169901/
+
 [^5]: https://openameba.github.io/a11y-guidelines/
+
 [^6]: https://waic.jp/docs/WCAG21/
+
 [^7]: https://a11y-guidelines.freee.co.jp

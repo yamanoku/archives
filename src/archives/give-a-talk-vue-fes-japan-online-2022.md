@@ -12,7 +12,6 @@ noindex: true
 
 Vue Fes Japan は Vue.js 日本ユーザーグループが主催する日本最大の Vue.js カンファレンスです。
 
-
 ![Vue Fes Japan Online 2022 TOPページのスクリーンショット](https://i.gyazo.com/6770e56503aa4cd48e3bbd2b39382a2c.png)
 
 日本における Vue.js 開発者たちによる発表や、 Evan You といった Vue.js コアコントリビューターの方たちも登壇されます。

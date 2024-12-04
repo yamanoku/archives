@@ -49,7 +49,7 @@ const posts = (await getCollection('archives')).sort(
                   </time>
                 </th>
                 <td>
-                  <a href={post.slug}>{post.data.title}</a>
+                  <a href={post.id}>{post.data.title}</a>
                 </td>
               </tr>
             ))
