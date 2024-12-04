@@ -18,8 +18,8 @@ noindex: true
 
 一昨年・去年もフロントエンド活動の振り返りをしてみましたが、今年もやっていきます。
 
-- [crowdworks.jp のフロントエンド活動を振り返る 2021](./looking-back-at-crowdworks-front-end-activities-2021)
-- [crowdworks.jp のフロントエンド活動を振り返る 2022](./looking-back-at-crowdworks-front-end-activities-2022)
+- [クラウドワークスのフロントエンド活動を振り返る 2021](./looking-back-at-crowdworks-front-end-activities-2021)
+- [クラウドワークスのフロントエンド活動を振り返る 2022](./looking-back-at-crowdworks-front-end-activities-2022)
 
 ## 全体総括編
 
