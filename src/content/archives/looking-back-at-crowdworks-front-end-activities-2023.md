@@ -10,7 +10,7 @@ noindex: true
 
 この記事は[クラウドワークス Advent Calendar 2023](https://qiita.com/advent-calendar/2023/crowdworks)シリーズ 1の1日目の記事です。
 
-クラウドソーシングサービス「[クラウドワークス](https://crowdworks.jp/)」（以下 crowdworks.jp ）にてエンジニアをしております、フロントエンドの可能性をしつこく信じ続ける[@okuto_oyama](https:/x.com/okuto_oyama)です。
+クラウドソーシングサービス「[クラウドワークス](https://crowdworks.jp/)」（以下 crowdworks.jp ）にてエンジニアをしております、フロントエンドの可能性をしつこく信じ続ける[@okuto_oyama](https://x.com/okuto_oyama)です。
 
 一昨年・去年と引き続き、今年もアドベントカレンダー初日の盛り上げ手としてやっていきます。よろしくお願いします。
 
