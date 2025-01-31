@@ -1,0 +1,14 @@
+@layer theme, base, components, utilities;
+@import "tailwindcss/utilities.css" layer(utilities);
+
+@theme {
+  --spacing-y-rhythm-1: var(--y-rhythm-1);
+  --spacing-y-rhythm-2: var(--y-rhythm-2);
+  --spacing-y-rhythm-3: var(--y-rhythm-3);
+  --spacing-y-rhythm-4: var(--y-rhythm-4);
+  --spacing-y-rhythm-5: var(--y-rhythm-5);
+  --color-y-white-base: var(--y-white-base);
+  --color-y-black-base: var(--y-black-base);
+  --color-y-white-medium: var(--y-white-medium);
+  --color-y-arcticle-border-color: var(--y-arcticle-border-color);
+}
