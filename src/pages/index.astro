@@ -5,6 +5,7 @@ import Footer from '../components/Footer.astro'
 import OpenPageFindModal from '../components/OpenPageFindModal.astro'
 import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
 import dayjs from 'dayjs'
+import "../styles/global.css";
 
 import { getCollection } from 'astro:content';
 const posts = (await getCollection('archives')).sort(
