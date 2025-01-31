@@ -35,7 +35,7 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
       @reference "../styles/global.css";
       @layer components {
         .footnotes {
-          @apply relative pt-y-rhythm-3 before:absolute before:top-[0px] before:left-[0px] before:w-full before:h-[1px] before:bg-y-arcticle-border-color;
+          @apply relative pt-y-rhythm-3 before:absolute before:top-0 before:left-0 before:w-full before:h-[1px] before:bg-y-arcticle-border-color;
         }
         .footnotes h2 {
           @apply sr-only;
@@ -56,8 +56,8 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
           <time class="m-y-rhythm-2">created at: {dayjs(post.data.date).format('YYYY-MM-DD')}</time>
           <a class="m-y-rhythm-2" href={editLink} target="_blank" rel="noopener">GitHub Edit Page</a>
         </div>
-        <div class="notes flex items-center flex-wrap gap-[5px] my-y-rhythm-3 mx-0 p-y-rhythm-2 rounded border-2 border-solid border-y-black-base bg-[#f3f4f6] dark:border-y-white-medium dark:bg-y-black-base">
-          <svg class="w-[30px] h-[30px]" role="img" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <div class="notes flex items-center flex-wrap gap-1 my-y-rhythm-3 mx-0 p-y-rhythm-2 rounded border-2 border-solid border-y-black-base bg-[#f3f4f6] dark:border-y-white-medium dark:bg-y-black-base">
+          <svg class="w-6 h-6" role="img" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
             <path d="M12 2L2 22h20L12 2z"></path>
             <path d="M12 10v5"></path>
             <path d="M12 18v.01"></path>
