@@ -31,10 +31,10 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
   <head>
     <BaseHead title={`${post.data.title} | yamanoku.net`} description={post.data.description ? post.data.description : SITE_DESCRIPTION} noindex={post.data.noindex} />
     <style is:global>
-      @tailwind components;
+      @reference "../styles/global.css";
       @layer components {
         .footnotes {
-          @apply relative pt-y-rhythm-3 before:content-[''] before:absolute before:top-0 before:left-0 before:w-full before:h-[1px] before:bg-y-arcticle-border-color;
+          @apply relative pt-y-rhythm-3 before:absolute before:top-0 before:left-0 before:w-full before:h-[1px] before:bg-y-arcticle-border-color;
         }
         .footnotes h2 {
           @apply sr-only;
