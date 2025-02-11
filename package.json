@@ -8,7 +8,9 @@
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",
     "prettier": "prettier --write .",
-    "generate-og-image": "node ogp/generate-og-image.mjs"
+    "generate-og-image": "node ogp/generate-og-image.mjs",
+    "test": "node --test --experimental-test-snapshots",
+    "test:update": "node --test --experimental-test-snapshots --test-update-snapshots"
   },
   "dependencies": {
     "@astrojs/rss": "4.0.11",
