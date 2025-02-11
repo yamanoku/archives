@@ -1,0 +1,29 @@
+exports[`BudouX snapshots tests > 半角スペース・半角英数字含めるテキスト 1`] = `
+[
+  "GAAD Japan 2022 で",
+  "スポンサー協賛と",
+  " LT を",
+  "してきました"
+]
+`;
+
+exports[`BudouX snapshots tests > 半角英数字含めるテキスト 1`] = `
+[
+  "JavaScript無効に",
+  "した",
+  "ときの",
+  "ユーザビリティとかに",
+  "ついて"
+]
+`;
+
+exports[`BudouX snapshots tests > 日本語テキストのみ 1`] = `
+[
+  "コミットメッセージと",
+  "コミットの",
+  "粒度に",
+  "ついて",
+  "思った",
+  "こと"
+]
+`;

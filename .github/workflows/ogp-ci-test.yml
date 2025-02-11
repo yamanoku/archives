@@ -1,0 +1,32 @@
+name: OGP CI Test
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'ogp/**'
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    strategy:
+      matrix:
+        node-version: [latest]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm ci
+        run: npm ci
+      - name: Test
+        run: npm run test
+        env:
+          CI: true

@@ -6,6 +6,12 @@
   "major": {
     "automerge": false
   },
+  "packageRules": [
+    {
+      "matchPackageNames": ["budoux", "gray-matter", "prettier"],
+      "labels": ["ogp-dependencies"]
+    }
+  ],
   "schedule": ["after 10pm and before 6am on every weekday"],
   "assignees": ["yamanoku"]
 }

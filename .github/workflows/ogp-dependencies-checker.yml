@@ -1,0 +1,34 @@
+name: OGP Dependencies Checker
+
+on:
+  pull_request:
+    types: [opened, synchronize, labeled]
+
+jobs:
+  build:
+    # プルリクエストに dependencies ラベルを付けたとき
+    # dependencies ラベルがついている状態で、 Push したとき
+    if: |
+      ((github.event.action == 'labeled') &&
+        (github.event.label.name == 'ogp-dependencies')) ||
+      ((github.event.action == 'synchronize') &&
+        contains(github.event.pull_request.labels.*.name, 'ogp-dependencies'))
+
+    runs-on: ubuntu-latest
+
+    strategy:
+      matrix:
+        node-version: [latest]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node-version }}
+      - name: npm ci
+        run: npm ci
+      - name: Test
+        run: npm run test
+        env:
+          CI: true
