@@ -1,5 +1,5 @@
 import { describe, it } from 'node:test';
-import * as assert from "node:assert";
+import * as assert from 'node:assert';
 import { getPostTitle } from '../getPostTitle.mjs';
 
 describe('getPostTitle tests', () => {

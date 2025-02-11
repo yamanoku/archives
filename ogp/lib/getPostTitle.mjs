@@ -12,10 +12,7 @@ const postsDirectory = join(process.cwd(), 'src/archives');
  * @throws {Error} - frontmatterにtitleが含まれていない場合にエラーを返す
  */
 export const getPostTitle = (filename) => {
-  const fileContents = fs.readFileSync(
-    join(postsDirectory, filename),
-    'utf8',
-  );
+  const fileContents = fs.readFileSync(join(postsDirectory, filename), 'utf8');
   const { data } = matter(fileContents);
   if (!data.title) {
     throw new Error(`${filename} には title が含まれていません`);

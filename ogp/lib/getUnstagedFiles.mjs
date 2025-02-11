@@ -7,7 +7,9 @@
 export const getUnstagedFiles = (lines) => {
   const unstagedFiles = lines
     // 登録されていない src/archives のMarkdownファイルを表す行をフィルタリング
-    .filter((line) => line.startsWith('?? src/archives') && line.endsWith('.md'))
+    .filter(
+      (line) => line.startsWith('?? src/archives') && line.endsWith('.md'),
+    )
     .map((line) => {
       const filePath = line.slice(3); // '?? 'プレフィックスを削除して相対ファイルパスを取得
       const fileName = filePath.split('/').pop();

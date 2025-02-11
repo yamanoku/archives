@@ -1,5 +1,5 @@
 import { test } from 'node:test';
-import * as assert from "node:assert";
+import * as assert from 'node:assert';
 import { join } from 'path';
 import puppeteer from 'puppeteer';
 
@@ -9,7 +9,7 @@ test('puppeteerで使用している挙動の確認', async () => {
   await page.goto('file:///' + join(process.cwd(), 'ogp/template.html'));
   const beforeText = await page.$eval('h1', (el) => el.innerHTML);
   assert.strictEqual(beforeText, 'タイトル');
-  const dummyText = "ダミーテキスト";
+  const dummyText = 'ダミーテキスト';
   // h1要素のinnerHTMLを置き換える
   await page.$eval(
     'h1',
