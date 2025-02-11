@@ -132,4 +132,4 @@ author: yamanoku
 
 ## ご清聴ありがとうございました
 
-[![Image](https://2.bp.blogspot.com/-HUTXJXs7Va4/WZVg1CzrH8I/AAAAAAABGFM/ebgsMcAigKIg69dW2U7GFIPJ91z116ZsACLcBGAs/s400/dogeza_businessman.png)](https://2.bp.blogspot.com/-HUTXJXs7Va4/WZVg1CzrH8I/AAAAAAABGFM/ebgsMcAigKIg69dW2U7GFIPJ91z116ZsACLcBGAs/s400/dogeza_businessman.png)
+[![Image](https://i.gyazo.com/6745efc47e307e9e6cb130e2120714b8.png)](https://i.gyazo.com/6745efc47e307e9e6cb130e2120714b8.png)

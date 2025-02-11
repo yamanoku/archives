@@ -220,7 +220,7 @@ marquee {
 - > Disallow content with `text-align: justify`
 - テキストの両端揃えをしたコンテンツを許可しない
   - 余白 (隙間) の川ができてしまうのを防ぐ
-    - [![Image](https://miro.medium.com/max/1400/1*yCJ2EkFtsYyKJ9K2FTDW6g.png)](https://miro.medium.com/max/1400/1*yCJ2EkFtsYyKJ9K2FTDW6g.png)
+    - [![Image](https://i.gyazo.com/280022657b69bf23feae7e6589c5e618.png)](https://i.gyazo.com/280022657b69bf23feae7e6589c5e618.png)
   - > 認知障害のある利用者の多くは、両端揃え (左右両端を揃えた配置) されたテキストのブロックで重大なトラブルに陥ることがある
     - [F88: 達成基準 1.4.8 の失敗例 － 両端揃え (左右両方のマージンを揃える) のテキストを使用している | WCAG 2.0 達成方法集](https://waic.jp/docs/WCAG-TECHS/F88.html)
 
