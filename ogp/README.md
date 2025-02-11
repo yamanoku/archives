@@ -1,11 +1,11 @@
-# generate-og-imageにまつわる仕様書
+# generateOgImageにまつわる仕様書
 
 ## 概要
 
 ```sh
 .
 |-- README.md ... 仕様書
-|-- generate-og-image.mjs ... 実行ファイル
+|-- generateOgImage.mjs ... 実行ファイル
 |-- template.html ... OGP画像用のテンプレートファイル
 `-- lib/ ... ライブラリディレクトリ
     `-- tests/ ... テストディレクトリ
