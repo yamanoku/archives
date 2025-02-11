@@ -120,7 +120,7 @@ crowdworks.jp における施策・機能開発をする際に他チームにて
 
 ![カラーパレットやテーマカラーに関する Figma データのスクリーンショット](https://i.gyazo.com/046b79d30b40359eebb87a7e46770f4f.png)
 
-![タイポグラフィに関する Figma データのスクリーンショット](https://i.gyazo.com/552c04efd6a4b2a30704dee81bc3bab9.png)
+![タイポグラフィに関する Figma データのスクリーンショット](https://i.gyazo.com/6e94f50601ceeb47401ae31c9236978e.png)
 
 ![シャドウ、ボーダー、角丸に関する Figma データのスクリーンショット](https://i.gyazo.com/75caa8d3893f6a756d4b8e58e74522d7.png)
 

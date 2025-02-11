@@ -152,7 +152,7 @@ author: yamanoku
     - First Meaningful Paint, Speed Index が合格判定、ほか赤点箇所も秒数をほぼ減らせて合計 53 点
 - 初回ロード時のリクエスト比較
   - Before
-    - [![Image](https://gyazo.com/3695db66547ec47ceeec0ede67462be2/thumb/1000)](https://gyazo.com/3695db66547ec47ceeec0ede67462be2)
+    - [![Image](https://i.gyazo.com/3695db66547ec47ceeec0ede67462be2.png)](https://gyazo.com/3695db66547ec47ceeec0ede67462be2)
     - 主に画像や動画などの読み込みが多重化しており、20000ms かかっていた
   - After
     - [![Image](https://gyazo.com/eb0aa95ee51f245a875b1843fe94c668/thumb/1000)](https://gyazo.com/eb0aa95ee51f245a875b1843fe94c668)
