@@ -14,7 +14,7 @@ jobs:
       ((github.event.action == 'synchronize') &&
         contains(github.event.pull_request.labels.*.name, 'ogp-dependencies'))
 
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     strategy:
       matrix:
