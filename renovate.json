@@ -10,6 +10,10 @@
     {
       "matchPackageNames": ["budoux", "gray-matter", "prettier"],
       "labels": ["ogp-dependencies"]
+    },
+    {
+      "matchPackageNames": ["ubuntu"],
+      "enabled": false
     }
   ],
   "schedule": ["after 10pm and before 6am on every weekday"],
