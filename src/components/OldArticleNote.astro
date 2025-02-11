@@ -1,0 +1,58 @@
+---
+type Props = {
+  date: Date;
+};
+
+const { date } = Astro.props;
+
+// dateと現在の時間との差分を取得
+const now = new Date();
+const target = date;
+const diff = now.getTime() - target.getTime();
+const diffDays = diff / (1000 * 60 * 60 * 24);
+
+/**
+ * 指定された日数から記事が1年前以上に公開されたことを判定
+ *
+ * @param {number} diffDays - 記事が公開されてからの日数
+ * @returns {boolean} - 記事が少なくとも1年前に公開されている場合はtrue、それ以外の場合はfalseを返す
+ */
+const isOldArticle = (diffDays: number): boolean => {
+  return Math.floor(diffDays / 365) >= 1;
+};
+
+/**
+ * 指定された日数から何年前かを計算
+ *
+ * @param {number} diffDays - 記事が公開されてからの日数
+ * @returns {number} - 何年前かを返す
+ */
+const getYearsAgo = (diffDays: number): number => {
+  return Math.floor(diffDays / 365);
+};
+---
+
+{
+  isOldArticle(diffDays) ? (
+    <div class="notes flex items-center flex-wrap gap-1 my-y-rhythm-3 mx-0 p-y-rhythm-2 rounded border-2 border-solid border-y-black-base bg-[#f3f4f6] dark:border-y-white-medium dark:bg-y-black-base">
+      <svg
+        class="w-6 h-6"
+        role="img"
+        aria-hidden="true"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+        <path d="M12 2L2 22h20L12 2z" />
+        <path d="M12 10v5" />
+        <path d="M12 18v.01" />
+      </svg>
+      <strong>
+        この記事は公開から{getYearsAgo(diffDays)}年以上が経過しています。内容が一部古い箇所があります。
+      </strong>
+    </div>
+  ) : null
+}
