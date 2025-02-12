@@ -4,6 +4,7 @@ import { getCollection, render } from "astro:content";
 import BaseHead from '../components/BaseHead.astro'
 import Header from '../components/Header.astro'
 import Footer from '../components/Footer.astro'
+import OldArticleNote from '../components/OldArticleNote.astro';
 import dayjs from 'dayjs'
 import { loadDefaultJapaneseParser } from 'budoux';
 
@@ -55,16 +56,7 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
           <time class="m-y-rhythm-2">created at: {dayjs(post.data.date).format('YYYY-MM-DD')}</time>
           <a class="m-y-rhythm-2" href={editLink} target="_blank" rel="noopener">GitHub Edit Page</a>
         </div>
-        <div class="notes flex items-center flex-wrap gap-1 my-y-rhythm-3 mx-0 p-y-rhythm-2 rounded border-2 border-solid border-y-black-base bg-[#f3f4f6] dark:border-y-white-medium dark:bg-y-black-base">
-          <svg class="w-6 h-6" role="img" aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M12 2L2 22h20L12 2z"></path>
-            <path d="M12 10v5"></path>
-            <path d="M12 18v.01"></path>
-          </svg>
-          <strong>
-            この記事は公開から1年以上が経過しています。内容が一部古い箇所があります。
-          </strong>
-        </div>
+        <OldArticleNote date={post.data.date} />
         <Content />
       </article>
       <p>
