@@ -8,7 +8,7 @@
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",
     "prettier": "prettier --write .",
-    "generate-og-image": "node ogp/generate-og-image.mjs",
+    "generateOgImage": "node ogp/generateOgImage.mjs",
     "test": "node --test --experimental-test-snapshots",
     "test:update": "node --test --experimental-test-snapshots --test-update-snapshots"
   },
