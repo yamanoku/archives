@@ -3,6 +3,7 @@ title: それぞれの違和感
 description: 人が感じる様々な違和感についての話です
 date: 2016-04-25
 author: yamanoku
+source: oyamaokuto.org
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/ae434ef3e5468faeb1cc16ebfe612cc2.jpg)](https://gyazo.com/ae434ef3e5468faeb1cc16ebfe612cc2)

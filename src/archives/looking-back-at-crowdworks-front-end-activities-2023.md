@@ -3,6 +3,7 @@ title: クラウドワークスのフロントエンド活動を振り返る 202
 description: クラウドワークスアドベントカレンダー2023 １日目の記事です。
 date: 2023-12-01
 author: yamanoku
+source: engineer.crowdworks.jp
 noindex: true
 ---
 

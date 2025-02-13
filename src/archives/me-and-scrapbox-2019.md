@@ -3,6 +3,7 @@ title: ぼくとScrapboxと2019
 description: 2019年とScrapboxの関係を振り返る話
 date: 2019-12-10
 author: yamanoku
+source: scrapbox.io
 ---
 
 ## 2019 年も、もう終わるのか

@@ -23,7 +23,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const pathName = canonicalURL.pathname.split('/').join('');
 const parser = loadDefaultJapaneseParser();
 
-const editLink = `https://github.com/yamanoku/archives/edit/main/src/content/archives/${pathName}.md`;
 const gitHubLink = `https://github.com/yamanoku/archives/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=feedback&body=URL：https://archives.yamanoku.net/${pathName}%0A修正依頼内容：%0A`;
 const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}&text=@yamanoku`;
 ---
@@ -54,7 +53,7 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
         <h1 set:html={parser.translateHTMLString(post.data.title)} />
         <div class="flex flex-wrap justify-between m-[calc(var(--y-rhythm-2)*-1)] p-0">
           <time class="m-y-rhythm-2">created at: {dayjs(post.data.date).format('YYYY-MM-DD')}</time>
-          <a class="m-y-rhythm-2" href={editLink} target="_blank" rel="noopener">GitHub Edit Page</a>
+          <p class="m-y-rhythm-2">出典元: <span class="italic">{post.data.source}</span></p>
         </div>
         <OldArticleNote date={post.data.date} />
         <Content />

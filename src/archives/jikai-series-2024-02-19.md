@@ -3,6 +3,7 @@ title: 自戒シリーズ（2024-02-19）
 description: 2024年2月19日に自戒した内容です
 date: 2024-02-19
 author: yamanoku
+source: sizu.me
 ---
 
 新しい趣味を始めようとして躊躇することがある。

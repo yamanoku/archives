@@ -3,6 +3,7 @@ title: CSSとわたし、正義と悪、そしてこれから。
 description: CSS Advent Calendar 2017 16日目の記事
 date: 2017-12-16
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 この記事は [CSS Advent Calendar 2017](https://qiita.com/advent-calendar/2017/css) 16 日目の記事です。

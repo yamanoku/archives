@@ -3,6 +3,7 @@ title: PlayBackTech2018
 description: 2018年に関わってきた技術に関する振り返り
 date: 2018-12-01
 author: yamanoku
+source: blog.geek.co.jp
 ---
 
 [![Image](https://gyazo.com/48d84dac71d8c0ece8e16379ede834ba/thumb/1000)](https://gyazo.com/48d84dac71d8c0ece8e16379ede834ba)

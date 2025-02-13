@@ -3,6 +3,7 @@ title: Hubot弄ってみる 準備編
 description: Slackでbotを動かすためのHubotを触ってみる話
 date: 2016-01-17
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## 経緯

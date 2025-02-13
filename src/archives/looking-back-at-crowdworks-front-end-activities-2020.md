@@ -3,6 +3,7 @@ title: クラウドワークスのフロントエンド活動を振り返る 202
 description: クラウドワークスアドベントカレンダー2020 １日目の記事です。
 date: 2020-12-01
 author: yamanoku
+source: engineer.crowdworks.jp
 noindex: true
 ---
 

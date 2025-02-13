@@ -3,6 +3,7 @@ title: 2021年オープンソースコントリビュート活動振り返り
 description: 2021年のオープンソースコントリビュート活動の振り返り記事です
 date: 2021-12-30
 author: yamanoku
+source: zenn.dev
 noindex: true
 ---
 

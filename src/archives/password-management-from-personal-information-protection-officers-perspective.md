@@ -3,6 +3,7 @@ title: 個人情報保護士の観点から見たパスワード管理につい�
 description: 社内でのパスワード管理をどうするか、という話です
 date: 2017-08-10
 author: yamanoku
+source: oyamaokuto.org
 ---
 
 http://jp.wsj.com/articles/SB12199000528276883842504583318883522596550

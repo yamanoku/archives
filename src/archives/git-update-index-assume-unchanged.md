@@ -3,6 +3,7 @@ title: config.jsonのhostnameをいちいち変えなくてもいい方法
 description: config.jsonのhostnameをいちいち変えなくてもいい方法について
 date: 2015-12-24
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## 背景

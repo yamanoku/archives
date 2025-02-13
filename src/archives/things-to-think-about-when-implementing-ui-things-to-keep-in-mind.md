@@ -3,6 +3,7 @@ title: UI の実装で考えていること, 気をつけたいこと
 description: UI の実装で考えていること, 気をつけたいことの記事です
 date: 2020-12-09
 author: yamanoku
+source: zenn.dev
 noindex: true
 ---
 

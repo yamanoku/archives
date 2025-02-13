@@ -3,6 +3,7 @@ title: よい手本を求める生き方
 description: よい手本を求める生き方について
 date: 2017-03-09
 author: yamanoku
+source: oyamaokuto.org
 ---
 
 ![](https://i.gyazo.com/45f49f76855d41e548d3a16d0b92e98b.png)

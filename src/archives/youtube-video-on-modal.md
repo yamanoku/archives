@@ -3,6 +3,7 @@ title: モーダルでYoutube動画流すことへの所感
 description: モーダルでYoutube動画流すことについて思ったことです
 date: 2016-08-24
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## 結論

@@ -3,6 +3,7 @@ title: CodeClimateで.vueファイルも判定させる
 tags: CodeClimate Vue.js JavaScript YAML
 date: 2017-08-29
 author: yamanoku
+source: qiita.com
 ---
 
 ## 概要

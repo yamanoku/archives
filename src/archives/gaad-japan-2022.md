@@ -3,6 +3,7 @@ title: GAAD Japan 2022 でスポンサー協賛と LT をしてきました
 description: GAAD Japan 2022でスポンサー協賛とLTをしてきた話です
 date: 2022-06-01
 author: yamanoku
+source: engineer.crowdworks.jp
 noindex: true
 ---
 

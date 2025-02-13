@@ -3,6 +3,7 @@ title: imgのalt何入れるか問題（WAI-ARIA回避編）
 description: imgのaltに何を入れるか、その時にWAI-ARIAで回避するという話です
 date: 2017-11-21
 author: yamanoku
+source: scrapbox.io
 ---
 
 alt に文字画像とかあれば入れるのは常なんだが、たとえば商品画像とかがそのままポンと置いてあると説明しづらい。

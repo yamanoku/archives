@@ -3,6 +3,7 @@ title: カスタムデータ属性（data-*）の値に複数設定、それを�
 description: HTML HTML5 data属性 jQuery
 date: 2017-06-22
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 カスタムデータ属性（`data-*`）は基本、属性値を１つのみしか設定できませんが、いわゆる**配列** 、**オブジェクト**化させることで複数設定が可能になります。

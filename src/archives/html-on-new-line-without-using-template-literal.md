@@ -3,6 +3,7 @@ title: テンプレートリテラルつかわずに改行してHTML表示する
 description: テンプレートリテラルつかわずに改行してHTML表示する方法です
 date: 2018-02-19
 author: yamanoku
+source: scrapbox.io
 ---
 
 ちょっとビビった。たしかにそういうやり方があるにはあるのだが。

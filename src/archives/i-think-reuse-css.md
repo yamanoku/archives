@@ -3,6 +3,7 @@ title: 最近考えてる「使いまわせるCSS」について
 description: 使い回せるCSS
 date: 2017-04-27
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## 色々設計思想がありますが

@@ -3,6 +3,7 @@ title: クラウドワークスのフロントエンド活動を振り返る 202
 description: クラウドワークスアドベントカレンダー2022 １日目の記事です。
 date: 2022-12-01
 author: yamanoku
+source: engineer.crowdworks.jp
 noindex: true
 ---
 

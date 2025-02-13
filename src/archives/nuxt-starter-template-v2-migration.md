@@ -3,6 +3,7 @@ title: vue-cliで作ったNuxtスターターキットでNuxt1 => 2に上げる�
 description: Vue.js vue-cli nuxt.js nuxt2 初心者
 date: 2018-09-21
 author: yamanoku
+source: qiita.com
 ---
 
 ## 追記（2018/10/26）

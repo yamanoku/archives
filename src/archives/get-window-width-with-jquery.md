@@ -3,6 +3,7 @@ title: jQuery - スクロールバーも入れて幅検知する
 description: jQueryを使ってスクロールバーも入れて幅検知する話
 date: 2015-12-14
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## 背景

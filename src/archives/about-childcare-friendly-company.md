@@ -3,6 +3,7 @@ title: 育児にやさしい会社
 description: 育児にやさしい会社についての話です
 date: 2016-07-19
 author: yamanoku
+source: oyamaokuto.org
 ---
 
 というのは伸びる会社、みたいな言説があるとは思いますがあれはだいたい合ってるんですが少し違う気がしている。

@@ -3,6 +3,7 @@ title: 自分のやりたいことに正直になる
 description: 自分のやりたいことに正直になることについての話です
 date: 2023-12-30
 author: yamanoku
+source: size.me
 ---
 
 [takanorip](https://takanorip.com/)と一緒に２年以上続けているポッドキャスト「[お元気ですか.fm](https://podcasters.spotify.com/pod/show/ogenkidesuka-fm/)」にて年内最終収録が公開されました。年末ということで今年の振り返りと来年のことについてを喋りました。

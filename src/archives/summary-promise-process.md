@@ -3,6 +3,7 @@ title: Promise処理について雑にまとめる
 description: JavaScript ES6 Promise
 date: 2017-05-28
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## Promise とは

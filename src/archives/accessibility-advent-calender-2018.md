@@ -3,6 +3,7 @@ title: 2018年のアクセシビリティ活動振り返りとこれからやり
 description: 2018年でやってきたアクセシビリティにまつわる活動と来年以降でやりたいと思ってること
 date: 2018-12-19
 author: yamanoku
+source: scrapbox.io
 ---
 
 この記事は [Web アクセシビリティ Advent Calendar 2018](https://adventar.org/calendars/3039) 19 日目の記事になります。<br>

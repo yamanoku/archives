@@ -3,6 +3,7 @@ title: 書いた記事をアップデートすること
 description: 書いた記事をアップデートすることについて
 date: 2017-07-11
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 [CSS のプロパティ記述順についてどうするかの話 - Qiita](https://qiita.com/yamanoku/items/9d10af70eb5b3f483146)

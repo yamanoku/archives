@@ -3,6 +3,7 @@ title: colorbox - iframeでYoutube使う時の諸注意
 description: colorboxでYoutube使う時の諸注意について
 date: 2016-03-23
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## 経緯

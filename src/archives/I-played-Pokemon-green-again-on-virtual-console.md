@@ -3,6 +3,7 @@ title: ポケモン初代をVCで改めてやった
 description: ポケモン初代をVCで改めてやった話です
 date: 2016-08-16
 author: yamanoku
+source: oyamaokuto.org
 ---
 
 ![](https://i.gyazo.com/2950981f9e6358a2d7fdfdd45b579f86.png)

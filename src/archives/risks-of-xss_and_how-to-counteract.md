@@ -3,6 +3,7 @@ title: 敵を知り己を知ればXSS危うからず
 description: XSSについての話と基本的な対策について
 date: 2016-07-19
 author: yamanoku
+source: blog.geek.co.jp
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/a6c2744e875f9ebadb3a9e70bd3d0f89.png)](https://gyazo.com/a6c2744e875f9ebadb3a9e70bd3d0f89)

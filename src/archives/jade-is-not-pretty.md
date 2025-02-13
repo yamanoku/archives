@@ -3,6 +3,7 @@ title: Jadeのprettyはアテにならなかった話（と今更ですがPugに
 decription: JadeのprettyがアテにならなかったこととPugに関することの言及
 date: 2016-09-23
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## 経緯

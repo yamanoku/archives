@@ -3,6 +3,7 @@ title: 久しぶりに転職ドラフトをやってみた
 description: 久しぶりに転職ドラフトをやってみた話です
 date: 2024-02-06
 author: yamanoku
+source: sizu.me
 ---
 
 思うところがあって、久々に[転職ドラフト](https://job-draft.jp/)というものを使ってみている。

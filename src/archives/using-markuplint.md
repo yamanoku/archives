@@ -3,6 +3,7 @@ title: markuplintをプロダクトに導入してみた
 description: markuplintをプロダクトに導入してみた話です
 date: 2021-10-07
 author: yamanoku
+source: engineer.crowdworks.jp
 noindex: true
 ---
 

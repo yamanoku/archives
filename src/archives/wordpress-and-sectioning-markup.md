@@ -3,6 +3,7 @@ title: WordPressの組込みをするときに思うセクショニングの話
 description: WordPressにまつわる情報設計について
 date: 2016-12-27
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## みなさんセクショニングマークアップしてますか

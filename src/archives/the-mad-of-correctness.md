@@ -3,6 +3,7 @@ title: 正しさの狂人
 description: 正しくなることに意固地になるのは狂気のはじまりという話
 date: 2015-11-11
 author: yamanoku
+source: oyamaokuto.org
 ---
 
 [いやしくも生について正確に伝えようとするなら病的になる他ない: DESIGN IT! w/LOVE](http://gitanez.seesaa.net/article/429288298.html)
