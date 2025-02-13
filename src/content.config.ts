@@ -7,6 +7,7 @@ const archives = defineCollection({
     date: z.date(),
     title: z.string(),
     description: z.string().optional(),
+    source: z.string(),
     noindex: z.boolean().optional(),
   }),
 });
