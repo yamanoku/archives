@@ -3,6 +3,7 @@ title: 自分の周辺情報をまとめる静的サイトをつくった
 description: CSSやSassの変数名について考え直してみようという話
 date: 2019-12-19
 author: yamanoku
+source: scrapbox.io
 ---
 
 ## 令和元年台風第 19 号すごかったですね

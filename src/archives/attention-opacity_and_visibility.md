@@ -3,6 +3,7 @@ title: opacity、visibilityで要素消した時の注意点
 description: CSSでopacity、visibilityで要素消した時の注意点についてです
 date: 2016-03-07
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 マテリアルデザインの CSS アニメーションが顕著になってきましたが業務での気付きがあったので共有メモ。

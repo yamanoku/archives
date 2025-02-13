@@ -3,6 +3,7 @@ title: Vue Fes Japan Online 2022 にクラウドワークスのエンジニア�
 description: Vue Fes Japan Online 2022 にクラウドワークスのエンジニアが登壇するので宣伝記事を書きました
 date: 2022-10-11
 author: yamanoku
+source: engineering.crowdworks.jp
 noindex: true
 ---
 

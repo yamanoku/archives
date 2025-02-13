@@ -3,6 +3,7 @@ title: よく分かってなくてもNuxt.jsでPWAが作れた話
 description: PWA nuxt.js Slack AWSLambda Netlify
 date: 2018-12-06
 author: yamanoku
+source: qiita.com
 ---
 
 この記事は[PWA Advent Calendar 2018](https://qiita.com/advent-calendar/2018/pwa)の 6 日目の記事になります。

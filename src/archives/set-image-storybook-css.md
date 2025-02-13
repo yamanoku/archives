@@ -3,6 +3,7 @@ title: StorybookでCSSに画像を指定をしたい時
 description: storybook CSS package.json
 date: 2017-08-30
 author: yamanoku
+source: qiita.com
 ---
 
 小ネタ。

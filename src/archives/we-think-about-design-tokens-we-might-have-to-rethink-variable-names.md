@@ -3,6 +3,7 @@ title: Design Tokensを考える前に俺たちは変数名について考え直
 description: CSSやSassの変数名について考え直してみようという話
 date: 2019-10-02
 author: yamanoku
+source: scrapbox.io
 ---
 
 ## 今回の話すこと・話さないこと

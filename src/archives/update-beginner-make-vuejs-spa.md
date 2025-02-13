@@ -3,6 +3,7 @@ title: よく分かってないでvue-cliで作ったVue.js製SPAをアップデ
 description: Vue.js vue-cli vue-router
 date: 2018-01-21
 author: yamanoku
+source: qiita.com
 ---
 
 前回 => https://qiita.com/yamanoku/items/41df5c05c5c89714ea3c

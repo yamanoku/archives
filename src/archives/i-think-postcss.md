@@ -3,6 +3,7 @@ title: PostCSSの雑感
 description: PostCSSについての感想です
 date: 2017-08-06
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/e62249bd6564515f104ff2c300072ff6.jpg)](https://gyazo.com/e62249bd6564515f104ff2c300072ff6)

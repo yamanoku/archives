@@ -3,6 +3,7 @@ title: 「教える」のは難しい技術である
 description: 教え方について考えた話です
 date: 2014-04-11
 author: yamanoku
+source: oyamaokuto.org
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/628338659a05e326da02b7d2531e5f2d.png)](https://gyazo.com/628338659a05e326da02b7d2531e5f2d)

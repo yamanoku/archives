@@ -3,6 +3,7 @@ title: Vue Fes Japan 2023 にクラウドワークスのエンジニアが登壇
 description: Vue Fes Japan 2023 にクラウドワークスのエンジニアが登壇するので宣伝記事を書きました
 date: 2023-09-07
 author: yamanoku
+source: engineering.crowdworks.jp
 noindex: true
 ---
 

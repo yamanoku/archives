@@ -3,6 +3,7 @@ title: PlayBackTech2017
 description: 2017年に関わってきた技術に関する振り返り
 date: 2017-12-01
 author: yamanoku
+source: blog.geek.co.jp
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/baf0bffa88a384d25b672d4f9cecaa62.jpg)](https://gyazo.com/baf0bffa88a384d25b672d4f9cecaa62)

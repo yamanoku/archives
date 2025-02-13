@@ -3,6 +3,7 @@ title: インプットをしまくってアウトプットもした2018年につ
 description: インプットやアウトプットをした2018年についての話です
 date: 2018-12-15
 author: yamanoku
+source: blog.geek.co.jp
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/60f869fb8d060073a7af85db11402aa2.png)](https://gyazo.com/60f869fb8d060073a7af85db11402aa2)

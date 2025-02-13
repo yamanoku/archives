@@ -3,6 +3,7 @@ title: mediaqueryとreset.cssの管理
 description: stylusによるmediaqueryとreset.cssの管理について
 date: 2016-02-11
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## mediaquery 管理

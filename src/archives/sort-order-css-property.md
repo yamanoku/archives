@@ -3,6 +3,7 @@ title: CSSのプロパティ記述順についてどうするかの話
 description: CSS CSS設計 css-comb
 date: 2016-07-01
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## 記述順どうしてますか？

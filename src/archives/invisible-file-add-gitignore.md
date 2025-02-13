@@ -3,6 +3,7 @@ title: .DS_Store以外の隠しファイルを.gitignoreするやり方
 tags: Git gitignore
 date: 2017-07-24
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 小ネタ。

@@ -3,6 +3,7 @@ title: 作業時間を記録する話
 description: togglで作業時間を記録する話について
 date: 2015-11-30
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## きちんと把握できているか

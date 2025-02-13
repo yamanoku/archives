@@ -3,6 +3,7 @@ title: Intersection Observer が良さそうなので試してみた
 description: テスト
 date: 2017-07-18
 author: yamanoku
+source: qiita.com
 ---
 
 ## スクロールでのイベント制御はしんどい。
@@ -176,5 +177,4 @@ Safari12.1 でも Intersection Observer API がサポートされるようにな
 - [Intersection Observer 1 日本語訳](https://triple-underscore.github.io/IntersectionObserver-ja.html#intersection-observer-callback)
 - [FRESH! Web パフォーマンス改善 〜クライアントサイド編〜](https://developers.cyberagent.co.jp/blog/archives/6057/)
 - [Intersection Observer を用いた要素出現検出の最適化](https://blog.jxck.io/entries/2016-06-25/intersection-observer.html)
-- [Quick introduction to the Intersection Observer API
-  ](https://jeremenichelli.github.io/2016/04/quick-introduction-to-the-intersection-observer-api/)
+- [Quick introduction to the Intersection Observer API](https://jeremenichelli.github.io/2016/04/quick-introduction-to-the-intersection-observer-api/)

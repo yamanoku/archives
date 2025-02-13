@@ -3,6 +3,7 @@ title: すくすく！子育てエンジニアMeetUpが自分を救ってくれ�
 description: すくすく！子育てエンジニアMeetUpに救われた話です
 date: 2018-12-09
 author: yamanoku
+source: blog.geek.co.jp
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/6dd0f6163d57807d34a856d8f9472f35.png)](https://gyazo.com/6dd0f6163d57807d34a856d8f9472f35)

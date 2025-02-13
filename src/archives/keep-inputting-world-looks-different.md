@@ -3,6 +3,7 @@ title: インプットを限りなくやったら見える世界は変わって�
 description: インプットを限りなくやったら見える世界は変わってくることの話
 date: 2019-05-28
 author: yamanoku
+source: scrapbox.io
 ---
 
 ## 話すことについて

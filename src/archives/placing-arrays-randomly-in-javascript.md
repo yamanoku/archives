@@ -3,6 +3,7 @@ title: JavaScriptでの配列ランダム配置
 description: JavaScriptでの配列をランダムで配置する方法について
 date: 2019-05-10
 author: yamanoku
+source: scrapbox.io
 ---
 
 ## フィッシャーイェーツのシャッフル

@@ -3,6 +3,7 @@ title: denoについて調べたことを共有する
 description: denoについて調べたことについての話
 date: 2019-06-27
 author: yamanoku
+source: scrapbox.io
 ---
 
 ## 今回のテーマ：[deno](https://scrapbox.io/yamanoku/deno)について

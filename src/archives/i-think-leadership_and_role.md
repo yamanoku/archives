@@ -3,6 +3,7 @@ title: 舵は誰が取るべきなのか。そして役割。
 description: リーダーシップとか役割とかそういうことについて考えた話
 date: 2016-11-06
 author: yamanoku
+source: oyamaokuto.org
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/fd8b2e7b388e05d39aad2dec55e5ac9c.png)](https://gyazo.com/fd8b2e7b388e05d39aad2dec55e5ac9c)

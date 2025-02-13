@@ -3,6 +3,7 @@ title: PWA版Twitterをスクリーンリーダー検証してみる
 description: PWA版Twitterをスクリーンリーダー検証してみた話です
 date: 2021-06-26
 author: yamanoku
+source: scrapbox.io
 ---
 
 ## PWA Night CONFERENCE 2021 お疲れさまでした

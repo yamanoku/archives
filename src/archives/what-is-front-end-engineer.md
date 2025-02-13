@@ -3,6 +3,7 @@ title: フロントエンドエンジニアってどんな生き物なのか
 description: フロントエンドエンジニアの生態について考える
 date: 2017-02-26
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 こないだ他業種（SE）の人と偶然呑む機会があって、自分の同僚が「ME をやってます」って伝えたんだけど「ME ってなんですか？」と返されました。

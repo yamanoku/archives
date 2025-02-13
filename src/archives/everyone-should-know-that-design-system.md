@@ -3,6 +3,7 @@ title: みんなに知ってもらいたいデザインシステムのこと
 description: みんなに知ってもらいたいデザインシステムの説明です
 date: 2019-12-15
 author: yamanoku
+source: note.com
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/fbb497cbab8715df69b3cdbb47879216.png)](https://gyazo.com/fbb497cbab8715df69b3cdbb47879216)

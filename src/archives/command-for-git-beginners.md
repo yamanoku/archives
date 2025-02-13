@@ -3,6 +3,7 @@ title: 初心者にGit教える時に必要最低限のCUIコマンド
 description: 初心者にGit教える時に必要最低限のCUIコマンド
 date: 2017-01-16
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 ## 前提条件

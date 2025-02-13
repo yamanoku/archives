@@ -3,6 +3,7 @@ title: チャージャーに慣れるためにやったこと
 description: スプラトゥーンでチャージャーを使えるようになるまでにやった話です
 date: 2015-11-25
 author: yamanoku
+source: oyamaokuto.org
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/814e42e7eb13b28671a74486eb3561b6.jpg)](https://gyazo.com/814e42e7eb13b28671a74486eb3561b6)

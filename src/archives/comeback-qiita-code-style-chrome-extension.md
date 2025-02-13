@@ -3,6 +3,7 @@ title: Qiita記事のコードスタイル部分を以前のやつに戻すChrom
 description: chrome-extension Qiita CSS
 date: 2017-12-04
 author: yamanoku
+source: qiita.com
 noindex: true
 ---
 

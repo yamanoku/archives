@@ -3,6 +3,7 @@ title: JavaScript無効にしたときのユーザビリティとかについて
 description: JavaScript無効にしたときのユーザビリティとかについて
 date: 2017-05-01
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 社内で話した内容で気づけてよかったことなのでまとめてみる。自戒も込めてます。

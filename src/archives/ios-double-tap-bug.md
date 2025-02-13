@@ -3,6 +3,7 @@ title: iOSでダブルタップしないとリンク反応しないバグ対応�
 description: iOS JavaScript CSS
 date: 2017-07-27
 author: yamanoku
+source: yamanoku.hatenablog.com
 ---
 
 もともと iOS8 であったバグだが、8 以降でもこのバグが発生することがあるので備忘録。
