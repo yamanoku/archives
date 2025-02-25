@@ -28,7 +28,7 @@ source: yamanoku.hatenablog.com
 
 そうした結果に行き着くまでのいくつもの点をつなげてみると、より洗練されたものになるのではないでしょうか。
 
-[iOS でダブルタップしないとリンク反応しないバグ対応について - Qiita](https://qiita.com/yamanoku/items/5b95907aa82ad5f16556)
+[iOS でダブルタップしないとリンク反応しないバグ対応について](./ios-double-tap-bug)
 
 ## 日本語情報があるか
 
@@ -38,7 +38,7 @@ source: yamanoku.hatenablog.com
 
 結構プロジェクトによっては、とあるバージョンのまま日本語記事が書かれていない場合もあったりします。
 
-[Velocity.js 一時停止・再生機能について - Qiita](https://qiita.com/yamanoku/items/23e56a428aaa4fad7040)
+[Velocity.js 一時停止・再生機能について](./velocityjs-pause_and_resume-functions)
 
 ## 実際に試した内容か
 
@@ -48,7 +48,7 @@ source: yamanoku.hatenablog.com
 
 試した結果とかは codepen とか codesandbox など、実際のプロジェクトに置いて各自で試してもらうなど、形として残しておくとなお良いかと思います。
 
-[よく分かってなくても Vue.js で動くモノが作れた話 - Qiita](https://qiita.com/yamanoku/items/41df5c05c5c89714ea3c)
+[よく分かってなくてもVue.jsで動くモノが作れた話](./beginner-make-vuejs-spa)
 
 ## 試した・変えてみたことがどうなったか
 
@@ -56,7 +56,7 @@ source: yamanoku.hatenablog.com
 
 もちろん上手くいくことがすべてではなく、失敗して共有すらできないこともあるかと思いますが、できる限り咀嚼してみて同じ轍を踏まないようにしてあげる(たとえ届かなくても)のも、業界全体を良くすることだと思えば価値はあるかなと思います。
 
-[よく分かってなくても Vue.js で動くモノが作れた話 - Qiita](https://qiita.com/yamanoku/items/41df5c05c5c89714ea3c)
+[よく分かってなくてもVue.jsで動くモノが作れた話](./beginner-make-vuejs-spa)
 
 [社内分報 ver 2.0 について](./slack-times-version_02)
 

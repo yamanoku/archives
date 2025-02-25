@@ -81,4 +81,4 @@ ratings:
 
 試したプロジェクト：[https://codeclimate.com/github/yamanoku/vue_portfolio_templete](https://codeclimate.com/github/yamanoku/vue_portfolio_templete)
 
-作った経緯：http://qiita.com/yamanoku/items/41df5c05c5c89714ea3c
+作った経緯：[よく分かってなくてもVue.jsで動くモノが作れた話](./beginner-make-vuejs-spa)

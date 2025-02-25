@@ -13,8 +13,8 @@ source: blog.geek.co.jp
 - アニメーション案件で使用してみました。
 - これまで CSS3 アニメーションなりで無理やり動かしていたところをぬるぬるアニメーションさせたい用に検討。[jQuery]と親和性があるのでバリバリ使えました。
 - 公式がドキュメント更新してなかったので知らなかったけど調べたら`pause`と`resume`というのがあった。
-  - [Velocity.js 一時停止・再生機能について https://qiita.com/yamanoku/items/23e56a428aaa4fad7040]
-- 付随して、GPU]での処理（position 要素の廃止、transform の使用）、[will-change)の存在などパフォーマンスは出来る限り高められるような設定などもしました。
+  - [Velocity.js 一時停止・再生機能について](./velocityjs-pause_and_resume-functions)
+- 付随して、GPUでの処理（position 要素の廃止、transform の使用）、will-changeの存在などパフォーマンスは出来る限り高められるような設定などもしました。
 
 ## ES5 => ES6 対応
 
@@ -24,7 +24,7 @@ source: blog.geek.co.jp
 - 個人リポジトリの JS も ES6 対応しつつあります。
   - https://github.com/yamanoku/birthday-countdown-js/releases/tag/v2.0.0
 - jQuery とアロー関数は最悪の組み合わせとのことで、jQuery を捨てる１つの材料となりそう。
-  - jQuery とアロー関数の微妙な関係 https://qiita.com/mogya/items/1d6a0eadc7e0f9d2982b)
+  - [jQuery とアロー関数の微妙な関係](https://qiita.com/mogya/items/1d6a0eadc7e0f9d2982b)
   - [jQuery を使うときに安易にアロー関数を使ってはいけない(戒め)](http://www.pandanoir.info/entry/2017/11/04/190000)
 
 ## Docker + WordPress
@@ -45,14 +45,14 @@ source: blog.geek.co.jp
   - 均等割付した折り返し Flexbox の最後の行
 - `order`や`flex-grow`とか`flex-shrink`には地味にお世話になったかも。
 - あと`column-reverse`とか。
-- 来年は[Grid Layout]も考えていきたい。
+- 来年はGrid Layoutも考えていきたい。
   - [CSS Grid Layout – Can I use](https://caniuse.com/#feat=css-grid)
   - [これからの CSS は margin 禁止！？CSS グリッドレイアウトやコンポーネント指向な CSS について、矢倉さんに聞いてきた！](https://html5experts.jp/shumpei-shiraishi/24439/)
 
 ## Intersection Observer がもたらすスクロールイベントにおける革命
 
 - いままでスクロールをさせてイベントを発火させていたところを、ウィンドウや要素・コンポーネント同士が交差するときを監視してイベント発火させるようなものに変更してみた感じです。
-  - [Intersection Observer が良さそうなので試してみた](https://qiita.com/yamanoku/items/027308e23cfc69845d7e)
+  - [Intersection Observer が良さそうなので試してみた](./intersection-observer)
 - inview.js ほか scroll イベント動作といった負荷がかかったり、管理が煩わしかった部分を解消してくれた気がします。
 - polyfill でなんとかなってるので今後も積極的に対応していきたいです。
   - `<script src="https://polyfill.io/v2/polyfill.min.js?features=IntersectionObserver"></script>`
@@ -75,7 +75,7 @@ source: blog.geek.co.jp
 - 正直な所「すごく便利」という認識まで個人的においつけなかったのが反省点。
 - とはいえ型定義しておくことのメリット・重要性みたいなのは理解した。
   - とりあえず覚えたのは`any`で宣言しとけばなんとかなるということです（雑）
-- Storybook も活かしきれるまでには至らず、また、React.js) v16 にて互換性がなかったため見送り。
+- Storybook も活かしきれるまでには至らず、また、React.js v16 にて互換性がなかったため見送り。
   - 企業別 Storybook 集 => https://storybook.js.org/examples/
 - 関係ないですけど、React16.2 からの Fragment 用の新しいシンタックスが出て`div`で括らなくなったのすごくいいですね
 
@@ -105,7 +105,7 @@ render() {
 
 - 社内で GitHub での開発がスタート。１案件＋社内ツールプロジェクトなどでジョイン中。
   - https://github.com/geekcojp
-- メリットとしては GitHub 用のツールとの連携とかで、いままで backlog)のリポジトリ内管理だったので、いろんなことが出来ることが知れてよかった。
+- メリットとしては GitHub 用のツールとの連携とかで、いままで backlogのリポジトリ内管理だったので、いろんなことが出来ることが知れてよかった。
   - [backlog 上で案件・進捗管理をしていた自分が Github に触れてみた感想](./thinks-of-backlog-to-github)
 - 自動化ツールの CircleCI ほか CodeClimate についても体験。やはり間違いを減らす・機械的に判定してもらうというのは良い。
   - ただ一時期開発中にエラーばかり吐いてバツマークが付きすぎてたので`ci skip`を多用していた時期がありました。
@@ -130,7 +130,7 @@ render() {
 - 去年、個人的に動かしてみて理解につなげてみてましたが、実は社内案件でこっそり使い始めています。
 - Nuxt.js は興味湧いたので個人的に触ってみてます。SPA、SSR ほか静的ジェネレータとしても使えるようなのでマークアップ案件で活かせないかと検討中。
   - [Vue.js 製フレームワーク Nuxt.js ではじめる Universal アプリケーション開発](https://html5experts.jp/potato4d/24346/)
-- やっぱり素として使うにはそれなりにコストがでてくる（モジュールやプラグインを使いたい時とか）ので、やっぱり[webpack]とかでビルドできるような動かした方が必要に感じました。
+- やっぱり素として使うにはそれなりにコストがでてくる（モジュールやプラグインを使いたい時とか）ので、やっぱりwebpackとかでビルドできるような動かした方が必要に感じました。
   - https://www.slideshare.net/ShoheiOkada/1-vuejs
   - この辺見たんですけど 1000 行の`new Vue()`が気になってしょうがない。
 - さくらインターネット株式会社様も Vue.js バリバリ使ってる or 使おうとしているようです
