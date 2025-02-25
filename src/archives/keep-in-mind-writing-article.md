@@ -58,7 +58,7 @@ source: yamanoku.hatenablog.com
 
 [よく分かってなくても Vue.js で動くモノが作れた話 - Qiita](https://qiita.com/yamanoku/items/41df5c05c5c89714ea3c)
 
-[社内分報 ver 2.0 について - やまろぐはてな](https://yamanoku.hatenablog.com/entry/2016/12/26/%E7%A4%BE%E5%86%85%E5%88%86%E5%A0%B1_ver_2.0%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+[社内分報 ver 2.0 について](./slack-times-version_02)
 
 ## 個人でやってみたこと、社内で試したこと
 
@@ -68,7 +68,7 @@ source: yamanoku.hatenablog.com
 
 この辺は宣伝にもなりそうなんで Qiita なり諸般の場所で書くのは程度問題にはなりますが、個人ブログや企業ブログに書いてみるというのもありかもしれません。それが結果として興味を持ってもらえる材料にもなるので。
 
-[在宅勤務に関してやってみて思うこと - やまろぐはてな](https://yamanoku.hatenablog.com/entry/2016/04/20/205042)
+[在宅勤務に関してやってみて思うこと](./i-think-working-from-home)
 
 ## ゆるく書く意識
 
@@ -85,4 +85,4 @@ source: yamanoku.hatenablog.com
 
 ## 合わせて読みたい
 
-[書いた記事をアップデートすること - やまろぐはてな](https://yamanoku.hatenablog.com/entry/2017/07/11/%E6%9B%B8%E3%81%84%E3%81%9F%E8%A8%98%E4%BA%8B%E3%82%92%E3%82%A2%E3%83%83%E3%83%97%E3%83%87%E3%83%BC%E3%83%88%E3%81%99%E3%82%8B%E3%81%93%E3%81%A8)
+[書いた記事をアップデートすること](./update-for-writed-article)
