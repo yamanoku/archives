@@ -10,7 +10,7 @@ source: yamanoku.hatenablog.com
 
 ## おさらい
 
-[作業時間を記録する話](http://yamanoku.hatenablog.com/entry/2015/11/30/182731)
+[作業時間を記録する話](./record-amount-of-work)
 
 分報分からん人向けに言うと、1 日のことを報告する日報を分刻みレベルで今何しているかを Slack とかのチャットツールで自分用のチャンネルを作って報告するというもの（詳しくは以下を御覧ください）
 

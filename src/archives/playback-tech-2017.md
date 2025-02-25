@@ -106,7 +106,7 @@ render() {
 - 社内で GitHub での開発がスタート。１案件＋社内ツールプロジェクトなどでジョイン中。
   - https://github.com/geekcojp
 - メリットとしては GitHub 用のツールとの連携とかで、いままで backlog)のリポジトリ内管理だったので、いろんなことが出来ることが知れてよかった。
-  - [backlog 上で案件・進捗管理をしていた自分が Github に触れてみた感想](http://yamanoku.hatenablog.com/entry/2017/09/18/backlog%E4%B8%8A%E3%81%A7%E6%A1%88%E4%BB%B6%E3%83%BB%E9%80%B2%E6%8D%97%E7%AE%A1%E7%90%86%E3%82%92%E3%81%97%E3%81%A6%E3%81%84%E3%81%9F%E8%87%AA%E5%88%86%E3%81%8CGithub%E3%81%AB%E8%A7%A6%E3%82%8C)
+  - [backlog 上で案件・進捗管理をしていた自分が Github に触れてみた感想](./thinks-of-backlog-to-github)
 - 自動化ツールの CircleCI ほか CodeClimate についても体験。やはり間違いを減らす・機械的に判定してもらうというのは良い。
   - ただ一時期開発中にエラーばかり吐いてバツマークが付きすぎてたので`ci skip`を多用していた時期がありました。
 
