@@ -126,7 +126,7 @@ source: blog.geek.co.jp
 - もともと自分で使ってみていた
 - 会社内でもやってみようとのことでクリエイティブチーム内で実施
 - [Scrapbox Drinkup #4 Tokyo Edition](https://nota.connpass.com/event/87600/)に参加してみて改めてその凄さを実感
-- 社内啓蒙で悩んでたら[Nota Inc.]Nota_Inc.)さんに来てもらって勉強会をやってもらった
+- 社内啓蒙で悩んでたらNota Inc.さんに来てもらって勉強会をやってもらった
   - [Nota 社主催で Scrapbox 勉強会をやってもらった話 – 株式会社 GEEK クリエイターズブログ](http://blog.geek.co.jp/archives/2411)
 - 有料使用して現在 680 ページ超え
   - プロジェクトの Wiki として
@@ -160,7 +160,7 @@ source: blog.geek.co.jp
     - 遅延読み込みを活用し、初回のリクエストを減らした結果 2000ms という 1/10 の短縮に成功！
 - lighthouse と少し仲良くなれた
   - [Lighthouse によるウェブアプリの監査 | Tools for Web Developers | Google Developers](https://developers.google.com/web/tools/lighthouse/?hl=ja)
-- コンテンツの遅延取得で Intersection_Observer 無双した
+- コンテンツの遅延取得で Intersection Observer 無双した
 - HTTP/2 が大事だなと感じた
   - ただ使い所をきちんと理解しないといけない
   - [HTTP/2 が速いという幻想 - Web パフォーマンスについて](http://takehora.hatenadiary.jp/entry/2017/12/27/011121)
@@ -180,7 +180,7 @@ source: blog.geek.co.jp
 - 1 月に 1 系がリリース
 - 9 月に 2 系がついにリリース
   - [Nuxt.js 2.0: Webpack 4, ESM Modules, create-nuxt-app and more! 💫](https://medium.com/@nuxt_js/nuxt-js-2-0-webpack-4-esm-modules-create-nuxt-app-and-more-6936ce80d94c)
-  - 2 系が出て[最速で vue-cli で作った Nuxt スターターキットで Nuxt1 => 2 に上げるやり方](https://qiita.com/yamanoku/items/6eb9cf3cd35356ce0ba8)というのを書いた
+  - 2 系が出て[vue-cliで作ったNuxtスターターキットでNuxt1 => 2に上げるやり方](./nuxt-starter-template-v2-migration)というのを書いた
     - その後、公式が vue-cli で作成するのは**deprecated と発表**
 - とにかく爆速で開発できるメリットがある
   - モダン開発環境を一瞬で用意してもらえる
@@ -207,10 +207,10 @@ source: blog.geek.co.jp
 - 以下の条件で構成されている
   - レスポンシブ
   - ネットワーク接続に依存しない
-    - [Service Worker]Service_Worker)
+    - Service Worker
   - 常に最新
   - https 通信必須
-  - [Web Push 通知]Web_Push％E9%80%9A%E7%9F%A5)
+  - Web Push 通知
   - manifest.json
   - ホーム画面へのインストール可能
 - HTML5 Conference 2018 でも amp 同様話題にあがってた
@@ -232,7 +232,7 @@ source: blog.geek.co.jp
   - UX Cafe: チームで取り組む！　サイボウズのアクセシビリティ
   - HTML5 Conference 2018
   - We Are JavaScripters! @26th
-  - Vue Fes Japan 2018 Reject Conference]
+  - Vue Fes Japan 2018 Reject Conference
   - Meguro.css#4
   - CI/CD Test Night#1
   - Vue Fes Japan 2018
@@ -269,7 +269,7 @@ source: blog.geek.co.jp
 
 - [サークル詳細 | こんのいぬ | 技術書典](https://techbookfest.org/event/tbf05/circle/41130001)
 - [これからはじめる Web アクセシビリティ - こんのいぬ - BOOTH](https://booth.pm/ja/items/1044446)
-- [技術書典#4]％E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8%234)に参加してみて「本を作って発信する」ことに久々に熱を感じた
+- 技術書典#4に参加してみて「本を作って発信する」ことに久々に熱を感じた
   - 昔同人活動をやっていたのも影響あったかも（もう絵も描かなくなりましたが）
 - なんとなく応募してみたら受かってしまったので何かやってみるかとなった
 - アクセシビリティの入門書みたいなものを書いたらどうかと思った

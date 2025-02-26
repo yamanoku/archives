@@ -6,7 +6,7 @@ author: yamanoku
 source: qiita.com
 ---
 
-前回 => https://qiita.com/yamanoku/items/41df5c05c5c89714ea3c
+前回 => [よく分かってなくてもVue.jsで動くモノが作れた話](./beginner-make-vuejs-spa)
 
 特にきっかけはないのですが、表題のまんまのことやりましたので記録です。
 

@@ -6,7 +6,7 @@ author: yamanoku
 source: yamanoku.hatenablog.com
 ---
 
-[CSS のプロパティ記述順についてどうするかの話 - Qiita](https://qiita.com/yamanoku/items/9d10af70eb5b3f483146)
+[CSSのプロパティ記述順についてどうするかの話](./sort-order-css-property)
 
 この記事を書いて早いもので 1 年経った。CSS プロパティの記述順に関してはひとつの解決の足掛けにはなれたのではないかと思っていたけれど 1 年たった今では記述順よりも煩わしいコンポーネント管理問題や他人とどう CSS を弄ればいいかなど悩みは尽きない。そんな記事を書いていたことも忘れかけていた中で最近ふと気にかかった言葉がある。
 
