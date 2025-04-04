@@ -8,7 +8,7 @@
   },
   "packageRules": [
     {
-      "matchPackageNames": ["budoux", "gray-matter", "prettier"],
+      "matchPackageNames": ["budoux", "gray-matter", "puppeteer"],
       "labels": ["ogp-dependencies"]
     },
     {
