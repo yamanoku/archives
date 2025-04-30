@@ -11,10 +11,13 @@ export const GET: APIRoute = async (context) => {
     ...post.data,
     link: new URL(`/${post.id}/`, context.site).toString(),
   }));
-  context = `# ${SITE_TITLE}\n\n> ${SITE_DESCRIPTION}\n\n## アーカイブ一覧\n\n${items
-    .map((item) => `- [${item.title}](${item.link}): ${item.description}`)
-    .join("\n")}`;
-  return new Response(context, {
+  const content = `# ${SITE_TITLE}\n\n> ${SITE_DESCRIPTION}\n\n## アーカイブ一覧\n\n${items
+    .map(
+      (item) =>
+        `- [${item.title}](${item.link})${item.description ? ': ' + item.description : ''}`,
+    )
+    .join('\n')}`;
+  return new Response(content, {
     headers: { 'Content-Type': 'text/plain; charset=utf-8' },
   });
 };
