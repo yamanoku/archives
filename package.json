@@ -28,7 +28,7 @@
     "budoux": "0.7.0",
     "gray-matter": "4.0.3",
     "prettier": "3.6.2",
-    "puppeteer": "24.29.0",
+    "puppeteer": "24.29.1",
     "rehype-external-links": "3.0.0",
     "rehype-plugin-auto-resolve-layout-shift": "1.0.0",
     "rehype-plugin-image-native-lazy-loading": "1.2.0"
