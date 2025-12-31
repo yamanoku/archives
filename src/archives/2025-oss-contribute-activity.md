@@ -64,7 +64,7 @@ https://github.com/punkpeye/awesome-mcp-servers/pull/653
 
 日本でVue.jsを使用している企業の一覧リポジトリ。Vue.jsコミュニティの可視化と企業間の情報共有を目的としている。
 
-https://github.com/chibivue-land/japanese-companies-using-vuejs
+https://github.com/chibivue-land/japanese-companies-using-vuejs/pull/5
 
 yamanokuの所属企業である[株式会社Schoo](https://corp.schoo.jp/)を企業一覧に追加。
 
