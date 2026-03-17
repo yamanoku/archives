@@ -16,7 +16,7 @@
     "@astrojs/rss": "4.0.17",
     "@astrojs/sitemap": "3.7.1",
     "@tailwindcss/vite": "^4.0.3",
-    "astro": "6.0.4",
+    "astro": "6.0.5",
     "dayjs": "1.11.20",
     "modern-normalize": "3.0.1",
     "pagefind": "1.4.0",
