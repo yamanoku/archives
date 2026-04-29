@@ -43,7 +43,7 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
           @apply m-0;
         }
       }
-      body.tategaki-mode {
+      .tategaki-mode {
         writing-mode: vertical-rl;
         table, pre {
           writing-mode: initial;
@@ -74,15 +74,20 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
       </label>
     </Header>
     <script is:inline>
+      const isMobile = /iPhone|iPod|Android/i.test(navigator.userAgent);
       const checkbox = document.getElementById('tategaki-toggle');
-      if (localStorage.getItem('tategaki-mode') === 'true') {
-        document.body.classList.add('tategaki-mode');
-        if (checkbox) checkbox.checked = true;
+      if (isMobile) {
+        checkbox?.closest('label')?.remove();
+      } else {
+        if (localStorage.getItem('tategaki-mode') === 'true') {
+          document.documentElement.classList.add('tategaki-mode');
+          if (checkbox) checkbox.checked = true;
+        }
+        checkbox?.addEventListener('change', () => {
+          document.documentElement.classList.toggle('tategaki-mode', checkbox.checked);
+          localStorage.setItem('tategaki-mode', String(checkbox.checked));
+        });
       }
-      checkbox?.addEventListener('change', () => {
-        document.body.classList.toggle('tategaki-mode', checkbox.checked);
-        localStorage.setItem('tategaki-mode', String(checkbox.checked));
-      });
     </script>
     <main>
       <article>
