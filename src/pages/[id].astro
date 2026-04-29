@@ -43,11 +43,44 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
           @apply m-0;
         }
       }
+      body.tategaki-mode {
+        writing-mode: vertical-rl;
+        table, pre {
+          writing-mode: initial;
+          margin-block: 0;
+          margin-inline: var(--y-block-margin);
+          max-block-size: 100%;
+        }
+        sup {
+          top: auto;
+          inset-block-end: 0.5em;
+          text-combine-upright: all;
+        }
+        ol li::marker {
+          text-combine-upright: all;
+        }
+      }
     </style>
   </head>
 
   <body data-pagefind-body>
-    <Header />
+    <Header>
+      <label>
+        <input type="checkbox" id="tategaki-toggle" />
+        縦書きモード
+      </label>
+    </Header>
+    <script is:inline>
+      const checkbox = document.getElementById('tategaki-toggle');
+      if (localStorage.getItem('tategaki-mode') === 'true') {
+        document.body.classList.add('tategaki-mode');
+        if (checkbox) checkbox.checked = true;
+      }
+      checkbox?.addEventListener('change', () => {
+        document.body.classList.toggle('tategaki-mode', checkbox.checked);
+        localStorage.setItem('tategaki-mode', String(checkbox.checked));
+      });
+    </script>
     <main>
       <article>
         <h1 set:html={parser.translateHTMLString(post.data.title)} />
