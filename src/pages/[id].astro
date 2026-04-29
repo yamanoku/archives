@@ -73,9 +73,11 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
         縦書きモード
       </label>
     </Header>
-    <script is:inline>
-      const isMobile = /iPhone|iPod|Android/i.test(navigator.userAgent);
-      const checkbox = document.getElementById('tategaki-toggle');
+    <script>
+      import { detectDevice } from '../utils/detectDevice';
+      const device = await detectDevice();
+      const isMobile = device === 'iphone' || device === 'android';
+      const checkbox = document.getElementById('tategaki-toggle') as HTMLInputElement;
       if (isMobile) {
         checkbox?.closest('label')?.remove();
       } else {
