@@ -34,7 +34,7 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
       @reference "../styles/global.css";
       @layer components {
         .footnotes {
-          @apply relative pt-y-rhythm-3 before:absolute before:top-0 before:left-0 before:w-full before:h-[1px] before:bg-y-arcticle-border-color;
+          @apply pt-y-rhythm-3 border-bs border-y-arcticle-border-color;
         }
         .footnotes h2 {
           @apply sr-only;
@@ -58,6 +58,9 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
         }
         ol li::marker {
           text-combine-upright: all;
+        }
+        [id^="mermaid-"] {
+          writing-mode: initial;
         }
       }
     </style>
