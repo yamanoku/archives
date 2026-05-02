@@ -8,6 +8,7 @@ import OldArticleNote from '../components/OldArticleNote.astro';
 import dayjs from 'dayjs'
 import { loadDefaultJapaneseParser } from 'budoux';
 import Tcy from '../components/Tcy.astro';
+import { applyTcy } from '../utils/applyTcy';
 
 export async function getStaticPaths() {
   const posts = await getCollection('archives');
@@ -94,7 +95,7 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
     </script>
     <main>
       <article>
-        <h1 set:html={parser.translateHTMLString(post.data.title)} />
+        <h1 set:html={parser.translateHTMLString(applyTcy(post.data.title))} />
         <div class="flex flex-wrap justify-between m-[calc(var(--y-rhythm-2)*-1)] p-0">
           <time class="m-y-rhythm-2">created at: <Tcy text={dayjs(post.data.date).format('YYYY-MM-DD')} /></time>
           <p class="m-y-rhythm-2">出典元: <span class="italic">{post.data.source}</span></p>
