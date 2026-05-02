@@ -16,6 +16,7 @@
     "@astrojs/rss": "4.0.18",
     "@astrojs/sitemap": "3.7.2",
     "@love-rox/tcy-core": "0.2.0",
+    "@love-rox/tcy-rehype": "0.2.2",
     "@tailwindcss/vite": "^4.0.3",
     "astro": "6.1.10",
     "dayjs": "1.11.20",
