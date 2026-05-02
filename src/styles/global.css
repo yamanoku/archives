@@ -18,7 +18,9 @@
   --color-y-arcticle-border-color: var(--y-arcticle-border-color);
 }
 
-.tcy {
-  -webkit-text-combine: horizontal;
-  text-combine-upright: all;
+.tategaki-mode {
+  .tcy {
+    -webkit-text-combine: horizontal;
+    text-combine-upright: all;
+  }
 }

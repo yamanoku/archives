@@ -1,0 +1,13 @@
+---
+import { tokenize } from '@love-rox/tcy-core';
+
+type Props = {
+  text: string;
+};
+
+const { text } = Astro.props;
+const segments = tokenize(text, { target: 'digit' });
+---
+{segments.map((seg) =>
+  seg.type === 'tcy' ? <span class="tcy">{seg.value}</span> : seg.value
+)}
