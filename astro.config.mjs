@@ -1,7 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
-import { rehypeTcy } from './src/plugins/rehype-tcy.mjs';
+import { rehypeTcy } from '@love-rox/tcy-rehype';
 
 // https://astro.build/config
 export default defineConfig({
