@@ -17,6 +17,6 @@ export default defineConfig({
       footnoteLabel: '脚注',
       footnoteBackLabel: 'コンテンツに戻る',
     },
-    rehypePlugins: [rehypeTcy],
+    rehypePlugins: [[rehypeTcy, { target: 'digit' }]],
   },
 });
