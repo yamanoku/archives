@@ -1,9 +1,11 @@
 ---
+import Tcy from './Tcy.astro';
+
 const today = new Date()
 ---
 
 <footer>
-  <p>&copy; Copyright {today.getFullYear()}, Okuto Oyama</p>
+  <p>&copy; Copyright <Tcy text={today.getFullYear().toString()} />, Okuto Oyama</p>
   <p>
     Source :
     <a
