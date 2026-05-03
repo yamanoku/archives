@@ -7,7 +7,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../config'
 import dayjs from 'dayjs'
 
 import { getCollection } from 'astro:content';
-import Tcy from '../components/Tcy.astro';
+import Tcy from '@love-rox/tcy-astro/Tcy.astro';
 const posts = (await getCollection('archives')).sort(
   (a, b) =>
     new Date(b.data.date).valueOf() -
@@ -46,7 +46,7 @@ const posts = (await getCollection('archives')).sort(
               <tr>
                 <td>
                   <time class="whitespace-nowrap" datetime={dayjs(post.data.date).format('YYYY-MM-DD')}>
-                    <Tcy text={dayjs(post.data.date).format('YYYY-MM-DD')} />
+                    <Tcy>{dayjs(post.data.date).format('YYYY-MM-DD')}</Tcy>
                   </time>
                 </th>
                 <td>

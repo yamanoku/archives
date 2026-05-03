@@ -4,7 +4,7 @@ type Props = {
 };
 
 const { date } = Astro.props;
-import Tcy from './Tcy.astro';
+import Tcy from '@love-rox/tcy-astro/Tcy.astro';
 
 // dateと現在の時間との差分を取得
 const now = new Date();
@@ -52,7 +52,7 @@ const getYearsAgo = (diffDays: number): number => {
         <path d="M12 18v.01" />
       </svg>
       <strong>
-        この記事は公開から<Tcy text={getYearsAgo(diffDays).toString()} />年以上が経過しています。内容が一部古い箇所があります。
+        この記事は公開から<Tcy>{getYearsAgo(diffDays).toString()}</Tcy>年以上が経過しています。内容が一部古い箇所があります。
       </strong>
     </div>
   ) : null
