@@ -7,8 +7,8 @@ import Footer from '../components/Footer.astro'
 import OldArticleNote from '../components/OldArticleNote.astro';
 import dayjs from 'dayjs'
 import { loadDefaultJapaneseParser } from 'budoux';
-import Tcy from '../components/Tcy.astro';
-import { tokenize } from '@love-rox/tcy-core';
+import Tcy from '@love-rox/tcy-astro/Tcy.astro';
+import { transformHtml } from '@love-rox/tcy-astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('archives');
@@ -18,31 +18,13 @@ export async function getStaticPaths() {
   }));
 };
 
-/**
- * 文字列を縦中横用のHTMLに変換する
- * 数字箇所を <span class="tcy"> でラップして返す
- */
-function applyTcy(text: string): string {
-  const segments = tokenize(text, { target: 'digit' });
-
-  if (!segments.some((s) => s.type === 'tcy')) return text;
-
-  return segments
-    .map((segment) =>
-      segment.type === 'tcy'
-        ? `<span class="tcy">${segment.value}</span>`
-        : segment.value
-    )
-    .join('');
-}
-
-
 const { post } = Astro.props;
 const { Content } = await render(post);
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const pathName = canonicalURL.pathname.split('/').join('');
 const parser = loadDefaultJapaneseParser();
+const titleHtml = await transformHtml(post.data.title, { target: 'digit' });
 
 const gitHubLink = `https://github.com/yamanoku/archives/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=feedback&body=URL：https://archives.yamanoku.net/${pathName}%0A修正依頼内容：%0A`;
 const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}&text=@yamanoku`;
@@ -114,9 +96,9 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
     </script>
     <main>
       <article>
-        <h1 set:html={parser.translateHTMLString(applyTcy(post.data.title))} />
+        <h1 set:html={parser.translateHTMLString(titleHtml)} />
         <div class="flex flex-wrap justify-between m-[calc(var(--y-rhythm-2)*-1)] p-0">
-          <time class="m-y-rhythm-2">created at: <Tcy text={dayjs(post.data.date).format('YYYY-MM-DD')} /></time>
+          <time class="m-y-rhythm-2">created at: <Tcy>{dayjs(post.data.date).format('YYYY-MM-DD')}</Tcy></time>
           <p class="m-y-rhythm-2">出典元: <span class="italic">{post.data.source}</span></p>
         </div>
         <OldArticleNote date={post.data.date} />
