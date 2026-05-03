@@ -7,6 +7,8 @@ import Footer from '../components/Footer.astro'
 import OldArticleNote from '../components/OldArticleNote.astro';
 import dayjs from 'dayjs'
 import { loadDefaultJapaneseParser } from 'budoux';
+import Tcy from '@love-rox/tcy-astro/Tcy.astro';
+import { transformHtml } from '@love-rox/tcy-astro';
 
 export async function getStaticPaths() {
   const posts = await getCollection('archives');
@@ -22,6 +24,7 @@ const { Content } = await render(post);
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const pathName = canonicalURL.pathname.split('/').join('');
 const parser = loadDefaultJapaneseParser();
+const titleHtml = await transformHtml(post.data.title, { target: 'digit' });
 
 const gitHubLink = `https://github.com/yamanoku/archives/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=feedback&body=URL：https://archives.yamanoku.net/${pathName}%0A修正依頼内容：%0A`;
 const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}&text=@yamanoku`;
@@ -34,7 +37,7 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
       @reference "../styles/global.css";
       @layer components {
         .footnotes {
-          @apply relative pt-y-rhythm-3 before:absolute before:top-0 before:left-0 before:w-full before:h-[1px] before:bg-y-arcticle-border-color;
+          @apply py-y-rhythm-3 border-bs border-y-arcticle-border-color;
         }
         .footnotes h2 {
           @apply sr-only;
@@ -43,16 +46,59 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
           @apply m-0;
         }
       }
+      .tategaki-mode {
+        writing-mode: vertical-rl;
+        table, pre {
+          writing-mode: initial;
+          margin-block: 0;
+          margin-inline: var(--y-block-margin);
+          max-block-size: 100%;
+        }
+        sup {
+          top: auto;
+          inset-block-end: 0.5em;
+          text-combine-upright: all;
+        }
+        ol li::marker {
+          text-combine-upright: all;
+        }
+        [id^="mermaid-"] {
+          writing-mode: initial;
+        }
+      }
     </style>
   </head>
 
   <body data-pagefind-body>
-    <Header />
+    <Header>
+      <label>
+        <input type="checkbox" id="tategaki-toggle" />
+        縦書きモード
+      </label>
+    </Header>
+    <script>
+      import { detectDevice } from '../utils/detectDevice';
+      const device = await detectDevice();
+      const isMobile = device === 'iphone' || device === 'android';
+      const checkbox = document.getElementById('tategaki-toggle') as HTMLInputElement;
+      if (isMobile) {
+        checkbox?.closest('label')?.remove();
+      } else {
+        if (localStorage.getItem('tategaki-mode') === 'true') {
+          document.documentElement.classList.add('tategaki-mode');
+          if (checkbox) checkbox.checked = true;
+        }
+        checkbox?.addEventListener('change', () => {
+          document.documentElement.classList.toggle('tategaki-mode', checkbox.checked);
+          localStorage.setItem('tategaki-mode', String(checkbox.checked));
+        });
+      }
+    </script>
     <main>
       <article>
-        <h1 set:html={parser.translateHTMLString(post.data.title)} />
+        <h1 set:html={parser.translateHTMLString(titleHtml)} />
         <div class="flex flex-wrap justify-between m-[calc(var(--y-rhythm-2)*-1)] p-0">
-          <time class="m-y-rhythm-2">created at: {dayjs(post.data.date).format('YYYY-MM-DD')}</time>
+          <time class="m-y-rhythm-2">created at: <Tcy>{dayjs(post.data.date).format('YYYY-MM-DD')}</Tcy></time>
           <p class="m-y-rhythm-2">出典元: <span class="italic">{post.data.source}</span></p>
         </div>
         <OldArticleNote date={post.data.date} />

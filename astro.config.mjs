@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
+import tcy from '@love-rox/tcy-astro';
 
 // https://astro.build/config
 export default defineConfig({
@@ -8,7 +9,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  integrations: [sitemap()],
+  integrations: [sitemap(), tcy({ target: 'digit' })],
   markdown: {
     syntaxHighlight: 'prism',
     gfm: true,

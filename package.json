@@ -15,6 +15,7 @@
   "dependencies": {
     "@astrojs/rss": "4.0.18",
     "@astrojs/sitemap": "3.7.2",
+    "@love-rox/tcy-astro": "0.3.1",
     "@tailwindcss/vite": "^4.0.3",
     "astro": "6.2.1",
     "dayjs": "1.11.20",
