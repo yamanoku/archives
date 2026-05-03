@@ -8,7 +8,7 @@ import OldArticleNote from '../components/OldArticleNote.astro';
 import dayjs from 'dayjs'
 import { loadDefaultJapaneseParser } from 'budoux';
 import Tcy from '../components/Tcy.astro';
-import { applyTcy } from '../utils/applyTcy';
+import { tokenize } from '@love-rox/tcy-core';
 
 export async function getStaticPaths() {
   const posts = await getCollection('archives');
@@ -17,6 +17,25 @@ export async function getStaticPaths() {
     props: { post },
   }));
 };
+
+/**
+ * 文字列を縦中横用のHTMLに変換する
+ * 数字箇所を <span class="tcy"> でラップして返す
+ */
+function applyTcy(text: string): string {
+  const segments = tokenize(text, { target: 'digit' });
+
+  if (!segments.some((s) => s.type === 'tcy')) return text;
+
+  return segments
+    .map((segment) =>
+      segment.type === 'tcy'
+        ? `<span class="tcy">${segment.value}</span>`
+        : segment.value
+    )
+    .join('');
+}
+
 
 const { post } = Astro.props;
 const { Content } = await render(post);
