@@ -47,7 +47,19 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
         }
       }
       .tategaki-mode {
-        writing-mode: vertical-rl;
+        height: 100svh;
+        overflow: hidden;
+        body {
+          height: 100svh;
+          overflow: hidden;
+        }
+        #tategaki-scroll-container {
+          writing-mode: vertical-rl;
+          width: 100%;
+          height: 100svh;
+          overflow-x: auto;
+          overflow-y: hidden;
+        }
         table, pre {
           writing-mode: initial;
           margin-block: 0;
@@ -70,20 +82,15 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
   </head>
 
   <body data-pagefind-body>
-    <Header>
-      <label>
-        <input type="checkbox" id="tategaki-toggle" />
-        縦書きモード
-      </label>
-    </Header>
-    <script>
-      import { detectDevice } from '../utils/detectDevice';
-      const device = await detectDevice();
-      const isMobile = device === 'iphone' || device === 'android';
-      const checkbox = document.getElementById('tategaki-toggle') as HTMLInputElement;
-      if (isMobile) {
-        checkbox?.closest('label')?.remove();
-      } else {
+    <div id="tategaki-scroll-container">
+      <Header>
+        <label>
+          <input type="checkbox" id="tategaki-toggle" />
+          縦書きモード
+        </label>
+      </Header>
+      <script>
+        const checkbox = document.getElementById('tategaki-toggle') as HTMLInputElement;
         if (localStorage.getItem('tategaki-mode') === 'true') {
           document.documentElement.classList.add('tategaki-mode');
           if (checkbox) checkbox.checked = true;
@@ -92,38 +99,38 @@ const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${pathName}
           document.documentElement.classList.toggle('tategaki-mode', checkbox.checked);
           localStorage.setItem('tategaki-mode', String(checkbox.checked));
         });
-      }
-    </script>
-    <main>
-      <article>
-        <h1 set:html={parser.translateHTMLString(titleHtml)} />
-        <div class="flex flex-wrap justify-between m-[calc(var(--y-rhythm-2)*-1)] p-0">
-          <time class="m-y-rhythm-2">created at: <Tcy>{dayjs(post.data.date).format('YYYY-MM-DD')}</Tcy></time>
-          <p class="m-y-rhythm-2">出典元: <span class="italic">{post.data.source}</span></p>
-        </div>
-        <OldArticleNote date={post.data.date} />
-        <Content />
-      </article>
-      <p>
-        アーカイブ記事のため、内容に関する更新依頼は受け付けておりませんが、誤字や脱字などありましたらご連絡ください。
-      </p>
-      <details>
-        <summary>この記事に関する修正依頼</summary>
-        <ul>
-          <li>
-            <a href={gitHubLink} target="_blank">
-              GitHub Issue を作成する
-            </a>
-          </li>
-          <li>
-            <a href={xLink} target="_blank">
-              著者にポストする
-            </a>
-          </li>
-        </ul>
-      </details>
-      <a href="/">トップへ戻る</a>
-    </main>
-    <Footer />
+      </script>
+      <main>
+        <article>
+          <h1 set:html={parser.translateHTMLString(titleHtml)} />
+          <div class="flex flex-wrap justify-between m-[calc(var(--y-rhythm-2)*-1)] p-0">
+            <time class="m-y-rhythm-2">created at: <Tcy>{dayjs(post.data.date).format('YYYY-MM-DD')}</Tcy></time>
+            <p class="m-y-rhythm-2">出典元: <span class="italic">{post.data.source}</span></p>
+          </div>
+          <OldArticleNote date={post.data.date} />
+          <Content />
+        </article>
+        <p>
+          アーカイブ記事のため、内容に関する更新依頼は受け付けておりませんが、誤字や脱字などありましたらご連絡ください。
+        </p>
+        <details>
+          <summary>この記事に関する修正依頼</summary>
+          <ul>
+            <li>
+              <a href={gitHubLink} target="_blank">
+                GitHub Issue を作成する
+              </a>
+            </li>
+            <li>
+              <a href={xLink} target="_blank">
+                著者にポストする
+              </a>
+            </li>
+          </ul>
+        </details>
+        <a href="/">トップへ戻る</a>
+      </main>
+      <Footer />
+    </div>
   </body>
 </html>
