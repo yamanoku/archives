@@ -1,6 +1,6 @@
 # [archives.yamanoku.net](https://archives.yamanoku.net/)
 
-[yamanoku](https://github.com/yamanoku) archive contents. (Japanese Only)
+[yamanoku](https://github.com/yamanoku) archive contents. (Japanese text only)
 
 ## Build Setup
 
