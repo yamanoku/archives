@@ -214,7 +214,7 @@ methods: {
     - [Web プラットフォーム再考 ～ PWA のもたらす未来の光と影 ～](https://scrapbox.io/yamanoku/Web_%E3%83%97%E3%83%A9%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%83%A0%E5%86%8D%E8%80%83_%EF%BD%9EPWA_%E3%81%AE%E3%82%82%E3%81%9F%E3%82%89%E3%81%99%E6%9C%AA%E6%9D%A5%E3%81%AE%E5%85%89%E3%81%A8%E5%BD%B1_%EF%BD%9E)
     - [pixiv chatstory の PWA としての取り組み](https://speakerdeck.com/ikasoumen/pixiv-chatstory-false-pwa-tositefalsequ-rizu-mi)
     - [モバイルネイティブアプリに代わる存在！？初めての PWA](https://speakerdeck.com/kasanomo/mobairuneiteibuapurinidai-warucun-zai-chu-metefalsepwa)
-- **iOS マジお前．．．**となる気持ちがよくわかる
+- <strong>iOS マジお前．．．</strong>となる気持ちがよくわかる
 
 以上になります。ご覧いただきありがとうございました。
 明日（12/7）は@*lemon2003*さんになります。
