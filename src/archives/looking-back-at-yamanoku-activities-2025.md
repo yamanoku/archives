@@ -14,7 +14,7 @@ source: sizu.me
 
 - <https://github.com/yamanoku/2024-activityPub-contents>  
    - 2024年の[mastodon.social](http://mastodon.social)で投稿したコンテンツをHTML化した  
-         - Bunの肌感を知りたいためHTMLをビルドしてみることにした
+      - Bunの肌感を知りたいためHTMLをビルドしてみることにした
 - Evex Developersにジョインしてみる
 - **Windows環境を手に入れるためGALLERIA DL7C-IG-C4購入**
 - [**2025年も変わらず続けていきたいこと**](https://sizu.me/yamanoku/posts/945fuez0nhz5)**を書いた**
@@ -168,11 +168,11 @@ source: sizu.me
 - [**TSKaigi 2025**](https://2025.tskaigi.org/)**のスピーカーディナーに参加してくる**
 - [**TSKaigi 2025**](https://2025.tskaigi.org/)**本編2Days参加してくる**  
    - **Day1でLT発表してくる**  
-         - [転生したらTypeScriptのEnumだった件～型安全性とエコシステムの変化で挫けそうになっているんだが～](https://yamanoku.net/tskaigi-2025/)  
-         - 思いの外ウケててよかったです。終わったら緊張の糸が切れて腹痛で死んでました  
+      - [転生したらTypeScriptのEnumだった件～型安全性とエコシステムの変化で挫けそうになっているんだが～](https://yamanoku.net/tskaigi-2025/)  
+      - 思いの外ウケててよかったです。終わったら緊張の糸が切れて腹痛で死んでました  
    - Day2は懇親会まで参加してとても楽しめた  
-         - 朝は[ubugeeei](https://x.com/ubugeeei)さんを会場まで案内した  
-         - [high-g](https://x.com/high%5Fg%5Fengineer)さんとようやくご挨拶できたのうれしかった
+      - 朝は[ubugeeei](https://x.com/ubugeeei)さんを会場まで案内した  
+      - [high-g](https://x.com/high%5Fg%5Fengineer)さんとようやくご挨拶できたのうれしかった
 - 株式会社エスケイワード主催の[対話を通じたアート鑑賞会（対話型鑑賞）](https://skword.connpass.com/event/352818/)に参加
 - **ALT決定木で代替テキストを決めてくれるMCPサーバーの**[**ALT Decision Tree MCP Server**](https://github.com/yamanoku/alt-decision-tree-mcp-server)**をPoCとして公開した**
 - **犬を連れてドギーズアイランドへ二泊三日**  
@@ -199,7 +199,7 @@ source: sizu.me
 - [Vue.js v-tokyo Meetup #23](https://vuejs-meetup.connpass.com/event/355473/)にオフライン参加  
    - [Rizumu](https://x.com/RizumuA3)さんが3Dプリンターでバッジを作ってくれたのでいくつか貰った  
    - **懇親会で社内勉強会が推進できない組でオンライン勉強会サーバーを作ろうと話をした**  
-         - **翌日有志メンバーを招集してDiscordサーバーを作った**
+      - **翌日有志メンバーを招集してDiscordサーバーを作った**
 - [toranoana.deno #21](https://yumenosora.connpass.com/event/355049/)にオンライン参加  
    - [**DenoとJSRで実現する最速MCPサーバー開発記**](https://speakerdeck.com/yamanoku/building-mcp-servers-at-lightning-speed-with-deno-and-jsr)**を発表**  
    - 登壇前に東葛.devについてを株式会社虎の穴の人と喋っていた
@@ -303,7 +303,7 @@ source: sizu.me
 - 予約した心療内科に行ってくる  
    - **診断した結果、適応障害として近い症状であると診断された**  
    - 診断書を上長とCTOとに送って面談  
-         - 現時点でのタスクは手放し、手が付けやすいタスクに取り組む話になった
+      - 現時点でのタスクは手放し、手が付けやすいタスクに取り組む話になった
 - [TSKaigi Mashup #2 Full-Stack TypeScript](https://typescript-jpc.connpass.com/event/364849/)をオンラインで視聴
 - 腎不全になった猫に家で輸液するようになる
 - [エビスコ酒場](https://ghgx100.gorp.jp/)で前職同僚の3人とでプロレストークや仕事トークしてきた  
