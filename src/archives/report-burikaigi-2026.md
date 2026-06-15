@@ -117,12 +117,10 @@ t_wadaさんによるTDD Boot Camp、TinyGoを使ったキーボード開発やA
 
 最終日はあいにくの天気でしたが、無事に家に帰ることができました。家についてからはお土産を堪能しておりました。
 
-
 <figure>
 <img src="https://i.gyazo.com/0889351c18dfe3f071ef62cf511ef338.png" alt="皿に盛られた3切れの鱒寿司">
 <figcaption>妻が買ってきた鱒の寿しまつ川の鱒寿司を食べました。</figcaption>
 </figure>
-
 
 ## おわりに
 

@@ -1,6 +1,6 @@
 ---
-title: "Vueユーザーから見るReact Tokyoコミュニティ"
-description: "Vueユーザーから見るReact Tokyoコミュニティ"
+title: 'Vueユーザーから見るReact Tokyoコミュニティ'
+description: 'Vueユーザーから見るReact Tokyoコミュニティ'
 date: 2025-12-10
 author: yamanoku
 source: zenn.dev

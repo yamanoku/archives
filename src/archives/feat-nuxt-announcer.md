@@ -38,7 +38,8 @@ https://github.com/nuxt/nuxt/pull/34318
 <template>
   <div>
     <NuxtRouteAnnouncer />
-    <NuxtAnnouncer /> <!-- 追加 -->
+    <NuxtAnnouncer />
+    <!-- 追加 -->
     <NuxtPage />
   </div>
 </template>
@@ -52,26 +53,24 @@ https://github.com/nuxt/nuxt/pull/34318
 
 ```html
 <script setup lang="ts">
-import { useAnnouncer } from '#app';
+  import { useAnnouncer } from '#app';
 
-const { polite, assertive } = useAnnouncer();
+  const { polite, assertive } = useAnnouncer();
 
-async function submitForm() {
-  try {
-    await $fetch('/api/contact', { method: 'POST', body: formData })
-    polite('メッセージが送信されました');
+  async function submitForm() {
+    try {
+      await $fetch('/api/contact', { method: 'POST', body: formData });
+      polite('メッセージが送信されました');
+    } catch (error) {
+      assertive('メッセージの送信に失敗しました');
+    }
   }
-  catch (error) {
-    assertive('メッセージの送信に失敗しました');
-  }
-}
 </script>
 ```
 
 ## `<NuxtAnnouncer>` のProps
 
 `<NuxtAnnouncer>` は以下のPropsを受け取ります。
-
 
 ```html
 <template>
@@ -114,8 +113,8 @@ async function submitForm() {
 
 ```html
 <script setup lang="ts">
-import { useAnnouncer } from '#app';
-const { set, polite, assertive } = useAnnouncer();
+  import { useAnnouncer } from '#app';
+  const { set, polite, assertive } = useAnnouncer();
 </script>
 ```
 
@@ -152,13 +151,13 @@ assertive('入力内容にエラーがあります');
 
 ## `<NuxtRouteAnnouncer>` と `<NuxtAnnouncer>` の違い
 
-| | `<NuxtRouteAnnouncer>` | `<NuxtAnnouncer>` |
-|---|---|---|
-| 通知タイミング | ルート遷移時に自動 | 開発者が任意に制御 |
-| 通知内容 | ページタイトル（`useHead` の `title`） | 任意のメッセージ |
-| コンポーザブル | `useRouteAnnouncer` | `useAnnouncer` |
-| 主な用途 | ページ遷移の通知 | フォームのエラー通知・トースト・ローディング等 |
-| `atomic` のデフォルト値 | `false` | `true` |
+|                         | `<NuxtRouteAnnouncer>`                 | `<NuxtAnnouncer>`                              |
+| ----------------------- | -------------------------------------- | ---------------------------------------------- |
+| 通知タイミング          | ルート遷移時に自動                     | 開発者が任意に制御                             |
+| 通知内容                | ページタイトル（`useHead` の `title`） | 任意のメッセージ                               |
+| コンポーザブル          | `useRouteAnnouncer`                    | `useAnnouncer`                                 |
+| 主な用途                | ページ遷移の通知                       | フォームのエラー通知・トースト・ローディング等 |
+| `atomic` のデフォルト値 | `false`                                | `true`                                         |
 
 `<NuxtRouteAnnouncer>` はルート変更時にページタイトルを**自動的に**通知するのに対し、`<NuxtAnnouncer>` は開発者が**任意のタイミングで任意のメッセージ**をスクリーンリーダーに通知できます。この性質の違いによって、それぞれの通知同士が競合することはありません。
 
@@ -178,29 +177,29 @@ https://github.com/nuxt/nuxt/blob/b0cdb0af9b4634aebc283a876c0082e70cfedac2/packa
 
 ```html
 <script setup lang="ts">
-import { useAnnouncer, useId } from '#app';
-import { ref } from 'vue';
+  import { useAnnouncer, useId } from '#app';
+  import { ref } from 'vue';
 
-const { assertive } = useAnnouncer();
-const email = ref('');
-const errorMessage = ref('');
-const formId = useId();
+  const { assertive } = useAnnouncer();
+  const email = ref('');
+  const errorMessage = ref('');
+  const formId = useId();
 
-function validateForm() {
-  if (!email.value) {
-    errorMessage.value = 'メールアドレスは必須です';
-    assertive(errorMessage.value);
-    return false;
+  function validateForm() {
+    if (!email.value) {
+      errorMessage.value = 'メールアドレスは必須です';
+      assertive(errorMessage.value);
+      return false;
+    }
+    return true;
   }
-  return true;
-}
 </script>
 
 <template>
   <form @submit.prevent="validateForm">
     <label :for="formId">メールアドレス</label>
     <input :id="formId" v-model="email" type="email" />
-   <button type="submit">送信</button>
+    <button type="submit">送信</button>
   </form>
 </template>
 ```
@@ -211,21 +210,21 @@ function validateForm() {
 
 ```html
 <script setup lang="ts">
-import { useAnnouncer, useFetch } from '#app';
-import { watch } from 'vue';
+  import { useAnnouncer, useFetch } from '#app';
+  import { watch } from 'vue';
 
-const { polite } = useAnnouncer();
-const { data, status } = useFetch('/api/items');
+  const { polite } = useAnnouncer();
+  const { data, status } = useFetch('/api/items');
 
-watch(status, (newStatus) => {
-  if (newStatus === 'pending') {
-    polite('データを読み込んでいます');
-  } else if (newStatus === 'success') {
-    polite('データの読み込みが完了しました');
-  } else if (newStatus === 'error') {
-    polite('データの読み込みに失敗しました');
-  }
-});
+  watch(status, (newStatus) => {
+    if (newStatus === 'pending') {
+      polite('データを読み込んでいます');
+    } else if (newStatus === 'success') {
+      polite('データの読み込みが完了しました');
+    } else if (newStatus === 'error') {
+      polite('データの読み込みに失敗しました');
+    }
+  });
 </script>
 ```
 
@@ -235,25 +234,23 @@ watch(status, (newStatus) => {
 
 ```html
 <script setup lang="ts">
-import { useAnnouncer } from '#app';
-import { ref } from 'vue';
+  import { useAnnouncer } from '#app';
+  import { ref } from 'vue';
 
-const { polite } = useAnnouncer();
-const query = ref('');
-const results = ref([]);
+  const { polite } = useAnnouncer();
+  const query = ref('');
+  const results = ref([]);
 
-async function search() {
-  results.value = await $fetch('/api/search', {
-    params: { q: query.value },
-  });
-  polite(`${results.value.length}件の検索結果が見つかりました`);
-}
+  async function search() {
+    results.value = await $fetch('/api/search', {
+      params: { q: query.value },
+    });
+    polite(`${results.value.length}件の検索結果が見つかりました`);
+  }
 </script>
 
 <template>
-  <label>
-    検索 <input v-model="query" type="search" @input="search" />
-  </label>
+  <label> 検索 <input v-model="query" type="search" @input="search" /> </label>
   <ul>
     <li v-for="item in results" :key="item.id">{{ item.title }}</li>
   </ul>
@@ -275,7 +272,7 @@ async function search() {
     <input :id="formId" v-model="email" type="email" />
     <!-- 視覚的にもエラー情報を伝える -->
     <p v-if="errorMessage">{{ errorMessage }}</p>
-   <button type="submit">送信</button>
+    <button type="submit">送信</button>
   </form>
 </template>
 ```

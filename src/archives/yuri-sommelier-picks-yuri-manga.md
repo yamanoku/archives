@@ -8,7 +8,7 @@ source: sizu.me
 
 皆さんは「百合」という概念をご存知ですか？
 
-[百合 (ジャンル) - Wikipedia](https://ja.wikipedia.org/wiki/%E7%99%BE%E5%90%88_(%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB))
+[百合 (ジャンル) - Wikipedia](<https://ja.wikipedia.org/wiki/%E7%99%BE%E5%90%88_(%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB)>)
 
 女性の同性愛、ガールズラブのジャンルの総称で、それらを題材にした作品などを百合作品などと呼ばれていたりします。
 
