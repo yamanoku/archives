@@ -17,7 +17,7 @@
     "@astrojs/sitemap": "3.7.3",
     "@love-rox/tcy-astro": "0.3.1",
     "@tailwindcss/vite": "^4.0.3",
-    "astro": "6.4.5",
+    "astro": "6.4.7",
     "dayjs": "1.11.21",
     "modern-normalize": "3.0.1",
     "pagefind": "1.5.2",
