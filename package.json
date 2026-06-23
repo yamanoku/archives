@@ -29,6 +29,6 @@
     "budoux": "0.8.4",
     "gray-matter": "4.0.3",
     "prettier": "3.8.4",
-    "puppeteer": "25.1.0"
+    "puppeteer": "25.2.0"
   }
 }
