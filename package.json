@@ -28,7 +28,7 @@
   "devDependencies": {
     "budoux": "0.8.4",
     "gray-matter": "4.0.3",
-    "prettier": "3.8.4",
+    "prettier": "3.8.5",
     "puppeteer": "25.2.1"
   }
 }
