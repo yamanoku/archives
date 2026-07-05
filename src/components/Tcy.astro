@@ -1,0 +1,10 @@
+---
+import { transformHtml, type RehypeTcyOptions } from '../lib/tcy';
+
+export type Props = RehypeTcyOptions;
+
+const html = await Astro.slots.render('default');
+const out = await transformHtml(html ?? '', Astro.props);
+---
+
+<Fragment set:html={out} />

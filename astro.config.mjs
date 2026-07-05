@@ -1,7 +1,8 @@
 import { defineConfig } from 'astro/config';
+import { unified } from '@astrojs/markdown-remark';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
-import tcy from '@love-rox/tcy-astro';
+import rehypeTcy from '@love-rox/tcy-rehype';
 
 // https://astro.build/config
 export default defineConfig({
@@ -9,13 +10,16 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  integrations: [sitemap(), tcy({ target: 'digit' })],
+  integrations: [sitemap()],
   markdown: {
     syntaxHighlight: 'prism',
-    gfm: true,
-    remarkRehype: {
-      footnoteLabel: '脚注',
-      footnoteBackLabel: 'コンテンツに戻る',
-    },
+    processor: unified({
+      gfm: true,
+      remarkRehype: {
+        footnoteLabel: '脚注',
+        footnoteBackLabel: 'コンテンツに戻る',
+      },
+      rehypePlugins: [[rehypeTcy, { target: 'digit' }]],
+    }),
   },
 });
