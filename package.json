@@ -13,12 +13,12 @@
     "test:update": "node --test --experimental-test-snapshots --test-update-snapshots"
   },
   "dependencies": {
-    "@astrojs/markdown-remark": "7.2.3",
+    "@astrojs/markdown-remark": "7.2.4",
     "@astrojs/rss": "4.0.19",
     "@astrojs/sitemap": "3.7.3",
     "@love-rox/tcy-rehype": "0.3.1",
     "@tailwindcss/vite": "^4.0.3",
-    "astro": "7.2.3",
+    "astro": "7.2.4",
     "dayjs": "1.11.23",
     "modern-normalize": "3.0.1",
     "pagefind": "1.5.2",
