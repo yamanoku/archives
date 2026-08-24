@@ -11,12 +11,16 @@ import { formatDate, slugFromPage } from '../lib/pages.ts';
 
 const parser = loadDefaultJapaneseParser();
 
+function wrapDigitRuns(text: string): string {
+  return text.replace(/(\d+)/g, '<span class="tcy">$1</span>');
+}
+
 export function ArticleLayout(_props?: { children?: unknown }) {
   const page = usePageProps();
   const date = formatDate(page.frontmatter.date);
   const source = String(page.frontmatter.source ?? '');
   const slug = slugFromPage(page);
-  const titleHtml = parser.translateHTMLString(page.title);
+  const titleHtml = parser.translateHTMLString(wrapDigitRuns(page.title));
   const gitHubLink = `https://github.com/yamanoku/archives/issues/new?title=アーカイブのドキュメントにまつわる修正依頼&labels=feedback&body=URL：https://archives.yamanoku.net/${slug}%0A修正依頼内容：%0A`;
   const xLink = `https://x.com/share?url=https://archives.yamanoku.net/${slug}&text=@yamanoku`;
 

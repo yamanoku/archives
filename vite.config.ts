@@ -1,10 +1,8 @@
 import { defineConfig } from 'vite';
 import { oxContent } from '@ox-content/vite-plugin';
 import archivesTheme from './theme/index.tsx';
-import {
-  archivesSitePlugin,
-  rewriteMarkdownLinks,
-} from './plugins/archives-site.ts';
+import { rewriteMarkdownLinks } from './plugins/archives-feeds.ts';
+import { archivesSitePlugin } from './plugins/archives-site.ts';
 
 export default defineConfig({
   esbuild: {
