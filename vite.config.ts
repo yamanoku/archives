@@ -5,6 +5,7 @@ import { rewriteMarkdownLinks } from './plugins/archives-feeds.ts';
 import { archivesSitePlugin } from './plugins/archives-site.ts';
 
 export default defineConfig({
+  appType: 'mpa',
   esbuild: {
     jsx: 'automatic',
     jsxImportSource: '@ox-content/vite-plugin',
