@@ -1,6 +1,5 @@
 # Ignore artifacts:
 dist
 
-# Ignore all HTML files:
-*.html
-*.astro
+# Ignore generated HTML:
+ogp/template.html
