@@ -73,6 +73,10 @@
   border-block-start: 1px solid var(--y-arcticle-border-color, #ccc);
 }
 
+.footnotes .footnote {
+  margin-block: var(--y-rhythm-2);
+}
+
 .footnotes h2 {
   position: absolute;
   width: 1px;
