@@ -161,6 +161,22 @@ function copyPublicAssets(outDir: string): void {
   }
 }
 
+function serveNotFoundPage(res: {
+  writableEnded: boolean;
+  statusCode: number;
+  setHeader: (name: string, value: string) => void;
+  end: (body: string | Buffer) => void;
+}): boolean {
+  const notFound = join(rootDir, 'dist/404.html');
+  if (!existsSync(notFound) || res.writableEnded) {
+    return false;
+  }
+  res.statusCode = 404;
+  res.setHeader('Content-Type', 'text/html; charset=utf-8');
+  res.end(readFileSync(notFound));
+  return true;
+}
+
 export function archivesSitePlugin(): Plugin {
   const virtualCssId = '/styles.css';
   return {
@@ -177,6 +193,19 @@ export function archivesSitePlugin(): Plugin {
         }
         next();
       });
+    },
+    configurePreviewServer(server) {
+      return () => {
+        server.middlewares.use((_req, res, next) => {
+          if (res.writableEnded) {
+            next();
+            return;
+          }
+          if (!serveNotFoundPage(res)) {
+            next();
+          }
+        });
+      };
     },
     closeBundle: {
       sequential: true,
