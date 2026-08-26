@@ -75,6 +75,27 @@ describe('search index helpers', () => {
   });
 });
 
+describe(
+  'built search index',
+  { skip: !existsSync(join(process.cwd(), 'dist/search-index.json')) },
+  () => {
+    it('keeps BM25 document indices aligned after pretty-URL rewrite', () => {
+      const index = JSON.parse(
+        readFileSync(join(process.cwd(), 'dist/search-index.json'), 'utf8'),
+      ) as {
+        documents: Array<{ url: string }>;
+        doc_count: number;
+      };
+      assert.equal(index.documents.length, index.doc_count);
+      const articles = index.documents.filter((doc) =>
+        isSearchableUrl(doc.url),
+      );
+      assert.equal(articles.length, 179);
+      assert.ok(articles.every((doc) => doc.url.endsWith('/')));
+    });
+  },
+);
+
 describe('markdown and footnote postprocess', () => {
   it('rewrites relative archive links to pretty URLs', () => {
     const ast = {
@@ -127,6 +148,7 @@ describe(
         'sitemap-index.xml',
         '404.html',
         'search-index.json',
+        'assets/search.js',
         'styles.css',
       ]) {
         assert.equal(existsSync(join(distDir, name)), true, name);
@@ -140,7 +162,12 @@ describe(
     it('keeps home, article, and 404 chrome', () => {
       const home = readFileSync(join(distDir, 'index.html'), 'utf8');
       assert.match(home, /現在のアーカイブ記事は179件あります/);
-      assert.match(home, /src="\/search\.js"/);
+      assert.match(home, /type="module" src="\/assets\/search\.js"/);
+      const searchClient = readFileSync(
+        join(distDir, 'assets/search.js'),
+        'utf8',
+      );
+      assert.match(searchClient, /search-index\.json/);
       const article = readFileSync(
         join(distDir, 'ios-double-tap-bug/index.html'),
         'utf8',
