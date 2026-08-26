@@ -35,4 +35,3 @@ declare module 'virtual:ox-content/search' {
     provider?: string;
   };
 }
-
