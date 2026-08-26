@@ -23,7 +23,9 @@ export default defineConfig({
       },
       output: {
         entryFileNames: (chunk) =>
-          chunk.name === 'search' ? 'assets/search.js' : 'assets/[name]-[hash].js',
+          chunk.name === 'search'
+            ? 'assets/search.js'
+            : 'assets/[name]-[hash].js',
       },
     },
   },

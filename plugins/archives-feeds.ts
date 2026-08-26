@@ -4,10 +4,7 @@ import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '../src/config.ts';
 
-export {
-  isSearchableUrl,
-  prettySearchUrl,
-} from '../src/lib/search-urls.ts';
+export { isSearchableUrl, prettySearchUrl } from '../src/lib/search-urls.ts';
 
 const rootDir = join(fileURLToPath(new URL('.', import.meta.url)), '..');
 const archivesDir = join(rootDir, 'src/archives');
