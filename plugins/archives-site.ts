@@ -16,7 +16,6 @@ import {
   buildRss,
   buildSitemap,
   buildSitemapIndex,
-  isSearchableUrl,
   loadArchives,
   localizeFootnotes,
   prettySearchUrl,
@@ -74,20 +73,16 @@ function rewriteSearchIndex(outDir: string): void {
     if (!Array.isArray(list)) {
       return list;
     }
-    const next = [];
+    // Keep document order and length so BM25 postings still match doc_idx.
     for (const item of list) {
       if (!item || typeof item !== 'object' || !('url' in item)) {
-        continue;
-      }
-      if (!isSearchableUrl((item as { url: unknown }).url)) {
         continue;
       }
       (item as { url: unknown }).url = prettySearchUrl(
         (item as { url: unknown }).url,
       );
-      next.push(item);
     }
-    return next;
+    return list;
   };
   if (Array.isArray(data)) {
     writeFileSync(indexPath, JSON.stringify(rewriteList(data)));
@@ -127,11 +122,15 @@ function rewriteHtmlContent(html: string): string {
   );
 }
 
-function injectScript(html: string, src: string): string {
+function injectScript(html: string, src: string, type?: string): string {
   if (html.includes(`src="${src}"`)) {
     return html;
   }
-  return html.replace('</body>', `<script defer src="${src}"></script></body>`);
+  const typeAttr = type ? ` type="${type}"` : ' defer';
+  return html.replace(
+    '</body>',
+    `<script${typeAttr} src="${src}"></script></body>`,
+  );
 }
 
 function postprocessHtml(outDir: string): void {
@@ -141,7 +140,8 @@ function postprocessHtml(outDir: string): void {
     html = localizeFootnotes(html);
     const relative = file.slice(outDir.length).replaceAll('\\', '/');
     if (relative === '/index.html') {
-      html = injectScript(html, '/search.js');
+      html = html.replaceAll('/src/search-client.ts', '/assets/search.js');
+      html = injectScript(html, '/assets/search.js', 'module');
     } else if (relative !== '/404.html' && !relative.startsWith('/404/')) {
       html = injectScript(html, '/tategaki.js');
     }

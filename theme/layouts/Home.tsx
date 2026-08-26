@@ -47,6 +47,7 @@ export function HomeLayout(_props?: { children?: unknown }) {
                   id="archive-search-input"
                   type="search"
                   name="q"
+                  placeholder="記事を検索"
                   autocomplete="off"
                 />
               </label>
@@ -106,7 +107,7 @@ export function HomeLayout(_props?: { children?: unknown }) {
           </ul>
         </main>
         <Footer />
-        <script defer src="/search.js"></script>
+        <script type="module" src="/src/search-client.ts"></script>
       </body>
     </html>
   );

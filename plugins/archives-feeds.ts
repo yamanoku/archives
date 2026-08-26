@@ -4,6 +4,11 @@ import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '../src/config.ts';
 
+export {
+  isSearchableUrl,
+  prettySearchUrl,
+} from '../src/lib/search-urls.ts';
+
 const rootDir = join(fileURLToPath(new URL('.', import.meta.url)), '..');
 const archivesDir = join(rootDir, 'src/archives');
 
@@ -131,28 +136,6 @@ ${urls}
 export function buildSitemapIndex(): string {
   return `<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><sitemap><loc>${SITE_URL}/sitemap-0.xml</loc></sitemap></sitemapindex>
 `;
-}
-
-export function isSearchableUrl(url: unknown): boolean {
-  if (typeof url !== 'string') {
-    return false;
-  }
-  const normalized = url.replace(/\.html$/, '').replace(/\/+$/, '') || '/';
-  return normalized !== '/' && normalized !== '/404' && normalized !== '/index';
-}
-
-export function prettySearchUrl(url: unknown): unknown {
-  if (typeof url !== 'string' || url === '/') {
-    return url;
-  }
-  let next = url.replace(/\.html$/, '');
-  if (!next.startsWith('/')) {
-    next = `/${next}`;
-  }
-  if (!next.endsWith('/')) {
-    next = `${next}/`;
-  }
-  return next;
 }
 
 export function localizeFootnotes(html: string): string {
