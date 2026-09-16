@@ -59,9 +59,7 @@ Schooでは私が所属する以前から、複数のプロダクトでVue.js/Nu
 </script>
 <script type="module">
   import { createApp } from 'vue';
-  const app = createApp({
-    /* Vue.jsの各種処理 */
-  });
+  const app = createApp({/* Vue.jsの各種処理 */});
   app.mount('#app');
 </script>
 ```

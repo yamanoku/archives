@@ -47,6 +47,7 @@ noindex: true
 - Text Directionality
 - `text-wrap: balance`
 - URL
+
 </details>
 
 <details>

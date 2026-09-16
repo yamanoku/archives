@@ -46,6 +46,7 @@ noindex: true
 - WebRTC
 - Writing modes - **完了**
 - Mutation Eventの削除 - **完了**
+
 </details>
 
 <details>
@@ -56,6 +57,7 @@ noindex: true
 - Mobile testing
 - Privacy testing
 - WebVTT
+
 </details>
 
 ちなみに、2/13時点でのInterop 2025と2026のダッシュボードをスコアを比較すると、Interop 2026ではChromeとEdgeのスコアは下がるもののFirefoxとSafariのスコアは高めになっており、全体のスコアも高い結果となっております。
