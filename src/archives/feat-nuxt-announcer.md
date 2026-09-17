@@ -297,6 +297,12 @@ DevTools上でアクセシビリティチェックが可能になる[@nuxt/a11y]
 
 この記事の執筆時点ではまだマージされていませんが、これが本体に適用されるのを楽しみにしています。
 
+### 2026-09-17 更新
+
+[VueUse v15.0.0](https://github.com/vueuse/vueuse/releases/tag/v15.0.0)にてリリースされました！ドキュメントページも追加されたので是非ご活用ください。
+
+https://vueuse.org/core/useLiveAnnouncer/
+
 ## まとめ
 
 この記事ではNuxt 3.12から `<NuxtRouteAnnouncer>` が導入されSPAのページ遷移の通知が実現し、Nuxt4.4からは `<NuxtAnnouncer>` が追加されたことでページ内の動的な変更の通知もフレームワークレベルでサポートされたことについて紹介しました。
