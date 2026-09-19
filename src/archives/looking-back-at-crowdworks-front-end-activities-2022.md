@@ -4,6 +4,8 @@ description: クラウドワークスアドベントカレンダー2022 １日�
 date: 2022-12-01
 author: yamanoku
 source: engineer.crowdworks.jp
+category: retrospective
+topic: frontend
 noindex: true
 ---
 

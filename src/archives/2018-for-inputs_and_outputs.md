@@ -4,6 +4,8 @@ description: インプットやアウトプットをした2018年についての
 date: 2018-12-15
 author: yamanoku
 source: blog.geek.co.jp
+category: retrospective
+topic: work
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/60f869fb8d060073a7af85db11402aa2.png)](https://gyazo.com/60f869fb8d060073a7af85db11402aa2)

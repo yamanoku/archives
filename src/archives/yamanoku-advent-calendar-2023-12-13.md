@@ -4,6 +4,8 @@ description: アドベントカレンダーも折り返しですが皆さんは�
 date: 2023-12-13
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: life
 noindex: true
 ---
 

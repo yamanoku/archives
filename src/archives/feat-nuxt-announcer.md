@@ -4,6 +4,8 @@ description: Nuxt 4.4より導入されたNuxtAnnouncer機能について紹介�
 date: 2026-03-13
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: accessibility
 noindex: true
 ---
 

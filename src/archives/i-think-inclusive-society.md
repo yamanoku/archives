@@ -4,6 +4,8 @@ description: 自分が考える多様性社会へのスタンスの話です。
 date: 2018-06-22
 author: yamanoku
 source: scrapbox.io
+category: essay
+topic: other
 ---
 
 多様性がだいぶ認められるようになって「声をあげることができなかった勢」が声をあげることができる、ちゃんと正当にみとめられるっていう社会は歓迎したいのだけれども、

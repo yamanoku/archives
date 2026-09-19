@@ -4,6 +4,8 @@ description: TSKaigi 2026に参加＆登壇したのでそのレポートです
 date: 2026-06-12
 author: yamanoku
 source: qiita.com
+category: event
+topic: frontend
 noindex: true
 ---
 

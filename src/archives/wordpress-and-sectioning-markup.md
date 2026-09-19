@@ -4,6 +4,8 @@ description: WordPressにまつわる情報設計について
 date: 2016-12-27
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: essay
+topic: frontend
 ---
 
 ## みなさんセクショニングマークアップしてますか

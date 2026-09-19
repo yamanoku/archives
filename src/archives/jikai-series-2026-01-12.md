@@ -4,6 +4,8 @@ description: 2026年1月12日に自戒した内容です
 date: 2026-01-12
 author: yamanoku
 source: sizu.me
+category: essay
+topic: life
 ---
 
 自分にとって影響力のあるすごい人の正しそうな意見を見ただけで「そうだそうだ」と思い込まないようにする。

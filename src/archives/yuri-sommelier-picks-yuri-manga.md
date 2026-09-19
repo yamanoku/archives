@@ -4,6 +4,8 @@ description: 百合ソムリエから推薦されてよかった百合漫画を�
 date: 2025-01-23
 author: yamanoku
 source: sizu.me
+category: essay
+topic: life
 ---
 
 皆さんは「百合」という概念をご存知ですか？

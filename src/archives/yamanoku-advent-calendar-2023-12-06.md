@@ -4,6 +4,8 @@ description: ActivityPubに興味が湧いてきている話です
 date: 2023-12-06
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: other
 noindex: true
 ---
 

@@ -4,6 +4,8 @@ description: yamanokuの2025年を振り返った話
 date: 2025-12-31
 author: yamanoku
 source: sizu.me
+category: retrospective
+topic: life
 ---
 
 今年1年を振り返ってみようと思ってこの記事を書きました。昨年については[yamanokuの2024年を振り返る](https://sizu.me/yamanoku/posts/3ehk38b4z8ok)をご覧ください。

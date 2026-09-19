@@ -4,6 +4,8 @@ description: クラウドワークスアドベントカレンダー2023 １日�
 date: 2023-12-01
 author: yamanoku
 source: engineer.crowdworks.jp
+category: retrospective
+topic: frontend
 noindex: true
 ---
 

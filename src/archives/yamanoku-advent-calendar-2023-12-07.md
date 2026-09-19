@@ -4,6 +4,8 @@ description: Svelteのコンパイラとして推せる部分、それにまつ�
 date: 2023-12-07
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: accessibility
 noindex: true
 ---
 

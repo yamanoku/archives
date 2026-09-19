@@ -4,6 +4,8 @@ description: Media Queries でコンテンツ隠すのやめたい
 date: 2016-06-23
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: essay
+topic: frontend
 ---
 
 よく Media Queries のブレークポイントで PC 時と SP 時でリンク先ほかコンテンツを、出したり出さなかったりする制御をしたりするんだけどあれって本当にいいのかという話。そんなことあり得るのかお前とお思いでしょうがまあ聞いてください。

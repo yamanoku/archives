@@ -4,6 +4,8 @@ description: クラウドワークスアドベントカレンダー2021 １日�
 date: 2021-12-01
 author: yamanoku
 source: qiita.com
+category: retrospective
+topic: frontend
 noindex: true
 ---
 

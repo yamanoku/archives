@@ -4,6 +4,8 @@ description: Vue Fes Japanの歴代スピーカー一覧を見られるページ
 date: 2024-08-31
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: frontend
 noindex: true
 ---
 

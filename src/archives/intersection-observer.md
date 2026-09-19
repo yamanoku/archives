@@ -4,6 +4,8 @@ description: テスト
 date: 2017-07-18
 author: yamanoku
 source: qiita.com
+category: tech
+topic: frontend
 ---
 
 ## スクロールでのイベント制御はしんどい。

@@ -4,6 +4,8 @@ description: BuriKaigi 2026に参加＆登壇したのでそのレポートで�
 date: 2026-01-14
 author: yamanoku
 source: note.com
+category: event
+topic: frontend
 noindex: true
 ---
 

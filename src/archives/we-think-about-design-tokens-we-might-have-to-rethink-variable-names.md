@@ -4,6 +4,8 @@ description: CSSやSassの変数名について考え直してみようという
 date: 2019-10-02
 author: yamanoku
 source: scrapbox.io
+category: essay
+topic: frontend
 ---
 
 ## 今回の話すこと・話さないこと

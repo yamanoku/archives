@@ -4,6 +4,8 @@ description: 過去技術同人誌を書いてましたが、周りの影響を�
 date: 2023-12-20
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: work
 noindex: true
 ---
 

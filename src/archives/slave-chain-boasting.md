@@ -4,6 +4,8 @@ description: 奴隷の鎖自慢のように過重労働を自慢することに�
 date: 2026-05-29
 author: yamanoku
 source: sizu.me
+category: essay
+topic: work
 ---
 
 職場で「忙しい」「できなかった」「無理です」といった言葉を聞いたり見かけたりするたびに、私の心のなかにはいつも言葉にできないモヤりが広がっていた。

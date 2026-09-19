@@ -4,6 +4,8 @@ description: Interop 2025のプロポーザル投票が始まったことのお�
 date: 2024-09-19
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: frontend
 noindex: true
 ---
 

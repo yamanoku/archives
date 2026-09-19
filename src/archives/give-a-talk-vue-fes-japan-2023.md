@@ -4,6 +4,8 @@ description: Vue Fes Japan 2023 にクラウドワークスのエンジニアが
 date: 2023-09-07
 author: yamanoku
 source: engineering.crowdworks.jp
+category: event
+topic: frontend
 noindex: true
 ---
 

@@ -4,6 +4,8 @@ description: Vue2 から Vue3 に移行完了した報告です
 date: 2022-03-02
 author: yamanoku
 source: engineer.crowdworks.jp
+category: tech
+topic: frontend
 noindex: true
 ---
 

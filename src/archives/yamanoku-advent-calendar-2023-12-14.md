@@ -4,6 +4,8 @@ description: フロントエンドのドメイン知識をもつ人がイネイ�
 date: 2023-12-14
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: work
 noindex: true
 ---
 

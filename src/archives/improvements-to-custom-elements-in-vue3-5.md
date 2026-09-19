@@ -4,6 +4,8 @@ description: defineCustomElementに関連する事項とVue3.5から改善され
 date: 2024-09-22
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: frontend
 noindex: true
 ---
 

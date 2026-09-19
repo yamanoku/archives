@@ -4,6 +4,8 @@ description: jQuery本体は更新されていてもjQueryライブラリは新�
 date: 2023-12-12
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: frontend
 noindex: true
 ---
 

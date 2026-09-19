@@ -4,6 +4,8 @@ description: 技術書典4
 date: 2018-04-22
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: event
+topic: life
 ---
 
 行ってきたよ。

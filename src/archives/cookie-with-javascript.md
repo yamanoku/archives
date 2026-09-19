@@ -4,6 +4,8 @@ description: cookieとかを使ってJavaScriptでいろいろやってみる話
 date: 2016-08-02
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: frontend
 ---
 
 仕事とか実験で色々試してみたので雑まとめ。

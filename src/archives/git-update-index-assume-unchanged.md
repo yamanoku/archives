@@ -4,6 +4,8 @@ description: config.jsonのhostnameをいちいち変えなくてもいい方法
 date: 2015-12-24
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: frontend
 ---
 
 ## 背景

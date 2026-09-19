@@ -4,6 +4,8 @@ tags: Git gitignore
 date: 2017-07-24
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: frontend
 ---
 
 小ネタ。

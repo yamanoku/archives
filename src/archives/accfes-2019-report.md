@@ -4,6 +4,8 @@ description: アクセシビリティの祭典2019の参加レポートです
 date: 2019-05-20
 author: yamanoku
 source: note.com
+category: event
+topic: accessibility
 ---
 
 ![Image from Gyazo](https://i.gyazo.com/2c72232c0f83648ffab61e95a17ddfc7.jpg)

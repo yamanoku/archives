@@ -4,6 +4,8 @@ description: 2025年のOSSコントリビュート活動の振り返りについ
 date: 2025-12-31
 author: yamanoku
 source: zenn.dev
+category: retrospective
+topic: frontend
 ---
 
 2025年もまもなく終わりですね。みなさんは今年どれくらいオープンソースにコントリビュートできたでしょうか？（唐突）

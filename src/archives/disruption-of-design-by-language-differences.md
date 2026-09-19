@@ -4,6 +4,8 @@ description: ローカライズにおけるタイポグラフィも維持でき�
 date: 2014-07-05
 author: yamanoku
 source: oyamaokuto.org
+category: essay
+topic: other
 ---
 
 海外のサイトなりアプリが日本にリリースされる時、本来使われていたフォントを日本語フォントに代用するとなんかダサいなあといった事案があります。下図のは一例です。

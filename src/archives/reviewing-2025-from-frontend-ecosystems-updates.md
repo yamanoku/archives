@@ -4,6 +4,8 @@ description: フロントエンド技術周辺のアップデートをもとに2
 date: 2025-12-01
 author: yamanoku
 source: qiita.com
+category: retrospective
+topic: frontend
 noindex: true
 ---
 

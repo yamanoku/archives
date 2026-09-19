@@ -4,6 +4,8 @@ description: yamanokuの2024年を振り返った話
 date: 2024-12-30
 author: yamanoku
 source: sizu.me
+category: retrospective
+topic: life
 ---
 
 今年1年を振り返ってみようと思ってこの記事を書きました。そこそこのボリュームになってますが、よろしくお願いします。

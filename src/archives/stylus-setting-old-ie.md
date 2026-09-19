@@ -4,6 +4,8 @@ description: stylusでOldIEの記述やりたいなと思った話です
 date: 2016-01-21
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: frontend
 ---
 
 stylus 便利なのでもうピュアな css を書きたくないのですが、かねてから気になってた問題と解決法を記載。

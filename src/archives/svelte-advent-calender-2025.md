@@ -4,6 +4,8 @@ description: 'SvelteKitのクライアントサイドルーティングはどう
 date: 2025-12-18
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: frontend
 noindex: true
 ---
 

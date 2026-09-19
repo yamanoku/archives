@@ -4,6 +4,8 @@ description: 社内分報をアップデートしてみた話
 date: 2016-12-26
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: work
 ---
 
 みなさんこんにちは今日は Slack での分報（ぶんぽう）について触れてみます。

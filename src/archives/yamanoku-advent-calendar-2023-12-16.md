@@ -4,6 +4,8 @@ description: 次世代Webカンファレンス当日にWebのサステナビリ�
 date: 2023-12-16
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: other
 noindex: true
 ---
 

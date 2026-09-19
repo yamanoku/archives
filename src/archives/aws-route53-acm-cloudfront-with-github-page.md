@@ -4,6 +4,8 @@ tags: AWS route53 GitHub CertificateManager CloudFront
 date: 2018-01-04
 author: yamanoku
 source: qiita.com
+category: tech
+topic: frontend
 ---
 
 ## 追記：2018/05/02

@@ -4,6 +4,8 @@ description: Slackでbotを動かすためのHubotを触ってみる話
 date: 2016-01-17
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: frontend
 ---
 
 ## 経緯

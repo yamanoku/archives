@@ -4,6 +4,8 @@ description: レベルはどこで揃えるべきか悩んでいる話です
 date: 2016-12-01
 author: yamanoku
 source: oyamaokuto.org
+category: essay
+topic: work
 ---
 
 ![](https://i.gyazo.com/c478297c04039c096effec608551e963.png)

@@ -4,6 +4,8 @@ description: すくすく！子育てエンジニアMeetUpに救われた話で�
 date: 2018-12-09
 author: yamanoku
 source: blog.geek.co.jp
+category: essay
+topic: life
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/6dd0f6163d57807d34a856d8f9472f35.png)](https://gyazo.com/6dd0f6163d57807d34a856d8f9472f35)
