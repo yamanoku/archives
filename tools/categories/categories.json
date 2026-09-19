@@ -1,0 +1,22 @@
+{
+  "form": {
+    "instructions": "What is the primary form of this article? Judge how the piece is written, not its subject. If it is a conference or meetup report, choose event even when it discusses Vue, accessibility, or work. If it reviews a year or a period of activity, choose retrospective. If it teaches a technique, tool, or platform change, choose tech. If it is a personal reflection, daily life, or self-admonition without being a period review, choose essay. Choose other only when none of those forms fit.",
+    "criteria": {
+      "tech": "A technical explanation, implementation note, tool or feature introduction, how-to, or short announcement about a web platform or software change. The reader is meant to learn or apply something concrete.",
+      "event": "A report of attending, speaking at, or sponsoring a conference, meetup, or after-talk. The spine of the article is what happened at that gathering, even if technical or accessibility topics appear.",
+      "retrospective": "A look back over a year, season, or stretch of activity: personal yearly reviews, frontend-ecosystem year-in-reviews, OSS contribution summaries, or check-ins against goals set earlier.",
+      "essay": "A personal essay, opinion, self-admonition (jikai), or slice of daily life. It argues or reflects rather than teaching a technique or reporting an event or period.",
+      "other": "None of the other forms fit. Use only when the article is not clearly technical writing, an event report, a retrospective, or an essay."
+    }
+  },
+  "topic": {
+    "instructions": "What is the primary subject of this article? Pick the topic the piece is mainly about, even if another topic is mentioned. An accessibility feature in Vue or Nuxt is accessibility when the point is assistive tech or inclusive UX. A Vue Fes or frontend-conference report is frontend. Work culture, enablement, teaching, or career writing is work. Daily life, hobbies, childcare, or personal routine is life. Choose other only when none of those subjects fit.",
+    "criteria": {
+      "accessibility": "Web accessibility, assistive technology, inclusive design, screen readers, WAI-ARIA, a11y linting, or making the web usable for more people. Prefer this when accessibility is the reason the article exists, including a11y features inside Vue or Nuxt.",
+      "frontend": "Frontend implementation and its ecosystem: Vue, Nuxt, Svelte, React, HTML, CSS, JavaScript, browsers, Interop, markup, design tokens, or frontend tooling. Prefer this for framework or browser writing that is not mainly about accessibility, work culture, or personal life.",
+      "work": "Work, organizations, enablement, teaching, engineering culture, career, or how a team gets work done. Prefer this for reflections on roles, leadership, or workplace practice rather than a specific implementation.",
+      "life": "Personal daily life, hobbies, childcare, games, manga, language-learning routines, or self-admonition about living. Prefer this when the article is about the author's life outside a specific technical or workplace subject.",
+      "other": "None of the other subjects fit. Use only when the article is not mainly accessibility, frontend, work, or life."
+    }
+  }
+}
