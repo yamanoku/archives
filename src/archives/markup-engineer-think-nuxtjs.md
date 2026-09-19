@@ -4,6 +4,8 @@ description: Vue.js nuxt.js
 date: 2017-12-21
 author: yamanoku
 source: qiita.com
+category: essay
+topic: frontend
 ---
 
 この記事は[Vue.js #2 Advent Calendar 2017](https://qiita.com/advent-calendar/2017/vue2)の 21 日目の記事です。

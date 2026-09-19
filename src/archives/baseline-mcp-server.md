@@ -4,6 +4,8 @@ description: Baseline MCP Serverを作成し、公開したので紹介
 date: 2025-04-13
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: frontend
 ---
 
 Model Context Protocol（MCP）、最近流行っていますね。割と簡単に作れることが売りのようです。

@@ -4,6 +4,8 @@ description: backlog上で案件・進捗管理をしていた自分がGithubに
 date: 2017-09-18
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: essay
+topic: work
 ---
 
 転職してから業務管理ツールをサイボウズ（勤怠が主だったけど）→backlog に変わってずっと進捗管理をそこで行ってきた。２年くらいになるけど、Redmine とかには触れないでも、方向性とかやり方を模索しながらうまいこと立ち回ってきたように感じる。

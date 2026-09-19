@@ -4,6 +4,8 @@ description: GAAD Japan 2022でスポンサー協賛とLTをしてきた話で�
 date: 2022-06-01
 author: yamanoku
 source: engineer.crowdworks.jp
+category: event
+topic: accessibility
 noindex: true
 ---
 

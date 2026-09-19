@@ -4,6 +4,8 @@ description: インプットを限りなくやったら見える世界は変わ�
 date: 2019-05-28
 author: yamanoku
 source: scrapbox.io
+category: retrospective
+topic: work
 ---
 
 ## 話すことについて

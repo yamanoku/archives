@@ -4,6 +4,8 @@ description: 2024年のNuxtとUnJS、そしてそれらにまつわる周辺エ�
 date: 2024-12-09
 author: yamanoku
 source: zenn.dev
+category: retrospective
+topic: frontend
 noindex: true
 ---
 

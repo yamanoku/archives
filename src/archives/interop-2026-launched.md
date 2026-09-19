@@ -4,6 +4,8 @@ description: Interop 2026のプロポーザル投票が始まったことのお�
 date: 2026-02-13
 author: yamanoku
 source: zenn.dev
+category: retrospective
+topic: frontend
 noindex: true
 ---
 

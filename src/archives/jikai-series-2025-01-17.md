@@ -4,6 +4,8 @@ description: 2025年1月17日に自戒した内容です
 date: 2025-01-17
 author: yamanoku
 source: sizu.me
+category: essay
+topic: life
 ---
 
 本当にやりたいことがあるなら人が見てるところでしっかりと主張し続けなさい。それは何かにつながるかもしれないから。

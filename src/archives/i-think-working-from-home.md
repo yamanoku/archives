@@ -4,6 +4,8 @@ description: 在宅勤務に関してやってみて思ったことです
 date: 2016-04-20
 author: yamanoku
 source: oyamaokuto.org
+category: essay
+topic: work
 ---
 
 今日は在宅勤務（厳密にはリモート勤務）したので適当に書いてみる。

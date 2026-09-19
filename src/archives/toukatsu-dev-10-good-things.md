@@ -4,6 +4,8 @@ description: 東葛.devに参加して1年経ったので良いところを10個
 author: yamanoku
 date: 2025-12-15
 source: scrapbox.io
+category: retrospective
+topic: work
 noindex: true
 ---
 

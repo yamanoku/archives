@@ -4,6 +4,8 @@ description: TailwindCSSに対してどういうポジションなのか探り�
 date: 2023-12-11
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: frontend
 noindex: true
 ---
 

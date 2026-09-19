@@ -4,6 +4,8 @@ description: CSSやSassの変数名について考え直してみようという
 date: 2019-12-19
 author: yamanoku
 source: scrapbox.io
+category: tech
+topic: frontend
 ---
 
 ## 令和元年台風第 19 号すごかったですね

@@ -4,6 +4,8 @@ description: Vue Fes Japan 2024に参加したのでそのレポートです
 date: 2024-10-25
 author: yamanoku
 source: qiita.com
+category: event
+topic: frontend
 noindex: true
 ---
 

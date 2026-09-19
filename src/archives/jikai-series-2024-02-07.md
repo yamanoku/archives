@@ -4,6 +4,8 @@ description: 2024年2月7日に自戒した内容です
 date: 2024-02-07
 author: yamanoku
 source: sizu.me
+category: essay
+topic: life
 ---
 
 夜に飲み過ぎると朝ご飯が楽しめなくなるのでほどほどにしようね！

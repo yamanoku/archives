@@ -4,6 +4,8 @@ description: imgのaltに何を入れるか、その時にWAI-ARIAで回避す�
 date: 2017-11-21
 author: yamanoku
 source: scrapbox.io
+category: tech
+topic: accessibility
 ---
 
 alt に文字画像とかあれば入れるのは常なんだが、たとえば商品画像とかがそのままポンと置いてあると説明しづらい。

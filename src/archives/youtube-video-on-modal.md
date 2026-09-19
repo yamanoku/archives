@@ -4,6 +4,8 @@ description: モーダルでYoutube動画流すことについて思ったこと
 date: 2016-08-24
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: frontend
 ---
 
 ## 結論

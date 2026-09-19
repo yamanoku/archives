@@ -4,6 +4,8 @@ description: 「ベスト・オブ・ツイート」のイベントを、本年�
 date: 2023-12-22
 author: yamanoku
 source: 2023.yamanoku.net
+category: other
+topic: other
 noindex: true
 ---
 

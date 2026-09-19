@@ -4,6 +4,8 @@ description: テンプレートリテラルつかわずに改行してHTML表示
 date: 2018-02-19
 author: yamanoku
 source: scrapbox.io
+category: tech
+topic: frontend
 ---
 
 ちょっとビビった。たしかにそういうやり方があるにはあるのだが。

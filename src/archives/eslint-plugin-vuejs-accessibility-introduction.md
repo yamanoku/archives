@@ -4,6 +4,8 @@ description: eslint-plugin-vuejs-accessibilityの入門記事です
 date: 2024-02-18
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: accessibility
 noindex: true
 ---
 

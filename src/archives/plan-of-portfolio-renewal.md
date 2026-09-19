@@ -4,6 +4,8 @@ decription: ポートフォリオサイトをリニューアルしたかった�
 date: 2016-08-20
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: essay
+topic: frontend
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/f887aabba3a1b03e65af671af4399435.png)](https://gyazo.com/f887aabba3a1b03e65af671af4399435)

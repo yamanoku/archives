@@ -4,6 +4,8 @@ description: 私が続けていたDuolingoを辞めた理由について
 date: 2025-02-11
 author: yamanoku
 source: sizu.me
+category: essay
+topic: life
 ---
 
 [2025年も変わらず続けていきたいこと](/still-continuing-in-2025)で、今年はDuolingoを1年通して続けたい！と書いたのですがやめることにしました。

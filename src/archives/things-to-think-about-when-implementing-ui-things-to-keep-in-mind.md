@@ -4,6 +4,8 @@ description: UI の実装で考えていること, 気をつけたいことの�
 date: 2020-12-09
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: frontend
 noindex: true
 ---
 

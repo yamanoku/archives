@@ -4,6 +4,8 @@ description: 書いた記事をアップデートすることについて
 date: 2017-07-11
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: essay
+topic: work
 ---
 
 [CSSのプロパティ記述順についてどうするかの話](./sort-order-css-property)

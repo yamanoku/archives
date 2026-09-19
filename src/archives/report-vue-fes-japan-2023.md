@@ -4,6 +4,8 @@ description: Vue Fes Japan 2023に参加したのでそのレポートです
 date: 2023-11-08
 author: yamanoku
 source: engineer.crowdworks.jp
+category: event
+topic: frontend
 noindex: true
 ---
 

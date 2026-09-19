@@ -4,6 +4,8 @@ description: 2025年も変わらず続けていきたいことから12月末に�
 date: 2025-12-31
 author: yamanoku
 source: sizu.me
+category: retrospective
+topic: life
 ---
 
 [2025年も変わらず続けていきたいこと](https://sizu.me/yamanoku/posts/945fuez0nhz5)を年末に振り返ってみるかと思ったのでやる。

@@ -4,6 +4,8 @@ description: 記事を書くときに気をつけること
 date: 2017-07-31
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: essay
+topic: frontend
 ---
 
 なんらかの記事を書くというのは日々のモチベや多忙さに左右されるので継続は難しいなと感じるところですが、記事を共有するというのは慣れていないとどうも参入障壁がデカい気がします(いわゆるアウトプットが慣れてない場合)。

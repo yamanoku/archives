@@ -4,6 +4,8 @@ decription: jQuery Velocity JavaScript アニメーション
 date: 2017-06-21
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: frontend
 ---
 
 ![Velocity.js](https://i.gyazo.com/e4ff99807a7e6917ee9f5dfa0be8f5fc.png)

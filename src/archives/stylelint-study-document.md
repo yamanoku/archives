@@ -4,6 +4,8 @@ description: stylelint lint 勉強会
 date: 2018-01-29
 author: yamanoku
 source: qiita.com
+category: tech
+topic: frontend
 noindex: true
 ---
 

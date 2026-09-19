@@ -4,6 +4,8 @@ description: カンファレンスの発表で技術自体とは直接は関連�
 date: 2023-12-18
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: accessibility
 noindex: true
 ---
 

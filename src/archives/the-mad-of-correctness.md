@@ -4,6 +4,8 @@ description: 正しくなることに意固地になるのは狂気のはじま�
 date: 2015-11-11
 author: yamanoku
 source: oyamaokuto.org
+category: essay
+topic: life
 ---
 
 [いやしくも生について正確に伝えようとするなら病的になる他ない: DESIGN IT! w/LOVE](http://gitanez.seesaa.net/article/429288298.html)

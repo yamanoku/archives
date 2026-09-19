@@ -4,6 +4,8 @@ tags: CodeClimate Vue.js JavaScript YAML
 date: 2017-08-29
 author: yamanoku
 source: qiita.com
+category: tech
+topic: frontend
 ---
 
 ## 概要

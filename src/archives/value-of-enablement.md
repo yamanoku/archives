@@ -4,6 +4,8 @@ description: できるようになる人を増やすことが自分の嬉しい�
 date: 2025-04-15
 author: yamanoku
 source: sizu.me
+category: essay
+topic: work
 ---
 
 このへん見てて思ったこと。

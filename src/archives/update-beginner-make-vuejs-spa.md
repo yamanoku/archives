@@ -4,6 +4,8 @@ description: Vue.js vue-cli vue-router
 date: 2018-01-21
 author: yamanoku
 source: qiita.com
+category: tech
+topic: frontend
 ---
 
 前回 => [よく分かってなくてもVue.jsで動くモノが作れた話](./beginner-make-vuejs-spa)

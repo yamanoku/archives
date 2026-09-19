@@ -4,6 +4,8 @@ description: type属性の指定があまり重要視されていない現状に
 date: 2023-12-04
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: frontend
 noindex: true
 ---
 

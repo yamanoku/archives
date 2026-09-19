@@ -4,6 +4,8 @@ description: yamanokuの家族が全員ヘビーユーザーになっている�
 date: 2023-12-02
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: life
 noindex: true
 ---
 

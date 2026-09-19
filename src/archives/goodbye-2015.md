@@ -4,6 +4,8 @@ description: 2015年を振り返る話です
 date: 2015-12-31
 author: yamanoku
 source: oyamaokuto.org
+category: retrospective
+topic: life
 ---
 
 ## はじめに

@@ -4,6 +4,8 @@ description: フロントエンドカンファレンス北海道でブラウザ�
 date: 2024-09-11
 author: yamanoku
 source: qiita.com
+category: event
+topic: frontend
 noindex: true
 ---
 

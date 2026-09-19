@@ -4,6 +4,8 @@ description: Interop 2025が始まったことを知らせる記事です
 date: 2025-02-15
 author: yamanoku
 source: zenn.dev
+category: retrospective
+topic: frontend
 noindex: true
 ---
 

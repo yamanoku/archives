@@ -4,6 +4,8 @@ description: SchooがVueエコシステムと共に歩む理由について紹�
 date: 2026-02-25
 author: yamanoku
 source: qiita.com
+category: event
+topic: frontend
 noindex: true
 ---
 

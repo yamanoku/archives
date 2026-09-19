@@ -4,6 +4,8 @@ description: ScopedCSSを使って思ったことについて
 date: 2016-11-14
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: frontend
 ---
 
 [Scoped CSS | Vue Loader](https://vue-loader.vuejs.org/guide/scoped-css.html)

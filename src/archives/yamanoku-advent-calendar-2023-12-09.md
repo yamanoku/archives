@@ -4,6 +4,8 @@ description: SafariはInternet Explorerとは違うし、そんなことより�
 date: 2023-12-09
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: frontend
 noindex: true
 ---
 

@@ -4,6 +4,8 @@ description: 'Nuxt設定ファイルにあるcompatibilityDateとは何か？'
 date: 2025-09-13
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: frontend
 noindex: true
 ---
 

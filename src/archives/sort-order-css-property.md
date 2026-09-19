@@ -4,6 +4,8 @@ description: CSS CSS設計 css-comb
 date: 2016-07-01
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: frontend
 ---
 
 ## 記述順どうしてますか？

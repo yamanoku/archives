@@ -4,6 +4,8 @@ description: Vue Fes Japan Online 2022 にクラウドワークスのエンジ�
 date: 2022-10-11
 author: yamanoku
 source: engineering.crowdworks.jp
+category: event
+topic: frontend
 noindex: true
 ---
 

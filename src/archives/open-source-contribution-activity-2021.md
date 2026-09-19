@@ -4,6 +4,8 @@ description: 2021年のオープンソースコントリビュート活動の振
 date: 2021-12-30
 author: yamanoku
 source: zenn.dev
+category: retrospective
+topic: accessibility
 noindex: true
 ---
 

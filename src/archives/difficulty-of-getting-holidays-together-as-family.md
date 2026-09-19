@@ -4,6 +4,8 @@ description: 休みを家族全体で揃えるのは難しいという話です
 date: 2018-05-02
 author: yamanoku
 source: oyamaokuto.org
+category: essay
+topic: life
 ---
 
 - 自分が有給を取れたとして果たして配偶者も同様に取得できるか？問題が有る

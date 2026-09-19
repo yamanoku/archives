@@ -4,6 +4,8 @@ description: 2023年後半（7月〜12月）のフロントエンドの動向や
 date: 2023-12-24
 author: yamanoku
 source: 2023.yamanoku.net
+category: retrospective
+topic: frontend
 noindex: true
 ---
 

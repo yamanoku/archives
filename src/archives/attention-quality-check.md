@@ -4,6 +4,8 @@ description: クオリティチェック
 date: 2016-06-29
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: essay
+topic: work
 ---
 
 ## クオリティチェックしてますか

@@ -4,6 +4,8 @@ description: Vue Fes Japan 2023でのyamanokuの発表資料の作り方につ�
 date: 2023-12-10
 author: yamanoku
 source: 2023.yamanoku.net
+category: tech
+topic: work
 noindex: true
 ---
 

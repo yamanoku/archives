@@ -4,6 +4,8 @@ description: 2024年2月25日に自戒した内容です
 date: 2024-02-25
 author: yamanoku
 source: sizu.me
+category: essay
+topic: life
 ---
 
 「時間があったら〇〇に取り組めるのに」っていうの一生来ないので、気になったら今すぐやれ

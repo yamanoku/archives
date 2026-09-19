@@ -4,6 +4,8 @@ description: Vue Fes Japan Online 2022に参加したのでそのレポートで
 date: 2022-10-25
 author: yamanoku
 source: engineer.crowdworks.jp
+category: event
+topic: frontend
 noindex: true
 ---
 

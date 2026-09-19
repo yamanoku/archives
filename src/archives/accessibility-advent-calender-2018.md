@@ -4,6 +4,8 @@ description: 2018年でやってきたアクセシビリティにまつわる活
 date: 2018-12-19
 author: yamanoku
 source: scrapbox.io
+category: retrospective
+topic: accessibility
 ---
 
 この記事は [Web アクセシビリティ Advent Calendar 2018](https://adventar.org/calendars/3039) 19 日目の記事になります。<br>

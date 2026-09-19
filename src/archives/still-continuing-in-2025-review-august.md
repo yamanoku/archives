@@ -4,6 +4,8 @@ description: 2025年も変わらず続けていきたいことから8月末に�
 date: 2025-08-31
 author: yamanoku
 source: sizu.me
+category: retrospective
+topic: life
 ---
 
 [2025年も変わらず続けていきたいこと](/still-continuing-in-2025)から8カ月すぎてて振り返ってみるかと思ったのでやる。

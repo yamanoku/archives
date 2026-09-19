@@ -4,6 +4,8 @@ description: JavaScriptでの配列をランダムで配置する方法につい
 date: 2019-05-10
 author: yamanoku
 source: scrapbox.io
+category: tech
+topic: frontend
 ---
 
 ## フィッシャーイェーツのシャッフル

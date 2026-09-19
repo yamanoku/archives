@@ -4,6 +4,8 @@ description: 使い回せるCSS
 date: 2017-04-27
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: essay
+topic: frontend
 ---
 
 ## 色々設計思想がありますが
