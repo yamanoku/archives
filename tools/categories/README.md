@@ -2,7 +2,10 @@
 
 [`src/archives/`](../../src/archives/) の記事を、TypeSafe AI の Choice で **形式** と **主題** の2軸に振り分ける。
 
-サイトの frontmatter や表示は変えない。結果は `results.json` に出す。
+結果は `results.json` に出し、記事 frontmatter へも書き戻す。
+
+- 形式 (`form`) → `category`
+- 主題 (`topic`) → `topic`
 
 ## ジャンル
 
@@ -60,11 +63,18 @@ node tools/categories/classify.mjs
 node tools/categories/classify.mjs --limit=5
 ```
 
-1記事につき TypeSafe へ1リクエストし、形式と主題の Choice を同時に聞く。429 / 529 は指数バックオフで再試行する。
+1記事につき TypeSafe へ1リクエストし、形式と主題の Choice を同時に聞く。429 / 529 は指数バックオフで再試行する。分類後、各記事の frontmatter に `category` と `topic` を足す。
+
+キャッシュだけあるときは API キーなしで書き戻せる。
+
+```bash
+node tools/categories/apply-frontmatter.mjs
+```
 
 ## 出力
 
 - `results.json` — 全件の振り分け。`form` / `topic` とそれぞれの confidence、確率分布
 - `cache.json` — API 応答のキャッシュ。再実行時はここを読んでリクエストを飛ばす。gitignore 済み
+- `src/archives/*.md` — frontmatter の `category` と `topic`
 
 confidence が 0.6 未満の記事は、実行時に一覧を出す。

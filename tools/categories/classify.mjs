@@ -3,6 +3,7 @@ import { existsSync, readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
+import { applyFrontmatter, loadCategoryEnums } from './apply-frontmatter.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '../..');
@@ -71,6 +72,16 @@ const output = {
 
 await writeFile(RESULTS_PATH, JSON.stringify(output, null, 2) + '\n');
 printSummary(results, { fetched, fromCache, limit: targets.length });
+
+const enums = await loadCategoryEnums();
+const applied = await applyFrontmatter(
+  cache,
+  results.map((article) => article.slug),
+  enums,
+);
+console.log(
+  `Frontmatter: updated ${applied.updated}, unchanged ${applied.unchanged}, skipped ${applied.skipped}`,
+);
 
 function loadDotEnv(path) {
   if (!existsSync(path)) {

@@ -8,6 +8,12 @@ const archives = defineCollection({
     title: z.string(),
     description: z.string().optional(),
     source: z.string(),
+    category: z
+      .enum(['tech', 'event', 'retrospective', 'essay', 'other'])
+      .optional(),
+    topic: z
+      .enum(['accessibility', 'frontend', 'work', 'life', 'other'])
+      .optional(),
     noindex: z.boolean().optional(),
   }),
 });
