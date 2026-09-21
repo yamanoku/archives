@@ -40,7 +40,11 @@ const parser = loadDefaultJapaneseParser();
       );
       // スクリーンショットを撮る
       await page.screenshot({
-        path: join(ROOT, 'public/og-images', `${mdFilename.replace('.md', '')}.png`),
+        path: join(
+          ROOT,
+          'public/og-images',
+          `${mdFilename.replace('.md', '')}.png`,
+        ),
         clip: { x: 0, y: 0, width: 1200, height: 630 },
       });
       console.log(`Create: ${mdFilename.replace('.md', '')}.png`);
