@@ -1,12 +1,20 @@
-import { join } from 'path';
+import { dirname, join } from 'path';
+import { fileURLToPath, pathToFileURL } from 'url';
 import { execSync } from 'child_process';
 import puppeteer from 'puppeteer';
 import { loadDefaultJapaneseParser } from 'budoux';
 import { getUnstagedFiles } from './lib/getUnstagedFiles.mjs';
 import { getPostTitle } from './lib/getPostTitle.mjs';
 
+const __dirname = dirname(fileURLToPath(import.meta.url));
+const ROOT = join(__dirname, '../..');
+const templateHtml = join(__dirname, 'template.html');
+
 // gitにまだ登録されていない新規ファイルを取得する
-const output = execSync('git status --porcelain', { encoding: 'utf-8' });
+const output = execSync('git status --porcelain', {
+  encoding: 'utf-8',
+  cwd: ROOT,
+});
 const lines = output.split('\n');
 const unstagedFiles = getUnstagedFiles(lines);
 
@@ -16,7 +24,7 @@ const parser = loadDefaultJapaneseParser();
   const browser = await puppeteer.launch({ headless: 'new' });
   const page = await browser.newPage();
   // テンプレートファイルを開く
-  await page.goto('file:///' + join(process.cwd(), 'ogp/template.html'));
+  await page.goto(pathToFileURL(templateHtml).href);
   for (const mdFilename of unstagedFiles) {
     const title = getPostTitle(mdFilename);
     try {
@@ -32,7 +40,7 @@ const parser = loadDefaultJapaneseParser();
       );
       // スクリーンショットを撮る
       await page.screenshot({
-        path: `public/og-images/${mdFilename.replace('.md', '')}.png`,
+        path: join(ROOT, 'public/og-images', `${mdFilename.replace('.md', '')}.png`),
         clip: { x: 0, y: 0, width: 1200, height: 630 },
       });
       console.log(`Create: ${mdFilename.replace('.md', '')}.png`);

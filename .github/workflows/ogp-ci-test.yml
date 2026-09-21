@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - 'ogp/**'
+      - 'tools/ogp/**'
 
 permissions:
   contents: write
