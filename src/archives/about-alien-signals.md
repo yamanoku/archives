@@ -4,6 +4,8 @@ description: 'Webフロントエンドでのリアクティビティからalien-
 date: 2025-03-24
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: frontend
 noindex: true
 ---
 

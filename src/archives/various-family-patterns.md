@@ -4,6 +4,8 @@ description: いろんなパターンがある話について
 date: 2016-04-27
 author: yamanoku
 source: oyamaokuto.org
+category: essay
+topic: life
 ---
 
 娘が産まれてから家事は分担するようにしているが、基本は産まれる前から引き続き家事は嫁が担当している。炊事や水回りのこと、洗濯などを平日担当してくれてる。家から出れない分買い物だったり支払い関係だったりは自分が請け負ってる。

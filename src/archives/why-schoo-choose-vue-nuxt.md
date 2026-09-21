@@ -4,6 +4,8 @@ description: SchooがVueエコシステムと共に歩む理由について紹�
 date: 2026-02-25
 author: yamanoku
 source: qiita.com
+category: event
+topic: frontend
 noindex: true
 ---
 
@@ -59,9 +61,7 @@ Schooでは私が所属する以前から、複数のプロダクトでVue.js/Nu
 </script>
 <script type="module">
   import { createApp } from 'vue';
-  const app = createApp({
-    /* Vue.jsの各種処理 */
-  });
+  const app = createApp({/* Vue.jsの各種処理 */});
   app.mount('#app');
 </script>
 ```

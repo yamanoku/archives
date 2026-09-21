@@ -4,6 +4,8 @@ description: yamanokuが同調圧力で制御されることが我慢できな�
 date: 2024-01-24
 author: yamanoku
 source: size.me
+category: essay
+topic: life
 ---
 
 自分は人から制御されることをとにかく嫌う傾向にある。

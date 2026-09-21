@@ -4,6 +4,8 @@ description: 2024年1月8日に自戒した内容です
 date: 2024-01-08
 author: yamanoku
 source: sizu.me
+category: essay
+topic: life
 ---
 
 音楽聴いたり動画見ながらってのは集中力がまったく続かないので何らかをやるなら止めようと今更ながら思ってます。作業するときと聴くときと見るときはそれぞれ別で分けよう！

@@ -4,6 +4,8 @@ description: stylelint-a11yについて調べてわかったことについて�
 date: 2019-08-04
 author: yamanoku
 source: scrapbox.io
+category: tech
+topic: accessibility
 ---
 
 ## 今回のテーマ「`stylelint-a11y`」

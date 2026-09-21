@@ -4,6 +4,8 @@ description: togglで作業時間を記録する話について
 date: 2015-11-30
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: work
 ---
 
 ## きちんと把握できているか

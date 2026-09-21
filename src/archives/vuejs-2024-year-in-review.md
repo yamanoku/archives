@@ -4,6 +4,8 @@ description: 2024年のVue.jsと周辺エコシステムについてを振り返
 date: 2024-12-09
 author: yamanoku
 source: zenn.dev
+category: retrospective
+topic: frontend
 noindex: true
 ---
 

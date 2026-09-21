@@ -4,6 +4,8 @@ description: 'Vueユーザーから見るReact Tokyoコミュニティ'
 date: 2025-12-10
 author: yamanoku
 source: zenn.dev
+category: retrospective
+topic: frontend
 noindex: true
 ---
 

@@ -4,6 +4,8 @@ description: 2016年を振り返る話です
 date: 2016-12-31
 author: yamanoku
 source: oyamaokuto.org
+category: retrospective
+topic: life
 ---
 
 ## はじめに

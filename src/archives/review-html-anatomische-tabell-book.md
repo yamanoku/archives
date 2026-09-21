@@ -4,6 +4,8 @@ description: レビュー参加した「HTML解体新書」の感想記事
 date: 2022-04-19
 author: yamanoku
 source: engineer.crowdworks.jp
+category: essay
+topic: frontend
 noindex: true
 ---
 

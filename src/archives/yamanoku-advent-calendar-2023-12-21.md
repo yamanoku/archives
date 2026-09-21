@@ -4,6 +4,8 @@ description: アクセシビリティに取り組む・推進している日本�
 date: 2023-12-21
 author: yamanoku
 source: 2023.yamanoku.net
+category: retrospective
+topic: accessibility
 noindex: true
 ---
 

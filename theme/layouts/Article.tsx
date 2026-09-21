@@ -37,9 +37,9 @@ export function ArticleLayout(_props?: { children?: unknown }) {
         <div id="tategaki-scroll-container">
           <Header
             actions={
-              <label>
+              <label class="tategaki-toggle">
                 <input type="checkbox" id="tategaki-toggle" />
-                縦書きモード
+                縦書き
               </label>
             }
           />

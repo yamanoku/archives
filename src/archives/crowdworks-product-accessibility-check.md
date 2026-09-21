@@ -4,6 +4,8 @@ description: クラウドワークスのWebアクセシビリティチェック�
 date: 2020-09-17
 author: yamanoku
 source: engineer.crowdworks.jp
+category: tech
+topic: accessibility
 noindex: true
 ---
 

@@ -4,6 +4,8 @@ description: JavaScript無効にしたときのユーザビリティとかにつ
 date: 2017-05-01
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: essay
+topic: accessibility
 ---
 
 社内で話した内容で気づけてよかったことなのでまとめてみる。自戒も込めてます。

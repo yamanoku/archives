@@ -4,6 +4,8 @@ description: 自己紹介欄について決まった形式で書いているこ�
 date: 2023-12-05
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: life
 noindex: true
 ---
 

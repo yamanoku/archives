@@ -4,6 +4,8 @@ description: Vue.js 初心者 JavaScript
 date: 2016-12-09
 author: yamanoku
 source: qiita.com
+category: tech
+topic: frontend
 ---
 
 この記事は、[Vue.js Advent Calender 2016](http://qiita.com/advent-calendar/2016/vue) 9 日目の記事です。

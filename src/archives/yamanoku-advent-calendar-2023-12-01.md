@@ -4,6 +4,8 @@ description: yamanoku Advent Calendar 2023の開会宣言です
 date: 2023-12-01
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: life
 noindex: true
 ---
 

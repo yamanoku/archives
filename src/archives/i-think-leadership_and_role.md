@@ -4,6 +4,8 @@ description: リーダーシップとか役割とかそういうことについ�
 date: 2016-11-06
 author: yamanoku
 source: oyamaokuto.org
+category: essay
+topic: work
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/fd8b2e7b388e05d39aad2dec55e5ac9c.png)](https://gyazo.com/fd8b2e7b388e05d39aad2dec55e5ac9c)

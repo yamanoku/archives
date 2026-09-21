@@ -4,6 +4,8 @@ description: HTMLからウェブサイトのあり方を見直す記事です
 date: 2017-12-15
 author: yamanoku
 source: blog.geek.co.jp
+category: tech
+topic: frontend
 ---
 
 [![Image from Gyazo](https://i.gyazo.com/42acf3b5c065db36cd9ef55287a47549.jpg)](https://gyazo.com/42acf3b5c065db36cd9ef55287a47549)

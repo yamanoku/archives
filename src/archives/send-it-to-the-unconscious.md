@@ -4,6 +4,8 @@ description: 次の曲を無意識に送る話について
 date: 2016-08-30
 author: yamanoku
 source: oyamaokuto.org
+category: essay
+topic: life
 ---
 
 ![](https://i.gyazo.com/a0cac60699eca8a2b3f2c31c474a9d8c.png)

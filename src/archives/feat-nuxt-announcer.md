@@ -4,6 +4,8 @@ description: Nuxt 4.4より導入されたNuxtAnnouncer機能について紹介�
 date: 2026-03-13
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: accessibility
 noindex: true
 ---
 
@@ -296,6 +298,12 @@ DevTools上でアクセシビリティチェックが可能になる[@nuxt/a11y]
 [feat(useLiveAnnouncer): new function by IceMooncake · Pull Request #5315 · vueuse/vueuse](https://github.com/vueuse/vueuse/pull/5315)
 
 この記事の執筆時点ではまだマージされていませんが、これが本体に適用されるのを楽しみにしています。
+
+### 2026-09-17 更新
+
+[VueUse v15.0.0](https://github.com/vueuse/vueuse/releases/tag/v15.0.0)にてリリースされました！ドキュメントページも追加されたので是非ご活用ください。
+
+https://vueuse.org/core/useLiveAnnouncer/
 
 ## まとめ
 

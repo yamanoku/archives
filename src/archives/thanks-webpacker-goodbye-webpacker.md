@@ -4,6 +4,8 @@ description: Webpacker から Simpacker + webpack に移行した話
 date: 2022-12-13
 author: yamanoku
 source: engineer.crowdworks.jp
+category: tech
+topic: frontend
 noindex: true
 ---
 

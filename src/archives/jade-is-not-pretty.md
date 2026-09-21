@@ -4,6 +4,8 @@ decription: JadeのprettyがアテにならなかったこととPugに関する�
 date: 2016-09-23
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: tech
+topic: frontend
 ---
 
 ## 経緯

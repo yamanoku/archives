@@ -4,6 +4,8 @@ description: 2018年12月時点で自分がTumblrに思うことを書きまし�
 date: 2018-12-10
 author: yamanoku
 source: scrapbox.io
+category: essay
+topic: other
 ---
 
 - [Tumblr をよりよい場所に](https://nihongo.tumblr.com/post/180759840667/tumblr%E3%82%92%E3%82%88%E3%82%8A%E3%82%88%E3%81%84%E5%A0%B4%E6%89%80%E3%81%AB)

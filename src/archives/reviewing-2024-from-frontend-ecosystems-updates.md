@@ -4,6 +4,8 @@ description: フロントエンド技術周辺のアップデートをもとに2
 date: 2024-12-01
 author: yamanoku
 source: qiita.com
+category: retrospective
+topic: frontend
 noindex: true
 ---
 
@@ -71,7 +73,7 @@ Angularは2回のメジャーバージョンアップにおいてサーバーサ
 
 Svelte v5の目玉としては[Runes API](https://svelte.jp/blog/runes)があげられます。リアクティブシステムの刷新として宣言により明確に処理がわかりやすくなりました。
 
-ReactではReact 19に向けた更新準備が進められています。アプリケーションを最適化をするための新しいコンパイラである[React Compiler]()の発表もありました。
+ReactではReact 19に向けた更新準備が進められています。アプリケーションを最適化をするための新しいコンパイラである[React Compiler](https://ja.react.dev/learn/react-compiler)の発表もありました。
 
 ## メタフレームワーク
 

@@ -4,6 +4,8 @@ description: 我が家で飼っている犬について写真で振り返って�
 date: 2023-12-17
 author: yamanoku
 source: 2023.yamanoku.net
+category: retrospective
+topic: life
 noindex: true
 ---
 

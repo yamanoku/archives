@@ -4,6 +4,8 @@ description: markuplintをプロダクトに導入してみた話です
 date: 2021-10-07
 author: yamanoku
 source: engineer.crowdworks.jp
+category: tech
+topic: frontend
 noindex: true
 ---
 

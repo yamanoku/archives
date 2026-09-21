@@ -4,6 +4,8 @@ description: 仲良くする必要はないけどお互いを尊重し合うこ�
 date: 2024-03-06
 author: yamanoku
 source: size.me
+category: essay
+topic: life
 ---
 
 ![人々が友好的でお互いを尊重し合っている様子を表現したアイコン](https://r2.sizu.me/users/2474/post-images/r8abcd9t3o0wrmwh1nkv.png)

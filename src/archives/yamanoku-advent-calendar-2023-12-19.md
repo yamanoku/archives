@@ -4,6 +4,8 @@ description: お元気ですか.fmの2023年の個人的振り返りをします
 date: 2023-12-19
 author: yamanoku
 source: 2023.yamanoku.net
+category: retrospective
+topic: life
 noindex: true
 ---
 

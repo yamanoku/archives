@@ -4,6 +4,8 @@ description: 2025年1月3日に自戒した内容です
 date: 2025-01-03
 author: yamanoku
 source: sizu.me
+category: essay
+topic: life
 ---
 
 現代が情報過多なことは事実として、自分が知り得ていなきゃいけないことから目を背けてないかということとも向き合わねばならない

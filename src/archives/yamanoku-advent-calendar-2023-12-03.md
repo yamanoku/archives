@@ -4,6 +4,8 @@ description: yamanokuのこれまでのオープンソースへのアクセシ�
 date: 2023-12-03
 author: yamanoku
 source: 2023.yamanoku.net
+category: retrospective
+topic: accessibility
 noindex: true
 ---
 

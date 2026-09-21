@@ -4,6 +4,8 @@ description: エンジニア立ち居振舞いに関する記事
 date: 2016-11-19
 author: yamanoku
 source: yamanoku.hatenablog.com
+category: essay
+topic: work
 ---
 
 [お題「エンジニア立ち居振舞い」](http://blog.hatena.ne.jp/-/odai/10328749687193803821)

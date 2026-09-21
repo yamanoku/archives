@@ -4,6 +4,8 @@ description: Nuxt 3 SSRでの@datadog/browser-logs、@datadog/browser-rum、dd-t
 date: 2025-03-26
 author: yamanoku
 source: qiita.com
+category: tech
+topic: frontend
 noindex: true
 ---
 

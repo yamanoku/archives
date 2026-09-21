@@ -4,6 +4,8 @@ description: 2025年も変わらず続けていきたいことについての話
 date: 2025-01-05
 author: yamanoku
 source: sizu.me
+category: essay
+topic: life
 ---
 
 抱負や目標といったプレッシャーがかかる意識が高いことは言わないで、去年まで続けたことで今年も続けていきたいことをあげてみます。

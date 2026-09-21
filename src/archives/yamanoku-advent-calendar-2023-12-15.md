@@ -4,6 +4,8 @@ description: SPAでの画面遷移のアクセシビリティ改善はつらい�
 date: 2023-12-15
 author: yamanoku
 source: 2023.yamanoku.net
+category: tech
+topic: accessibility
 noindex: true
 ---
 

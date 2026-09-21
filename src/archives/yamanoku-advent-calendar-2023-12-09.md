@@ -4,6 +4,8 @@ description: SafariはInternet Explorerとは違うし、そんなことより�
 date: 2023-12-09
 author: yamanoku
 source: 2023.yamanoku.net
+category: essay
+topic: frontend
 noindex: true
 ---
 
@@ -136,7 +138,7 @@ Safariブラウザにて脆弱性があった場合にも、Chromeや他のiOS�
 
 > And just in case you think that cookies are the only place intervention might take place, consider encryption. And accessibility. And browser fingerprinting. And DRM. How will the Web look when they’re all regulated by multiple governments, or by groups of them (in the same way that trade is increasingly regulated by regional trade agreements)?
 
-> [What ~will~would a Chromium-only Web look like?](https://www.mnot.net/blog/2022/06/22/chromium-only)
+> [What ~~will~~would a Chromium-only Web look like?](https://www.mnot.net/blog/2022/06/22/chromium-only)
 
 今後のChromiumはオープンソースでコード自体は見れたとしても、その意思決定においてまでは不透明なままで、Googleの見えない社内政治に巻き込まれて誰もが参加できなくなる可能性や、政府がGoogleに対して厳格な規制介入が入ることでWeb自体はどうなっていくのだろうか、といったことが書かれています。
 

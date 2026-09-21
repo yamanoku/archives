@@ -4,6 +4,8 @@ description: ソフトウェア開発における設計についての考察で�
 date: 2024-03-03
 author: yamanoku
 source: sizu.me
+category: essay
+topic: work
 ---
 
 最近、ソフトウェア開発における〇〇設計みたいなのは、単なる整理術だと思うようになってきた。

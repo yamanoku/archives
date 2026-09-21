@@ -4,6 +4,8 @@ description: Nuxt 3.12より導入されたRoute Announcer機能について紹�
 date: 2024-07-10
 author: yamanoku
 source: zenn.dev
+category: tech
+topic: accessibility
 noindex: true
 ---
 

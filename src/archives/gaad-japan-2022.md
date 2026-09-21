@@ -4,6 +4,8 @@ description: GAAD Japan 2022でスポンサー協賛とLTをしてきた話で�
 date: 2022-06-01
 author: yamanoku
 source: engineer.crowdworks.jp
+category: event
+topic: accessibility
 noindex: true
 ---
 
@@ -56,7 +58,7 @@ GAAD の日は世界各地でアクセシビリティに関連するイベント
 #### 普及活動について
 
 - [アクセシビリティを向上していくために出来ることから進めていく活動｜みーた｜note](https://note.com/earlgray_mk/n/n159046bd58e7)
-- [アクセシビリティを向上していくために出来ることから進めてみた! ~2019まとめ~ - Speaker Deck](https://speakerdeck.com/mikimhk/akusesihiriteiwoxiang-shang-siteikutamenichu-lai-rukotokarajin-metemita-2019matome)
+- [アクセシビリティを向上していくために出来ることから進めてみた! \~2019まとめ\~ - Speaker Deck](https://speakerdeck.com/mikimhk/akusesihiriteiwoxiang-shang-siteikutamenichu-lai-rukotokarajin-metemita-2019matome)
 - [クラウドワークス #accessibility チャンネル 気になる話題 Pickup 2020](https://zenn.dev/yamanoku/scraps/443087a170fcbe)
 - [クラウドワークス #accessibility チャンネル で気になった話題 Pickup 2021年1〜6月編](https://zenn.dev/yamanoku/scraps/6e4f4d5ed7563a)
 - [クラウドワークス #accessibility チャンネル で気になった話題 Pickup 2021年1〜6月編](https://zenn.dev/yamanoku/scraps/6e4f4d5ed7563a)

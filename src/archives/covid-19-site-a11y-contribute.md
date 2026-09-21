@@ -4,6 +4,8 @@ description: 東京都新型コロナウイルス対策サイトにアクセシ�
 date: 2020-03-25
 author: yamanoku
 source: engineer.crowdworks.jp
+category: event
+topic: accessibility
 noindex: true
 ---
 

@@ -24,7 +24,7 @@ export function HomeLayout(_props?: { children?: unknown }) {
       <body>
         <Header />
         <main>
-          <h1>アーカイブ</h1>
+          <h1>archives.yamanoku.net</h1>
           <p>
             このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。
           </p>

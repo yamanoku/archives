@@ -4,6 +4,8 @@ description: yamanoku Advent Calendar 2023の閉会宣言です
 date: 2023-12-25
 author: yamanoku
 source: 2023.yamanoku.net
+category: retrospective
+topic: frontend
 noindex: true
 ---
 

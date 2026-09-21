@@ -4,6 +4,8 @@ description: Vue Fes Japan 2025 After Talk参加レポート
 author: yamanoku
 date: 2025-11-13
 source: qiita.com
+category: event
+topic: frontend
 noindex: true
 ---
 

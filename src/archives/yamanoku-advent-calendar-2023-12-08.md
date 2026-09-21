@@ -4,6 +4,8 @@ description: 日々の記録をScrapboxで取っているが、どのように�
 date: 2023-12-08
 author: yamanoku
 source: 2023.yamanoku.net
+category: tech
+topic: life
 noindex: true
 ---
 

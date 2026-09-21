@@ -4,6 +4,8 @@ description: 内容を把握してないことを調査して勉強会で発表�
 date: 2025-04-04
 author: yamanoku
 source: qiita.com
+category: event
+topic: frontend
 noindex: true
 ---
 
