@@ -125,7 +125,7 @@ describe('archives footnotes transformer', () => {
     assert.match(
       html,
       new RegExp(
-        `<section data-footnotes="" class="footnotes"><h2 class="sr-only" id="footnote-label">${FOOTNOTE_LABEL}</h2>`,
+        `<section data-footnotes="" class="footnotes" aria-labelledby="footnote-label"><h2 id="footnote-label">${FOOTNOTE_LABEL}</h2>`,
       ),
     );
     assert.match(html, /<li id="user-content-fn-1">/);
@@ -201,7 +201,7 @@ Unused[^missing]
     assert.match(html, /Unused\[\^missing\]/);
     assert.match(
       html,
-      /<section data-footnotes="" class="footnotes"><h2 class="sr-only" id="footnote-label">脚注<\/h2>/,
+      /<section data-footnotes="" class="footnotes" aria-labelledby="footnote-label"><h2 id="footnote-label">脚注<\/h2>/,
     );
     assert.match(html, /<ol>/);
     assert.match(html, /<li id="user-content-fn-1">/);

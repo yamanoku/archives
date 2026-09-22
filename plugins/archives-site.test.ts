@@ -163,7 +163,7 @@ describe(
       assert.match(article, /src="\/tategaki\.js"/);
       assert.match(
         article,
-        /<section data-footnotes="" class="footnotes"><h2 class="sr-only" id="footnote-label">脚注<\/h2>/,
+        /<section data-footnotes="" class="footnotes" aria-labelledby="footnote-label"><h2 id="footnote-label">脚注<\/h2>/,
       );
       assert.match(
         article,
@@ -182,10 +182,10 @@ describe(
         join(distDir, 'vuejs-2024-year-in-review/index.html'),
         'utf8',
       );
-      assert.match(tweetArticle, /class="ox-tweet ox-tweet--rich"/);
+      assert.match(tweetArticle, /class="ox-tweet ox-tweet--fetched"/);
       assert.match(
         tweetArticle,
-        /href="https:\/\/twitter\.com\/vuejs\/status\/1753678155444101385"/,
+        /href="https:\/\/x\.com\/vuejs\/status\/1753678155444101385"/,
       );
       assert.doesNotMatch(
         tweetArticle,
@@ -218,7 +218,7 @@ describe(
 
       const styles = readFileSync(join(distDir, 'styles.css'), 'utf8');
       assert.doesNotMatch(styles, /unresolved import/);
-      assert.match(styles, /\.ox-tweet--rich/);
+      assert.match(styles, /\.ox-tweet--fetched/);
       assert.match(styles, /\.ox-youtube iframe/);
       assert.match(styles, /\.ox-provider-card/);
     });
