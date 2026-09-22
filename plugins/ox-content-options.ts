@@ -2,6 +2,7 @@ import type { OxContentOptions } from '@ox-content/vite-plugin';
 import archivesTheme from '../theme/index.tsx';
 import { SITE_TITLE, SITE_URL } from '../src/config.ts';
 import { rewriteMarkdownLinks } from './archives-feeds.ts';
+import { archivesFootnotes } from './archives-footnotes.ts';
 
 export function oxContentPluginOptions(): OxContentOptions {
   return {
@@ -19,7 +20,9 @@ export function oxContentPluginOptions(): OxContentOptions {
       limit: 20,
       hotkey: '/',
     },
-    transformers: [rewriteMarkdownLinks()],
+    transformers: [rewriteMarkdownLinks(), archivesFootnotes()] as NonNullable<
+      OxContentOptions['transformers']
+    >,
     ssg: {
       siteName: SITE_TITLE,
       siteUrl: SITE_URL,
