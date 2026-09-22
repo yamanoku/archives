@@ -24,6 +24,22 @@ import {
 const rootDir = join(fileURLToPath(new URL('.', import.meta.url)), '..');
 const stylesEntry = join(rootDir, 'src/styles/global.css');
 
+function resolveCssImport(fromFile: string, spec: string): string | null {
+  if (spec.startsWith('.')) {
+    const importedPath = join(dirname(fromFile), spec);
+    return existsSync(importedPath) ? importedPath : null;
+  }
+  const nodeModulesPath = join(rootDir, 'node_modules', spec);
+  if (existsSync(nodeModulesPath)) {
+    return nodeModulesPath;
+  }
+  try {
+    return fileURLToPath(import.meta.resolve(spec));
+  } catch {
+    return null;
+  }
+}
+
 function resolveCss(filePath: string, seen = new Set<string>()): string {
   const resolved = filePath;
   if (seen.has(resolved)) {
@@ -34,10 +50,8 @@ function resolveCss(filePath: string, seen = new Set<string>()): string {
   return source.replace(
     /@import\s+(?:url\()?['"]([^'"]+)['"]\)?\s*;/g,
     (_match, spec: string) => {
-      const importedPath = spec.startsWith('.')
-        ? join(dirname(resolved), spec)
-        : join(rootDir, 'node_modules', spec);
-      if (!existsSync(importedPath)) {
+      const importedPath = resolveCssImport(resolved, spec);
+      if (!importedPath) {
         return `/* unresolved import: ${spec} */`;
       }
       return resolveCss(importedPath, seen);
