@@ -1,5 +1,27 @@
 @import 'modern-normalize/modern-normalize.css';
 @import 'yama-normalize/yama-normalize.css';
+@import '@ox-content/vite-plugin/styles/social.css';
+@import '@ox-content/vite-plugin/styles/youtube.css';
+
+:root {
+  --octc-color-bg: var(--y-white-base, #fff);
+  --octc-color-bg-alt: #f3f4f6;
+  --octc-color-border: var(--y-arcticle-border-color, #ccc);
+  --octc-color-text: var(--y-black-base, #111);
+  --octc-color-text-muted: #555;
+  --octc-color-primary: #0b57d0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --octc-color-bg: var(--y-black-base, #111);
+    --octc-color-bg-alt: #1a1a1a;
+    --octc-color-border: var(--y-white-medium, #ccc);
+    --octc-color-text: var(--y-white-base, #fff);
+    --octc-color-text-muted: #bbb;
+    --octc-color-primary: #8ab4f8;
+  }
+}
 
 .site-header {
   display: flex;
@@ -163,11 +185,28 @@ dialog[open] {
 }
 
 .tategaki-mode table,
-.tategaki-mode pre {
+.tategaki-mode pre,
+.tategaki-mode .ox-youtube,
+.tategaki-mode .ox-tweet,
+.tategaki-mode .ox-provider-card,
+.tategaki-mode .ox-speaker-deck {
   writing-mode: initial;
   margin-block: 0;
   margin-inline: var(--y-block-margin);
   max-block-size: 100%;
+}
+
+figure.ox-speaker-deck {
+  margin-block: var(--y-rhythm-3);
+}
+
+iframe.ox-speaker-deck,
+.ox-provider-card__map {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
 }
 
 .tategaki-mode sup {

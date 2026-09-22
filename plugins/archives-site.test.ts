@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { existsSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { describe, it } from 'node:test';
 import { join } from 'node:path';
 import {
@@ -176,5 +176,76 @@ describe(
       assert.match(notFound, /ページが見つかりませんでした/);
       assert.match(notFound, /name="robots" content="noindex"/);
     });
+
+    it('renders ox-content embed cards instead of third-party widgets', () => {
+      const tweetArticle = readFileSync(
+        join(distDir, 'vuejs-2024-year-in-review/index.html'),
+        'utf8',
+      );
+      assert.match(tweetArticle, /class="ox-tweet ox-tweet--rich"/);
+      assert.match(
+        tweetArticle,
+        /href="https:\/\/twitter\.com\/vuejs\/status\/1753678155444101385"/,
+      );
+      assert.doesNotMatch(
+        tweetArticle,
+        /platform\.(twitter|x)\.com\/widgets\.js/,
+      );
+
+      const speakerArticle = readFileSync(
+        join(distDir, 'why-schoo-choose-vue-nuxt/index.html'),
+        'utf8',
+      );
+      assert.match(
+        speakerArticle,
+        /src="https:\/\/speakerdeck\.com\/player\/e3080f866b644523802eb0d654ee33c4"/,
+      );
+      assert.doesNotMatch(
+        speakerArticle,
+        /speakerdeck\.com\/assets\/embed\.js/,
+      );
+
+      const mediaArticle = readFileSync(
+        join(distDir, 'gaad-japan-2022/index.html'),
+        'utf8',
+      );
+      assert.match(mediaArticle, /class="ox-youtube"/);
+      assert.match(mediaArticle, /youtube-nocookie\.com\/embed\/FroVoJDVvdc/);
+      assert.match(
+        mediaArticle,
+        /class="ox-provider-card ox-provider-card--googleslides"/,
+      );
+
+      const styles = readFileSync(join(distDir, 'styles.css'), 'utf8');
+      assert.match(styles, /\.ox-tweet/);
+      assert.match(styles, /\.ox-youtube/);
+    });
   },
 );
+
+describe('archive embed sources', () => {
+  it('keeps only ox-content tags for former widget embeds', () => {
+    const archivesDir = join(process.cwd(), 'src/archives');
+    for (const name of readdirSync(archivesDir).filter((file) =>
+      file.endsWith('.md'),
+    )) {
+      const source = readFileSync(join(archivesDir, name), 'utf8');
+      assert.doesNotMatch(source, /class="twitter-tweet"/, name);
+      assert.doesNotMatch(source, /speakerdeck-embed/, name);
+      assert.doesNotMatch(source, /class="codepen"/, name);
+      assert.doesNotMatch(source, /<iframe[^>]+youtube\.com\/embed/, name);
+      if (name !== 'colorbox-youtube-tips.md') {
+        assert.doesNotMatch(
+          source,
+          /<iframe[^>]+docs\.google\.com\/presentation/,
+          name,
+        );
+      }
+    }
+    const sample = readFileSync(
+      join(archivesDir, 'vuejs-2024-year-in-review.md'),
+      'utf8',
+    );
+    assert.equal([...sample.matchAll(/<Tweet /g)].length, 7);
+  });
+});

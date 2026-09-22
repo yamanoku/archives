@@ -200,7 +200,7 @@ https://github.com/unjs/compatx/blob/4d7c1e140af76d1514c937c6101eda1c637907ec/sr
 
 今回の記事の内容はAlexander Lichter氏の動画でも解説されています。併せてご覧になってみてください。
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RqOPfhAWSl0?si=If81rLP5IFWA5REv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; height: 100%; aspect-ratio: 560 / 315"></iframe>
+<YouTube id="RqOPfhAWSl0" title="YouTube video player" />
 
 ## 謝辞
 

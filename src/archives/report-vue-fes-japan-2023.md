@@ -25,11 +25,11 @@ noindex: true
 
 今回、株式会社クラウドワークスは「同時通訳スポンサー」として協賛しました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">弊社 <a href="https://twitter.com/CrowdWorksjp?ref_src=twsrc%5Etfw">@CrowdWorksjp</a> も協賛しております！<br>今年の Vue Fes Japan 盛り上げていきましょう🙌 <a href="https://twitter.com/hashtag/vuefes?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes</a><a href="https://t.co/swmHo0imWg">https://t.co/swmHo0imWg</a> <a href="https://t.co/fwk27a1GJB">pic.twitter.com/fwk27a1GJB</a></p>&mdash; オオヤマ オクト (@okuto_oyama) <a href="https://twitter.com/okuto_oyama/status/1678266941491019777?ref_src=twsrc%5Etfw">July 10, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/okuto_oyama/status/1678266941491019777" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="July 10, 2023">弊社 @CrowdWorksjp も協賛しております！ 今年の Vue Fes Japan 盛り上げていきましょう🙌 #vuefeshttps://t.co/swmHo0imWg pic.twitter.com/fwk27a1GJB</Tweet>
 
 Evan Youをはじめとする英語を話す登壇者の発表を、日本語と中国語にリアルタイムで通訳するサービスが提供されていました。オフラインでの登壇という形式で行われたリアルタイム発表は、英語が苦手な方々にも理解しやすいよう配慮されていたため、大変ありがたく感じました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/vuefes?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes</a> おつかれさまでした。同時通訳用に各席にイヤホンが用意されてて、原語でも翻訳でも好きな方を聴けるの良かったです <a href="https://t.co/WHByHEcE2G">pic.twitter.com/WHByHEcE2G</a></p>&mdash; miyaoka (@miyaoka) <a href="https://twitter.com/miyaoka/status/1718246509731532879?ref_src=twsrc%5Etfw">October 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/miyaoka/status/1718246509731532879" displayName="miyaoka" handle="miyaoka" dateLabel="October 28, 2023">#vuefes おつかれさまでした。同時通訳用に各席にイヤホンが用意されてて、原語でも翻訳でも好きな方を聴けるの良かったです pic.twitter.com/WHByHEcE2G</Tweet>
 
 ## 3名の社員が発表・登壇
 
@@ -37,7 +37,7 @@ Evan Youをはじめとする英語を話す登壇者の発表を、日本語と
 
 [@t0yohei](https://twitter.com/t0yohei)は「**Vue.jsを使ってGrid Systemを実装した話**」というテーマで発表しました。
 
-<script defer class="speakerdeck-embed" data-id="9da16dc65b184a7b9a06e3aca4c0e4f7" data-ratio="1.7772511848341233" src="//speakerdeck.com/assets/embed.js"></script>
+<SpeakerDeck url="https://speakerdeck.com/player/9da16dc65b184a7b9a06e3aca4c0e4f7" />
 
 crowdworks.jpのデザインシステムにおけるコンポーネントライブラリではGrid Systemのアプローチを取り入れたコンポーネントを開発しており、その実装方法についてライブコーディングを交えて紹介しました。
 
@@ -80,7 +80,7 @@ Nuxt.jsにおいては、[UnJS](https://github.com/unjs)というJavaScriptユ�
 
 アフターパーティーの後、Evan Youによる一本締めでVue Fes Japan 2023は締めくくられました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Evanの一本締めでアフターパーティー終了‼️<br>ありがとうございました❗️<a href="https://twitter.com/hashtag/vuefes?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes</a> <a href="https://t.co/5LZvpD19yn">pic.twitter.com/5LZvpD19yn</a></p>&mdash; Vue Fes Japan (@vuefes) <a href="https://twitter.com/vuefes/status/1718215053038801142?ref_src=twsrc%5Etfw">October 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/vuefes/status/1718215053038801142" displayName="Vue Fes Japan" handle="vuefes" dateLabel="October 28, 2023">Evanの一本締めでアフターパーティー終了‼️ ありがとうございました❗️#vuefes pic.twitter.com/5LZvpD19yn</Tweet>
 
 2018年に初めてVue Fes Japanに参加して以来、2022年のオンラインカンファレンスと、今年のオフラインカンファレンスにも参加しました。発表以外においても毎年参加者が楽しめるようなコンテンツがあり、登壇者としても参加者としても、クオリティの高いカンファレンスで充実した時間を過ごせました。
 

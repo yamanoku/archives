@@ -15,6 +15,12 @@ export function oxContentPluginOptions(): OxContentOptions {
     cjkEmphasis: true,
     docs: false,
     ogImage: false,
+    embeds: {
+      twitter: true,
+      speakerDeck: true,
+      googleSlides: true,
+      playgrounds: { iframe: true },
+    },
     search: {
       placeholder: '記事を検索',
       limit: 20,
