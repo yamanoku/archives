@@ -18,8 +18,7 @@ stop()メソッドはあるのですが、いわゆる「一時停止 → 再生
 
 Github の Issue で「一時停止・再生機能つけてくれ頼む」という話はあったのですが、[肝心の作者がやる気を喪失](https://github.com/julianshapiro/velocity/issues/14#issuecomment-56395478)していたので、本人からの実装には期待が０になり、以下のようなテクニカルであまり汎用的ではない方法で一時停止・再生する機能をつけるようにやっていました。
 
-<p data-height="230" data-theme-id="0" data-slug-hash="ykIzw" data-default-tab="result" data-user="wlindner" data-embed-version="2" data-pen-title="Velocity.js - Pause/Resume animation" class="codepen">See the Pen <a href="https://codepen.io/wlindner/pen/ykIzw/">Velocity.js - Pause/Resume animation</a> by William Lindner (<a href="https://codepen.io/wlindner">@wlindner</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<CodePen url="https://codepen.io/wlindner/pen/ykIzw" embed="https://codepen.io/wlindner/embed/ykIzw" title="Velocity.js - Pause/Resume animation" author="@wlindner" />
 
 [https://codepen.io/wlindner/pen/ykIzw](https://codepen.io/wlindner/pen/ykIzw)
 

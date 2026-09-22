@@ -99,7 +99,7 @@ crowdworks.jp では、デザインシステム「norman」の開発を継続し
 
 レイアウトにはGrid Systemを採用したGrid Layoutコンポーネントを作成しており、画面のレイアウト構築に利用しています。Grid Layoutに関しては、後述するVue Fes Japanでも発表しました。
 
-<script defer class="speakerdeck-embed" data-id="9da16dc65b184a7b9a06e3aca4c0e4f7" data-ratio="1.7772511848341233" src="//speakerdeck.com/assets/embed.js"></script>
+<SpeakerDeck url="https://speakerdeck.com/player/9da16dc65b184a7b9a06e3aca4c0e4f7" />
 
 また、細かなリアクティブな動作には[VueUse](https://vueuse.org/)を使用し、コンポーネント内に組み込んでいます。
 
@@ -153,7 +153,7 @@ crowdworks.jp のフロントエンド開発の歴史を振り返り、私が所
 
 発表資料は公開していますので、ぜひご覧ください。
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSeyDAwaa3AfYhhQDavajOc1ijSaJLO49_hFj_kvx2KetGvb6ozzlQ3VrQFjxaVCRr44XbId7lckT1k/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" title="当事者不在でも変化してきたクラウドワークスのフロントエンド開発について" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="width: 100%; height: 100%; aspect-ratio: 760 / 569"></iframe>
+<GoogleSlides url="https://docs.google.com/presentation/d/e/2PACX-1vSeyDAwaa3AfYhhQDavajOc1ijSaJLO49_hFj_kvx2KetGvb6ozzlQ3VrQFjxaVCRr44XbId7lckT1k/embed?start=false&amp;loop=false&amp;delayms=3000" embed="https://docs.google.com/presentation/d/e/2PACX-1vSeyDAwaa3AfYhhQDavajOc1ijSaJLO49_hFj_kvx2KetGvb6ozzlQ3VrQFjxaVCRr44XbId7lckT1k/embed?start=false&amp;loop=false&amp;delayms=3000" title="当事者不在でも変化してきたクラウドワークスのフロントエンド開発について" />
 
 ### Vue Fes Japan 2023スポンサー＆登壇
 
@@ -190,7 +190,7 @@ crowdworks.jp のフロントエンド開発の歴史を振り返り、私が所
 
 Storybookの公式X（旧Twitter）にてコントリビューターとして紹介してもらったのが大変うれしかったのを記憶しております。
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Shoutout to <a href="https://twitter.com/okuto_oyama?ref_src=twsrc%5Etfw">@okuto_oyama</a> for the spot-on contribution🔍. Thanks to him, we merged <a href="https://t.co/M6dZSHcEvG">https://t.co/M6dZSHcEvG</a> improving our UI.<br><br>Great job at getting your first contribution in💪. Looking forward to your next one. <a href="https://t.co/uLXquLIrI8">pic.twitter.com/uLXquLIrI8</a></p>&mdash; Storybook (@storybookjs) <a href="https://twitter.com/storybookjs/status/1631006416986165254?ref_src=twsrc%5Etfw">March 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/storybookjs/status/1631006416986165254" displayName="Storybook" handle="storybookjs" dateLabel="March 1, 2023">Shoutout to @okuto_oyama for the spot-on contribution🔍. Thanks to him, we merged https://t.co/M6dZSHcEvG improving our UI. Great job at getting your first contribution in💪. Looking forward to your next one. pic.twitter.com/uLXquLIrI8</Tweet>
 
 もう１つは社内導入をしてみて個人でも活用しているAstroへのコントリビュートです。静的なHTMLを出力する際にインラインで `<style>` が記述されるのですが、現在既に非推奨となった `type="text/css"` が付与されていました。個人でMarkuplintを活用してHTMLをチェックしている身としては不要な記述だと感じていたので修正PRを作成しました。こちらはv3.0.13にて反映されました。
 

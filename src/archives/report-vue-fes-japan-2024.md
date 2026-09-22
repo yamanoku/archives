@@ -30,11 +30,11 @@ Vue Fes Japanは[Vue.js日本ユーザーグループ](https://vuejs-jp.org/)が
 
 前半はVue.jsのこれまでの歴史を振り返りつつ最近リリースされたVue 3.5の紹介やこれから改善予定についてを語ってくれました。3.5からは個人的待望だった[`useId()`](https://ja.vuejs.org/api/composition-api-helpers#useid)が実装されたのでEvanに感謝の気持ちで聞いていました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">useId作ってくれてありがとうございます <a href="https://twitter.com/hashtag/vuefes?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes</a></p>&mdash; オオヤマ オクト (@okuto_oyama) <a href="https://twitter.com/okuto_oyama/status/1847455156021186663?ref_src=twsrc%5Etfw">October 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/okuto_oyama/status/1847455156021186663" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="October 19, 2024">useId作ってくれてありがとうございます #vuefes</Tweet>
 
 後半はViteにまつわる今後の技術戦略（OxC、Rolldown）や、設立した企業の[VoidZero](https://voidzero.dev/)についてを発表してくれました。Viteが様々なフレームワークなどで活用されているエコシステムの凄さを感じつつ、更なる技術的進化が語られておりワクワクさせられました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Viteの将来が楽しみです！ <a href="https://twitter.com/hashtag/vuefes?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes</a></p>&mdash; オオヤマ オクト (@okuto_oyama) <a href="https://twitter.com/okuto_oyama/status/1847462088295534785?ref_src=twsrc%5Etfw">October 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/okuto_oyama/status/1847462088295534785" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="October 19, 2024">Viteの将来が楽しみです！ #vuefes</Tweet>
 
 ちなみにVue.jsは今年で登場して10周年になるのですが、私がVue.jsに初めて触れたのが2016年からなのでそこから8年近くも経っているのだなぁ〜と思い出に浸っていました。
 
@@ -46,7 +46,7 @@ Vue Fes Japanは[Vue.js日本ユーザーグループ](https://vuejs-jp.org/)が
 
 Schooでもフロントエンドアーキテクチャの選択肢としてVue.jsやNuxtを用いているので、今後の新卒エンジニアの研修教材にどう組み込むか検討しています。新卒研修でVue.jsやNuxtを組み込んでいる企業の方と意見交換できたらいいなとか考えていました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Vue.jsを使って開発研修しているところってどれくらいあるんだろうかな <a href="https://twitter.com/hashtag/vuefes?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes</a></p>&mdash; オオヤマ オクト (@okuto_oyama) <a href="https://twitter.com/okuto_oyama/status/1847470907507585187?ref_src=twsrc%5Etfw">October 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/okuto_oyama/status/1847470907507585187" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="October 19, 2024">Vue.jsを使って開発研修しているところってどれくらいあるんだろうかな #vuefes</Tweet>
 
 ### Nuxtベースの「WXT」で開発用のChrome拡張を作成する
 
@@ -54,7 +54,7 @@ Chrome拡張を作るにあたり何かしらのボイラープレートとな�
 
 Manifestファイルを自動生成してくれたり、開発時には拡張機能を取り込んだブラウザが立ち上がりホットリロードして機能検証できるなど、開発者体験が良さそうに思いました。モジュールを入れる必要はありますが、Vue.jsやReact、Svelte、SolidJSを用いたUI開発もできるとのことです。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Vue以外でReact、Svelte、SolidJSも使える！マイクロフロントエンドっぽくやれる…？ <a href="https://twitter.com/hashtag/vuefes_kickflow?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes_kickflow</a></p>&mdash; オオヤマ オクト (@okuto_oyama) <a href="https://twitter.com/okuto_oyama/status/1847481945732894873?ref_src=twsrc%5Etfw">October 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/okuto_oyama/status/1847481945732894873" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="October 19, 2024">Vue以外でReact、Svelte、SolidJSも使える！マイクロフロントエンドっぽくやれる…？ #vuefes_kickflow</Tweet>
 
 ### 同期する都市のキャンバス：Vue.jsによる大規模メディアインスタレーションの舞台裏
 
@@ -64,7 +64,7 @@ group_inouとAC部のミュージックビデオ作品『HAPPENING』のWebア�
 
 発表では[渋谷サクラステージ](https://www.shibuya-sakura-stage.com/)でのデジタルサイネージにはNuxtが使われているという衝撃の事実を知ることができました（[技術解説記事](https://rettuce.blog/2024/01/11/shibuyasakurastage/)）。自分にとっては、複雑なGUIを作るためにNuxtを活用するイメージがまったくできていなかったので、ここまで実現できるのかと驚きました。色の合成についてもCSSで行っているということでWeb技術をフル活用されていたことが嬉しかったです。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Web技術をつかっていろんな展開ができる話はわくわくするな〜 <a href="https://twitter.com/hashtag/vuefes_mntsq?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes_mntsq</a></p>&mdash; オオヤマ オクト (@okuto_oyama) <a href="https://twitter.com/okuto_oyama/status/1847496993184375178?ref_src=twsrc%5Etfw">October 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/okuto_oyama/status/1847496993184375178" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="October 19, 2024">Web技術をつかっていろんな展開ができる話はわくわくするな〜 #vuefes_mntsq</Tweet>
 
 ちなみに渋谷サクラステージはSchoo本社からも近い場所にあるので、出社した際はデジタルサイネージがどうなっているかを覗きに行ってみようと思います（[デジタルサイネージのイメージ動画URL](https://www.youtube.com/watch?v=DJfNFAYwEaU)）。
 
@@ -76,9 +76,9 @@ ReactやVue.jsでは仮想DOMを用いていますが、Svelteでは仮想DOMを
 
 それぞれのランタイムについて詳細に見たことがなかったため、今回の発表でSvelteとVue Vapor Modeのそれが、非常に近しいものであることをざっくり理解できました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Vue Vapor Modeのランタイム、Svelteと似てるんだ <a href="https://twitter.com/hashtag/vuefes_mntsq?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes_mntsq</a></p>&mdash; オオヤマ オクト (@okuto_oyama) <a href="https://twitter.com/okuto_oyama/status/1847508935332548659?ref_src=twsrc%5Etfw">October 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/okuto_oyama/status/1847508935332548659" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="October 19, 2024">Vue Vapor Modeのランタイム、Svelteと似てるんだ #vuefes_mntsq</Tweet>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ざっくりとしたランタイムの紹介だったけどVapor Modeはよりシンプルなコンパイラを目指そうとしてるんだろうなと雑に理解しました <a href="https://twitter.com/hashtag/vuefes_mntsq?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes_mntsq</a></p>&mdash; オオヤマ オクト (@okuto_oyama) <a href="https://twitter.com/okuto_oyama/status/1847509741943345480?ref_src=twsrc%5Etfw">October 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/okuto_oyama/status/1847509741943345480" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="October 19, 2024">ざっくりとしたランタイムの紹介だったけどVapor Modeはよりシンプルなコンパイラを目指そうとしてるんだろうなと雑に理解しました #vuefes_mntsq</Tweet>
 
 ちなみに同日夜よりSvelteにまつわるカンファレンスの[Svelte Summit Fall 2024](https://www.youtube.com/watch?v=fAPFsRP-mbc)が開催され、Svelte 5の正式リリースが発表されていました。新たに搭載された[Rune API](https://svelte.dev/docs/svelte/what-are-runes)もVue.jsの書き方と近しくなってきたと感じるので、いつかプロダクションで導入してみたいなぁという気持ちがあります。
 
@@ -94,7 +94,7 @@ Evan You、OxCクリエイターのBoshen Chen、ESLint Communityコアチーム
 
 登壇されたSosuke Suzukiさんの[ブログ記事](https://sosukesuzuki.dev/posts/vuefes-2024-follow-up/)でも語られていましたが、このパネルディスカッションは幅広い聴衆に伝わるような話で展開されていたため、自分も若干の物足りなさがありました。欲を言えば[次世代Webカンファレンス](https://nextwebconf.connpass.com/)のような聴者おいてけぼりにしてしまう議論も聴いてみたいなと感じてしまいました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">延長で1時間やってほしい <a href="https://twitter.com/hashtag/vuefes_mntsq?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes_mntsq</a></p>&mdash; オオヤマ オクト (@okuto_oyama) <a href="https://twitter.com/okuto_oyama/status/1847527711084073237?ref_src=twsrc%5Etfw">October 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/okuto_oyama/status/1847527711084073237" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="October 19, 2024">延長で1時間やってほしい #vuefes_mntsq</Tweet>
 
 ### Deep dive into Nuxt Server Components
 
@@ -112,7 +112,7 @@ Vueエコシステムのコミュニティで活動しているメンバーた�
 
 セッション内では[chibivue](https://ubugeeei.github.io/chibivue/)という学習コンテンツ向けのDiscordサーバー（現在はchibivueに閉じず様々なコンテンツを扱っています）の紹介がありました。そこから一気に参加者が増えてサーバー内でアラートがでるほどの人気ぶりでした。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/vuefes?src=hash&amp;ref_src=twsrc%5Etfw">#vuefes</a> にサーバー荒らされました (chibivue 鯖) <a href="https://t.co/3eHP3Rju9Q">pic.twitter.com/3eHP3Rju9Q</a></p>&mdash; @ubugeeei.dev 🦋 (@ubugeeei) <a href="https://twitter.com/ubugeeei/status/1847572522763768002?ref_src=twsrc%5Etfw">October 19, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/ubugeeei/status/1847572522763768002" displayName="@ubugeeei.dev 🦋" handle="ubugeeei" dateLabel="October 19, 2024">#vuefes にサーバー荒らされました (chibivue 鯖) pic.twitter.com/3eHP3Rju9Q</Tweet>
 
 コミュニティに参加・貢献するということ何をもってして証明されるか明確な基準はありません。Vue Fes Japanに参加することだけでもそうかもしれませんし、Vueエコシステムを活用して開発してみることだったり、この参加レポートのような感想記事を書くこともその1つかもしれません。
 

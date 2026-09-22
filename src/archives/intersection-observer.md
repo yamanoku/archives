@@ -43,8 +43,7 @@ Intersection（交点）Observer（監視）ということで要素自体が交
 
 以下よりご確認ください
 
-<p data-height="500" data-theme-id="0" data-slug-hash="KqLWZM" data-default-tab="js,result" data-user="yamanoku" data-embed-version="2" data-pen-title="Intersection Obeserver Test code" class="codepen">See the Pen <a href="https://codepen.io/yamanoku/pen/KqLWZM/">Intersection Obeserver Test code</a> by Oyama Michinoku (<a href="https://codepen.io/yamanoku">@yamanoku</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+<CodePen url="https://codepen.io/yamanoku/pen/KqLWZM" embed="https://codepen.io/yamanoku/embed/KqLWZM" title="Intersection Obeserver Test code" author="@yamanoku" />
 
 [![https://gyazo.com/bebf722e1e507c4b4a1fe9b5c01dd81b](https://i.gyazo.com/bebf722e1e507c4b4a1fe9b5c01dd81b.gif)](https://gyazo.com/bebf722e1e507c4b4a1fe9b5c01dd81b)
 

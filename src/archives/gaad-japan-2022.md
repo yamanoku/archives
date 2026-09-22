@@ -49,7 +49,7 @@ GAAD の日は世界各地でアクセシビリティに関連するイベント
 
 ## 発表資料
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQct0iDIdaywmCjhbf49BKd5DMXLEtFlZbFs6cLfUmAfp1HVzO2jVIrym5bEmlpaIrnPxbj-pVggmeW/embed?start=false&amp;loop=false&amp;delayms=3000" width="960" height="569" title="クラウドワークスのこれまでの取り組み、新たなミッションと考えるこれからについて" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="width: 100%; height: 100%; aspect-ratio: 760 / 569"></iframe>
+<GoogleSlides url="https://docs.google.com/presentation/d/e/2PACX-1vQct0iDIdaywmCjhbf49BKd5DMXLEtFlZbFs6cLfUmAfp1HVzO2jVIrym5bEmlpaIrnPxbj-pVggmeW/embed?start=false&amp;loop=false&amp;delayms=3000" embed="https://docs.google.com/presentation/d/e/2PACX-1vQct0iDIdaywmCjhbf49BKd5DMXLEtFlZbFs6cLfUmAfp1HVzO2jVIrym5bEmlpaIrnPxbj-pVggmeW/embed?start=false&amp;loop=false&amp;delayms=3000" title="クラウドワークスのこれまでの取り組み、新たなミッションと考えるこれからについて" />
 
 ### 関連記事
 
@@ -74,13 +74,13 @@ GAAD の日は世界各地でアクセシビリティに関連するイベント
 
 ## 発表動画（2022/12/12 追記）
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/FroVoJDVvdc?si=pcgDmz-f6c9vDKyy" title="(LT) 【字幕あり】「クラウドワークスのこれまでの取り組み、新たなミッションと考えるこれからについて」大山 奥人（株式会社クラウドワークス ） - YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="width: 100%; height: 100%; aspect-ratio: 560 / 315"></iframe>
+<YouTube id="FroVoJDVvdc" title="(LT) 【字幕あり】「クラウドワークスのこれまでの取り組み、新たなミッションと考えるこれからについて」大山 奥人（株式会社クラウドワークス ） - YouTube" />
 
 ## おわりに
 
 GAAD Japan 実行委員会ならびにイベント関係者の皆様、お疲れさまでした。 9:45〜20:00 の長丁場でしたが、各セッションを楽しむことが出来ました。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">【満員御礼】<br>昨日開催した「GAAD Japan 2022」は、671名もの皆さんに参加登録をいただきました。本当にありがとうございました！<br><br>また、ご協賛いただいた14社、9組のセッション登壇者、8組のLT登壇者の皆さんに感謝申し上げます。<br><br>本日よりフォローアップメールをお送りしてまいります！<a href="https://twitter.com/hashtag/GAADjp?src=hash&amp;ref_src=twsrc%5Etfw">#GAADjp</a> <a href="https://t.co/YhYvqT09Ec">pic.twitter.com/YhYvqT09Ec</a></p>&mdash; GAAD Japan 🇯🇵 (@GAAD_jp) <a href="https://twitter.com/GAAD_jp/status/1527491818127994880?ref_src=twsrc%5Etfw">May 20, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/GAAD_jp/status/1527491818127994880" displayName="GAAD Japan 🇯🇵" handle="GAAD_jp" dateLabel="May 20, 2022">【満員御礼】 昨日開催した「GAAD Japan 2022」は、671名もの皆さんに参加登録をいただきました。本当にありがとうございました！ また、ご協賛いただいた14社、9組のセッション登壇者、8組のLT登壇者の皆さんに感謝申し上げます。 本日よりフォローアップメールをお送りしてまいります！#GAADjp pic.twitter.com/YhYvqT09Ec</Tweet>
 
 当日の各セッションごとでの様子は [togetter](https://togetter.com/li/1889734) にてまとめられておりますので、併せてご覧ください。
 
