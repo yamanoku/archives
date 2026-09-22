@@ -130,7 +130,7 @@ function buildFootnoteSection(
 ): FootnoteNode[] {
   const nodes: FootnoteNode[] = [
     html(
-      `<section data-footnotes="" class="footnotes"><h2 class="sr-only" id="footnote-label">${FOOTNOTE_LABEL}</h2>\n<ol>\n`,
+      `<section data-footnotes="" class="footnotes" aria-labelledby="footnote-label"><h2 id="footnote-label">${FOOTNOTE_LABEL}</h2>\n<ol>\n`,
     ),
   ];
   for (const [identifier, refIds] of refs) {

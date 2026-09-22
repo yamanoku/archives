@@ -87,8 +87,12 @@ if (
 
   openModalButton.addEventListener('click', openModal);
   closeModalButton.addEventListener('click', closeModal);
-  dialog.addEventListener('click', (event) => {
-    if (event.target === dialog) closeModal();
+  dialog.addEventListener('click', ({ clientX, clientY }) => {
+    const { top, left, width, height } = dialog.getBoundingClientRect();
+    if (clientX > left && clientX < left + width && clientY > top && clientY < top + height) {
+      return;
+    }
+    closeModal();
   });
 
   let searchTimeout: number | undefined;

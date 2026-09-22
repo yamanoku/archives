@@ -16,7 +16,14 @@ export function oxContentPluginOptions(): OxContentOptions {
     docs: false,
     ogImage: false,
     embeds: {
-      twitter: true,
+      twitter: {
+        fetch: true,
+        lang: "ja",
+        timeZone: "JTC",
+      },
+      openGraph: {
+        cache: true,
+      },
       speakerDeck: true,
       googleSlides: true,
       playgrounds: { iframe: true },
