@@ -217,8 +217,10 @@ describe(
       );
 
       const styles = readFileSync(join(distDir, 'styles.css'), 'utf8');
-      assert.match(styles, /\.ox-tweet/);
-      assert.match(styles, /\.ox-youtube/);
+      assert.doesNotMatch(styles, /unresolved import/);
+      assert.match(styles, /\.ox-tweet--rich/);
+      assert.match(styles, /\.ox-youtube iframe/);
+      assert.match(styles, /\.ox-provider-card/);
     });
   },
 );
