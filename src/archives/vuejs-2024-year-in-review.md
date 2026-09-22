@@ -17,7 +17,7 @@ noindex: true
 
 ### 公開10周年
 
-<Tweet url="https://twitter.com/vuejs/status/1753678155444101385" displayName="Vue" handle="vuejs" dateLabel="February 3, 2024">10 years ago today, Vue was introduced to the public for the very first time on HackerNews: https://t.co/M2ZRwhiIaP 10 years later, it is now one of the mostly widely used frontend projects, with a diverse community all over the world.</Tweet>
+<Tweet url="https://twitter.com/vuejs/status/1753678155444101385" displayName="Vue" handle="vuejs" dateLabel="February 3, 2024">10 years ago today, Vue was introduced to the public for the very first time on HackerNews: 10 years later, it is now one of the mostly widely used frontend projects, with a diverse community all over the world.</Tweet>
 
 2024年はVue.jsがHacker Newsで公開されてから10周年目を迎える年でした。Vue.jsの進化の歴史については以下の通りになります。
 
@@ -30,7 +30,7 @@ noindex: true
 
 また、今年の9月の時点でnpmからの総ダウンロード数が10億を突破しました。
 
-<Tweet url="https://twitter.com/vuejs/status/1840300340383756759" displayName="Vue" handle="vuejs" dateLabel="September 29, 2024">We just passed 1 billion total downloads on NPM a few days ago :) pic.twitter.com/pw5mNd6dlA</Tweet>
+<Tweet url="https://twitter.com/vuejs/status/1840300340383756759" displayName="Vue" handle="vuejs" dateLabel="September 29, 2024">We just passed 1 billion total downloads on NPM a few days ago :)</Tweet>
 
 ### Vue 3.5
 
@@ -53,7 +53,7 @@ Vapor Modeは[Fine Grained Reactivity](https://docs.solidjs.com/advanced-concept
 
 [コンポーネントに関する実装のTODO](https://github.com/vuejs/vue-vapor/issues/4)はほぼ完了となりクローズされております。[ロードマップも](https://github.com/vuejs/vue-vapor/issues/233)公開されており、今年末までにはVitePressコードをVaporで差し替え、ベータ版を公開する予定とのことです。
 
-<Tweet url="https://twitter.com/sanxiaozhizi/status/1857155901532320202" displayName="Kevin Deng 🦋 @sxzz.dev" handle="sanxiaozhizi" dateLabel="November 14, 2024">🎉 Now Vapor can power VitePress with a 💯% identical UI and interaction on homepage. pic.twitter.com/PmylYVjRWx</Tweet>
+<Tweet url="https://twitter.com/sanxiaozhizi/status/1857155901532320202" displayName="Kevin Deng 🦋 @sxzz.dev" handle="sanxiaozhizi" dateLabel="November 14, 2024">🎉 Now Vapor can power VitePress with a 💯% identical UI and interaction on homepage.</Tweet>
 
 VitePress内にVaporを組み込むのは現在進行中で、[Issue](https://github.com/vuejs/vue-vapor/issues/289)と[リポジトリ](https://github.com/sxzz/vitepress-vapor)にて進捗が確認できます。
 
@@ -83,7 +83,7 @@ PiniaはVue.jsの状態管理ライブラリです。
 
 ## Vue DevTools
 
-<Tweet url="https://twitter.com/vuejs/status/1850796839295176969" displayName="Vue" handle="vuejs" dateLabel="October 28, 2024">📢 Important Update The much improved Vue Devtools v7 has been submitted for review on the Chrome web store under the stable channel, and we are flipping the switch tomorrow. Things to note: - The latest v7 **only supports Vue 3**. We have separate listings for legacy versions…</Tweet>
+<Tweet url="https://twitter.com/vuejs/status/1850796839295176969" displayName="Vue" handle="vuejs" dateLabel="October 28, 2024">📢 Important Update The much improved Vue Devtools v7 has been submitted for review on the Chrome web store under the stable channel, and we are flipping the switch tomorrow. Things to note: - The latest v7 only supports Vue 3. We have separate listings for legacy versions…</Tweet>
 
 Vue DevtoolsはVue.jsのデバッグがブラウザ上でできるChrome拡張機能です。v7からはVue3のみをサポートするようになりました。そのためVue2でデバッグする際はv5やv6を別途使用する必要があります。
 
@@ -135,7 +135,7 @@ Vue.jsにまつわるUIフレームワークやコンポーネントライブラ
 
 PrimeVueはPrimeFacesというカスタマイズ可能なUIコンポーネントライブラリを提供するプロジェクトのVue.js版です。
 
-<Tweet url="https://twitter.com/primevue/status/1833504714908176650" displayName="PrimeVue" handle="primevue" dateLabel="September 10, 2024">PrimeVue has reach 1 million downloads per month on npm. Thank you 💚 #vuejs p.s. Just getting started, job is not done yet... pic.twitter.com/keyrC58VPf</Tweet>
+<Tweet url="https://twitter.com/primevue/status/1833504714908176650" displayName="PrimeVue" handle="primevue" dateLabel="September 10, 2024">PrimeVue has reach 1 million downloads per month on npm. Thank you 💚 #vuejs p.s. Just getting started, job is not done yet...</Tweet>
 
 2024年9月時点でnpmでの月間100万ダウンロードを突破しました。
 
@@ -147,7 +147,7 @@ https://vuetifyjs.com/en/blog/state-of-the-union-2024/
 
 Vue.jsのコンポーネントライブラリとして有名なVuetifyが、認証と状態管理のためのツールである[Vuetify One](https://one.vuetifyjs.com/)、コード共有ツールである[Vuetify Bin](https://bin.vuetifyjs.com/)、プレグラウンドツールである[Vuetify Playground](https://play.vuetifyjs.com/)、Vuetifyを使ったUIスニペット集を公開するサイトである[Vuetify Snips](https://snips.vuetifyjs.com/)といったエコシステムツールやサイトが公開されました。
 
-<Tweet url="https://twitter.com/vuetifyjs/status/1859672959822201020" displayName="Vuetify" handle="vuetifyjs" dateLabel="November 21, 2024">Vuetify Studio has officially opened its doors! This is more than just a space; it's a dynamic hub for creating, innovating, and mastering UI/UX design with Vuetify. Whether you’re a developer looking to streamline your workflows, a designer aiming to craft stunning interfaces,… pic.twitter.com/nckXbZYz7c</Tweet>
+<Tweet url="https://twitter.com/vuetifyjs/status/1859672959822201020" displayName="Vuetify" handle="vuetifyjs" dateLabel="November 21, 2024">Vuetify Studio has officially opened its doors! This is more than just a space; it's a dynamic hub for creating, innovating, and mastering UI/UX design with Vuetify. Whether you’re a developer looking to streamline your workflows, a designer aiming to craft stunning interfaces,…</Tweet>
 
 11月にはVuetifyのテーマエディターでもある[Vuetify Studio](https://studio.vuetifyjs.com/)がリリースされました。
 
@@ -179,7 +179,7 @@ https://storybook.js.org/blog/first-class-vue-support-storybook-8/
 
 ## v0 for Vue
 
-<Tweet url="https://twitter.com/v0/status/1834036748932055175" displayName="v0" handle="v0" dateLabel="September 12, 2024">v0 can now answer questions about Svelte, Vue, and Remix. To help us improve quality, please downvote responses you find unhelpful. pic.twitter.com/nwEbtJ7jlZ</Tweet>
+<Tweet url="https://twitter.com/v0/status/1834036748932055175" displayName="v0" handle="v0" dateLabel="September 12, 2024">v0 can now answer questions about Svelte, Vue, and Remix. To help us improve quality, please downvote responses you find unhelpful.</Tweet>
 
 Vercelが提供するAI駆動型のUI生成ツール「V0」がVue.jsでのアプリケーション生成に対応しました。
 

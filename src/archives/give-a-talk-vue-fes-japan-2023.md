@@ -61,6 +61,6 @@ Vue Fes Japan は Vue.js 日本ユーザーグループが主催する日本最�
 
 今年はエンジニアの登壇ほか、Vue.js で開発をする[クラウドワークス](https://crowdworks.jp/)の運営をする株式会社クラウドワークスから「**同時通訳スポンサー**」として協賛させていただいております。
 
-<Tweet url="https://twitter.com/okuto_oyama/status/1678266941491019777" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="July 10, 2023">弊社 @CrowdWorksjp も協賛しております！ 今年の Vue Fes Japan 盛り上げていきましょう🙌 #vuefeshttps://t.co/swmHo0imWg pic.twitter.com/fwk27a1GJB</Tweet>
+<Tweet url="https://twitter.com/okuto_oyama/status/1678266941491019777" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="July 10, 2023">弊社 @CrowdWorksjp も協賛しております！ 今年の Vue Fes Japan 盛り上げていきましょう🙌 #vuefes</Tweet>
 
 セッションの他にもパネルディスカッション、ハンズオンといったイベントもあり、アフターパーティーでは登壇するクラウドワークスのエンジニアも参加予定ですので皆さまとも交流できればと思っております。是非ご参加ください。

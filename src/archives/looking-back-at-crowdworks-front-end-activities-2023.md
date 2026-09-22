@@ -153,7 +153,7 @@ crowdworks.jp のフロントエンド開発の歴史を振り返り、私が所
 
 発表資料は公開していますので、ぜひご覧ください。
 
-<GoogleSlides url="https://docs.google.com/presentation/d/e/2PACX-1vSeyDAwaa3AfYhhQDavajOc1ijSaJLO49_hFj_kvx2KetGvb6ozzlQ3VrQFjxaVCRr44XbId7lckT1k/embed?start=false&amp;loop=false&amp;delayms=3000" embed="https://docs.google.com/presentation/d/e/2PACX-1vSeyDAwaa3AfYhhQDavajOc1ijSaJLO49_hFj_kvx2KetGvb6ozzlQ3VrQFjxaVCRr44XbId7lckT1k/embed?start=false&amp;loop=false&amp;delayms=3000" title="当事者不在でも変化してきたクラウドワークスのフロントエンド開発について" />
+<GoogleSlides url="https://docs.google.com/presentation/d/e/2PACX-1vSeyDAwaa3AfYhhQDavajOc1ijSaJLO49_hFj_kvx2KetGvb6ozzlQ3VrQFjxaVCRr44XbId7lckT1k/embed" embed="https://docs.google.com/presentation/d/e/2PACX-1vSeyDAwaa3AfYhhQDavajOc1ijSaJLO49_hFj_kvx2KetGvb6ozzlQ3VrQFjxaVCRr44XbId7lckT1k/embed" title="当事者不在でも変化してきたクラウドワークスのフロントエンド開発について" />
 
 ### Vue Fes Japan 2023スポンサー＆登壇
 
@@ -190,7 +190,7 @@ crowdworks.jp のフロントエンド開発の歴史を振り返り、私が所
 
 Storybookの公式X（旧Twitter）にてコントリビューターとして紹介してもらったのが大変うれしかったのを記憶しております。
 
-<Tweet url="https://twitter.com/storybookjs/status/1631006416986165254" displayName="Storybook" handle="storybookjs" dateLabel="March 1, 2023">Shoutout to @okuto_oyama for the spot-on contribution🔍. Thanks to him, we merged https://t.co/M6dZSHcEvG improving our UI. Great job at getting your first contribution in💪. Looking forward to your next one. pic.twitter.com/uLXquLIrI8</Tweet>
+<Tweet url="https://twitter.com/storybookjs/status/1631006416986165254" displayName="Storybook" handle="storybookjs" dateLabel="March 1, 2023">Shoutout to @okuto_oyama for the spot-on contribution🔍. Thanks to him, we merged improving our UI. Great job at getting your first contribution in💪. Looking forward to your next one.</Tweet>
 
 もう１つは社内導入をしてみて個人でも活用しているAstroへのコントリビュートです。静的なHTMLを出力する際にインラインで `<style>` が記述されるのですが、現在既に非推奨となった `type="text/css"` が付与されていました。個人でMarkuplintを活用してHTMLをチェックしている身としては不要な記述だと感じていたので修正PRを作成しました。こちらはv3.0.13にて反映されました。
 
