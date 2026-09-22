@@ -9,7 +9,6 @@ import {
 import matter from 'gray-matter';
 import archivesTheme from '../theme/index.tsx';
 import { SITE_TITLE } from '../src/config.ts';
-import { localizeFootnotes } from './archives-feeds.ts';
 import {
   pageUrlFromSlug,
   resolveArchivePageRequest,
@@ -83,7 +82,6 @@ function loadPageSummaries(): PageData[] {
 
 function postprocessDevHtml(html: string, slug: string): string {
   let next = rewriteHtmlContent(html);
-  next = localizeFootnotes(next);
   next = injectViteClient(next);
   if (slug !== 'index' && slug !== '404') {
     next = injectScript(next, '/tategaki.js');

@@ -9,7 +9,6 @@ import {
   buildSitemapIndex,
   isSearchableUrl,
   loadArchives,
-  localizeFootnotes,
   prettySearchUrl,
   rewriteMarkdownLinks,
 } from './archives-feeds.ts';
@@ -117,19 +116,6 @@ describe('markdown and footnote postprocess', () => {
     );
     assert.equal(ast.children[2].url, 'https://example.com/foo');
   });
-
-  it('wraps ox-content footnotes with Japanese labels', () => {
-    const html =
-      localizeFootnotes(`<p>note<sup><a href="#fn-1" id="fnref-1">1</a></sup></p>
-<div id="fn-1" class="footnote">
-<p>source</p>
-<a href="#fnref-1">↩</a>
-</div>
-`);
-    assert.match(html, /<section class="footnotes" data-footnotes="">/);
-    assert.match(html, /<h2 id="footnote-label">脚注<\/h2>/);
-    assert.match(html, /aria-label="コンテンツに戻る"/);
-  });
 });
 
 describe(
@@ -175,7 +161,16 @@ describe(
       assert.match(article, /created at:/);
       assert.match(article, /出典元:/);
       assert.match(article, /src="\/tategaki\.js"/);
-      assert.match(article, /<h2 id="footnote-label">脚注<\/h2>/);
+      assert.match(
+        article,
+        /<section data-footnotes="" class="footnotes"><h2 class="sr-only" id="footnote-label">脚注<\/h2>/,
+      );
+      assert.match(
+        article,
+        /<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref="" aria-describedby="footnote-label">1<\/a><\/sup>/,
+      );
+      assert.match(article, /aria-label="コンテンツに戻る"/);
+      assert.match(article, /class="data-footnote-backref"/);
       assert.match(article, /class="language-css"/);
       const notFound = readFileSync(join(distDir, '404.html'), 'utf8');
       assert.match(notFound, /ページが見つかりませんでした/);

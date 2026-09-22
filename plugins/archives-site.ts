@@ -18,7 +18,6 @@ import {
   buildSitemap,
   buildSitemapIndex,
   loadArchives,
-  localizeFootnotes,
   prettySearchUrl,
 } from './archives-feeds.ts';
 
@@ -138,7 +137,6 @@ function postprocessHtml(outDir: string): void {
   for (const file of collectHtmlFiles(outDir)) {
     let html = readFileSync(file, 'utf8');
     html = rewriteHtmlContent(html);
-    html = localizeFootnotes(html);
     const relative = file.slice(outDir.length).replaceAll('\\', '/');
     if (relative === '/index.html') {
       html = html.replaceAll('/src/search-client.ts', '/assets/search.js');

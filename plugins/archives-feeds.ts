@@ -135,22 +135,6 @@ export function buildSitemapIndex(): string {
 `;
 }
 
-export function localizeFootnotes(html: string): string {
-  if (html.includes('data-footnotes') || !html.includes('class="footnote"')) {
-    return html;
-  }
-  return html.replace(
-    /(?:<div id="fn-\d+" class="footnote">[\s\S]*?<\/div>\s*)+/g,
-    (block) => {
-      const labeled = block.replace(
-        /<a href="(#fnref-\d+)">↩<\/a>/g,
-        '<a href="$1" data-footnote-backref="" aria-label="コンテンツに戻る">↩</a>',
-      );
-      return `<section class="footnotes" data-footnotes=""><h2 id="footnote-label">脚注</h2>${labeled}</section>`;
-    },
-  );
-}
-
 export function rewriteMarkdownLinks() {
   return {
     name: 'rewrite-archive-links',
