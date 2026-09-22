@@ -28,7 +28,7 @@ TSKaigiはオフラインでは世界最大級と言われているTypeScriptの
 
 今回のカンファレンスでのキーノートはMicrosoftのプリンシパルソフトウェアエンジニアを務めるJake Bailey氏による「[TS 7: How We Got There](https://2026.tskaigi.org/talks/37)」でした。
 
-<Tweet url="https://x.com/tskaigi/status/2057754321358577966" displayName="TSKaigi" handle="tskaigi" dateLabel="May 22, 2026">基調講演の様子をお届けします！ TypeScriptのこれまでの歩みと未来に向けた貴重なお話に、会場全体が引き込まれています！✨#TSKaigi #TSKaigi2026 #tskaigi_leverages pic.twitter.com/Z8hDDJMyll</Tweet>
+<Tweet url="https://x.com/tskaigi/status/2057754321358577966" displayName="TSKaigi" handle="tskaigi" dateLabel="May 22, 2026">基調講演の様子をお届けします！ TypeScriptのこれまでの歩みと未来に向けた貴重なお話に、会場全体が引き込まれています！✨#TSKaigi #TSKaigi2026 #tskaigi_leverages</Tweet>
 
 私たちが現在利用しているTypeScript（6.x系）は、TypeScript自身でコンパイラが記述されています（セルフホスティング）。しかし、次期メジャーバージョンであるTypeScript 7.0から、コンパイラの実装がGo言語によるネイティブ実装（コードネーム：Corsa）へと移行することが発表されました。
 
@@ -128,7 +128,7 @@ Temporalの動向については[temporal-polyfill-lite](https://www.npmjs.com/p
 
 他にもVue.jsのRustツールチェーンである[Vize](https://vizejs.dev/index.html)はLint, Format, TypeCheckの対応が入っており、v1.0.0のα版公開に向けて開発が進められています。こちらも進展として気になっております。
 
-<Tweet url="https://x.com/ubugeeei/status/2063508372834693284" displayName="筋と憎悪，もののけ王" handle="ubugeeei" dateLabel="June 7, 2026">⚡️ Announcement for Vize Vize is entering the Real World Testing phase.https://t.co/Dr2q3FyOl4 Looking for: ・Bug reports (Issues) ・Pull Requests ・Medium-to-large Vue projects to test against The next milestone is v1.0.0-alpha. pic.twitter.com/7DSaKeCxTo</Tweet>
+<Tweet url="https://x.com/ubugeeei/status/2063508372834693284" displayName="筋と憎悪，もののけ王" handle="ubugeeei" dateLabel="June 7, 2026">⚡️ Announcement for Vize Vize is entering the Real World Testing phase. Looking for: ・Bug reports (Issues) ・Pull Requests ・Medium-to-large Vue projects to test against The next milestone is v1.0.0-alpha.</Tweet>
 
 ---
 

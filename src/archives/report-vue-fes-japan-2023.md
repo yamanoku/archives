@@ -25,11 +25,11 @@ noindex: true
 
 今回、株式会社クラウドワークスは「同時通訳スポンサー」として協賛しました。
 
-<Tweet url="https://twitter.com/okuto_oyama/status/1678266941491019777" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="July 10, 2023">弊社 @CrowdWorksjp も協賛しております！ 今年の Vue Fes Japan 盛り上げていきましょう🙌 #vuefeshttps://t.co/swmHo0imWg pic.twitter.com/fwk27a1GJB</Tweet>
+<Tweet url="https://twitter.com/okuto_oyama/status/1678266941491019777" displayName="オオヤマ オクト" handle="okuto_oyama" dateLabel="July 10, 2023">弊社 @CrowdWorksjp も協賛しております！ 今年の Vue Fes Japan 盛り上げていきましょう🙌 #vuefes</Tweet>
 
 Evan Youをはじめとする英語を話す登壇者の発表を、日本語と中国語にリアルタイムで通訳するサービスが提供されていました。オフラインでの登壇という形式で行われたリアルタイム発表は、英語が苦手な方々にも理解しやすいよう配慮されていたため、大変ありがたく感じました。
 
-<Tweet url="https://twitter.com/miyaoka/status/1718246509731532879" displayName="miyaoka" handle="miyaoka" dateLabel="October 28, 2023">#vuefes おつかれさまでした。同時通訳用に各席にイヤホンが用意されてて、原語でも翻訳でも好きな方を聴けるの良かったです pic.twitter.com/WHByHEcE2G</Tweet>
+<Tweet url="https://twitter.com/miyaoka/status/1718246509731532879" displayName="miyaoka" handle="miyaoka" dateLabel="October 28, 2023">#vuefes おつかれさまでした。同時通訳用に各席にイヤホンが用意されてて、原語でも翻訳でも好きな方を聴けるの良かったです</Tweet>
 
 ## 3名の社員が発表・登壇
 
@@ -80,7 +80,7 @@ Nuxt.jsにおいては、[UnJS](https://github.com/unjs)というJavaScriptユ�
 
 アフターパーティーの後、Evan Youによる一本締めでVue Fes Japan 2023は締めくくられました。
 
-<Tweet url="https://twitter.com/vuefes/status/1718215053038801142" displayName="Vue Fes Japan" handle="vuefes" dateLabel="October 28, 2023">Evanの一本締めでアフターパーティー終了‼️ ありがとうございました❗️#vuefes pic.twitter.com/5LZvpD19yn</Tweet>
+<Tweet url="https://twitter.com/vuefes/status/1718215053038801142" displayName="Vue Fes Japan" handle="vuefes" dateLabel="October 28, 2023">Evanの一本締めでアフターパーティー終了‼️ ありがとうございました❗️#vuefes</Tweet>
 
 2018年に初めてVue Fes Japanに参加して以来、2022年のオンラインカンファレンスと、今年のオフラインカンファレンスにも参加しました。発表以外においても毎年参加者が楽しめるようなコンテンツがあり、登壇者としても参加者としても、クオリティの高いカンファレンスで充実した時間を過ごせました。
 

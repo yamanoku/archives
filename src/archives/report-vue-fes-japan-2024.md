@@ -112,7 +112,7 @@ Vueエコシステムのコミュニティで活動しているメンバーた�
 
 セッション内では[chibivue](https://ubugeeei.github.io/chibivue/)という学習コンテンツ向けのDiscordサーバー（現在はchibivueに閉じず様々なコンテンツを扱っています）の紹介がありました。そこから一気に参加者が増えてサーバー内でアラートがでるほどの人気ぶりでした。
 
-<Tweet url="https://twitter.com/ubugeeei/status/1847572522763768002" displayName="@ubugeeei.dev 🦋" handle="ubugeeei" dateLabel="October 19, 2024">#vuefes にサーバー荒らされました (chibivue 鯖) pic.twitter.com/3eHP3Rju9Q</Tweet>
+<Tweet url="https://twitter.com/ubugeeei/status/1847572522763768002" displayName="@ubugeeei.dev 🦋" handle="ubugeeei" dateLabel="October 19, 2024">#vuefes にサーバー荒らされました (chibivue 鯖)</Tweet>
 
 コミュニティに参加・貢献するということ何をもってして証明されるか明確な基準はありません。Vue Fes Japanに参加することだけでもそうかもしれませんし、Vueエコシステムを活用して開発してみることだったり、この参加レポートのような感想記事を書くこともその1つかもしれません。
 
