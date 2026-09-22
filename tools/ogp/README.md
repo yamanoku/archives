@@ -11,6 +11,14 @@
     `-- tests/ ... テストディレクトリ
 ```
 
+## 実行
+
+リポジトリルートで:
+
+```bash
+npm run generateOgImage
+```
+
 ## 挙動について
 
 1. `git status`を実行して新たに追加（unstage）された`src/archives`配下のマークダウンファイルを取得する
@@ -18,7 +26,7 @@
 1. `puppeteer`を起動する
 1. マークダウンファイルを配列として取得してくる
    1. マークダウンファイルのfrontmatterから`title`を取得する
-   1. テンプレートファイル（`ogp/template.html`）を開く
+   1. テンプレートファイル（`tools/ogp/template.html`）を開く
    1. `title`を`budoux`の`loadDefaultJapaneseParser()`でparseする
    1. テンプレートファイルの`<h1>`要素へparseされた`title`を挿入する
    1. スクリーンショットを撮る

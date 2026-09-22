@@ -1,8 +1,12 @@
 import fs from 'fs';
-import { join } from 'path';
+import { dirname, join } from 'path';
+import { fileURLToPath } from 'url';
 import matter from 'gray-matter';
 
-const postsDirectory = join(process.cwd(), 'src/archives');
+const postsDirectory = join(
+  dirname(fileURLToPath(import.meta.url)),
+  '../../../src/archives',
+);
 
 /**
  * マークダウンファイルのfrontmatterからタイトルを取得します。
