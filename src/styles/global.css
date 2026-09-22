@@ -37,12 +37,12 @@
 }
 
 .site-logo {
-  fill: #36465d;
+  fill: var(--y-identity-color);
 }
 
 @media (prefers-color-scheme: dark) {
   .site-logo {
-    fill: var(--y-white-base, #fff);
+    fill: var(--y-white-base);
   }
 }
 
@@ -73,22 +73,14 @@
   justify-content: space-between;
   margin: calc(var(--y-rhythm-2) * -1);
   padding: 0;
-}
 
-.article-meta > * {
-  margin: var(--y-rhythm-2);
+  & > * {
+    margin: var(--y-rhythm-2);
+  }
 }
 
 .article-source {
   font-style: italic;
-}
-
-pre.ox-highlight {
-  border-radius: 4px;
-  margin-block: 1lh;
-  margin-inline: 0;
-  padding: .75lh;
-  overflow: auto;
 }
 
 .notes {
@@ -118,14 +110,14 @@ pre.ox-highlight {
 .footnotes {
   padding-block: var(--y-rhythm-3);
   border-block-start: 1px solid var(--y-arcticle-border-color, #ccc);
-}
 
-.footnotes .footnote {
-  margin-block: var(--y-rhythm-2);
-}
+  .footnote {
+    margin-block: var(--y-rhythm-2);
+  }
 
-.footnotes li p {
-  margin: 0;
+  li p {
+    margin: 0;
+  }
 }
 
 body:has(dialog[open]) {
@@ -172,9 +164,18 @@ dialog[open] {
   width: 100%;
 }
 
+pre.ox-highlight {
+  border-radius: 4px;
+  margin-block: 1lh;
+  margin-inline: 0;
+  padding: .75lh;
+  overflow: auto;
+}
+
 .ox-tweet {
   border: 1px solid var(--y-arcticle-border-color, #ccc);
   margin-block: var(--y-rhythm-3);
+  margin-inline: auto;
   padding: var(--y-rhythm-2);
   border-radius: 0.25rem;
 
@@ -210,11 +211,7 @@ dialog[open] {
 }
 
 .tategaki-mode table,
-.tategaki-mode pre,
-.tategaki-mode .ox-youtube,
-.tategaki-mode .ox-tweet,
-.tategaki-mode .ox-provider-card,
-.tategaki-mode .ox-speaker-deck {
+.tategaki-mode pre {
   writing-mode: initial;
   margin-block: 0;
   margin-inline: var(--y-block-margin);
