@@ -10,6 +10,7 @@ import {
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import type { Plugin } from 'vite';
+import { createArchivesDevMiddleware } from './archives-dev.ts';
 import {
   buildLlms,
   buildLlmsFull,
@@ -165,7 +166,9 @@ export function archivesSitePlugin(): Plugin {
   const virtualCssId = '/styles.css';
   return {
     name: 'archives-site',
+    enforce: 'pre',
     configureServer(server) {
+      server.middlewares.use(createArchivesDevMiddleware(server));
       server.middlewares.use((req, res, next) => {
         if (
           req.url === virtualCssId ||

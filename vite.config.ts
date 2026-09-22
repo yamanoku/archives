@@ -1,9 +1,8 @@
 import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'vite';
 import { oxContent } from '@ox-content/vite-plugin';
-import archivesTheme from './theme/index.tsx';
-import { rewriteMarkdownLinks } from './plugins/archives-feeds.ts';
 import { archivesSitePlugin } from './plugins/archives-site.ts';
+import { oxContentPluginOptions } from './plugins/ox-content-options.ts';
 
 const searchClientEntry = fileURLToPath(
   new URL('./src/search-client.ts', import.meta.url),
@@ -29,30 +28,5 @@ export default defineConfig({
       },
     },
   },
-  plugins: [
-    oxContent({
-      srcDir: 'src/archives',
-      outDir: 'dist',
-      gfm: true,
-      footnotes: true,
-      tables: true,
-      highlight: true,
-      cjkEmphasis: true,
-      docs: false,
-      ogImage: false,
-      search: {
-        placeholder: '記事を検索',
-        limit: 20,
-        hotkey: '/',
-      },
-      transformers: [rewriteMarkdownLinks()],
-      ssg: {
-        siteName: 'アーカイブ | yamanoku.net',
-        siteUrl: 'https://archives.yamanoku.net',
-        lang: 'ja',
-        render: archivesTheme,
-      },
-    }),
-    archivesSitePlugin(),
-  ],
+  plugins: [archivesSitePlugin(), oxContent(oxContentPluginOptions())],
 });
