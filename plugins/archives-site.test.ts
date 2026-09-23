@@ -146,6 +146,17 @@ describe(
       assert.match(notFound, /name="robots" content="noindex"/);
     });
 
+    it('keeps tategaki state inside the article layout', () => {
+      const article = readFileSync(
+        join(distDir, 'ios-double-tap-bug/index.html'),
+        'utf8',
+      );
+      assert.match(article, /id="tategaki-toggle"/);
+      assert.match(article, /localStorage\.getItem\('tategaki-mode'\)/);
+      assert.doesNotMatch(article, /src="\/tategaki\.js"/);
+      assert.equal(existsSync(join(distDir, 'tategaki.js')), false);
+    });
+
     it('omits third-party widget scripts from embed pages', () => {
       const tweetArticle = readFileSync(
         join(distDir, 'vuejs-2024-year-in-review/index.html'),

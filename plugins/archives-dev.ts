@@ -24,17 +24,6 @@ function rewriteHtmlContent(html: string): string {
   );
 }
 
-function injectScript(html: string, src: string, type?: string): string {
-  if (html.includes(`src="${src}"`)) {
-    return html;
-  }
-  const typeAttr = type ? ` type="${type}"` : ' defer';
-  return html.replace(
-    '</body>',
-    `<script${typeAttr} src="${src}"></script></body>`,
-  );
-}
-
 function injectViteClient(html: string): string {
   if (html.includes('/@vite/client')) {
     return html;
@@ -80,13 +69,8 @@ function loadPageSummaries(): PageData[] {
     });
 }
 
-function postprocessDevHtml(html: string, slug: string): string {
-  let next = rewriteHtmlContent(html);
-  next = injectViteClient(next);
-  if (slug !== 'index' && slug !== '404') {
-    next = injectScript(next, '/tategaki.js');
-  }
-  return next;
+function postprocessDevHtml(html: string): string {
+  return injectViteClient(rewriteHtmlContent(html));
 }
 
 export function createArchivesDevMiddleware(
@@ -173,7 +157,6 @@ export function createArchivesDevMiddleware(
           nav: [],
           pages,
         }),
-        slug,
       );
 
       res.statusCode = request.kind === 'notFound' ? 404 : 200;

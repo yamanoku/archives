@@ -6,6 +6,7 @@ import { BaseHead } from '../components/BaseHead.tsx';
 import { Footer } from '../components/Footer.tsx';
 import { Header } from '../components/Header.tsx';
 import { OldArticleNote } from '../components/OldArticleNote.tsx';
+import { TategakiToggle } from '../components/TategakiToggle.tsx';
 import { TcyDate } from '../components/TcyDate.tsx';
 import { formatDate, slugFromPage } from '../lib/pages.ts';
 
@@ -35,14 +36,7 @@ export function ArticleLayout(_props?: { children?: unknown }) {
       </head>
       <body>
         <div id="tategaki-scroll-container">
-          <Header
-            actions={
-              <label class="tategaki-toggle">
-                <input type="checkbox" id="tategaki-toggle" />
-                縦書き
-              </label>
-            }
-          />
+          <Header actions={<TategakiToggle />} />
           <main>
             <article>
               <h1>{raw(titleHtml)}</h1>
@@ -83,7 +77,6 @@ export function ArticleLayout(_props?: { children?: unknown }) {
           </main>
           <Footer />
         </div>
-        <script defer src="/tategaki.js"></script>
       </body>
     </html>
   );

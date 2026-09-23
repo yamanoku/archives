@@ -14,7 +14,7 @@ describe('archive dev page routing', () => {
     assert.equal(isArchivePageRequest('/src/search-client.ts'), false);
     assert.equal(isArchivePageRequest('/styles.css'), false);
     assert.equal(isArchivePageRequest('/search-index.json'), false);
-    assert.equal(isArchivePageRequest('/tategaki.js'), false);
+    assert.equal(isArchivePageRequest('/search.js'), false);
   });
 
   it('maps pretty URLs to archive markdown files', () => {

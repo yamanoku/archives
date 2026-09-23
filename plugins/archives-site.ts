@@ -155,8 +155,6 @@ function postprocessHtml(outDir: string): void {
     if (relative === '/index.html') {
       html = html.replaceAll('/src/search-client.ts', '/assets/search.js');
       html = injectScript(html, '/assets/search.js', 'module');
-    } else if (relative !== '/404.html' && !relative.startsWith('/404/')) {
-      html = injectScript(html, '/tategaki.js');
     }
     writeFileSync(file, html);
   }
