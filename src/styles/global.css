@@ -112,10 +112,6 @@
   padding-block: var(--y-rhythm-3);
   border-block-start: 1px solid var(--y-arcticle-border-color, #ccc);
 
-  .footnote {
-    margin-block: var(--y-rhythm-2);
-  }
-
   li p {
     margin: 0;
   }
@@ -187,12 +183,6 @@ pre.ox-highlight {
   }
 }
 
-.ox-tweet--rich {
-  .ox-tweet__card {
-    padding: 0;
-  }
-}
-
 .tategaki-mode {
   height: 100svh;
   overflow: hidden;
@@ -223,8 +213,7 @@ figure.ox-speaker-deck {
   margin-block: var(--y-rhythm-3);
 }
 
-iframe.ox-speaker-deck,
-.ox-provider-card__map {
+iframe.ox-speaker-deck {
   display: block;
   width: 100%;
   aspect-ratio: 16 / 9;
