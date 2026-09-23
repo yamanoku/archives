@@ -16,7 +16,7 @@
     "test:update": "node --test --experimental-test-snapshots --test-update-snapshots"
   },
   "dependencies": {
-    "@ox-content/vite-plugin": "^2.90.0",
+    "@ox-content/vite-plugin": "^3.2.8",
     "modern-normalize": "3.0.1",
     "yama-normalize": "2.6.1"
   },
