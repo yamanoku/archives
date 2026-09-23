@@ -214,13 +214,13 @@ NotebookLMに要約してもらった情報を咀嚼し、どういった構成�
 
 ですが、そうした苦労を経て自分自身が一番理解を深められるのが登壇の良いところです。さらに、発表後に「わかりやすかったです！」「面白かったです！」と言ってもらえると、本当にやってよかったなと感じます（[alien-signals作者のJohnson氏も、発表内容を見ていただけていた](https://x.com/johnsoncodehk/status/1906949711157948618)ようです）。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">導入優しい <a href="https://twitter.com/hashtag/v_tokyo22?src=hash&amp;ref_src=twsrc%5Etfw">#v_tokyo22</a></p>&mdash; とと / totocalcio (@dir20634) <a href="https://twitter.com/dir20634/status/1905566682783121636?ref_src=twsrc%5Etfw">March 28, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/dir20634/status/1905566682783121636" displayName="とと / totocalcio" handle="dir20634" dateLabel="March 28, 2025">導入優しい #v_tokyo22</Tweet>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">Reactivity の説明めっちゃわかりやすい…<br><a href="https://twitter.com/hashtag/v_tokyo22?src=hash&amp;ref_src=twsrc%5Etfw">#v_tokyo22</a></p>&mdash; kzhrk//Kazuhiro Kobayashi (@kzhrk0430) <a href="https://x.com/kzhrk0430/status/1905568010317738086?ref_src=twsrc%5Etfw">March 28, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://x.com/kzhrk0430/status/1905568010317738086" displayName="kzhrk//Kazuhiro Kobayashi" handle="kzhrk0430" dateLabel="March 28, 2025">Reactivity の説明めっちゃわかりやすい… #v_tokyo22</Tweet>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">導入からわかりやすい構成だからわかりやすいなぁ<br> <a href="https://twitter.com/hashtag/v_tokyo22?src=hash&amp;ref_src=twsrc%5Etfw">#v_tokyo22</a></p>&mdash; Naoki Haba (@naokihaba) <a href="https://twitter.com/naokihaba/status/1905568920066724283?ref_src=twsrc%5Etfw">March 28, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/naokihaba/status/1905568920066724283" displayName="Naoki Haba" handle="naokihaba" dateLabel="March 28, 2025">導入からわかりやすい構成だからわかりやすいなぁ #v_tokyo22</Tweet>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">alien-signalsのセッションめちゃ分かりやすかった！<br><br> <a href="https://twitter.com/hashtag/v_tokyo22?src=hash&amp;ref_src=twsrc%5Etfw">#v_tokyo22</a></p>&mdash; hiro (@hiro_xre) <a href="https://twitter.com/hiro_xre/status/1905569805144654244?ref_src=twsrc%5Etfw">March 28, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/hiro_xre/status/1905569805144654244" displayName="hiro" handle="hiro_xre" dateLabel="March 28, 2025">alien-signalsのセッションめちゃ分かりやすかった！ #v_tokyo22</Tweet>
 
 この記事が、これから登壇に挑戦する方や、準備に悩んでいる方の、ほんの少しでも参考になれば嬉しいです。
 

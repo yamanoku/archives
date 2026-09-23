@@ -4,6 +4,7 @@ import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 import { applyFrontmatter, loadCategoryEnums } from './apply-frontmatter.mjs';
+import { formatIsoDate, nowInstantString } from '../../src/lib/temporal.ts';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '../..');
@@ -64,7 +65,7 @@ for (const filename of targets) {
 }
 
 const output = {
-  generatedAt: new Date().toISOString(),
+  generatedAt: nowInstantString(),
   model: MODEL,
   articleCount: results.length,
   articles: results,
@@ -144,19 +145,9 @@ async function readArticle(path, slug) {
     slug,
     title: data.title,
     description: data.description || '',
-    date: formatDate(data.date),
+    date: formatIsoDate(data.date),
     excerpt,
   };
-}
-
-function formatDate(value) {
-  if (!value) {
-    return '';
-  }
-  if (value instanceof Date) {
-    return value.toISOString().slice(0, 10);
-  }
-  return String(value);
 }
 
 async function classifyArticle(article, defs, key) {

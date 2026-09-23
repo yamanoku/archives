@@ -44,9 +44,9 @@ BuriKaigi自体は2023年に、自分が運営するポッドキャスト「[お
 
 結果として聴講者の方からは良い反応をいただけました。これを機に見直すきっかけとなれたら幸いです。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">たかがボタン、されどボタン<br><br>ボタン1つにフォーカスしたテーマ、私は実装する人じゃないけど考えるべきことがたくさんあっておもしろかった！<a href="https://x.com/hashtag/burikaigi_s?src=hash&amp;ref_src=twsrc%5Etfw">#burikaigi_s</a> <a href="https://x.com/hashtag/burikaigi?src=hash&amp;ref_src=twsrc%5Etfw">#burikaigi</a></p>&mdash; Miki (@mya73mk) <a href="https://x.com/mya73mk/status/2009855094540599359?ref_src=twsrc%5Etfw">January 10, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://x.com/mya73mk/status/2009855094540599359" displayName="Miki" handle="mya73mk" dateLabel="January 10, 2026">たかがボタン、されどボタン ボタン1つにフォーカスしたテーマ、私は実装する人じゃないけど考えるべきことがたくさんあっておもしろかった！#burikaigi_s #burikaigi</Tweet>
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ボタンの話聞いてよかった。<br>歴史長いアプリだとdiv でボタン作ってること多いので、正直に言うと実のところ&lt;button type=&quot;button&quot;&gt;知らなかった<br> <a href="https://x.com/hashtag/burikaigi_s?src=hash&amp;ref_src=twsrc%5Etfw">#burikaigi_s</a></p>&mdash; k-yoshida (@8maim0) <a href="https://x.com/8maim0/status/2009855434002444622?ref_src=twsrc%5Etfw">January 10, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://x.com/8maim0/status/2009855434002444622" displayName="k-yoshida" handle="8maim0" dateLabel="January 10, 2026">ボタンの話聞いてよかった。 歴史長いアプリだとdiv でボタン作ってること多いので、正直に言うと実のところ&lt;button type="button"&gt;知らなかった #burikaigi_s</Tweet>
 
 トーク内容自体はすぐに形になったのですが、スライド作りについてはかなり難航していました。というのも内容の理解度を上げるために実際に触れるボタンを作ったり、絵として見てもらう場面を多くつくる必要があったため、どのように見せるのがいいかについてを考えた結果、非常に時間がかかってしまいました。
 
@@ -54,7 +54,7 @@ BuriKaigi自体は2023年に、自分が運営するポッドキャスト「[お
 
 想像していたよりもなかなか難産となりましたが、これも良い経験になったなと思い返しています。
 
-<script defer class="speakerdeck-embed" data-id="0f957e5845c847b4a350cbc8007682e1" data-ratio="1.7753623188405796" src="//speakerdeck.com/assets/embed.js"></script>
+<SpeakerDeck url="https://speakerdeck.com/player/0f957e5845c847b4a350cbc8007682e1" />
 
 実際のインタラクションが体験できるSlidev版、スピーカーノートとしての[ドキュメント版](https://yamanoku.net/burikaigi-2026/)も作成しているので好きな媒体でご覧ください。
 
@@ -69,7 +69,7 @@ t_wadaさんによるTDD Boot Camp、TinyGoを使ったキーボード開発やA
 
 東葛.devのこうのさんによる[Enumにまつわる発表](https://www.docswell.com/s/hk_it7/KLVM77-enum-burikaigi)後、スタッフの方がものすごい勢いでEnumについて熱い自分語りをしていてビビったのはいい思い出です。
 
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">なんかスタッフの人が急にEnumについて早口で喋リ出して情報量にびびった <a href="https://x.com/hashtag/burikaigi_m?src=hash&amp;ref_src=twsrc%5Etfw">#burikaigi_m</a></p>&mdash; やまのく🐶 (@yamanoku) <a href="https://x.com/yamanoku/status/2009865454937092370?ref_src=twsrc%5Etfw">January 10, 2026</a></blockquote> <script async src="https://platform.x.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://x.com/yamanoku/status/2009865454937092370" displayName="やまのく🐶" handle="yamanoku" dateLabel="January 10, 2026">なんかスタッフの人が急にEnumについて早口で喋リ出して情報量にびびった #burikaigi_m</Tweet>
 
 イベント中には富山の銘菓や弁当を食べることもでき、イベント中も富山を体感できました。
 

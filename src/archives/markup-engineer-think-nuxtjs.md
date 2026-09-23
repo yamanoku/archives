@@ -26,7 +26,7 @@ Node.js というものが世に出てから、おそらく、宗教上の理由
 
 とくに`Pug`というものと出会って、マークアップエンジニアとしての自分は今まで SSI や php での処理しかできなかった「共通化」部分を実現して静的に出力できるというのは感激ものでした。たとえば、
 
-```pug
+```py
 doctype html
 html(lang="ja")
 	head
@@ -39,7 +39,7 @@ html(lang="ja")
 
 みたいな感じにして
 
-```pug
+```py
 extends _tmpl
 
 block contents
@@ -64,7 +64,7 @@ block contents
 
 みたいな感じになります。あとは変数での宣言も出来るので先程の`_tmpl.pug`に以下のように`param` という変数を設定して
 
-```pug
+```py
 doctype html
 html(lang="ja")
 	head
@@ -81,7 +81,7 @@ html(lang="ja")
 
 以下のようにして出力すると
 
-```pug
+```py
 extends _tmpl
 
 block param

@@ -76,7 +76,7 @@ CSSについても、標準機能の「Scoped CSS」によって、ライブラ�
 
 JavaScriptについてはTypeScriptとの選択肢が選べるようになっています。TypeScriptとの親和性についてもVue 3以降から大きくアップデートしており、型による恩恵を得た開発が可能となっています。詳細は、からころさんによる発表スライドをご参照ください。
 
-<script defer class="speakerdeck-embed" data-id="e3080f866b644523802eb0d654ee33c4" data-ratio="1.7772511848341233" src="//speakerdeck.com/assets/embed.js"></script>
+<SpeakerDeck url="https://speakerdeck.com/player/e3080f866b644523802eb0d654ee33c4" />
 
 Vue.jsにはカスタムブロックとしてHTML/CSS/JavaScript以外の任意の名前でブロックを表現することも可能です。[ANDPADさんの事例](https://tech.andpad.co.jp/entry/2025/10/22/100000)では`<spec>`でもカスタムブロックを定義し、仕様駆動実装としてAIによる実装容易性や確実性を高める取り組みをされています。アイデア次第で付加価値を容易に提供できる点もVueならではの強みです。
 
@@ -179,7 +179,7 @@ Schooは引き続きVue.js/Nuxtと共に歩み、この選択を正解にして�
 
 当日の発表資料はSpeakerdeckに掲載しております。
 
-<script defer class="speakerdeck-embed" data-id="fbb389d6abbf45129578157117e5ec19" data-ratio="1.7777777777777777" src="//speakerdeck.com/assets/embed.js"></script>
+<SpeakerDeck url="https://speakerdeck.com/player/fbb389d6abbf45129578157117e5ec19" />
 
 ## アンカンファレンス形式でのフロントエンドトーク
 

@@ -15,13 +15,13 @@ noindex: true
 
 ## Nuxt
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I’m 8 years old 🥳 <a href="https://t.co/7q6Bq6wDjq">pic.twitter.com/7q6Bq6wDjq</a></p>&mdash; Nuxt (@nuxt_js) <a href="https://twitter.com/nuxt_js/status/1850123359297614324?ref_src=twsrc%5Etfw">October 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/nuxt_js/status/1850123359297614324" displayName="Nuxt" handle="nuxt_js" dateLabel="October 26, 2024">I’m 8 years old 🥳</Tweet>
 
 Nuxtは今年でリリースされてから8年が経ちました。
 
 ### Nuxt2 EoL
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nuxt 3 now represents 75% of <a href="https://twitter.com/nuxt_js?ref_src=twsrc%5Etfw">@nuxt_js</a> downloads 📈 <a href="https://t.co/dw2Zz5fO4m">pic.twitter.com/dw2Zz5fO4m</a></p>&mdash; Sébastien Chopin (@Atinux) <a href="https://twitter.com/Atinux/status/1856402125418574056?ref_src=twsrc%5Etfw">November 12, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/Atinux/status/1856402125418574056" displayName="Sébastien Chopin" handle="Atinux" dateLabel="November 12, 2024">Nuxt 3 now represents 75% of @nuxt_js downloads 📈</Tweet>
 
 Nuxtのダウンロード数はNuxt 3が約75%を占めており、多くの開発者がNuxt 3への移行を進めています。
 
@@ -137,7 +137,7 @@ Nuxt StudioはNuxt Contentを活用したウェブサイト用のGitベースの
 
 ## Nuxt UI
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;m thrilled to unveil Nuxt UI v3-alpha to the world! 🚀<br><br>✨ Completely rebuilt from the ground up<br>🎨 Powered by Tailwind CSS v4-alpha<br>🧩 Integrated with Radix Vue for accessible primitives<br>🔧 Enhanced with Tailwind Variants for flexible styling<a href="https://t.co/wrqTgPVugZ">https://t.co/wrqTgPVugZ</a></p>&mdash; Benjamin Canac (@benjamincanac) <a href="https://twitter.com/benjamincanac/status/1841456682620072231?ref_src=twsrc%5Etfw">October 2, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/benjamincanac/status/1841456682620072231" displayName="Benjamin Canac" handle="benjamincanac" dateLabel="October 2, 2024">I'm thrilled to unveil Nuxt UI v3-alpha to the world! 🚀 ✨ Completely rebuilt from the ground up 🎨 Powered by Tailwind CSS v4-alpha 🧩 Integrated with Radix Vue for accessible primitives 🔧 Enhanced with Tailwind Variants for flexible styling</Tweet>
 
 NuxtアプリケーションのためのUIライブラリであるNuxt UIは今年より次期バージョンであるv3に向けてアルファ、ベータ版の開発が進められています。
 
@@ -145,7 +145,7 @@ NuxtアプリケーションのためのUIライブラリであるNuxt UIは今�
 
 ## nuxt-bridge
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Happy Friday! 🎉<br><br>🌉 We&#39;ve just released Nuxt Bridge v3, to help with teams migrating projects to <a href="https://twitter.com/nuxt_js?ref_src=twsrc%5Etfw">@nuxt_js</a> v3. <br><br>💪 zero config required<br>⚡️ use vite, nitro + unhead<br>🚀 experience composition api<br>🚧 a step towards v3<br><br>For more about Nuxt Bridge, see <a href="https://t.co/TwTOrL0Gzc">https://t.co/TwTOrL0Gzc</a>. <a href="https://t.co/pT8aEZdUmA">pic.twitter.com/pT8aEZdUmA</a></p>&mdash; Nuxt (@nuxt_js) <a href="https://twitter.com/nuxt_js/status/1745823076988686538?ref_src=twsrc%5Etfw">January 12, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/nuxt_js/status/1745823076988686538" displayName="Nuxt" handle="nuxt_js" dateLabel="January 12, 2024">Happy Friday! 🎉 🌉 We've just released Nuxt Bridge v3, to help with teams migrating projects to @nuxt_js v3. 💪 zero config required ⚡️ use vite, nitro + unhead 🚀 experience composition api 🚧 a step towards v3 For more about Nuxt Bridge.</Tweet>
 
 Nuxt2からNuxt3へのマイグレーションを支援するツールであるNuxt Bridgeの安定版がリリースされました。
 
@@ -159,9 +159,9 @@ https://content.nuxt.com/
 
 Nuxtディレクトリの `content/` 配下のファイルを活用したブログ・ドキュメントなどのコンテンツ管理ができるNuxt Contentは現在v3の開発が進められています。
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Nuxt Content and Nuxt Studio will soon be under the same domain ✨<br><br>We are just waiting for Content v3 release 👀 <a href="https://t.co/dWoABAyL8i">pic.twitter.com/dWoABAyL8i</a></p>&mdash; Nuxt Studio (@nuxtstudio) <a href="https://twitter.com/nuxtstudio/status/1861448306338992295?ref_src=twsrc%5Etfw">November 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/nuxtstudio/status/1861448306338992295" displayName="Nuxt Studio" handle="nuxtstudio" dateLabel="November 26, 2024">Nuxt Content and Nuxt Studio will soon be under the same domain ✨ We are just waiting for Content v3 release 👀</Tweet>
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Big news! You can now edit your Nuxt Content v3 websites directly in Studio 🪄<br><br>Dive into the open-source docs and see how simple it is to make your content editable <a href="https://t.co/keQAMWxjIo">pic.twitter.com/keQAMWxjIo</a></p>&mdash; Nuxt Studio (@nuxtstudio) <a href="https://twitter.com/nuxtstudio/status/1865046985880785191?ref_src=twsrc%5Etfw">December 6, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/nuxtstudio/status/1865046985880785191" displayName="Nuxt Studio" handle="nuxtstudio" dateLabel="December 6, 2024">Big news! You can now edit your Nuxt Content v3 websites directly in Studio 🪄 Dive into the open-source docs and see how simple it is to make your content editable</Tweet>
 
 前述したNuxt Studioとのサイトドメインの共通化、Nuxt Contentの内容をNuxt Studioにて直接編集が可能になるなど、連携が進められています。
 
@@ -171,7 +171,7 @@ Nuxtディレクトリの `content/` 配下のファイルを活用したブロ�
 
 Nuxt FontsはNuxtアプリでお気に入りのフォントソースを使用した際に最適化できるモジュールです。
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Add a custom font to your app with just a font-family declaration ✨<br><br>We handle the performance optimisation 🚀<br><br>Bonus: View your custom fonts right in Nuxt DevTools. <a href="https://t.co/uSWibJ3ww5">pic.twitter.com/uSWibJ3ww5</a></p>&mdash; Nuxt (@nuxt_js) <a href="https://twitter.com/nuxt_js/status/1834350374100287596?ref_src=twsrc%5Etfw">September 12, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/nuxt_js/status/1834350374100287596" displayName="Nuxt" handle="nuxt_js" dateLabel="September 12, 2024">Add a custom font to your app with just a font-family declaration ✨ We handle the performance optimisation 🚀 Bonus: View your custom fonts right in Nuxt DevTools.</Tweet>
 
 デモにもあるように `font-family` の宣言をするだけでカスタムフォントの追加と最適化を実施してくれます。
 
@@ -221,7 +221,7 @@ Nuxt TutorialはNuxt公式で提供されているチュートリアルサイト
 
 ## UnJS
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">New UnJS Website 💅<br><br>With a light ☀️ and a dark theme 🌙 and overall design improvements.<br><br>In 2024, expect to see more articles and learning content! 🗒️<br><br>👉 <a href="https://t.co/fzthjI27CD">https://t.co/fzthjI27CD</a></p>&mdash; UnJS (@unjsio) <a href="https://twitter.com/unjsio/status/1743239935946072575?ref_src=twsrc%5Etfw">January 5, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<Tweet url="https://twitter.com/unjsio/status/1743239935946072575" displayName="UnJS" handle="unjsio" dateLabel="January 5, 2024">New UnJS Website 💅 With a light ☀️ and a dark theme 🌙 and overall design improvements. In 2024, expect to see more articles and learning content! 🗒️</Tweet>
 
 UnJSはあらゆるJavaScriptフレームワーク上で統一的に動作するユーティリティーツール・ライブラリです。今年の1月には公式サイトがリニューアルされました。
 

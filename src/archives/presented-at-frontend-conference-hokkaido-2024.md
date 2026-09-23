@@ -29,7 +29,7 @@ noindex: true
 
 この発表を思いつくにあたり、私が過去の勉強会で発表してきたことが由来となっています。まずは、それらについてを触れておきたいと思います。
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vRfZCfZpjvKndrrHZYH4QQsMM8JwcRYCbYlgeIaJxEQdvz5BbWFx2pKv2ctZ1KT8CTztpC-hR1n6vIO/embed?start=false&loop=false&delayms=3000" title="HTML だけで UI を作る限界、あるいは無理なくユースケースと向き合っていくためには" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="width: 100%; height: 100%; aspect-ratio: 760 / 569"></iframe>
+<GoogleSlides url="https://docs.google.com/presentation/d/e/2PACX-1vRfZCfZpjvKndrrHZYH4QQsMM8JwcRYCbYlgeIaJxEQdvz5BbWFx2pKv2ctZ1KT8CTztpC-hR1n6vIO/embed" embed="https://docs.google.com/presentation/d/e/2PACX-1vRfZCfZpjvKndrrHZYH4QQsMM8JwcRYCbYlgeIaJxEQdvz5BbWFx2pKv2ctZ1KT8CTztpC-hR1n6vIO/embed" title="HTML だけで UI を作る限界、あるいは無理なくユースケースと向き合っていくためには" />
 
 HTMLオンリーでUIを生み出すことの難しさについて述べた発表です。まとめとして、領域が広がってきているフロントエンドエンジニアとして、あらゆることができるのではなく、ブラウザ上で **「表示されるもの」に責務を置くべき**と提言しました。
 
@@ -78,7 +78,7 @@ Interopという取り組みやBaselineという指標が生まれてきて、�
 
 私個人としては[Navigation API](https://developer.mozilla.org/en-US/docs/Web/API/Navigation_API)というものがクロスブラウザで実装されて安定することを期待しています。このAPIの具体的な内容については以下スライドをご参照ください。
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vSosGMESLA5IiR4NPz3i2u8XF_wkHsqP80pHA1a4q-Gmk9CIFkUobNc5pMvJj6Tth0PEGmoExmalOQj/embed?start=false&loop=false&delayms=3000" title="画面遷移のアクセシビリティ課題を解決しうる Navigation API への期待" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" style="width: 100%; height: 100%; aspect-ratio: 760 / 569"></iframe>
+<GoogleSlides url="https://docs.google.com/presentation/d/e/2PACX-1vSosGMESLA5IiR4NPz3i2u8XF_wkHsqP80pHA1a4q-Gmk9CIFkUobNc5pMvJj6Tth0PEGmoExmalOQj/embed" embed="https://docs.google.com/presentation/d/e/2PACX-1vSosGMESLA5IiR4NPz3i2u8XF_wkHsqP80pHA1a4q-Gmk9CIFkUobNc5pMvJj6Tth0PEGmoExmalOQj/embed" title="画面遷移のアクセシビリティ課題を解決しうる Navigation API への期待" />
 
 ### Webを持続的なものとするための取り組みを知る
 
