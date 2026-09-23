@@ -13,6 +13,20 @@ const TATEGAKI_SCRIPT = `(function () {
     document.documentElement.classList.toggle('tategaki-mode', checkbox.checked);
     localStorage.setItem('tategaki-mode', String(checkbox.checked));
   });
+
+  addEventListener(
+    'wheel',
+    (e) => {
+      if (!document.documentElement.classList.contains('tategaki-mode')) return;
+      if (e.ctrlKey) return; // ピンチズームは奪わない
+      if (Math.abs(e.deltaY) <= Math.abs(e.deltaX)) return; // 横入力はネイティブに任せる
+      const scroller = document.getElementById('tategaki-scroll-container');
+      if (!scroller) return;
+      e.preventDefault();
+      scroller.scrollLeft -= e.deltaY;
+    },
+    { passive: false },
+  );
 })();`;
 
 export function TategakiToggle() {

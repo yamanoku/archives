@@ -162,6 +162,8 @@ describe(
       );
       assert.match(article, /id="tategaki-toggle"/);
       assert.match(article, /localStorage\.getItem\('tategaki-mode'\)/);
+      assert.match(article, /addEventListener\(\s*'wheel'/);
+      assert.match(article, /scrollLeft\s*-=\s*e\.deltaY/);
       assert.doesNotMatch(article, /src="\/tategaki\.js"/);
       assert.equal(existsSync(join(distDir, 'tategaki.js')), false);
     });
