@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { describe, it } from 'node:test';
 import { join } from 'node:path';
+import { Temporal } from '../src/lib/temporal.ts';
 import {
   buildLlms,
   buildRss,
@@ -19,7 +20,12 @@ describe('archive feeds', () => {
   it('loads every archive markdown file except index and 404', () => {
     assert.ok(archives.length > 0);
     assert.ok(
-      archives.every((entry) => entry.slug && entry.title && entry.date),
+      archives.every(
+        (entry) =>
+          entry.slug &&
+          entry.title &&
+          entry.date instanceof Temporal.PlainDate,
+      ),
     );
   });
 
@@ -30,6 +36,10 @@ describe('archive feeds', () => {
     assert.match(
       rss,
       /<link>https:\/\/archives\.yamanoku\.net\/report-tskaigi-2026\/<\/link>/,
+    );
+    assert.match(
+      rss,
+      /<guid>https:\/\/archives\.yamanoku\.net\/ios-double-tap-bug\/<\/guid>\s*<pubDate>Thu, 27 Jul 2017 00:00:00 GMT<\/pubDate>/,
     );
   });
 

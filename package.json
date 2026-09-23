@@ -18,6 +18,7 @@
   "dependencies": {
     "@ox-content/vite-plugin": "^3.2.8",
     "modern-normalize": "3.0.1",
+    "temporal-polyfill-lite": "^0.4.3",
     "yama-normalize": "2.6.1"
   },
   "devDependencies": {

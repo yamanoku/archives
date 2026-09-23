@@ -3,6 +3,11 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '../src/config.ts';
+import {
+  Temporal,
+  formatRfc822Utc,
+  parsePlainDate,
+} from '../src/lib/temporal.ts';
 
 export { isSearchableUrl, prettySearchUrl } from '../src/lib/search-urls.ts';
 
@@ -13,7 +18,7 @@ export type ArchiveEntry = {
   slug: string;
   title: string;
   description?: string;
-  date: Date;
+  date: Temporal.PlainDate;
   body: string;
   noindex?: boolean;
 };
@@ -27,11 +32,6 @@ export function loadArchives(): ArchiveEntry[] {
     .map((name) => {
       const raw = readFileSync(join(archivesDir, name), 'utf8');
       const parsed = matter(raw);
-      const dateValue = parsed.data.date;
-      const date =
-        dateValue instanceof Date
-          ? dateValue
-          : new Date(String(dateValue ?? ''));
       return {
         slug: name.replace(/\.md$/, ''),
         title: String(parsed.data.title ?? name),
@@ -39,21 +39,23 @@ export function loadArchives(): ArchiveEntry[] {
           typeof parsed.data.description === 'string'
             ? parsed.data.description
             : undefined,
-        date,
+        date: parsePlainDate(parsed.data.date),
         body: parsed.content,
         noindex: Boolean(parsed.data.noindex),
       };
     })
-    .filter((entry) => !Number.isNaN(entry.date.valueOf()))
-    .sort((a, b) => b.date.valueOf() - a.date.valueOf());
+    .filter(
+      (entry): entry is ArchiveEntry => entry.date instanceof Temporal.PlainDate,
+    )
+    .sort((a, b) => Temporal.PlainDate.compare(b.date, a.date));
 }
 
-function formatRssDate(date: Date): string {
-  return date.toUTCString();
+function formatRssDate(date: Temporal.PlainDate): string {
+  return formatRfc822Utc(date);
 }
 
-function isoDate(date: Date): string {
-  return date.toISOString().slice(0, 10);
+function isoDate(date: Temporal.PlainDate): string {
+  return date.toString();
 }
 
 function escapeXml(value: string): string {

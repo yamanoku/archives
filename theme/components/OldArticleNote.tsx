@@ -1,22 +1,12 @@
 /** @jsxImportSource @ox-content/vite-plugin */
-import { formatDate } from '../lib/pages.ts';
+import { calendarYearsSince } from '../../src/lib/temporal.ts';
 
 type Props = {
   date: unknown;
 };
 
-function yearsAgo(dateValue: unknown): number {
-  const iso = formatDate(dateValue);
-  if (!iso) {
-    return 0;
-  }
-  const target = new Date(`${iso}T00:00:00Z`).getTime();
-  const diffDays = (Date.now() - target) / (1000 * 60 * 60 * 24);
-  return Math.floor(diffDays / 365);
-}
-
 export function OldArticleNote({ date }: Props) {
-  const years = yearsAgo(date);
+  const years = calendarYearsSince(date);
   if (years < 1) {
     return null;
   }

@@ -1,6 +1,8 @@
 /** @jsxImportSource @ox-content/vite-plugin */
+import { currentCalendarYear } from '../../src/lib/temporal.ts';
+
 export function Footer() {
-  const year = new Date().getFullYear().toString();
+  const year = currentCalendarYear();
   return (
     <footer>
       <p>&copy; Copyright {year}, Okuto Oyama</p>
