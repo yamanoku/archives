@@ -2,7 +2,6 @@ import assert from 'node:assert/strict';
 import { existsSync, readdirSync, readFileSync } from 'node:fs';
 import { describe, it } from 'node:test';
 import { join } from 'node:path';
-import { Temporal } from '../src/lib/temporal.ts';
 import {
   buildLlms,
   buildRss,
@@ -24,7 +23,7 @@ describe('archive feeds', () => {
         (entry) =>
           entry.slug &&
           entry.title &&
-          entry.date instanceof Temporal.PlainDate,
+          /^\d{4}-\d{2}-\d{2}$/.test(entry.date),
       ),
     );
   });

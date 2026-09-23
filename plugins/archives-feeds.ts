@@ -4,7 +4,7 @@ import { fileURLToPath } from 'node:url';
 import matter from 'gray-matter';
 import { SITE_DESCRIPTION, SITE_TITLE, SITE_URL } from '../src/config.ts';
 import {
-  Temporal,
+  comparePlainDateDesc,
   formatRfc822Utc,
   parsePlainDate,
 } from '../src/lib/temporal.ts';
@@ -18,10 +18,21 @@ export type ArchiveEntry = {
   slug: string;
   title: string;
   description?: string;
-  date: Temporal.PlainDate;
+  date: string;
   body: string;
   noindex?: boolean;
 };
+
+type ArchiveDraft = Omit<ArchiveEntry, 'date'> & {
+  description: string | undefined;
+  date: string | null;
+};
+
+function hasCalendarDate(
+  entry: ArchiveDraft,
+): entry is ArchiveDraft & { date: string } {
+  return entry.date !== null;
+}
 
 export function loadArchives(): ArchiveEntry[] {
   return readdirSync(archivesDir)
@@ -29,7 +40,7 @@ export function loadArchives(): ArchiveEntry[] {
       (name) =>
         name.endsWith('.md') && name !== 'index.md' && name !== '404.md',
     )
-    .map((name) => {
+    .map((name): ArchiveDraft => {
       const raw = readFileSync(join(archivesDir, name), 'utf8');
       const parsed = matter(raw);
       return {
@@ -44,18 +55,8 @@ export function loadArchives(): ArchiveEntry[] {
         noindex: Boolean(parsed.data.noindex),
       };
     })
-    .filter(
-      (entry): entry is ArchiveEntry => entry.date instanceof Temporal.PlainDate,
-    )
-    .sort((a, b) => Temporal.PlainDate.compare(b.date, a.date));
-}
-
-function formatRssDate(date: Temporal.PlainDate): string {
-  return formatRfc822Utc(date);
-}
-
-function isoDate(date: Temporal.PlainDate): string {
-  return date.toString();
+    .filter(hasCalendarDate)
+    .sort((a, b) => comparePlainDateDesc(a.date, b.date));
 }
 
 function escapeXml(value: string): string {
@@ -73,7 +74,7 @@ export function buildRss(archives: ArchiveEntry[]): string {
       <title>${escapeXml(entry.title)}</title>
       <link>${SITE_URL}/${entry.slug}/</link>
       <guid>${SITE_URL}/${entry.slug}/</guid>
-      <pubDate>${formatRssDate(entry.date)}</pubDate>
+      <pubDate>${formatRfc822Utc(entry.date)}</pubDate>
     </item>`,
     )
     .join('\n');
@@ -121,7 +122,7 @@ export function buildSitemap(archives: ArchiveEntry[]): string {
     ...archives.map(
       (entry) => `  <url>
     <loc>${SITE_URL}/${entry.slug}/</loc>
-    <lastmod>${isoDate(entry.date)}</lastmod>
+    <lastmod>${entry.date}</lastmod>
   </url>`,
     ),
   ].join('\n');

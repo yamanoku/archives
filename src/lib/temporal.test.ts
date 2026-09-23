@@ -1,7 +1,6 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 import {
-  Temporal,
   calendarYearsSince,
   comparePlainDateDesc,
   currentCalendarYear,
@@ -13,28 +12,23 @@ import {
 
 describe('temporal date helpers', () => {
   it('parses ISO calendar dates without Date', () => {
-    const date = parsePlainDate('2017-07-27');
-    assert.ok(date instanceof Temporal.PlainDate);
-    assert.equal(date?.toString(), '2017-07-27');
+    assert.equal(parsePlainDate('2017-07-27'), '2017-07-27');
     assert.equal(formatIsoDate('2017-07-27T15:00:00Z'), '2017-07-27');
   });
 
-  it('converts gray-matter Date values through Temporal Instant', () => {
+  it('converts gray-matter Date values through epoch milliseconds', () => {
     const legacy = new globalThis.Date('2017-07-27T00:00:00.000Z');
-    const date = parsePlainDate(legacy);
-    assert.equal(date?.toString(), '2017-07-27');
+    assert.equal(parsePlainDate(legacy), '2017-07-27');
   });
 
-  it('formats RSS pubDate as RFC 822 from a PlainDate', () => {
-    const date = Temporal.PlainDate.from('2017-07-27');
-    assert.equal(formatRfc822Utc(date), 'Thu, 27 Jul 2017 00:00:00 GMT');
+  it('formats RSS pubDate as RFC 822 from a calendar date', () => {
+    assert.equal(formatRfc822Utc('2017-07-27'), 'Thu, 27 Jul 2017 00:00:00 GMT');
   });
 
   it('counts calendar years with an explicit now', () => {
-    const now = Temporal.PlainDate.from('2026-09-23');
-    assert.equal(calendarYearsSince('2025-09-23', now), 1);
-    assert.equal(calendarYearsSince('2025-09-24', now), 0);
-    assert.equal(calendarYearsSince('2017-07-27', now), 9);
+    assert.equal(calendarYearsSince('2025-09-23', '2026-09-23'), 1);
+    assert.equal(calendarYearsSince('2025-09-24', '2026-09-23'), 0);
+    assert.equal(calendarYearsSince('2017-07-27', '2026-09-23'), 9);
   });
 
   it('sorts newer calendar dates first', () => {
@@ -42,11 +36,10 @@ describe('temporal date helpers', () => {
     assert.equal(comparePlainDateDesc('2017-07-27', '2017-07-27'), 0);
   });
 
-  it('reads the current year and instant from Temporal.Now', () => {
-    const now = Temporal.PlainDate.from('2026-01-02');
-    assert.equal(currentCalendarYear(now), '2026');
+  it('reads the current year and instant from an explicit now', () => {
+    assert.equal(currentCalendarYear('2026-01-02'), '2026');
     assert.match(
-      nowInstantString(Temporal.Instant.from('2026-09-23T00:00:00Z')),
+      nowInstantString('2026-09-23T00:00:00Z'),
       /^2026-09-23T00:00:00Z$/,
     );
   });
