@@ -3,6 +3,7 @@ import { raw, usePageProps } from '@ox-content/vite-plugin';
 import { loadDefaultJapaneseParser } from 'budoux';
 import { SITE_DESCRIPTION } from '../../src/config.ts';
 import { BaseHead } from '../components/BaseHead.tsx';
+import { Breadcrumb } from '../components/Breadcrumb.tsx';
 import { Footer } from '../components/Footer.tsx';
 import { Header } from '../components/Header.tsx';
 import { OldArticleNote } from '../components/OldArticleNote.tsx';
@@ -39,6 +40,7 @@ export function ArticleLayout(_props?: { children?: unknown }) {
           <Header actions={<TategakiToggle />} />
           <main>
             <article>
+              <Breadcrumb current={page.title} />
               <h1>{raw(titleHtml)}</h1>
               <div class="article-meta">
                 {date ? (
