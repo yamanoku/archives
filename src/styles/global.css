@@ -68,6 +68,14 @@
   white-space: nowrap;
 }
 
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: start;
+  gap: var(--y-rhythm-1);
+}
+
 .article-meta {
   display: flex;
   flex-wrap: wrap;
