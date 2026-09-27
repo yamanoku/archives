@@ -71,6 +71,6 @@ ECSS、とにかく長生きさせるためには誇大化してもしょうが�
 
 これをビルドすると
 
-[![Image from Gyazo](https://i.gyazo.com/a72042dcd05dfb09e4b085f427e1cf95.png)](https://gyazo.com/a72042dcd05dfb09e4b085f427e1cf95)
+[![Image from Gyazo](/src/images/i-think-scoped-css/a72042dcd05dfb09e4b085f427e1cf95.png)](/src/images/i-think-scoped-css/a72042dcd05dfb09e4b085f427e1cf95.png)
 
 こんな感じになる。Vue なんで IE とかは厳しいのかと思います（IE 無視していいなら別に大丈夫かと）

@@ -13,7 +13,7 @@ noindex: true
 
 7月24日19時に我々が愛したTwitterはXへと静かに切り替わった。いつの間にか [https://x.com/](https://x.com/) から [http://twitter.com/](http://twitter.com/) にリダイレクトしてることもわかった。
 
-![Pixel5でTwitterのロゴがXへと切り替わった瞬間をスクリーンショットした場面](https://i.gyazo.com/0f93de8f9b5cbb84c8149e07ceb5b90d.png)
+![Pixel5でTwitterのロゴがXへと切り替わった瞬間をスクリーンショットした場面](/src/images/yamanoku-advent-calendar-2023-12-06/0f93de8f9b5cbb84c8149e07ceb5b90d.png)
 
 イーロン・マスクがTwitterを買収し、様々な変革があった後、イーロン・マスクの「X Corp.」に統合され、会社自体も消滅してしまった。Twitterは死んでしまった。
 
@@ -29,7 +29,7 @@ noindex: true
 
 ActivityPubはオープンソーシャルネットワークプロトコルの仕様で、実は[W3Cによって策定されて勧告になっているもの](https://www.w3.org/TR/activitypub/)でもある。
 
-![ActivityPubのW3C勧告ページ](https://i.gyazo.com/9d53c0565205537f6a32c4fd3e9a6bd1.png)
+![ActivityPubのW3C勧告ページ](/src/images/yamanoku-advent-calendar-2023-12-06/9d53c0565205537f6a32c4fd3e9a6bd1.png)
 
 ActivityPubで有名なものといえば[Mastodon](https://joinmastodon.org/)だろう。Mastodonは2016年にEugen Rochko氏によって開発された分散型SNSのOSSである。MastodonはTwitterのような機能を持ちながらも、誰でも自分のサーバーを立てて運用することができる。
 

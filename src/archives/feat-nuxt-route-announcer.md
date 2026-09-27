@@ -36,11 +36,11 @@ noindex: true
 
 初期インストールされたデフォルトの状態のままだと特に変化は見られないのですが、各ページにて `useHead` で `title` を指定することでその真価が発揮されます。
 
-[![リンクをクリックしてページが切り替わっているがスクリーンリーダーにはなにも通知されていない](https://i.gyazo.com/bd67f964f7a2d4cdd7c577257aa74538.gif)](https://gyazo.com/bd67f964f7a2d4cdd7c577257aa74538)
+[![リンクをクリックしてページが切り替わっているがスクリーンリーダーにはなにも通知されていない](/src/images/feat-nuxt-route-announcer/bd67f964f7a2d4cdd7c577257aa74538.gif)](/src/images/feat-nuxt-route-announcer/bd67f964f7a2d4cdd7c577257aa74538.gif)
 
 `title` がない状態だとページが切り替わっても特に変化がみられません。
 
-[![aboutへのリンクをクリックして「About」、indexへのリンクをクリックして「Home」とスクリーンリーダーへ通知が届いている](https://i.gyazo.com/a21b5a1b491e64758219d44d3fbf1cfb.gif)](https://gyazo.com/a21b5a1b491e64758219d44d3fbf1cfb)
+[![aboutへのリンクをクリックして「About」、indexへのリンクをクリックして「Home」とスクリーンリーダーへ通知が届いている](/src/images/feat-nuxt-route-announcer/a21b5a1b491e64758219d44d3fbf1cfb.gif)](/src/images/feat-nuxt-route-announcer/a21b5a1b491e64758219d44d3fbf1cfb.gif)
 
 ですが `title` を設定することで、ページが切り替わったあとにその内容が読み上げられるようになっています。
 

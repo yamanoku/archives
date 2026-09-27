@@ -20,7 +20,7 @@ https://github.com/nuxt-community/starter-template/commit/82513c7306563b2dd42c7d
 
 ## Nuxt.js 2.0 Release !
 
-[![Image from Gyazo](https://i.gyazo.com/f8a82a7c384f33360aed3884a2fbdba8.png)](https://gyazo.com/f8a82a7c384f33360aed3884a2fbdba8)
+[![Image from Gyazo](/src/images/nuxt-starter-template-v2-migration/f8a82a7c384f33360aed3884a2fbdba8.png)](/src/images/nuxt-starter-template-v2-migration/f8a82a7c384f33360aed3884a2fbdba8.png)
 
 [Nuxt.js 2.0: Webpack 4, ESM Modules, create-nuxt-app and more! 💫
 ](https://medium.com/@nuxt_js/nuxt-js-2-0-webpack-4-esm-modules-create-nuxt-app-and-more-6936ce80d94c)
@@ -87,11 +87,11 @@ yarn run v1.9.4
 $ nuxt
 ```
 
-[![Image from Gyazo](https://i.gyazo.com/d790ef2cbcef0071a90531d7cbe157e2.png)](https://gyazo.com/d790ef2cbcef0071a90531d7cbe157e2)
+[![Image from Gyazo](/src/images/nuxt-starter-template-v2-migration/d790ef2cbcef0071a90531d7cbe157e2.png)](/src/images/nuxt-starter-template-v2-migration/d790ef2cbcef0071a90531d7cbe157e2.png)
 
 おっ動いてる
 
-[![Image from Gyazo](https://i.gyazo.com/22a2bd507b01a49725c8221be7b93a88.png)](https://gyazo.com/22a2bd507b01a49725c8221be7b93a88)
+[![Image from Gyazo](/src/images/nuxt-starter-template-v2-migration/22a2bd507b01a49725c8221be7b93a88.png)](/src/images/nuxt-starter-template-v2-migration/22a2bd507b01a49725c8221be7b93a88.png)
 
 と思いきや`eslint`でなにやらコケてる
 
@@ -139,15 +139,15 @@ $ nuxt
   }
 ```
 
-[![Image from Gyazo](https://i.gyazo.com/b0864a60c02e61e7e90d58f43887f7ac.png)](https://gyazo.com/b0864a60c02e61e7e90d58f43887f7ac)
+[![Image from Gyazo](/src/images/nuxt-starter-template-v2-migration/b0864a60c02e61e7e90d58f43887f7ac.png)](/src/images/nuxt-starter-template-v2-migration/b0864a60c02e61e7e90d58f43887f7ac.png)
 
 エラー消えた！
 
-[![Image from Gyazo](https://i.gyazo.com/c0cc3fead577df1aa4edcabc985866a7.gif)](https://gyazo.com/c0cc3fead577df1aa4edcabc985866a7)
+[![Image from Gyazo](/src/images/nuxt-starter-template-v2-migration/c0cc3fead577df1aa4edcabc985866a7.gif)](/src/images/nuxt-starter-template-v2-migration/c0cc3fead577df1aa4edcabc985866a7.gif)
 
 `build`も動く
 
-[![Image from Gyazo](https://i.gyazo.com/394756cc959d76f9ccfa09fd63bfd1ac.gif)](https://gyazo.com/394756cc959d76f9ccfa09fd63bfd1ac)
+[![Image from Gyazo](/src/images/nuxt-starter-template-v2-migration/394756cc959d76f9ccfa09fd63bfd1ac.gif)](/src/images/nuxt-starter-template-v2-migration/394756cc959d76f9ccfa09fd63bfd1ac.gif)
 
 `generate`も動く
 

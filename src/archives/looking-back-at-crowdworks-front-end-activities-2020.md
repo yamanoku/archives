@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![CrowdWorks Front-End 2020 CrowdWorks Engineer Blog 2020 Adevent Calender](https://i.gyazo.com/d35f084a03bf66780ebba0727f65e458.png)
+![CrowdWorks Front-End 2020 CrowdWorks Engineer Blog 2020 Adevent Calender](/src/images/looking-back-at-crowdworks-front-end-activities-2020/d35f084a03bf66780ebba0727f65e458.png)
 
 この記事はクラウドワークスアドベントカレンダー１日目の記事です。
 
@@ -32,7 +32,7 @@ noindex: true
 弊社の Slack には #frontend というフロントエンド開発に関連する共有チャンネルがあります。
 フロントエンドに関する最新情報の共有や社内開発にまつわる雑談のほか、フロントエンド開発の相談をする Slack ワークフローが作成されました。
 
-![Slack ショートカットを開いたスクリーンショット。「frontendに関する質問はこちらから」のワークフロー選択肢がある](https://i.gyazo.com/d29db28e9a06a872b6354d20c413b1bc.png)
+![Slack ショートカットを開いたスクリーンショット。「frontendに関する質問はこちらから」のワークフロー選択肢がある](/src/images/looking-back-at-crowdworks-front-end-activities-2020/d29db28e9a06a872b6354d20c413b1bc.png)
 
 今までの相談内容として以下のものがありました。
 
@@ -62,7 +62,7 @@ noindex: true
 
 新機能開発においては積極的にモダンな JavaScripit 開発を取り入れていますが、まだまだレガシーなフロントエンド環境のまま負債となっている箇所があります。
 
-![Sprockets層のCoffeeScriptとWebpacker層のTypeScript、その上部にjQuery層とVue.jsの層があるイメージ図](https://i.gyazo.com/05543c7838d372593f190742915990b5.png)
+![Sprockets層のCoffeeScriptとWebpacker層のTypeScript、その上部にjQuery層とVue.jsの層があるイメージ図](/src/images/looking-back-at-crowdworks-front-end-activities-2020/05543c7838d372593f190742915990b5.png)
 
 このままその基盤に乗ったままだと後続の開発者に負担を強いることになってしまいかねないため、TypeScript や Vue.js での開発も推進しています。
 
@@ -79,7 +79,7 @@ noindex: true
 - WAI-ARIA を使用した制御
 - マークアップ（情報設計）の見直し
 
-![Pull Requestでのレビュー対応スクリーンショット。aをbuttonに変更する、ボタン開閉に関するaria属性の解説。](https://i.gyazo.com/78993d8877be69166823e4fd98f51bf6.png)
+![Pull Requestでのレビュー対応スクリーンショット。aをbuttonに変更する、ボタン開閉に関するaria属性の解説。](/src/images/looking-back-at-crowdworks-front-end-activities-2020/78993d8877be69166823e4fd98f51bf6.png)
 
 ### Atomic デザインを参考にしたコンポーネント設計
 
@@ -96,9 +96,9 @@ noindex: true
 
 業務委託として長年参加されているフロントエンドエンジニアの方が、とあるページのリニューアルに際してコンポーネントとスタイル定義をしたページを作成してくれました。
 
-[![ボタンコンポーネントのガイド](https://i.gyazo.com/9cb40ace4fa8b7e7384858eb3824335d.png)](https://gyazo.com/9cb40ace4fa8b7e7384858eb3824335d)
-![カラムのガイド](https://i.gyazo.com/ce49ae964e0606d596ec8fc3fcf65680.png)
-![ユーティリティクラスのガイド](https://i.gyazo.com/13124071b0419e8e2158fa035067f963.png)
+[![ボタンコンポーネントのガイド](/src/images/looking-back-at-crowdworks-front-end-activities-2020/9cb40ace4fa8b7e7384858eb3824335d.png)](/src/images/looking-back-at-crowdworks-front-end-activities-2020/9cb40ace4fa8b7e7384858eb3824335d.png)
+![カラムのガイド](/src/images/looking-back-at-crowdworks-front-end-activities-2020/ce49ae964e0606d596ec8fc3fcf65680.png)
+![ユーティリティクラスのガイド](/src/images/looking-back-at-crowdworks-front-end-activities-2020/13124071b0419e8e2158fa035067f963.png)
 
 コンポーネントの各状態やブレークポイントがどの範囲まであるか、Utility なクラスがエンジニア以外でも簡易的に確認できるようになりました。
 
@@ -112,7 +112,7 @@ TOP ページ、ログインページ、会員登録ページの 3 ページに�
 
 その時にチェックした内容は GitHub Project で管理するようにしています。
 
-![Accessibilityという名前のGitHub Projectのスクリーンショット。各ページでカラム分けされており、その中で問題点をカードで分類している](https://i.gyazo.com/e8b49b35ed69733a690bd240bcde1146.png)
+![Accessibilityという名前のGitHub Projectのスクリーンショット。各ページでカラム分けされており、その中で問題点をカードで分類している](/src/images/looking-back-at-crowdworks-front-end-activities-2020/e8b49b35ed69733a690bd240bcde1146.png)
 
 弊社のコーポレートサイトも５月にリニューアルされたのですが、その際のアクセシビリティチェックも有志にて実施していました。
 
@@ -145,7 +145,7 @@ GitHub の Pull Request にてアップデート通知が来て、順次マー�
 
 今年はついに Vue.js Ver3.0 が正式リリースされました。それにともないドキュメント翻訳の Issue が立ちました。
 
-![Vue.js v3 ドキュメントの翻訳 Issue のスクリーンショット](https://i.gyazo.com/f0e0b53b4c8f32eb20c822442a7f26d1.png)
+![Vue.js v3 ドキュメントの翻訳 Issue のスクリーンショット](/src/images/looking-back-at-crowdworks-front-end-activities-2020/f0e0b53b4c8f32eb20c822442a7f26d1.png)
 
 社外活動になりますが、弊社からは私と [@t0yohei](https://twitter.com/t0yohei) が参加してドキュメントの翻訳に参加しています。
 
@@ -176,7 +176,7 @@ GitHub の Pull Request にてアップデート通知が来て、順次マー�
 
 [PWA Night vol.16 ～オンライン LT 大会！～ - connpass](https://pwanight.connpass.com/event/173576/)
 
-![PWA is Progressive Web ... ? 発表資料表紙スクリーンショット](https://i.gyazo.com/57f486f40b4853074c0b94a22f18c404.png)
+![PWA is Progressive Web ... ? 発表資料表紙スクリーンショット](/src/images/looking-back-at-crowdworks-front-end-activities-2020/57f486f40b4853074c0b94a22f18c404.png)
 
 [PWA Night 発表資料](https://docs.google.com/presentation/d/1VIBjWSrWcZ0ekKNIQ9Vl0pMdfGym1lrXi3Krq_o1EEo/edit?usp=sharing)
 
@@ -184,7 +184,7 @@ GitHub の Pull Request にてアップデート通知が来て、順次マー�
 
 [【増枠】UI/UX デザイナー LT 会 【登壇者 15 名御礼】#uiuxdesignerslt - connpass](https://rakus.connpass.com/event/187048/)
 
-![Web UIの実装で考えていることと気をつけたいこと 発表資料表紙スクリーンショット](https://i.gyazo.com/fb1becc7ad2c7afd380a9d3072067864.png)
+![Web UIの実装で考えていることと気をつけたいこと 発表資料表紙スクリーンショット](/src/images/looking-back-at-crowdworks-front-end-activities-2020/fb1becc7ad2c7afd380a9d3072067864.png)
 
 [UI/UX デザイナー LT 会 発表資料](https://scrapbox.io/yamanoku/Web_UI%E3%81%AE%E5%AE%9F%E8%A3%85%E3%81%A7%E8%80%83%E3%81%88%E3%81%A6%E3%81%84%E3%82%8B%E3%81%93%E3%81%A8%E3%81%A8%E6%B0%97%E3%82%92%E3%81%A4%E3%81%91%E3%81%9F%E3%81%84%E3%81%93%E3%81%A8)
 
@@ -217,11 +217,11 @@ GitHub の Pull Request にてアップデート通知が来て、順次マー�
 
 これからはフロントエンド「エンジニア」としてではなく、UI へのさわり心地やアクセシビリティを含む体験設計に重視したフロントエンド「デザイナー」としてやっていこうと思っています。
 
-![発表資料の表紙。1年の振り返りと次の1年について  Okuto Oyama 2020/10/05 著者の顔写真](https://i.gyazo.com/28df9669a0d121f61a99f0e33537acb8.png)
+![発表資料の表紙。1年の振り返りと次の1年について  Okuto Oyama 2020/10/05 著者の顔写真](/src/images/looking-back-at-crowdworks-front-end-activities-2020/28df9669a0d121f61a99f0e33537acb8.png)
 
-![Twitterのyamanokuによる発言「Webのこと6割くらい知っているUIデザイナー（フロントエンド）っていうキャリアにしようかな」全体に置ける知識はそこそこに、UIについてを極める人を目指す](https://i.gyazo.com/f3428814fad69c997d34c156692680f9.png)
+![Twitterのyamanokuによる発言「Webのこと6割くらい知っているUIデザイナー（フロントエンド）っていうキャリアにしようかな」全体に置ける知識はそこそこに、UIについてを極める人を目指す](/src/images/looking-back-at-crowdworks-front-end-activities-2020/f3428814fad69c997d34c156692680f9.png)
 
-![FrontEnd Designer 👍](https://i.gyazo.com/f529d2acdad669a840c4e632739fdc5d.png)
+![FrontEnd Designer 👍](/src/images/looking-back-at-crowdworks-front-end-activities-2020/f529d2acdad669a840c4e632739fdc5d.png)
 
 ## おわりに
 

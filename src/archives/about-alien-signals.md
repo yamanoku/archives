@@ -24,17 +24,17 @@ Webフロントエンドにおける「反応性」は、アプリケーショ�
 分かりやすい例としてあげられるのがスプレッドシートのようなUIです。あるセルの値が変更されると、そのセルの値を参照している他のセルも自動的に再計算され表示が更新されます。
 
 <figure>
-<img src="https://i.gyazo.com/9e5516838ab5e79b83253f2d8050eb1b.png" alt="列A、B、Cと行0、1、2を持つスプレッドシート表。セルA0には1、セルA1には2、セルA2には3が入っています。その他のセルは空白です。">
+<img src="/src/images/about-alien-signals/9e5516838ab5e79b83253f2d8050eb1b.png" alt="列A、B、Cと行0、1、2を持つスプレッドシート表。セルA0には1、セルA1には2、セルA2には3が入っています。その他のセルは空白です。">
 <figcaption>スプレッドシートのサンプル</figcaption>
 </figure>
 
 <figure>
-<img src="https://i.gyazo.com/c3eb032dd0bf7c8f7bedb7bd8b6a840a.png" alt="列A、B、Cと行0、1、2を持つスプレッドシート表。セルA0には1、セルA1には2、セルA2には数式「= A0 + A1」が表示されています。その他のセルは空白です。">
+<img src="/src/images/about-alien-signals/c3eb032dd0bf7c8f7bedb7bd8b6a840a.png" alt="列A、B、Cと行0、1、2を持つスプレッドシート表。セルA0には1、セルA1には2、セルA2には数式「= A0 + A1」が表示されています。その他のセルは空白です。">
 <figcaption>セルA2には数式が挿入されている</figcaption>
 </figure>
 
 <figure>
-<img src="https://i.gyazo.com/8a47000044a9f513c87fc5f8b9df9ef4.png" alt="列A、B、Cと行0、1、2を持つスプレッドシート表。セルA0には1、セルA1には3、セルA2には4が入っています。その他のセルは空白です。">
+<img src="/src/images/about-alien-signals/8a47000044a9f513c87fc5f8b9df9ef4.png" alt="列A、B、Cと行0、1、2を持つスプレッドシート表。セルA0には1、セルA1には3、セルA2には4が入っています。その他のセルは空白です。">
 <figcaption>セルの値が変更されるとそれを参照するセルも変更される</figcaption>
 </figure>
 

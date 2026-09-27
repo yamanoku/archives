@@ -50,7 +50,7 @@ filter: unquote(
 
 `gulpfile.js`で単に`stylus`使うだけの設定ならいいんですが、[gulp-pleeease](http://pleeease.io/docs/)を設定しているとこんなことが起きます。
 
-[![Image from Gyazo](https://i.gyazo.com/85334f91be37f4612b243e5b54366ed5.png)](https://gyazo.com/85334f91be37f4612b243e5b54366ed5)
+[![Image from Gyazo](/src/images/stylus-setting-old-ie/85334f91be37f4612b243e5b54366ed5.png)](/src/images/stylus-setting-old-ie/85334f91be37f4612b243e5b54366ed5.png)
 
 何故。。。
 

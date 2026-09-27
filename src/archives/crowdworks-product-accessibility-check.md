@@ -9,7 +9,7 @@ topic: accessibility
 noindex: true
 ---
 
-![](https://i.gyazo.com/627253dc3266425cbf2798a446ef96b8.png)
+![](/src/images/crowdworks-product-accessibility-check/627253dc3266425cbf2798a446ef96b8.png)
 
 こんにちは。フロントエンドエンジニアの [yamanoku](https://twitter.com/yamanoku) と申します。
 
@@ -108,11 +108,11 @@ W3C[^1]では、ウェブは多くの人々の日常に欠かせないものと�
 
 これを全てチェックするのは時間がかかるので、チェックを行うために主要なページをしぼりました。
 
-![会員登録ページ](https://i.gyazo.com/1aed0bbe7f86f5de9ddfb3f02227c9cd.png)
+![会員登録ページ](/src/images/crowdworks-product-accessibility-check/1aed0bbe7f86f5de9ddfb3f02227c9cd.png)
 
-![ログインページ](https://i.gyazo.com/74c92b16229bfd9e2fae278052a9d03b.png)
+![ログインページ](/src/images/crowdworks-product-accessibility-check/74c92b16229bfd9e2fae278052a9d03b.png)
 
-![TOPページ](https://i.gyazo.com/7c6bd7c09c74a7c15595c8ad485efc68.png)
+![TOPページ](/src/images/crowdworks-product-accessibility-check/7c6bd7c09c74a7c15595c8ad485efc68.png)
 
 これらを選んだ理由としては、ログインをしてない状態でも表示できるため不特定多数の人が閲覧すると想定したからです。
 
@@ -120,13 +120,13 @@ W3C[^1]では、ウェブは多くの人々の日常に欠かせないものと�
 
 進め方として、1 週間で 1 ページの全項目をチェックしていく形で始めました。
 
-![](https://i.gyazo.com/21e2aa8d7da480601936b2a4df51039c.png)
+![](/src/images/crowdworks-product-accessibility-check/21e2aa8d7da480601936b2a4df51039c.png)
 
 チェックはスプレッドシートに項目沿って確認をしていきます。
 
 スプレッドシートは以前、自分が参加した外部のアクセシビリティ試験会[^4]のものから流用してきました。
 
-![各達成基準で見つかった課題をスプレッドシートに「見つかった課題」「ページURL」「issue化」「メモ」といった項目で列挙している](https://i.gyazo.com/60b496638320ff002fa78b3f7b4c482b.png)
+![各達成基準で見つかった課題をスプレッドシートに「見つかった課題」「ページURL」「issue化」「メモ」といった項目で列挙している](/src/images/crowdworks-product-accessibility-check/60b496638320ff002fa78b3f7b4c482b.png)
 
 達成できているかどうかについて、Ameba アクセシビリティガイドライン[^5]も参考に使わせてもらいました。
 ガイドラインには簡単な実例があり、どういった内容をチェックすればいいかが分かりやすく、チェックを進める上で理解の手がかりになりました。
@@ -149,19 +149,19 @@ W3C[^1]では、ウェブは多くの人々の日常に欠かせないものと�
 
 コントラストチェックですが、[Axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd)というアクセシビリティチェックツールを使用することで簡単に問題点が発見できます。
 
-![](https://i.gyazo.com/ff94f29456df98bde194d55a20d3ebcb.png)
+![](/src/images/crowdworks-product-accessibility-check/ff94f29456df98bde194d55a20d3ebcb.png)
 
 要素数の列挙のほか、基準を満たしていないものを強調してくれます。
 
-![達成基準を満たしていないオレンジ色のボタンが水色と黒の太い破線で強調されている](https://i.gyazo.com/e7e91fb2a37bca833e8505f364409b70.png)
+![達成基準を満たしていないオレンジ色のボタンが水色と黒の太い破線で強調されている](/src/images/crowdworks-product-accessibility-check/e7e91fb2a37bca833e8505f364409b70.png)
 
 Chrome の検証ツールでは要素を選択するとその要素のコントラスト比やキーボードでフォーカス可能なのかなど、アクセシビリティチェックしやすい機能が増えてきています。
 
-![要素の上にポップアップでチェック項目が表示されている](https://i.gyazo.com/4e5025b28d6e374a0deb9ed838e95ab4.png)
+![要素の上にポップアップでチェック項目が表示されている](/src/images/crowdworks-product-accessibility-check/4e5025b28d6e374a0deb9ed838e95ab4.png)
 
 達成基準 4.1.1 の構文解析の達成基準では[Nu Html Checker](https://validator.w3.org/nu/)を使ってチェックしました。
 
-![](https://i.gyazo.com/d2048e58d53c37a24ec4bce074658335.png)
+![](/src/images/crowdworks-product-accessibility-check/d2048e58d53c37a24ec4bce074658335.png)
 
 こちらは URL を打ち込むことで構文解析してくれるのですが、freee 株式会社の公開している freee アクセシビリティガイドライン[^7]より、[ブックマークレートを使うと良さそう](https://a11y-guidelines.freee.co.jp/explanations/check-tools.html?highlight=nu%20html#id79)ということで、そちらを使用しました。<br>
 結果として URL を打ち込むことなく解析結果に遷移してくれます。
@@ -176,9 +176,9 @@ Chrome の検証ツールでは要素を選択するとその要素のコント�
 
 利用規約・個人情報保護方針のリンクが色のみで判断できるものとなっており、こちらはディスプレイのグレイスケールモードを使っている方などには見づらいと判断しました。
 
-![文章内にリンクのみ色が変わっている表示のスクリーンショット](https://i.gyazo.com/36f0e28e5d2796462e82f12e53caf077.png)
+![文章内にリンクのみ色が変わっている表示のスクリーンショット](/src/images/crowdworks-product-accessibility-check/36f0e28e5d2796462e82f12e53caf077.png)
 
-![文章内にリンクがあるが色の差別しかないためどこがリンクなのか分かりにくくなっている表示のスクリーンショット](https://i.gyazo.com/bd43d6454121c6983c72dd02a7ebe956.png)
+![文章内にリンクがあるが色の差別しかないためどこがリンクなのか分かりにくくなっている表示のスクリーンショット](/src/images/crowdworks-product-accessibility-check/bd43d6454121c6983c72dd02a7ebe956.png)
 
 この場合、リンク下線を出しておくことで通常のテキストと判別がしやすくなるように対応できそうです。
 
@@ -188,7 +188,7 @@ Chrome の検証ツールでは要素を選択するとその要素のコント�
 
 会員登録ページにおける「ログインはこちら」という文言において、「こちら」がどこを指すかが曖昧になっており、テキストを読み上げた時に困惑してしまいかねないという問題が発覚しました。
 
-![](https://i.gyazo.com/0e32d3d844e01586b1035598635ecf99.png)
+![](/src/images/crowdworks-product-accessibility-check/0e32d3d844e01586b1035598635ecf99.png)
 
 「ログインする」「ログインページに移動」といったリンクの目的がはっきりとわかる文言に変える必要があります。
 
@@ -196,7 +196,7 @@ Chrome の検証ツールでは要素を選択するとその要素のコント�
 
 クラウドワークスの中で使われているボタンは、フォーカスしたときのアウトラインが薄く見えづらいため、視認性がよくない問題を見つけました。
 
-![ものすごく分かりづらいが薄い点線がアウトラインで表示されている](https://i.gyazo.com/100bea5a556f08817e0e855f2bea68f6.png)
+![ものすごく分かりづらいが薄い点線がアウトラインで表示されている](/src/images/crowdworks-product-accessibility-check/100bea5a556f08817e0e855f2bea68f6.png)
 
 クラウドワークスでは`cw-core`という独自の CSS フレームワークを長年使っており、こうしたボタンの仕様を一部変更することが、どのページでどれくらいの影響範囲になるかの検討がつけられていないため、安易に修正ができないという問題も表出しています。
 
@@ -204,7 +204,7 @@ Chrome の検証ツールでは要素を選択するとその要素のコント�
 
 「メールアドレスではじめる」がマークアップとしては`<h2>`が正しいのではないかということが挙げられました。
 
-![](https://i.gyazo.com/29509f8507b267a042b4858072e547f8.png)
+![](/src/images/crowdworks-product-accessibility-check/29509f8507b267a042b4858072e547f8.png)
 
 現在は`<label>`タグで表現されていますが、これが支援技術によって読み上げられる時「メールアドレスではじめる」が`<label>`で呼ばれて、その直後の入力欄の`<input type="text">`でも読まれる状態になっていました。
 
@@ -216,7 +216,7 @@ Chrome の検証ツールでは要素を選択するとその要素のコント�
 
 アクセシビリティを向上するためのチェックだったのですが、入力フォームのラベルをチェックしているときに、ログインページでのメールアドレス入力箇所はユーザー名でもログインできるということが判明しました。
 
-![ユーザーIDでもメールアドレスでもログインが出来るフォームのラベルが「メールアドレス」のみの表示になっていて、プレースホルダにも「メールアドレスを入力してください」となっている](https://i.gyazo.com/22e282dc2f52303967181285de606a4f.png)
+![ユーザーIDでもメールアドレスでもログインが出来るフォームのラベルが「メールアドレス」のみの表示になっていて、プレースホルダにも「メールアドレスを入力してください」となっている](/src/images/crowdworks-product-accessibility-check/22e282dc2f52303967181285de606a4f.png)
 
 ユーザーサポートではログイン時にメールアドレスを忘れた・使えなくなってしまった場合の変更対応があるため、万一ユーザー名がわかっていればログインができるので、結果としてユーザーサポートの負担も減りそうだと思いました。
 
@@ -231,9 +231,9 @@ Chrome の検証ツールでは要素を選択するとその要素のコント�
 
 今回チェックで発見できた問題点は、そのままにしておくのではなく、Qiita Team にログとして記載して GitHub Project に移行し看板管理をするようにしました。
 
-![](https://i.gyazo.com/f0764d8bc2a29f883176910b1c95cd7b.png)
+![](/src/images/crowdworks-product-accessibility-check/f0764d8bc2a29f883176910b1c95cd7b.png)
 
-![](https://i.gyazo.com/1ad8841527a29b97463d1be95eebf948.png)
+![](/src/images/crowdworks-product-accessibility-check/1ad8841527a29b97463d1be95eebf948.png)
 
 現在、チェックを行っていたときのチームは解散し新たなチームになったので、そこで引き続き改善活動に充てたいと思っております。
 

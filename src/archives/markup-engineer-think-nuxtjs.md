@@ -229,11 +229,11 @@ module.exports = {
 
 そして CSS 管理においては`scoped CSS`を使用すると、コンポーネントやレイアウト、ページ単体の CSS 管理ができます。
 
-[![Screenshot from Gyazo](https://gyazo.com/3ba66219ffec42b5e34e50a659d165f4/raw)](https://gyazo.com/3ba66219ffec42b5e34e50a659d165f4)
+[![Screenshot from Gyazo](/src/images/markup-engineer-think-nuxtjs/3ba66219ffec42b5e34e50a659d165f4.png)](/src/images/markup-engineer-think-nuxtjs/3ba66219ffec42b5e34e50a659d165f4.png)
 
 こうすると
 
-[![Screenshot from Gyazo](https://gyazo.com/a72042dcd05dfb09e4b085f427e1cf95/raw)](https://gyazo.com/a72042dcd05dfb09e4b085f427e1cf95)
+[![Screenshot from Gyazo](/src/images/markup-engineer-think-nuxtjs/a72042dcd05dfb09e4b085f427e1cf95.png)](/src/images/markup-engineer-think-nuxtjs/a72042dcd05dfb09e4b085f427e1cf95.png)
 
 クラスにユニーク名が付与されてこういうことができます（画像のは Nuxt.js ではないのですがイメージとして）。
 

@@ -8,7 +8,7 @@ category: essay
 topic: life
 ---
 
-![](https://i.gyazo.com/2950981f9e6358a2d7fdfdd45b579f86.png)
+![](/src/images/I-played-Pokemon-green-again-on-virtual-console/2950981f9e6358a2d7fdfdd45b579f86.png)
 
 バーチャルコンソールのポケットモンスター緑をここしばらくチマチマとプレイしておりました。やり始めた理由は最近多忙気味でやりたいことを見失っていたので、気持ちを落ち着かせるために何かに１本集中しようかと思い、最近ポケモン GO も流行っていたし初代を改めてやりたくなったとかいうやつです。
 
@@ -42,7 +42,7 @@ topic: life
 
 今でこそ更にタイプは増えてタイプ相性の幅も広がったと思いますが、初代だけでここまでしっかりと作られていたというのは当時そんなことも露知らずだった僕の中では衝撃でした。。。
 
-![](https://i.gyazo.com/6e5f2c0435a8b1a115e0aaa2ae0fff16.png)
+![](/src/images/I-played-Pokemon-green-again-on-virtual-console/6e5f2c0435a8b1a115e0aaa2ae0fff16.png)
 
 ## 捕まえるには眠らせろ
 
@@ -116,7 +116,7 @@ topic: life
 
 ポケモンは今や GO を始め色んなハード・ジャンルで展開されており、いわゆる廃人のためのゲームと化してきているところはありますが今なお人気のあるコンテンツです。今後も興味が今更出てきて何か触れそこねているものには積極的に、恥ずかしがらずその輪に入れるようになれればよいかな、と思うなどありました。こちらからは以上です。ありがとうございました。
 
-![](https://i.gyazo.com/b07a5c074bfe1d34effcd2002d27fe69.png)
+![](/src/images/I-played-Pokemon-green-again-on-virtual-console/b07a5c074bfe1d34effcd2002d27fe69.png)
 
 サファリパークではあとガルーラ捕まえるだけで他ポケモンの進化で図鑑を埋めることは一応できるので片手間にポチポチ弄りながら緑版で１人で集められるところまでやってみようかとは思います。VC で赤版持っている方がいたら交換できたら嬉しいかな。
 

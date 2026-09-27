@@ -8,7 +8,7 @@ category: essay
 topic: life
 ---
 
-[![Image from Gyazo](https://i.gyazo.com/ae434ef3e5468faeb1cc16ebfe612cc2.jpg)](https://gyazo.com/ae434ef3e5468faeb1cc16ebfe612cc2)
+[![Image from Gyazo](/src/images/discomfort-of-each/ae434ef3e5468faeb1cc16ebfe612cc2.jpg)](/src/images/discomfort-of-each/ae434ef3e5468faeb1cc16ebfe612cc2.jpg)
 
 ## Q. 上の画像を見てどこに違和感があるか。
 

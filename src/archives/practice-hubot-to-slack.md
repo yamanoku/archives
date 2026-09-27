@@ -84,11 +84,11 @@ $ git push heroku master
 
 [http://my.slack.com/services/new/hubot](http://my.slack.com/services/new/hubot)
 
-[![Image from Gyazo](https://i.gyazo.com/10c5e0bcff205475bac1a3e7142025b8.png)](https://gyazo.com/10c5e0bcff205475bac1a3e7142025b8)
+[![Image from Gyazo](/src/images/practice-hubot-to-slack/10c5e0bcff205475bac1a3e7142025b8.png)](/src/images/practice-hubot-to-slack/10c5e0bcff205475bac1a3e7142025b8.png)
 
 名前を入力して決定を押すと API が表示されますのでコピーします。
 
-[![Image from Gyazo](https://i.gyazo.com/323ce8c5a952d8090a05a53b4b665c26.png)](https://gyazo.com/323ce8c5a952d8090a05a53b4b665c26)
+[![Image from Gyazo](/src/images/practice-hubot-to-slack/323ce8c5a952d8090a05a53b4b665c26.png)](/src/images/practice-hubot-to-slack/323ce8c5a952d8090a05a53b4b665c26.png)
 
 コピーした API を以下`<Your token>`に入力して登録します
 
@@ -111,7 +111,7 @@ Heroku のダッシュボードに入って登録したプロジェクトの Set
 
 ## Slack を見る
 
-[![Image from Gyazo](https://i.gyazo.com/6e2b8677ec2aa84f9291027947e6b42f.png)](https://gyazo.com/6e2b8677ec2aa84f9291027947e6b42f)
+[![Image from Gyazo](/src/images/practice-hubot-to-slack/6e2b8677ec2aa84f9291027947e6b42f.png)](/src/images/practice-hubot-to-slack/6e2b8677ec2aa84f9291027947e6b42f.png)
 
 登録した slack を見ると slack bot 以外にも自分が登録した Hubot が居るかと思われるので
 ひとまず適当なチャンネルを作って Invite します。
@@ -119,7 +119,7 @@ Heroku のダッシュボードに入って登録したプロジェクトの Set
 そこで bot 名を入力した後 ping と入力。
 直後に bot が PONG と返せたらたぶん設定完了。
 
-[![Image from Gyazo](https://i.gyazo.com/d347e4c0add0fb1e3e4408e875061132.png)](https://gyazo.com/d347e4c0add0fb1e3e4408e875061132)
+[![Image from Gyazo](/src/images/practice-hubot-to-slack/d347e4c0add0fb1e3e4408e875061132.png)](/src/images/practice-hubot-to-slack/d347e4c0add0fb1e3e4408e875061132.png)
 
 自分は色々右往左往しながらやったのでちゃんと設定がキレイにできてるか怪しいのですが
 bot が登録されて PONG 言ってるしまあ良いか的な感じです。

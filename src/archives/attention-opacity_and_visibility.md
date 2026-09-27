@@ -33,13 +33,13 @@ topic: frontend
 
 例：[EC-CUBE デモサイト](http://demo3.ec-cube.net/)
 
-[![Image from Gyazo](https://i.gyazo.com/3cfe510ee02489ac12241e273b6b1b4c.png)](https://gyazo.com/3cfe510ee02489ac12241e273b6b1b4c)
+[![Image from Gyazo](/src/images/attention-opacity_and_visibility/3cfe510ee02489ac12241e273b6b1b4c.png)](/src/images/attention-opacity_and_visibility/3cfe510ee02489ac12241e273b6b1b4c.png)
 
 EC-CUBE のデモサイトでカートに商品を追加してその中身を確認する時、カートをクリックして表示させます。
 
 この時に上述したアニメーションを使用しているのですが、ここの商品に要素を追加しまくると…
 
-[![Image from Gyazo](https://i.gyazo.com/5f1a3590a504d520c31e336dd5b06496.png)](https://gyazo.com/5f1a3590a504d520c31e336dd5b06496)
+[![Image from Gyazo](/src/images/attention-opacity_and_visibility/5f1a3590a504d520c31e336dd5b06496.png)](/src/images/attention-opacity_and_visibility/5f1a3590a504d520c31e336dd5b06496.png)
 
 このように footer 箇所を飛び抜けて表示してしまう現象が起こります。これはカートを開いていない時でも同様の現象が起こります。
 

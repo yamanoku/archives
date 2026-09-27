@@ -8,7 +8,7 @@ category: essay
 topic: life
 ---
 
-![](https://i.gyazo.com/a0cac60699eca8a2b3f2c31c474a9d8c.png)
+![](/src/images/send-it-to-the-unconscious/a0cac60699eca8a2b3f2c31c474a9d8c.png)
 
 自分は iPhone を使っているけど、何故か音楽は別の iPhone（SIM 抜き）で聞くようにしているので出社するときとか一人で出かけるときは２台持ちにしている。
 

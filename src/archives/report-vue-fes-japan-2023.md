@@ -9,13 +9,13 @@ topic: frontend
 noindex: true
 ---
 
-![アイキャッチ：Vue Fes Japan 2023参加レポート](https://i.gyazo.com/d22435033324a84104b87b39eec5d68b.png)
+![アイキャッチ：Vue Fes Japan 2023参加レポート](/src/images/report-vue-fes-japan-2023/d22435033324a84104b87b39eec5d68b.png)
 
 皆様こんにちは。クラウドソーシングサービス「[クラウドワークス](http://crowdworks.jp/)」（以下crowdworks.jp）にてエンジニアをしております[@okuto_oyama](https://twitter.com/okuto_oyama)です。今回は、10月28日に開催された[Vue Fes Japan 2023](https://vuefes.jp/2023/)の参加レポートをお届けします。
 
 ## 久々のオフライン開催
 
-![Vue Fes Japan 2023 会場に設置されていたクリエイティブウォール。中央に Vue Fes Japan のロゴが書かれてあり、その周辺に多くの企業ロゴや個人により書き込まれている。](https://i.gyazo.com/4a310389005f11cd89d1da79eab7191b.png)
+![Vue Fes Japan 2023 会場に設置されていたクリエイティブウォール。中央に Vue Fes Japan のロゴが書かれてあり、その周辺に多くの企業ロゴや個人により書き込まれている。](/src/images/report-vue-fes-japan-2023/4a310389005f11cd89d1da79eab7191b.png)
 
 2018年以来、台風や新型コロナウイルスの影響でオフラインでの開催が叶わなかったVue Fes Japanが、今年ついに対面でのカンファレンスとして戻ってきました。昨年は完全なオンライン形式で開催されましたが、久々にオフラインのイベントに参加できたのは、感慨深いものがありました。
 
@@ -41,7 +41,7 @@ Evan Youをはじめとする英語を話す登壇者の発表を、日本語と
 
 crowdworks.jpのデザインシステムにおけるコンポーネントライブラリではGrid Systemのアプローチを取り入れたコンポーネントを開発しており、その実装方法についてライブコーディングを交えて紹介しました。
 
-![t0yoheiの登壇写真](https://i.gyazo.com/b0769b873a0508b768d8939a2eba8125.png)
+![t0yoheiの登壇写真](/src/images/report-vue-fes-japan-2023/b0769b873a0508b768d8939a2eba8125.png)
 
 [@yamanoku](https://twitter.com/yamanoku)は「**画面遷移から考えるNuxtアプリケーションをアクセシブルにする方法**」について発表しました。
 
@@ -49,7 +49,7 @@ crowdworks.jpのデザインシステムにおけるコンポーネントライ�
 
 クライアントサイドのルーティングで起こる画面遷移のアクセシビリティの問題点を、スクリーンリーダーを使用したデモを通じて指摘し、解決策の実装方法を紹介しました。
 
-![yamanokuの登壇写真](https://i.gyazo.com/3f089293825ac225b9f9954e4b96e76d.png)
+![yamanokuの登壇写真](/src/images/report-vue-fes-japan-2023/3f089293825ac225b9f9954e4b96e76d.png)
 
 @53ableは「**SOLID原則に基づくSFC実装**」というテーマで登壇しました。
 
@@ -57,12 +57,12 @@ crowdworks.jpのデザインシステムにおけるコンポーネントライ�
 
 SOLID原則の各項目をVue.jsのSFC（Single File Components）でどう実現しているかについて解説しました。これは私たちのVue.js実装においても、原則に沿った手法を採用していることから得られる洞察でした。
 
-![53ableの登壇写真](https://i.gyazo.com/0842bbb80bf053ea42ef96dccdcd02bb.png)
+![53ableの登壇写真](/src/images/report-vue-fes-japan-2023/0842bbb80bf053ea42ef96dccdcd02bb.png)
 
 パネルディスカッションでは、[@yamanoku](https://twitter.com/yamanoku)が参加し、Vue.jsの導入がもたらした各社でのよかった点や、これからのエコシステムへの期待について話しました。
 
 ![パネルディスカッションで @yamanoku、@miyaoka、@ushiro_noko、@kazu_pon、@wattanx、@takanoripe がトークしている様子
-左から @yamanoku、@miyaoka、@ushiro_noko、@kazu_pon、@wattanx、@takanoripe](https://i.gyazo.com/9bb6e5bf201eaf72abd417e617b3061d.png)
+左から @yamanoku、@miyaoka、@ushiro_noko、@kazu_pon、@wattanx、@takanoripe](/src/images/report-vue-fes-japan-2023/9bb6e5bf201eaf72abd417e617b3061d.png)
 
 余談ではありますが、登壇者控え室でSebastien、Daniel、Anthonyといった著名な参加者たちと同席した時の緊張感も、個人的には際立った思い出でありました。
 
@@ -86,7 +86,7 @@ Nuxt.jsにおいては、[UnJS](https://github.com/unjs)というJavaScriptユ�
 
 そんなカンファレンスを今年も運営してくれたVue.js日本ユーザーグループとボランティアスタッフの皆さんに心から感謝を申し上げます。
 
-![クリエイティブウォールにクラウドワークスのロゴが書かれており、当日参加した社員でそのマークを指さしながら記念撮影している様子](https://i.gyazo.com/973927111c8fd906e32466266f98b2e8.png)
+![クリエイティブウォールにクラウドワークスのロゴが書かれており、当日参加した社員でそのマークを指さしながら記念撮影している様子](/src/images/report-vue-fes-japan-2023/973927111c8fd906e32466266f98b2e8.png)
 
 今回、株式会社クラウドワークスではスポンサーと社員3名による登壇・発表でVue.jsコミュニティに貢献することができました。引き続きVue.jsとそのエコシステムを活用した開発とそこから得られた知見を通じて、コミュニティやOSSへの貢献を続けていきたいと思っています。
 

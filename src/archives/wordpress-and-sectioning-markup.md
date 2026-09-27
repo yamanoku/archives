@@ -48,13 +48,13 @@ WordPress で組み込みがある際にページを作るときは固定ペー�
 
 #### 記事作成時の「見出し」をどうしているのか
 
-[![Image from Gyazo](https://i.gyazo.com/30f89b847e891d18a921ca3f567a08d8.png)](https://gyazo.com/30f89b847e891d18a921ca3f567a08d8)
+[![Image from Gyazo](/src/images/wordpress-and-sectioning-markup/30f89b847e891d18a921ca3f567a08d8.png)](/src/images/wordpress-and-sectioning-markup/30f89b847e891d18a921ca3f567a08d8.png)
 
 WordPress で新規投稿をするときにこのような画面に遷移します。この時に「段落」プルダウンを押すと段落。見出し、整形テキストが選択できるようになります。
 
 この時に見出しを選んでそれぞれ入力してソースを見るとこんな感じで出力されます
 
-[![Image from Gyazo](https://i.gyazo.com/076ef5867df798560e131677e14bf0ee.png)](https://gyazo.com/076ef5867df798560e131677e14bf0ee)
+[![Image from Gyazo](/src/images/wordpress-and-sectioning-markup/076ef5867df798560e131677e14bf0ee.png)](/src/images/wordpress-and-sectioning-markup/076ef5867df798560e131677e14bf0ee.png)
 
 これと上記 HTML5.1 のセクション要素の仕様変更と合わせるとまあまあややこしい話ですよねと思います。
 

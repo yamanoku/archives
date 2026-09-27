@@ -8,7 +8,7 @@ category: event
 topic: accessibility
 ---
 
-![Image from Gyazo](https://i.gyazo.com/2c72232c0f83648ffab61e95a17ddfc7.jpg)
+![Image from Gyazo](/src/images/accfes-2019-report/2c72232c0f83648ffab61e95a17ddfc7.jpg)
 
 皆さんこんにちは。[株式会社プレイド](https://plaid.co.jp/)でデザインエンジニアをやっております大山です。
 

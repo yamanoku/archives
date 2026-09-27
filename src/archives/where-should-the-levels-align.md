@@ -8,7 +8,7 @@ category: essay
 topic: work
 ---
 
-![](https://i.gyazo.com/c478297c04039c096effec608551e963.png)
+![](/src/images/where-should-the-levels-align/c478297c04039c096effec608551e963.png)
 
 新人・未経験者教育する余裕がなくなったときにこの辺の問題にぶち当たるんじゃないのかとは思ってる。
 

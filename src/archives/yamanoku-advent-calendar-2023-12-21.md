@@ -10,7 +10,7 @@ noindex: true
 ---
 
 <figure>
-  <img src="https://i.gyazo.com/da30fd9d7d49c976a1bbe8c64015e851.jpg" alt="yamanoku/awesome-japanese-a11y-companies" width="640">
+  <img src="/src/images/yamanoku-advent-calendar-2023-12-21/da30fd9d7d49c976a1bbe8c64015e851.jpg" alt="yamanoku/awesome-japanese-a11y-companies" width="640">
 </figure>
 
 ## Awesome japanese a11y companiesとは何か

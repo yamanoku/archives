@@ -8,7 +8,7 @@ category: essay
 topic: life
 ---
 
-![](https://i.gyazo.com/45f49f76855d41e548d3a16d0b92e98b.png)
+![](/src/images/a-way-of-life-that-seeks-a-better-example/45f49f76855d41e548d3a16d0b92e98b.png)
 
 自分は人の良い所を真似れるなら、どんどん真似ていくタイプだと思う。
 

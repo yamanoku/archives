@@ -421,11 +421,11 @@ IE11 は`.card`が`width:100%`になるが、コード量的には減ってす�
 
 ### `transition`効果
 
-[![Screenshot from Gyazo](https://gyazo.com/df45ce6f156ec940727777b982b6bbc7/raw)](https://gyazo.com/df45ce6f156ec940727777b982b6bbc7)
+[![Screenshot from Gyazo](/src/images/update-beginner-make-vuejs-spa/df45ce6f156ec940727777b982b6bbc7.gif)](/src/images/update-beginner-make-vuejs-spa/df45ce6f156ec940727777b982b6bbc7.gif)
 
 下から上に切り替わるような効果にしていたが、もうちょっとスムーズになるように調整したのと、タブレット〜スマホサイズ時は左から右に切り替わるようにした。
 
-[![Screenshot from Gyazo](https://gyazo.com/edd54a09798aee161ecd8895f95b6de5/raw)](https://gyazo.com/edd54a09798aee161ecd8895f95b6de5)
+[![Screenshot from Gyazo](/src/images/update-beginner-make-vuejs-spa/edd54a09798aee161ecd8895f95b6de5.gif)](/src/images/update-beginner-make-vuejs-spa/edd54a09798aee161ecd8895f95b6de5.gif)
 
 ```css
 .fade-enter-active {

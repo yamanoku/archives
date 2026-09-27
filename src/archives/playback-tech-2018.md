@@ -8,14 +8,14 @@ category: retrospective
 topic: frontend
 ---
 
-[![Image](https://gyazo.com/48d84dac71d8c0ece8e16379ede834ba/thumb/1000)](https://gyazo.com/48d84dac71d8c0ece8e16379ede834ba)
+[![Image](/src/images/playback-tech-2018/48d84dac71d8c0ece8e16379ede834ba.gif)](/src/images/playback-tech-2018/48d84dac71d8c0ece8e16379ede834ba.gif)
 
 - feat. [平成ドロー生成](https://walkingmask.github.io/heiseidraw/)
 - 2017 年 => [PlayBackTech2017](playback-tech-2017)
 
 ## CSS Grid Layout
 
-[![Image](https://gyazo.com/6f82a1382d08fee4cca8e04dea5c4536/thumb/1000)](https://gyazo.com/6f82a1382d08fee4cca8e04dea5c4536)
+[![Image](/src/images/playback-tech-2018/6f82a1382d08fee4cca8e04dea5c4536.png)](/src/images/playback-tech-2018/6f82a1382d08fee4cca8e04dea5c4536.png)
 
 - 今年様々な案件で利用できた
 - レスポンシブにおける複雑なレイアウトに対応するのに向いている気がする
@@ -55,7 +55,7 @@ topic: frontend
 
 ## Sublime Text から Visual Code Studio の乗り換え
 
-[![Image](https://gyazo.com/9a84874ffd2020a35f33fae6e5abe305/thumb/1000)](https://gyazo.com/9a84874ffd2020a35f33fae6e5abe305)
+[![Image](/src/images/playback-tech-2018/9a84874ffd2020a35f33fae6e5abe305.png)](/src/images/playback-tech-2018/9a84874ffd2020a35f33fae6e5abe305.png)
 
 - Sublime Text のアップデートにより使えないパッケージがでてきたので物は試しで乗り換えてみた
   - するといろいろ便利機能があることが判明して無事乗り換え成功した
@@ -69,7 +69,7 @@ topic: frontend
 ## ホスティングサービスがアツい
 
 - Netlify
-  - [![Image](https://gyazo.com/9f86f8a1f474ab9eb6f3ccbe109795eb/thumb/1000)](https://gyazo.com/9f86f8a1f474ab9eb6f3ccbe109795eb)
+  - [![Image](/src/images/playback-tech-2018/9f86f8a1f474ab9eb6f3ccbe109795eb.png)](/src/images/playback-tech-2018/9f86f8a1f474ab9eb6f3ccbe109795eb.png)
   - 個人的一押しサービス
   - プライベートリポジトリも無料でホスティングできる
 - Firebase
@@ -78,7 +78,7 @@ topic: frontend
   - 年収 1000 万いけるらしい
   - [11. フロントエンドエンジニアのキャリアパス](https://bkkcast.me/011/)
 - now
-  - [![Image](https://gyazo.com/8ffaa569d5871e67db9ad4292e2aa9e5/thumb/1000)](https://gyazo.com/8ffaa569d5871e67db9ad4292e2aa9e5)
+  - [![Image](/src/images/playback-tech-2018/8ffaa569d5871e67db9ad4292e2aa9e5.png)](/src/images/playback-tech-2018/8ffaa569d5871e67db9ad4292e2aa9e5.png)
   - ビルドがめちゃくちゃ簡単
   - アプデが頻発
 - 昔は Heroku、AWS_S3 だけだった気がするけど、だいぶ競合が増えた気がする
@@ -201,7 +201,7 @@ topic: frontend
 
 ## PWA
 
-[![Image](https://gyazo.com/5dec5cb8c410a2ab9238e79a0aee2f0b/thumb/1000)](https://gyazo.com/5dec5cb8c410a2ab9238e79a0aee2f0b)
+[![Image](/src/images/playback-tech-2018/5dec5cb8c410a2ab9238e79a0aee2f0b.png)](/src/images/playback-tech-2018/5dec5cb8c410a2ab9238e79a0aee2f0b.png)
 
 - Progressive Web App
   - Progressive = 漸進的
@@ -267,7 +267,7 @@ topic: frontend
 
 ## 技術書典#5 参加
 
-[![Image](https://gyazo.com/bf7b22b3e820bbb41c7f6336a0cc26ca/thumb/1000)](https://gyazo.com/bf7b22b3e820bbb41c7f6336a0cc26ca)
+[![Image](/src/images/playback-tech-2018/bf7b22b3e820bbb41c7f6336a0cc26ca.jpg)](/src/images/playback-tech-2018/bf7b22b3e820bbb41c7f6336a0cc26ca.jpg)
 
 - [サークル詳細 | こんのいぬ | 技術書典](https://techbookfest.org/event/tbf05/circle/41130001)
 - [これからはじめる Web アクセシビリティ - こんのいぬ - BOOTH](https://booth.pm/ja/items/1044446)

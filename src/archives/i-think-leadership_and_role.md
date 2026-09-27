@@ -8,7 +8,7 @@ category: essay
 topic: work
 ---
 
-[![Image from Gyazo](https://i.gyazo.com/fd8b2e7b388e05d39aad2dec55e5ac9c.png)](https://gyazo.com/fd8b2e7b388e05d39aad2dec55e5ac9c)
+[![Image from Gyazo](/src/images/i-think-leadership_and_role/fd8b2e7b388e05d39aad2dec55e5ac9c.png)](/src/images/i-think-leadership_and_role/fd8b2e7b388e05d39aad2dec55e5ac9c.png)
 
 例えば、コーディングがまったくできないデザイナーと、多少なりともコーディングが分かっている（セマンティックなマークアップまでは分からない）デザイナーが居たとしたら普通は後ろのデザイナーが好まれると思う。制作会社的に考えて。
 
@@ -16,7 +16,7 @@ topic: work
 
 そうならない様にするためには、やはりデザイナーが客からの要望をそのまま取り入れて作ったものを２転３転するようなことはしてほしくないし、ディレクターとしてもそうならないような舵取りはして欲しい。そして自分たちエンジニアはその中で確実性を持ったものを実装できるようにしたい。というか実装はだいたいのケツの担当なのだからその辺でグチャグチャにならず迷いなくやりたいというのが本音。
 
-[![Image from Gyazo](https://i.gyazo.com/ab0dc6b7606e1d2b949bc572a6f1551d.png)](https://gyazo.com/ab0dc6b7606e1d2b949bc572a6f1551d)
+[![Image from Gyazo](/src/images/i-think-leadership_and_role/ab0dc6b7606e1d2b949bc572a6f1551d.png)](/src/images/i-think-leadership_and_role/ab0dc6b7606e1d2b949bc572a6f1551d.png)
 
 これは自分の理想論にすぎないけど、チームとしてうまく回すためには舵取りがしっかりできる人（リーダー、マネージャー）がやはり必要で、そういう制御ができていない以上は個人単位がディレクション・デザイン・プログラミングの全てを把握したスーパープレイヤーを演じる必要がある。混沌とする仕様変更やデザイン変更が横行する昨今で、優秀な舵取りが１人いればいいとは思うのだがなかなかそうはならず、かといって個人単位でうまくモノを作れるようなレベルがあるかといったらそういうものでもない（そこまで優秀だったら所属しないでフリーでやるのが一番だし）。
 

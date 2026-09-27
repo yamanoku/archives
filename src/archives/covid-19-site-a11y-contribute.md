@@ -9,7 +9,7 @@ topic: accessibility
 noindex: true
 ---
 
-![](https://i.gyazo.com/7d6aeeb877ef3751be9992600d779470.png)
+![](/src/images/covid-19-site-a11y-contribute/7d6aeeb877ef3751be9992600d779470.png)
 
 腹筋ローラーしろよ。
 
@@ -23,7 +23,7 @@ noindex: true
 
 ## 東京都 新型コロナウイルス対策サイトとは
 
-[![東京都 新型コロナウイルス感染症対策サイト トップページのキャプチャ](https://i.gyazo.com/3864297656ddf0b0f480d9832db166bc.png)](https://stopcovid19.metro.tokyo.lg.jp/)
+[![東京都 新型コロナウイルス感染症対策サイト トップページのキャプチャ](/src/images/covid-19-site-a11y-contribute/3864297656ddf0b0f480d9832db166bc.png)](https://stopcovid19.metro.tokyo.lg.jp/)
 
 東京都 新型コロナウイルス対策サイト（以下、covid-19 対策サイト）は非営利団体「[Code for Japan](https://www.code4japan.org/)」の有志によって作成されました。
 
@@ -62,7 +62,7 @@ covid-19 対策サイトの[行動規範](https://github.com/tokyo-metropolitan-
 私が確認した時点では、スクリーンリーダーという音声による支援技術をもって、ページにアクセスすることができていない状態でした。この Issue 上でそれができないことを指摘しました。<br>
 （こちらの指摘分は現在反映済みになっています）
 
-[![GitHubのユニバーサルデザインにまつわるIssue内でのコメント。yamanokuが「i18n対応されている最中ですが、 <html lang="en"> だとスクリーンリーダーで日本語が読まれません。（Android10のTalkBackでは再現されました） 出来る限り早めの対応であるとありがたいです。よろしくお願いいたします。」とコメントしている。](https://i.gyazo.com/953fa25f2aa8cb0caa67c1c9100db2dd.png)](https://github.com/tokyo-metropolitan-gov/covid19/issues/65#issuecomment-594555464)
+[![GitHubのユニバーサルデザインにまつわるIssue内でのコメント。yamanokuが「i18n対応されている最中ですが、 <html lang="en"> だとスクリーンリーダーで日本語が読まれません。（Android10のTalkBackでは再現されました） 出来る限り早めの対応であるとありがたいです。よろしくお願いいたします。」とコメントしている。](/src/images/covid-19-site-a11y-contribute/953fa25f2aa8cb0caa67c1c9100db2dd.png)](https://github.com/tokyo-metropolitan-gov/covid19/issues/65#issuecomment-594555464)
 
 ただ、この Issue 内で小出しに上げていくよりかは、一度まとめてページをチェックをしてみて、そこからラベル付けをして Issue 登録したほうがいいのではとアクセシビリティ向上に取り組む有志が反応しました。
 
@@ -82,7 +82,7 @@ https://twitter.com/masuP9/status/1235126162675789824
 
 [f:id:cardboarder:20200317135646p:plain:alt=Google Spreadsheet の東京都 新型コロナウイルス対策サイト - ウェブアクセシビリティチェック「達成基準チェックリスト」シートのキャプチャ画面]
 
-![Google Spreadsheetの東京都 新型コロナウイルス対策サイト - ウェブアクセシビリティチェック「達成基準チェックリスト」シートのキャプチャ画面](https://i.gyazo.com/72c34d04ef2e9cb10f1774d7da851b37.png)
+![Google Spreadsheetの東京都 新型コロナウイルス対策サイト - ウェブアクセシビリティチェック「達成基準チェックリスト」シートのキャプチャ画面](/src/images/covid-19-site-a11y-contribute/72c34d04ef2e9cb10f1774d7da851b37.png)
 
 私が担当した試験は以下のようになります。（サイト内容は試験当日 3/6 時点のものです）
 
@@ -94,7 +94,7 @@ https://twitter.com/masuP9/status/1235126162675789824
 
 この試験の検証方法として、Chrome ブラウザでの 200%拡大を試してみました。
 
-![Chromeブラウザの拡大機能で200%まで拡大された東京都 新型コロナウイルス感染症対策サイト トップページ](https://i.gyazo.com/b81767b8f0b5bccbb598e30dcb8fb057.png)
+![Chromeブラウザの拡大機能で200%まで拡大された東京都 新型コロナウイルス感染症対策サイト トップページ](/src/images/covid-19-site-a11y-contribute/b81767b8f0b5bccbb598e30dcb8fb057.png)
 
 テキストを拡大表示した場合に崩れが起こる場合もあるのですが、covid-19 対策サイトでは標準で問題なく表示されているようでした。
 
@@ -120,7 +120,7 @@ covid-19 対策サイトでは、ラベル自体があまりなく、共通と�
 
 この達成基準は、アップデートされた WCAG2.1 より新たに追加された達成基準です。
 
-![棒グラフで棒部分にホバーするとその日のデータが表示されるようになっている。](https://i.gyazo.com/258c592b0c7a231df4f2970f89d6f836.gif)
+![棒グラフで棒部分にホバーするとその日のデータが表示されるようになっている。](/src/images/covid-19-site-a11y-contribute/258c592b0c7a231df4f2970f89d6f836.gif)
 
 試験では、グラフにホバーして表示される数値がマウスカーソルを外す以外の方法では非表示にできないという指摘があがったので、それが Issue として登録されました。
 

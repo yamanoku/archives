@@ -8,7 +8,7 @@ category: tech
 topic: life
 ---
 
-[![Image from Gyazo](https://i.gyazo.com/814e42e7eb13b28671a74486eb3561b6.jpg)](https://gyazo.com/814e42e7eb13b28671a74486eb3561b6)
+[![Image from Gyazo](/src/images/what-did-to-get-used-to-splat-charger/814e42e7eb13b28671a74486eb3561b6.jpg)](/src/images/what-did-to-get-used-to-splat-charger/814e42e7eb13b28671a74486eb3561b6.jpg)
 
 表題のとおりなんですけど、もともと自分はシューターやローラーを使ってて（主にプロモデラー RG・カーボンローラー）、チャージャーなんかまったく使いこなせない人間でした。
 
@@ -53,11 +53,11 @@ topic: life
 
 なのでまずは塗りができることを認識するため、チャージャーでのタメ打ち塗りに慣れてください。敵は倒せなくてもいいですし可能であれば倒してみましょう。
 
-[![Image from Gyazo](https://i.gyazo.com/d80e469f02086883ee44c449c63c0c2b.png)](https://gyazo.com/d80e469f02086883ee44c449c63c0c2b)
+[![Image from Gyazo](/src/images/what-did-to-get-used-to-splat-charger/d80e469f02086883ee44c449c63c0c2b.png)](/src/images/what-did-to-get-used-to-splat-charger/d80e469f02086883ee44c449c63c0c2b.png)
 
 自分の 9 月時点での塗りブキランク
 
-[![Image from Gyazo](https://i.gyazo.com/ff2cbe8c44d80491f5b25f5146a72733.png)](https://gyazo.com/ff2cbe8c44d80491f5b25f5146a72733)
+[![Image from Gyazo](/src/images/what-did-to-get-used-to-splat-charger/ff2cbe8c44d80491f5b25f5146a72733.png)](/src/images/what-did-to-get-used-to-splat-charger/ff2cbe8c44d80491f5b25f5146a72733.png)
 
 11 月 27 日時点での塗りブキランク
 
@@ -98,7 +98,7 @@ topic: life
 
 個人的にオススメチャージャーは**スプラスコープ**です。視野は狭くなりますがスプラチャージャーより若干距離があり、安心して狙うこともできます。スペシャルのボムラッシュもガンガン塗りが出来て攻めも出来て強いです。
 
-[![Image from Gyazo](https://i.gyazo.com/feea7b11c068442437a97a4507aaa2f2.jpg)](https://gyazo.com/feea7b11c068442437a97a4507aaa2f2)
+[![Image from Gyazo](/src/images/what-did-to-get-used-to-splat-charger/feea7b11c068442437a97a4507aaa2f2.jpg)](/src/images/what-did-to-get-used-to-splat-charger/feea7b11c068442437a97a4507aaa2f2.jpg)
 
 スプラスコープは以下の動画講座が分かりやすかったので参考程度に。
 
@@ -110,7 +110,7 @@ topic: life
 
 ちなみに自分は以下のギアでよくやってます。ご参考までに。
 
-[![Image from Gyazo](https://i.gyazo.com/69014cbf984793a8af7910f0bb4e8eb1.png)](https://gyazo.com/69014cbf984793a8af7910f0bb4e8eb1)
+[![Image from Gyazo](/src/images/what-did-to-get-used-to-splat-charger/69014cbf984793a8af7910f0bb4e8eb1.png)](/src/images/what-did-to-get-used-to-splat-charger/69014cbf984793a8af7910f0bb4e8eb1.png)
 
 ## チャージャーを使ってみよう
 

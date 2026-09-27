@@ -67,7 +67,7 @@ topic: life
       - ただのメモと別格になりうる
       - 関係ない Word でも紐づくことがある
     - 自分だけの Wikipedia のようなものができる
-    - [![Image](https://gyazo.com/81f2910a9761d7bfb48197c7919e4f03/thumb/1000)](https://twitter.com/daizplus/status/1122018302098722816)
+    - [![Image](/src/images/me-and-scrapbox-2019/81f2910a9761d7bfb48197c7919e4f03.png)](https://twitter.com/daizplus/status/1122018302098722816)
 
 ## Web にあげる資料は極力はテキスト情報であってほしい
 
@@ -128,7 +128,7 @@ topic: life
   - [https://github.com/nota/key-focus-visible](https://github.com/nota/key-focus-visible)
   - [https://github.com/nota/mouse-hover-visible](https://github.com/nota/mouse-hover-visible)
 - マウスフォーカスとキーフォーカスの違い対応
-  - [![Image](https://gyazo.com/05b6b73c50228ae5901d852d0b73a903/thumb/1000)](https://gyazo.com/05b6b73c50228ae5901d852d0b73a903)
+  - [![Image](/src/images/me-and-scrapbox-2019/05b6b73c50228ae5901d852d0b73a903.gif)](/src/images/me-and-scrapbox-2019/05b6b73c50228ae5901d852d0b73a903.gif)
     - フォーカスしてるときはアウトラインが出てる
     - クリックするときはアウトラインが出ない
     - [what-input](https://scrapbox.io/yamanoku/what-input)のそれに近い

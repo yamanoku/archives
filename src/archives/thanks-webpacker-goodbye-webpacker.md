@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![アイキャッチ：ありがとう Webpacker さようなら Webpacker](https://i.gyazo.com/567989b2601e625e02adecd20e97b503.png)
+![アイキャッチ：ありがとう Webpacker さようなら Webpacker](/src/images/thanks-webpacker-goodbye-webpacker/567989b2601e625e02adecd20e97b503.png)
 
 こんにちは。crowdworks.jp における技術的負債の解消をリードするジャンヌチームです。
 
@@ -274,7 +274,7 @@ webpack-dev-server を動かすようにした際の問題点として、内包�
 
 crowdworks.jp の開発では Docker を使用しているため、エンジニア向けに Simpacker + webpack での動作確認を依頼しました。
 
-![スクリーンショット：Slackのチャンネル上でモバイルアプリチーム以外のエンジニア向けに Docker の実行手順、それをもとにした確認事項についてを連絡している](https://i.gyazo.com/f6be587c9de55c5176b1e4f2ce4a00ba.png)
+![スクリーンショット：Slackのチャンネル上でモバイルアプリチーム以外のエンジニア向けに Docker の実行手順、それをもとにした確認事項についてを連絡している](/src/images/thanks-webpacker-goodbye-webpacker/f6be587c9de55c5176b1e4f2ce4a00ba.png)
 
 Docker 立ち上げやビルド結果の反映自体は問題なかったのですが、webpack-dev-server における Hot Module Reloads がうまく動作していない部分について分かりました。その後ジャンヌチーム内で動作確認しつつ修正しました。
 
@@ -282,7 +282,7 @@ Docker 立ち上げやビルド結果の反映自体は問題なかったので�
 
 今回、変更点が非常に大きい PR となってしまったため、ジャンヌチームの中で前提知識や認知負荷を軽減させるためにモブレビュー会を実施しました。
 
-![スクリーンショット：「2022-10-27 脱 Webpacker モブレビュー会メモ」というタイトルの Notion 記事。モブレビュー時のメモなどが記載されている。](https://i.gyazo.com/f0514f89c2de231aa6e37ce64722d7d0.png)
+![スクリーンショット：「2022-10-27 脱 Webpacker モブレビュー会メモ」というタイトルの Notion 記事。モブレビュー時のメモなどが記載されている。](/src/images/thanks-webpacker-goodbye-webpacker/f0514f89c2de231aa6e37ce64722d7d0.png)
 
 長い間取り組んでいたもののため、自分自身もやったことを振り返ることができ、動作として不明だった部分も原因が明らかになりました。この会で発見した漏れなども修正して反映させました。
 
@@ -292,7 +292,7 @@ Docker 立ち上げやビルド結果の反映自体は問題なかったので�
 
 Webpacker の廃止に伴う作業中にはまだなかった取り組みですが、今回の移行で Simpacker を導入することになっていたのでその ADR を策定し、エンジニア内でレビューしてもらうことにしました。
 
-![スクリーンショット：Webpacker から Simpacker（+ webpack）へ移行する ADR ドキュメント](https://i.gyazo.com/e9dee178ea15247b895ce3d7b2f31fa6.png)
+![スクリーンショット：Webpacker から Simpacker（+ webpack）へ移行する ADR ドキュメント](/src/images/thanks-webpacker-goodbye-webpacker/e9dee178ea15247b895ce3d7b2f31fa6.png)
 
 ちなみに ADR の取り組みが導入されてからのはじめてのドキュメントとなりました。
 
@@ -300,11 +300,11 @@ Webpacker の廃止に伴う作業中にはまだなかった取り組みです�
 
 長きに渡る対応でしたが、必要な対応はすべて揃ったのでいよいよリリースします。ステージング環境でも何度も検証してリリースに際しては問題ないとは思っていましたが、念のため事前にエンジニアへの共有をさせてもらいました。
 
-![スクリーンショット：Webpacker を辞める作業のリリースについてを Slack チャンネルで連絡している様子](https://i.gyazo.com/0e4c618e45643ddd04f43ad57bd89102.png)
+![スクリーンショット：Webpacker を辞める作業のリリースについてを Slack チャンネルで連絡している様子](/src/images/thanks-webpacker-goodbye-webpacker/0e4c618e45643ddd04f43ad57bd89102.png)
 
 非常に大きな変更となったのでリリースはとても緊張しましたが、リリース完了後は動作が問題なくアラートも飛ばずユーザー影響がないと判断したので、完了報告と改めての動作手順を共有させていただきました。
 
-![スクリーンショット：リリース完了後、Simpacker + webpack になった環境への反映方法を Slack チャンネルで連絡している様子](https://i.gyazo.com/5f6238156516dfdfb80a1e058899ca94.png)
+![スクリーンショット：リリース完了後、Simpacker + webpack になった環境への反映方法を Slack チャンネルで連絡している様子](/src/images/thanks-webpacker-goodbye-webpacker/5f6238156516dfdfb80a1e058899ca94.png)
 
 無事うまくリリースできてよかったのか、しばらくは放心状態でありました。
 

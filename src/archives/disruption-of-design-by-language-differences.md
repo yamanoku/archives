@@ -10,7 +10,7 @@ topic: other
 
 海外のサイトなりアプリが日本にリリースされる時、本来使われていたフォントを日本語フォントに代用するとなんかダサいなあといった事案があります。下図のは一例です。
 
-[![Image from Gyazo](https://i.gyazo.com/a32bcb3c5221631fee1ce3b109c2b730.png)](https://gyazo.com/a32bcb3c5221631fee1ce3b109c2b730)
+[![Image from Gyazo](/src/images/disruption-of-design-by-language-differences/a32bcb3c5221631fee1ce3b109c2b730.png)](/src/images/disruption-of-design-by-language-differences/a32bcb3c5221631fee1ce3b109c2b730.png)
 
 国が違うということは使う言葉も違うわけでそれに伴って使用されるフォントも変えなきゃいかんってことがあるんですが、これ日本の場合かなり顕著な問題として見えるような気がします。僕は。
 

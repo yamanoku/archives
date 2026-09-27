@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![アイキャッチ：「HTML解体新書」HTMLのこれからと向き合うための本](https://i.gyazo.com/698948150ac17400939194914527cf69.png)
+![アイキャッチ：「HTML解体新書」HTMLのこれからと向き合うための本](/src/images/review-html-anatomische-tabell-book/698948150ac17400939194914527cf69.png)
 
 「HTML の前提についてはざっと知った、ステップアップできる HTML の勉強がしたい」「人に勧められる HTML にまつわる書籍はあるだろうか」「令和で HTML を学ぶならこの 1 冊、というものがほしい」―――そうした人々のニーズを叶えてくれる書籍が販売された。
 

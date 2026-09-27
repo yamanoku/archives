@@ -16,7 +16,7 @@ topic: work
 
 ## toggl
 
-[![Image from Gyazo](https://i.gyazo.com/e13fcb13f8c65ab333ba2139f696fc98.jpg)](https://gyazo.com/e13fcb13f8c65ab333ba2139f696fc98)
+[![Image from Gyazo](/src/images/record-amount-of-work/e13fcb13f8c65ab333ba2139f696fc98.jpg)](/src/images/record-amount-of-work/e13fcb13f8c65ab333ba2139f696fc98.jpg)
 
 [toggl](https://www.toggl.com/)というサービスがあって、これはタイマーボタンをクリックするとその作業時間を記録してどれくらいかかったかを明示化するやつです。記録したものは一覧として順次記録され、レポートとしてグラフ化されます。
 
@@ -43,7 +43,7 @@ trello 自体登録はしたもののあまり活用法を見いだせてなか�
 
 分報では時間をこまかく記載することでは無いのですが、他人に作業開始時を知ってもらい今どの作業をやっているか、どこでハマってしまっているかを知ることができる良さが有ります。ちなみに slack でやってます。
 
-[![Image from Gyazo](https://i.gyazo.com/fcb70b360e31c4830a535de21191ff4f.png)](https://gyazo.com/fcb70b360e31c4830a535de21191ff4f)
+[![Image from Gyazo](/src/images/record-amount-of-work/fcb70b360e31c4830a535de21191ff4f.png)](/src/images/record-amount-of-work/fcb70b360e31c4830a535de21191ff4f.png)
 
 ## 細かく記録・記載をすることへの所感
 

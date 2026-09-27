@@ -8,7 +8,7 @@ category: essay
 topic: frontend
 ---
 
-[![Image from Gyazo](https://i.gyazo.com/f887aabba3a1b03e65af671af4399435.png)](https://gyazo.com/f887aabba3a1b03e65af671af4399435)
+[![Image from Gyazo](/src/images/plan-of-portfolio-renewal/f887aabba3a1b03e65af671af4399435.png)](/src/images/plan-of-portfolio-renewal/f887aabba3a1b03e65af671af4399435.png)
 
 計画としてではあるのですが、自分のポートフォリオサイトをリニューアルしたいなという話です。
 
@@ -98,6 +98,6 @@ topic: frontend
 
 実は手の方も少し動かしています。タスクランナーのほうでカタカタと（以下長めです）
 
-[![Image from Gyazo](https://i.gyazo.com/95fef128852c222213820526706138aa.png)](https://gyazo.com/95fef128852c222213820526706138aa)
+[![Image from Gyazo](/src/images/plan-of-portfolio-renewal/95fef128852c222213820526706138aa.png)](/src/images/plan-of-portfolio-renewal/95fef128852c222213820526706138aa.png)
 
 あくまでまだ仮なので少しずつ詰めていきたいなと思います。こちらからは以上です。

@@ -9,13 +9,13 @@ topic: frontend
 noindex: true
 ---
 
-![アイキャッチ：Vue Fes Japan Online 2022 にクラウドワークスのエンジニアが登壇します](https://i.gyazo.com/3c862280e2db44953d9bdd134727a69c.png)
+![アイキャッチ：Vue Fes Japan Online 2022 にクラウドワークスのエンジニアが登壇します](/src/images/give-a-talk-vue-fes-japan-online-2022/3c862280e2db44953d9bdd134727a69c.png)
 
 ## Vue Fes Japan とは
 
 Vue Fes Japan は Vue.js 日本ユーザーグループが主催する日本最大の Vue.js カンファレンスです。
 
-![Vue Fes Japan Online 2022 TOPページのスクリーンショット](https://i.gyazo.com/6770e56503aa4cd48e3bbd2b39382a2c.png)
+![Vue Fes Japan Online 2022 TOPページのスクリーンショット](/src/images/give-a-talk-vue-fes-japan-online-2022/6770e56503aa4cd48e3bbd2b39382a2c.png)
 
 日本における Vue.js 開発者たちによる発表や、 Evan You といった Vue.js コアコントリビューターの方たちも登壇されます。
 
@@ -29,7 +29,7 @@ Vue Fes Japan は Vue.js 日本ユーザーグループが主催する日本最�
 
 ### 負債が溜まったレガシーフロントエンド画面を Vue.js でリプレイスした話
 
-![t0yohei](https://i.gyazo.com/508e059cf72ddd47e24e3c39743419b0.png)
+![t0yohei](/src/images/give-a-talk-vue-fes-japan-online-2022/508e059cf72ddd47e24e3c39743419b0.png)
 
 > とある Rails のテンプレート + CoffeeScript で構築された画面を、 Vue.js でリプレイスしました。
 > その際の知見を、具体的な工夫や悩んだポイント、実際の遭遇した技術的負債の話を交えて共有できればと思います。
@@ -49,7 +49,7 @@ Vue Fes Japan は Vue.js 日本ユーザーグループが主催する日本最�
 
 ### Vue.js でアクセシブルなコンポーネントをつくるために
 
-![yamanoku](https://i.gyazo.com/21118cf76bce9194a2312bcb237b00f7.png)
+![yamanoku](/src/images/give-a-talk-vue-fes-japan-online-2022/21118cf76bce9194a2312bcb237b00f7.png)
 
 > 昨今 Web 開発において、アクセシビリティを重視することはそれほど珍しくなくなってきました。
 >
