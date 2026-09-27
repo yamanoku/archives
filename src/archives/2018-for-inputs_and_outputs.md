@@ -8,7 +8,7 @@ category: retrospective
 topic: work
 ---
 
-[![Image from Gyazo](/src/images/2018-for-inputs_and_outputs/60f869fb8d060073a7af85db11402aa2.png)](/src/images/2018-for-inputs_and_outputs/60f869fb8d060073a7af85db11402aa2.png)
+[![ギネスの瓶、角ハイボール、サッポロ、プレミアムモルツ〈香る〉エールを並べ、中央の黄色に「INPUT & OUTPUT」と書いたアイキャッチ](/src/images/2018-for-inputs_and_outputs/60f869fb8d060073a7af85db11402aa2.png)](/src/images/2018-for-inputs_and_outputs/60f869fb8d060073a7af85db11402aa2.png)
 
 この記事は[GEEK Inc. Advent Calendar 2018](https://adventar.org/calendars/3108)の 15 日目の記事となります。
 
@@ -126,14 +126,14 @@ Scrapbox でメモを取るメリットして以下のようなことがあり�
 
 ### 社内 Slack で共有
 
-[![Image from Gyazo](/src/images/2018-for-inputs_and_outputs/129fad0a7d2a366be3ee078607d5cb1a.png)](/src/images/2018-for-inputs_and_outputs/129fad0a7d2a366be3ee078607d5cb1a.png)
+[![Slackで「来る11/3、Vue Fes Japan 2018参加してきました」と報告し、vuefes.jpとScrapboxのメモへのリンクを貼っている投稿](/src/images/2018-for-inputs_and_outputs/129fad0a7d2a366be3ee078607d5cb1a.png)](/src/images/2018-for-inputs_and_outputs/129fad0a7d2a366be3ee078607d5cb1a.png)
 
 社内 Slack チェンネルにて勉強会参加してきた旨を報告・メモを公開
 
 参加したあとの翌日であれば基本的には Scrapbox でまとめたドキュメントを社内の Scrapbox でもコピーして共有するようにしています。
 自分の Scrapbox で共有していないのは、社内のものであればメンバーが質問したり感想を書いてくれることもあるからです。
 
-[![Image from Gyazo](/src/images/2018-for-inputs_and_outputs/5477b8c3878953d4a6ab5aa95e9f5c17.png)](/src/images/2018-for-inputs_and_outputs/5477b8c3878953d4a6ab5aa95e9f5c17.png)
+[![Scrapboxの「家族間での情報共有・蓄積について」に、TimeTree、ぴよログ、iPhoneのメモ帳の話へコメントが並んでいる画面](/src/images/2018-for-inputs_and_outputs/5477b8c3878953d4a6ab5aa95e9f5c17.png)](/src/images/2018-for-inputs_and_outputs/5477b8c3878953d4a6ab5aa95e9f5c17.png)
 
 子育てエンジニア MeetUp のメモにディレクターの塚田パパがコメントしてもらっている図
 
@@ -161,7 +161,7 @@ Scrapbox でメモを取るメリットして以下のようなことがあり�
 
 ### 技術書典#5 でサークル参加
 
-[![Image from Gyazo](/src/images/2018-for-inputs_and_outputs/bc2ac5f1c41fd8ea01cc77f85d871d00.png)](/src/images/2018-for-inputs_and_outputs/bc2ac5f1c41fd8ea01cc77f85d871d00.png)
+[![ドーベルマンの横顔を配した表紙。上部に Web accessibility for beginners.、下部に「これからはじめる webアクセシビリティ」](/src/images/2018-for-inputs_and_outputs/bc2ac5f1c41fd8ea01cc77f85d871d00.png)](/src/images/2018-for-inputs_and_outputs/bc2ac5f1c41fd8ea01cc77f85d871d00.png)
 
 これもおさらいみたいな感じですが、[技術書典#5](https://techbookfest.org/event/tbf05)ではサークル側として参加しました。
 

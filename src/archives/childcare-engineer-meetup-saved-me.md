@@ -8,7 +8,7 @@ category: essay
 topic: life
 ---
 
-[![Image from Gyazo](/src/images/childcare-engineer-meetup-saved-me/6dd0f6163d57807d34a856d8f9472f35.png)](/src/images/childcare-engineer-meetup-saved-me/6dd0f6163d57807d34a856d8f9472f35.png)
+[![左にオレンジの菱形と白いおしゃぶり、右に赤・青・黄・緑の点が散らばったアイキャッチ](/src/images/childcare-engineer-meetup-saved-me/6dd0f6163d57807d34a856d8f9472f35.png)](/src/images/childcare-engineer-meetup-saved-me/6dd0f6163d57807d34a856d8f9472f35.png)
 
 この記事は[子育てエンジニア Advent Calendar 2018](https://adventar.org/calendars/3178)の 9 日目の記事です。
 
@@ -19,7 +19,7 @@ topic: life
 
 ## 娘、誕生
 
-[![Image from Gyazo](/src/images/childcare-engineer-meetup-saved-me/fd4020eed750367db05996de19318de0.png)](/src/images/childcare-engineer-meetup-saved-me/fd4020eed750367db05996de19318de0.png)
+[![ピンクのカバーオールを着ておしゃぶりをし、頭にリボンを付けて座っている赤ちゃんのイラスト](/src/images/childcare-engineer-meetup-saved-me/fd4020eed750367db05996de19318de0.png)](/src/images/childcare-engineer-meetup-saved-me/fd4020eed750367db05996de19318de0.png)
 
 2016 年 3 月に我が大山家に待望の女の子が産まれました。
 
@@ -31,7 +31,7 @@ topic: life
 
 ## 何もできていない自分
 
-[![Image from Gyazo](/src/images/childcare-engineer-meetup-saved-me/3440e5ea2bf3eb108fb44a222cc69a9b.png)](/src/images/childcare-engineer-meetup-saved-me/3440e5ea2bf3eb108fb44a222cc69a9b.png)
+[![紺のスーツ姿で目を閉じ、涙を流している男性のイラスト](/src/images/childcare-engineer-meetup-saved-me/3440e5ea2bf3eb108fb44a222cc69a9b.png)](/src/images/childcare-engineer-meetup-saved-me/3440e5ea2bf3eb108fb44a222cc69a9b.png)
 
 おそらく通常であれば共働きの状況において、お互いのやるべきことや役割分担などを決めるなどがあったのでしょうが、ウチでは妻が妊娠するにあたり、これまでやっていた派遣を辞めて、専業主婦として家に居る状況でした。
 
@@ -94,7 +94,7 @@ MeetUp 後の興奮をそのままに、社内 LT でも家庭内やっていき
 
 父親として未熟な所が多いのですが昔と違うのは、まだまだやれることはあると分かり、多少なりとも自分がやることに自信が持てるようになったことだと思います。
 
-[![Image from Gyazo](/src/images/childcare-engineer-meetup-saved-me/ab84773376a9fdcb7bcfd350f01e8624.png)](/src/images/childcare-engineer-meetup-saved-me/ab84773376a9fdcb7bcfd350f01e8624.png)
+[![Trelloの食材ボード。買うもの・冷蔵庫・調味料・冷蔵品・そのほかのリストに、もやしや料理酒などのカードが並んでいる](/src/images/childcare-engineer-meetup-saved-me/ab84773376a9fdcb7bcfd350f01e8624.png)](/src/images/childcare-engineer-meetup-saved-me/ab84773376a9fdcb7bcfd350f01e8624.png)
 
 今はもう使われてませんが[Trello](https://trello.com/)を用いた食材管理などをやっていた時期もありました
 

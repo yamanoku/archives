@@ -14,13 +14,13 @@ topic: other
 
 一見すると何の脈絡もない英数字だが、これはキーボードを布で拭いた時に文字入力を ON にしていた時に入力された文章である。この英数字とキーボードの文字を照らしあわせてみると分かると思う。
 
-[![Image from Gyazo](/src/images/following-the-trail/e78fe01762f928845cf865a9717bc249.png)](/src/images/following-the-trail/e78fe01762f928845cf865a9717bc249.png)
+[![キーボード上に赤い折れ線が引かれ、数字の1付近から文字キーをジグザグに横切って右下で終わる動線](/src/images/following-the-trail/e78fe01762f928845cf865a9717bc249.png)](/src/images/following-the-trail/e78fe01762f928845cf865a9717bc249.png)
 
 打たれた文字を参考にして、こうして動線を引くことによってどこから始まってどこで終わりかの始点・終点の関係性が分かると思う。ランダムに拭かれた動きであったとしても文字入力、そこから動線を引くというところからある程度の形を残し、そういった部分からどこから拭く動作が始まったのかを知ることが出来る。
 
 その昔「くぁ w せ drftgy ふじこ lp」というネットスラングが流行っており、この文章だけ見ても何かの法則性があるか分かなかったのだが、これは日本語入力の状態で特定のキーボードの段を左から右に指を滑らせたら入力される文字列なのだと教えてもらってようやく分かったのであった（下図参照）
 
-[![Image from Gyazo](/src/images/following-the-trail/bc0088e5915c09edbae9a66e7315cfc3.png)](/src/images/following-the-trail/bc0088e5915c09edbae9a66e7315cfc3.png)
+[![キーボードのQからOの段とAからLの段に、左から右へ赤い直線が二本引かれている](/src/images/following-the-trail/bc0088e5915c09edbae9a66e7315cfc3.png)](/src/images/following-the-trail/bc0088e5915c09edbae9a66e7315cfc3.png)
 
 これも入力された文字を「痕跡」にして入力装置から察すると分かるものではあるが、通常ではなかなかに気付かないものである。
 
@@ -32,7 +32,7 @@ topic: other
 
 この文章をキーボードで入力する際に「、」の読点を含むといったことはまず無いと思う。しかし実際この文章は iPhone から入力されたものであると知るとなんとなく「痕跡」が見えてはこないだろうか。
 
-[![Image from Gyazo](/src/images/following-the-trail/9c2419d4f6a8e8d814c2233eeb5160d0.png)](/src/images/following-the-trail/9c2419d4f6a8e8d814c2233eeb5160d0.png)
+[![iPhoneのフリックキーボードで「？」を開いたところ。下の候補「。」「、」「！」のうち読点の「、」が青く選ばれている](/src/images/following-the-trail/9c2419d4f6a8e8d814c2233eeb5160d0.png)](/src/images/following-the-trail/9c2419d4f6a8e8d814c2233eeb5160d0.png)
 
 iPhone に限らずスマートフォンには「フリック入力」という入力方法があり、上下左右に指でズラすように動かすと該当の文字が打てるという方法だ。画像から察するに「！」や「？」を入力する際に「、」も間違って入力されてしまった、ということがここから分かると思う。
 

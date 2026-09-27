@@ -98,7 +98,7 @@ Nuxt.js のプラグイン・モジュールは以下を使用
   - `nuxt generate` & `push-dir --dir=dist --branch=master --cleanup`
   - 静的書き出しした`dist`を`master`ブランチにプッシュ
   - `master`ブランチをホスティング
-    - [![Image from Gyazo](/src/images/beginner-make-nuxtjs-pwa/89e1780586aa0aee4322c9a1cdee3fed.png)](/src/images/beginner-make-nuxtjs-pwa/89e1780586aa0aee4322c9a1cdee3fed.png)
+    - [![NetlifyのDeploy settings。Repositoryはgithub.com/yamanoku/reading、Production branchはmaster、Build commandとPublish directoryはNot set](/src/images/beginner-make-nuxtjs-pwa/89e1780586aa0aee4322c9a1cdee3fed.png)](/src/images/beginner-make-nuxtjs-pwa/89e1780586aa0aee4322c9a1cdee3fed.png)
   - SSL 化やらカスタムドメイン可やらプレレンダリング（今回は未使用）やら無料でやってくれてすごい。
   - あとプライベートリポジトリも使える。
 
