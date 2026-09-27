@@ -8,7 +8,7 @@ category: essay
 topic: work
 ---
 
-![](/src/images/where-should-the-levels-align/c478297c04039c096effec608551e963.png)
+![オレンジの背景に、下端を揃えた高さの違う黒い棒が6本。ピンクの横線が5本を横切るが、いちばん短い棒は線の下に収まっている](/src/images/where-should-the-levels-align/c478297c04039c096effec608551e963.png)
 
 新人・未経験者教育する余裕がなくなったときにこの辺の問題にぶち当たるんじゃないのかとは思ってる。
 

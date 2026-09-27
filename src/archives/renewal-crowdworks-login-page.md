@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![](/src/images/renewal-crowdworks-login-page/fe4a2e7b145af6bdeed58321dc1e0c84.png)
+![「生まれ変わったログインページにまつわるフロントエンド開発の話」と、ログイン画面のスマホの横に立つ人のイラスト。下に CrowdWorks Engineer Blog](/src/images/renewal-crowdworks-login-page/fe4a2e7b145af6bdeed58321dc1e0c84.png)
 
 こんにちは！クラウドワークスで引き続きフロントエンドと Web の可能性を模索し続けている [@yamanoku](https://twitter.com/yamanoku) です。
 

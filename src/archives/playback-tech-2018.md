@@ -8,14 +8,14 @@ category: retrospective
 topic: frontend
 ---
 
-[![Image](/src/images/playback-tech-2018/48d84dac71d8c0ece8e16379ede834ba.gif)](/src/images/playback-tech-2018/48d84dac71d8c0ece8e16379ede834ba.gif)
+[![演台のスーツ姿の男性が紙を掲げ、手書きの「PLAY BACK TECH 2018」が描かれて正面を向く平成ドロー風のアニメーション](/src/images/playback-tech-2018/48d84dac71d8c0ece8e16379ede834ba.gif)](/src/images/playback-tech-2018/48d84dac71d8c0ece8e16379ede834ba.gif)
 
 - feat. [平成ドロー生成](https://walkingmask.github.io/heiseidraw/)
 - 2017 年 => [PlayBackTech2017](playback-tech-2017)
 
 ## CSS Grid Layout
 
-[![Image](/src/images/playback-tech-2018/6f82a1382d08fee4cca8e04dea5c4536.png)](/src/images/playback-tech-2018/6f82a1382d08fee4cca8e04dea5c4536.png)
+[![点線で区切られた青いカラムのグリッド。各欄に「親カテゴリ」と箇条書きの「子カテゴリ」が配置されている](/src/images/playback-tech-2018/6f82a1382d08fee4cca8e04dea5c4536.png)](/src/images/playback-tech-2018/6f82a1382d08fee4cca8e04dea5c4536.png)
 
 - 今年様々な案件で利用できた
 - レスポンシブにおける複雑なレイアウトに対応するのに向いている気がする
@@ -28,7 +28,7 @@ topic: frontend
 
 ## アクセシビリティ活動
 
-[![Image](https://gyazo.com/9e358448e053d1f1998bd045d413562b/thumb/1000)](https://gyazo.com/9e358448e053d1f1998bd045d413562b)
+[![2018年のアクセシビリティ活動を示す画像](https://gyazo.com/9e358448e053d1f1998bd045d413562b/thumb/1000)](https://gyazo.com/9e358448e053d1f1998bd045d413562b)
 
 - 去年からやっていくぞみたいなことをやってたので個人的に色々やってみてます。
 - WAI-ARIA の導入・実施
@@ -55,7 +55,7 @@ topic: frontend
 
 ## Sublime Text から Visual Code Studio の乗り換え
 
-[![Image](/src/images/playback-tech-2018/9a84874ffd2020a35f33fae6e5abe305.png)](/src/images/playback-tech-2018/9a84874ffd2020a35f33fae6e5abe305.png)
+[![深緑の背景に、白い縁取りの青いリボン型をした Visual Studio Code のロゴ](/src/images/playback-tech-2018/9a84874ffd2020a35f33fae6e5abe305.png)](/src/images/playback-tech-2018/9a84874ffd2020a35f33fae6e5abe305.png)
 
 - Sublime Text のアップデートにより使えないパッケージがでてきたので物は試しで乗り換えてみた
   - するといろいろ便利機能があることが判明して無事乗り換え成功した
@@ -69,16 +69,16 @@ topic: frontend
 ## ホスティングサービスがアツい
 
 - Netlify
-  - [![Image](/src/images/playback-tech-2018/9f86f8a1f474ab9eb6f3ccbe109795eb.png)](/src/images/playback-tech-2018/9f86f8a1f474ab9eb6f3ccbe109795eb.png)
+  - [![暗い背景に、三角と点をつないだ水色のひし形の Netlify ロゴ](/src/images/playback-tech-2018/9f86f8a1f474ab9eb6f3ccbe109795eb.png)](/src/images/playback-tech-2018/9f86f8a1f474ab9eb6f3ccbe109795eb.png)
   - 個人的一押しサービス
   - プライベートリポジトリも無料でホスティングできる
 - Firebase
-  - [![Image](https://gyazo.com/c6e057f43e4dc45e6a30fa051d61d668/thumb/1000)](https://gyazo.com/c6e057f43e4dc45e6a30fa051d61d668)
+  - [![Firebaseのロゴ](https://gyazo.com/c6e057f43e4dc45e6a30fa051d61d668/thumb/1000)](https://gyazo.com/c6e057f43e4dc45e6a30fa051d61d668)
   - 最近人気がある？　 GCP よりかは名前をよく聞く
   - 年収 1000 万いけるらしい
   - [11. フロントエンドエンジニアのキャリアパス](https://bkkcast.me/011/)
 - now
-  - [![Image](/src/images/playback-tech-2018/8ffaa569d5871e67db9ad4292e2aa9e5.png)](/src/images/playback-tech-2018/8ffaa569d5871e67db9ad4292e2aa9e5.png)
+  - [![nowのロゴ。白地に、上を向く黒い正三角形](/src/images/playback-tech-2018/8ffaa569d5871e67db9ad4292e2aa9e5.png)](/src/images/playback-tech-2018/8ffaa569d5871e67db9ad4292e2aa9e5.png)
   - ビルドがめちゃくちゃ簡単
   - アプデが頻発
 - 昔は Heroku、AWS_S3 だけだった気がするけど、だいぶ競合が増えた気がする
@@ -87,7 +87,7 @@ topic: frontend
 
 ## Renovate
 
-[![Image](https://gyazo.com/330388a9f5d6d18640bd029b0bf20a0e/thumb/1000)](https://gyazo.com/330388a9f5d6d18640bd029b0bf20a0e)
+[![Renovateのロゴ](https://gyazo.com/330388a9f5d6d18640bd029b0bf20a0e/thumb/1000)](https://gyazo.com/330388a9f5d6d18640bd029b0bf20a0e)
 
 - サイボウズフロントエンド MeetUp の[Teppeis](https://twitter.com/teppeis)さんのスライドで知った
   - [Automated Dependency Updates with Renovate](https://www.slideshare.net/teppeis/automated-dependency-updates-with-renovate-102769685)
@@ -123,7 +123,7 @@ topic: frontend
 
 ## Scrapbox の社内活用
 
-[![Image](https://gyazo.com/5f93e65a3b979ae5333aca4f32600611/thumb/1000)](https://gyazo.com/5f93e65a3b979ae5333aca4f32600611)
+[![Scrapboxのロゴマーク](https://gyazo.com/5f93e65a3b979ae5333aca4f32600611/thumb/1000)](https://gyazo.com/5f93e65a3b979ae5333aca4f32600611)
 
 - もともと自分で使ってみていた
 - 会社内でもやってみようとのことでクリエイティブチーム内で実施
@@ -148,17 +148,17 @@ topic: frontend
 - とあるパフォーマンス・チューニング結果の紹介
 - lighthouse Performance 評価
   - Before
-    - [![Image](https://gyazo.com/f17c1d5c17a0110f02b1fe6040ab4dd8/thumb/1000)](https://gyazo.com/f17c1d5c17a0110f02b1fe6040ab4dd8)
+    - [![改善前のLighthouseのPerformance。First Contentful Paint以外は赤で、総合25点](https://gyazo.com/f17c1d5c17a0110f02b1fe6040ab4dd8/thumb/1000)](https://gyazo.com/f17c1d5c17a0110f02b1fe6040ab4dd8)
     - First Contentful Paint を除き赤点。全体評価として 25 点
   - After
-    - [![Image](https://gyazo.com/5d0e20c2072216fbda4757339a7e8211/thumb/1000)](https://gyazo.com/5d0e20c2072216fbda4757339a7e8211)
+    - [![改善後のLighthouseのPerformance。First Meaningful PaintとSpeed Indexが合格で、総合53点](https://gyazo.com/5d0e20c2072216fbda4757339a7e8211/thumb/1000)](https://gyazo.com/5d0e20c2072216fbda4757339a7e8211)
     - First Meaningful Paint, Speed Index が合格判定、ほか赤点箇所も秒数をほぼ減らせて合計 53 点
 - 初回ロード時のリクエスト比較
   - Before
-    - [![Image](https://i.gyazo.com/3695db66547ec47ceeec0ede67462be2.png)](https://gyazo.com/3695db66547ec47ceeec0ede67462be2)
+    - [![改善前の初回ロード。画像や動画の読み込みが重なり、20000msかかっている](https://i.gyazo.com/3695db66547ec47ceeec0ede67462be2.png)](https://gyazo.com/3695db66547ec47ceeec0ede67462be2)
     - 主に画像や動画などの読み込みが多重化しており、20000ms かかっていた
   - After
-    - [![Image](https://gyazo.com/eb0aa95ee51f245a875b1843fe94c668/thumb/1000)](https://gyazo.com/eb0aa95ee51f245a875b1843fe94c668)
+    - [![遅延読み込み後の初回ロード。リクエストが減り、2000msになっている](https://gyazo.com/eb0aa95ee51f245a875b1843fe94c668/thumb/1000)](https://gyazo.com/eb0aa95ee51f245a875b1843fe94c668)
     - 遅延読み込みを活用し、初回のリクエストを減らした結果 2000ms という 1/10 の短縮に成功！
 - lighthouse と少し仲良くなれた
   - [Lighthouse によるウェブアプリの監査 | Tools for Web Developers | Google Developers](https://developers.google.com/web/tools/lighthouse/?hl=ja)
@@ -201,7 +201,7 @@ topic: frontend
 
 ## PWA
 
-[![Image](/src/images/playback-tech-2018/5dec5cb8c410a2ab9238e79a0aee2f0b.png)](/src/images/playback-tech-2018/5dec5cb8c410a2ab9238e79a0aee2f0b.png)
+[![黒地に、灰色の P と A、紫の W を組んだ PWA のロゴ](/src/images/playback-tech-2018/5dec5cb8c410a2ab9238e79a0aee2f0b.png)](/src/images/playback-tech-2018/5dec5cb8c410a2ab9238e79a0aee2f0b.png)
 
 - Progressive Web App
   - Progressive = 漸進的
@@ -267,7 +267,7 @@ topic: frontend
 
 ## 技術書典#5 参加
 
-[![Image](/src/images/playback-tech-2018/bf7b22b3e820bbb41c7f6336a0cc26ca.jpg)](/src/images/playback-tech-2018/bf7b22b3e820bbb41c7f6336a0cc26ca.jpg)
+[![ドーベルマンの横顔に「Web accessibility for beginners.」、紺の帯に「これからはじめる webアクセシビリティ」。Author: Oyama Michinoku、Circle: konnnoinu、左下に立体の Y 字マーク](/src/images/playback-tech-2018/bf7b22b3e820bbb41c7f6336a0cc26ca.jpg)](/src/images/playback-tech-2018/bf7b22b3e820bbb41c7f6336a0cc26ca.jpg)
 
 - [サークル詳細 | こんのいぬ | 技術書典](https://techbookfest.org/event/tbf05/circle/41130001)
 - [これからはじめる Web アクセシビリティ - こんのいぬ - BOOTH](https://booth.pm/ja/items/1044446)

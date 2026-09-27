@@ -9,7 +9,7 @@ topic: accessibility
 noindex: true
 ---
 
-![](/src/images/covid-19-site-a11y-contribute/7d6aeeb877ef3751be9992600d779470.png)
+![CrowdWorks Engineer Blogのアイキャッチ。ブラウザ画面のイラストの横に、東京都公式 COVID-19 対策サイトにアクセシビリティ視点でコントリビュートしてみた、とある。](/src/images/covid-19-site-a11y-contribute/7d6aeeb877ef3751be9992600d779470.png)
 
 腹筋ローラーしろよ。
 

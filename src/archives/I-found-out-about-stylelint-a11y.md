@@ -31,7 +31,7 @@ topic: accessibility
 - [content - CSS: カスケーディングスタイルシート | MDN](https://developer.mozilla.org/ja/docs/Web/CSS/content#Accessibility_concerns)
 - > [CSS](https://scrapbox.io/yamanoku/CSS) の生成コンテンツは [DOM](https://scrapbox.io/yamanoku/DOM) に含まれません。そのため、アクセシビリティツリーに現れず、支援技術とブラウザーの組み合わせによってはアナウンスされません。
   - 支援技術＝[スクリーンリーダー](https://scrapbox.io/yamanoku/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC)に認識されない場合がある
-    - [![Image](/src/images/I-found-out-about-stylelint-a11y/c4f785d430b250de7aea70937190f29e.png)](/src/images/I-found-out-about-stylelint-a11y/c4f785d430b250de7aea70937190f29e.png)
+    - [![CSSの生成コンテンツを読み上げるかの対応表。Jaws 16とNVDA 2015.1はChrome 41（Windows）とFirefox 36がYes、Internet Explorer 11がNo。TalkBackはAndroidのChrome 41だけYes。VoiceOverはSafari 8（OSX）とSafari 8.1（iOS）がYes。ほかはN/A。](/src/images/I-found-out-about-stylelint-a11y/c4f785d430b250de7aea70937190f29e.png)](/src/images/I-found-out-about-stylelint-a11y/c4f785d430b250de7aea70937190f29e.png)
       - [Accessibility support for CSS generated content – Tink](https://tink.uk/accessibility-support-for-css-generated-content/) （2015/3/29）
     - [F87: 達成基準 1.3.1 の失敗例 － CSS の :before 及び :after 疑似要素並びに 'content' プロパティを用いて、非装飾のコンテンツを挿入している | WCAG 2.0 達成方法集](https://waic.jp/docs/WCAG-TECHS/F87.html)
 
@@ -53,7 +53,7 @@ topic: accessibility
 
 - > Disallow not vertical rhythmed line-height
 - [バーティカルリズム](https://scrapbox.io/yamanoku/%E3%83%90%E3%83%BC%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%AA%E3%82%BA%E3%83%A0)となっていない`line-height`を許可しない
-  - [![Image](/src/images/I-found-out-about-stylelint-a11y/2d3fc8a922e2c0d63bf9ae26bc8d64f5.gif)](/src/images/I-found-out-about-stylelint-a11y/2d3fc8a922e2c0d63bf9ae26bc8d64f5.gif)
+  - [![青い横罫に沿って文字が並ぶプロフィールを下へスクロールする。Okuto Oyama, Oyama Michinoku, yamanoku. から Job Info、Basic Info、Product List、Social Service、Contact まで見える。](/src/images/I-found-out-about-stylelint-a11y/2d3fc8a922e2c0d63bf9ae26bc8d64f5.gif)](/src/images/I-found-out-about-stylelint-a11y/2d3fc8a922e2c0d63bf9ae26bc8d64f5.gif)
   - px 指定の場合、24 の倍数にする
   - 整数値指定の場合、1.5 以上にする
     - > 主要な段落コンテンツでは、 line-height の値の最小値が 1.5 になるようにしてください。
@@ -223,7 +223,7 @@ marquee {
 - > Disallow content with `text-align: justify`
 - テキストの両端揃えをしたコンテンツを許可しない
   - 余白 (隙間) の川ができてしまうのを防ぐ
-    - [![Image](/src/images/I-found-out-about-stylelint-a11y/280022657b69bf23feae7e6589c5e618.png)](/src/images/I-found-out-about-stylelint-a11y/280022657b69bf23feae7e6589c5e618.png)
+    - [![両端揃えの英文。Nor again is there anyone who loves から incredibly great pleasure. までで、単語のあいだの広い空白がオレンジで塗られている。](/src/images/I-found-out-about-stylelint-a11y/280022657b69bf23feae7e6589c5e618.png)](/src/images/I-found-out-about-stylelint-a11y/280022657b69bf23feae7e6589c5e618.png)
   - > 認知障害のある利用者の多くは、両端揃え (左右両端を揃えた配置) されたテキストのブロックで重大なトラブルに陥ることがある
     - [F88: 達成基準 1.4.8 の失敗例 － 両端揃え (左右両方のマージンを揃える) のテキストを使用している | WCAG 2.0 達成方法集](https://waic.jp/docs/WCAG-TECHS/F88.html)
 

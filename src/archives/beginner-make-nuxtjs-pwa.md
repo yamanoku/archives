@@ -73,7 +73,7 @@ Nuxt.js のプラグイン・モジュールは以下を使用
   - IFTTT で投稿連携
     - Twitter から「Reading...」と紐づけた特定のものを拾ってくる
     - 連携して個人 Slack に投稿されて全件検索される
-    - [![Image](/src/images/beginner-make-nuxtjs-pwa/1948eaf267fa165a4b4b1fef5afff211.png)](/src/images/beginner-make-nuxtjs-pwa/1948eaf267fa165a4b4b1fef5afff211.png)
+    - [![Slackに届いたIFTTT APP 22:50の投稿。@yamanoku : Reading... 日本のエンジニアの質について - ヨーロッパで働く社長のブログ、とTwitter経由のリンクが付いている。](/src/images/beginner-make-nuxtjs-pwa/1948eaf267fa165a4b4b1fef5afff211.png)](/src/images/beginner-make-nuxtjs-pwa/1948eaf267fa165a4b4b1fef5afff211.png)
   - Slack API の制約もあり 100 件までを抽出。古いものは取得内から消えていく。
   - なぜ Slack をデータベースにしたのか？
     - お手軽サーバーレス体験
@@ -86,7 +86,7 @@ Nuxt.js のプラグイン・モジュールは以下を使用
   - Slack API から直接経由だと制約があってしんどかった
     - devtools 使うとどの slack から持ってきてるのかとかがわかっちゃう
     - token を隠蔽しても`nuxt generate`しビルドした JS 内に token とかが見えると警告メールが来て API 止められる（計 4 敗）
-    - [![Image](/src/images/beginner-make-nuxtjs-pwa/22343b9c3de68ed9a44d24d81064bc6b.png)](/src/images/beginner-make-nuxtjs-pwa/22343b9c3de68ed9a44d24d81064bc6b.png)
+    - [![Slackからyamanokuへのメール。yamanoku.slack.comの認証トークンが公開されたため無効にしたとあり、Token xoxp- 以降は黒塗り。Posted at はGitHubのyamanoku/readingにあるnuxt/pages/indexのJS。](/src/images/beginner-make-nuxtjs-pwa/22343b9c3de68ed9a44d24d81064bc6b.png)](/src/images/beginner-make-nuxtjs-pwa/22343b9c3de68ed9a44d24d81064bc6b.png)
   - 変えてよかったこと
     - token を完全隠蔽した
     - CORS 対応したのでどこでも取得できる

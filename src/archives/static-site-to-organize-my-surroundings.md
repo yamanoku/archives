@@ -28,7 +28,7 @@ topic: frontend
 
 ## [https://nagareyama.yamanoku.net/](https://nagareyama.yamanoku.net/)
 
-- [![Image](https://gyazo.com/d4b4fad35f4449b38284acf64b523a43/thumb/1000)](https://gyazo.com/d4b4fad35f4449b38284acf64b523a43)
+- [![流山市の周辺情報。避難所、小児科、ご飯どころが並んでいるページ](https://gyazo.com/d4b4fad35f4449b38284acf64b523a43/thumb/1000)](https://gyazo.com/d4b4fad35f4449b38284acf64b523a43)
   - 流山市避難所
   - 小児科
   - ご飯どころ

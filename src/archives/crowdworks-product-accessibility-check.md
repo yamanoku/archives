@@ -9,7 +9,7 @@ topic: accessibility
 noindex: true
 ---
 
-![](/src/images/crowdworks-product-accessibility-check/627253dc3266425cbf2798a446ef96b8.png)
+![CrowdWorks Engineer Blogのアイキャッチ。クラウドワークスのWebアクセシビリティチェックを始めてみた、という文字と、チェック欄に印を入れる人のイラスト。](/src/images/crowdworks-product-accessibility-check/627253dc3266425cbf2798a446ef96b8.png)
 
 こんにちは。フロントエンドエンジニアの [yamanoku](https://twitter.com/yamanoku) と申します。
 
@@ -120,7 +120,7 @@ W3C[^1]では、ウェブは多くの人々の日常に欠かせないものと�
 
 進め方として、1 週間で 1 ページの全項目をチェックしていく形で始めました。
 
-![](/src/images/crowdworks-product-accessibility-check/21e2aa8d7da480601936b2a4df51039c.png)
+![スプレッドシートのチェック表。会員登録ページ、ログインページ、TOPページの3行で、1.1.1から4.1.2までの列が済になっている。](/src/images/crowdworks-product-accessibility-check/21e2aa8d7da480601936b2a4df51039c.png)
 
 チェックはスプレッドシートに項目沿って確認をしていきます。
 
@@ -149,7 +149,7 @@ W3C[^1]では、ウェブは多くの人々の日常に欠かせないものと�
 
 コントラストチェックですが、[Axe](https://chrome.google.com/webstore/detail/axe-web-accessibility-tes/lhdoppojpmngadmnindnejefpokejbdd)というアクセシビリティチェックツールを使用することで簡単に問題点が発見できます。
 
-![](/src/images/crowdworks-product-accessibility-check/ff94f29456df98bde194d55a20d3ebcb.png)
+![axe v4.5.3でhttps://crowdworks.jp/を調べた画面。すべての問題の検出数は99、そのうち要素には十分な色のコントラストがなければなりませんが67件。会員登録（無料）ボタンはコントラスト比2.58、前景色#ffffff、背景色#f2850c。](/src/images/crowdworks-product-accessibility-check/ff94f29456df98bde194d55a20d3ebcb.png)
 
 要素数の列挙のほか、基準を満たしていないものを強調してくれます。
 
@@ -161,7 +161,7 @@ Chrome の検証ツールでは要素を選択するとその要素のコント�
 
 達成基準 4.1.1 の構文解析の達成基準では[Nu Html Checker](https://validator.w3.org/nu/)を使ってチェックしました。
 
-![](/src/images/crowdworks-product-accessibility-check/d2048e58d53c37a24ec4bce074658335.png)
+![Nu Html Checkerの入力画面。Ready to checkの下でCheck by addressが選ばれ、HTML、CSS、SVGのURLを入れる欄とCheckボタンがある。](/src/images/crowdworks-product-accessibility-check/d2048e58d53c37a24ec4bce074658335.png)
 
 こちらは URL を打ち込むことで構文解析してくれるのですが、freee 株式会社の公開している freee アクセシビリティガイドライン[^7]より、[ブックマークレートを使うと良さそう](https://a11y-guidelines.freee.co.jp/explanations/check-tools.html?highlight=nu%20html#id79)ということで、そちらを使用しました。<br>
 結果として URL を打ち込むことなく解析結果に遷移してくれます。
@@ -188,7 +188,7 @@ Chrome の検証ツールでは要素を選択するとその要素のコント�
 
 会員登録ページにおける「ログインはこちら」という文言において、「こちら」がどこを指すかが曖昧になっており、テキストを読み上げた時に困惑してしまいかねないという問題が発覚しました。
 
-![](/src/images/crowdworks-product-accessibility-check/0e32d3d844e01586b1035598635ecf99.png)
+![青い文字で「＞ログインはこちら」と表示されたリンク](/src/images/crowdworks-product-accessibility-check/0e32d3d844e01586b1035598635ecf99.png)
 
 「ログインする」「ログインページに移動」といったリンクの目的がはっきりとわかる文言に変える必要があります。
 
@@ -204,7 +204,7 @@ Chrome の検証ツールでは要素を選択するとその要素のコント�
 
 「メールアドレスではじめる」がマークアップとしては`<h2>`が正しいのではないかということが挙げられました。
 
-![](/src/images/crowdworks-product-accessibility-check/29509f8507b267a042b4858072e547f8.png)
+![「メールアドレスではじめる」という見出しと、プレースホルダー「例） info@crowdworks.co.jp」が入った入力欄](/src/images/crowdworks-product-accessibility-check/29509f8507b267a042b4858072e547f8.png)
 
 現在は`<label>`タグで表現されていますが、これが支援技術によって読み上げられる時「メールアドレスではじめる」が`<label>`で呼ばれて、その直後の入力欄の`<input type="text">`でも読まれる状態になっていました。
 
@@ -231,9 +231,9 @@ Chrome の検証ツールでは要素を選択するとその要素のコント�
 
 今回チェックで発見できた問題点は、そのままにしておくのではなく、Qiita Team にログとして記載して GitHub Project に移行し看板管理をするようにしました。
 
-![](/src/images/crowdworks-product-accessibility-check/f0764d8bc2a29f883176910b1c95cd7b.png)
+![Qiita Teamの記事「Webアクセシビリティチェック実施結果（6/22〜7/10実施）」。対象ページとチェックシートに続き、1.1.1ではログインページのカービィ画像にalt属性がないと書かれている](/src/images/crowdworks-product-accessibility-check/f0764d8bc2a29f883176910b1c95cd7b.png)
 
-![](/src/images/crowdworks-product-accessibility-check/1ad8841527a29b97463d1be95eebf948.png)
+![GitHub Project「Accessibility」（Updated on 29 Jul）の看板。非ログインTOPページ15件、ログインページ7件、会員登録ページ12件の列に、「ログインはこちら」や「メールアドレスではじめる」などのカードが並ぶ](/src/images/crowdworks-product-accessibility-check/1ad8841527a29b97463d1be95eebf948.png)
 
 現在、チェックを行っていたときのチームは解散し新たなチームになったので、そこで引き続き改善活動に充てたいと思っております。
 
