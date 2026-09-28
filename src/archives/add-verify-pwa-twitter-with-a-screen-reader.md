@@ -16,7 +16,7 @@ topic: accessibility
 
 ## 以前 PWA Night の勉強会にも登壇させてもらいました
 
-- [![タイトルが「PWA is Progressive Web Accessibility」のスライド。PWA Night vol.16、Okuto Oyama、2020/05/20 とある](/src/images/add-verify-pwa-twitter-with-a-screen-reader/5fcfe324559b7b0797cf00e174df480b.png)](/src/images/add-verify-pwa-twitter-with-a-screen-reader/5fcfe324559b7b0797cf00e174df480b.png)
+- ![タイトルが「PWA is Progressive Web Accessibility」のスライド。PWA Night vol.16、Okuto Oyama、2020/05/20 とある](/src/images/add-verify-pwa-twitter-with-a-screen-reader/5fcfe324559b7b0797cf00e174df480b.png)
   - [PWA is Progressive Web Accessibility - Google スライド](https://docs.google.com/presentation/d/e/2PACX-1vROD7gIsTh1BF1q5LVec0pZSGXVtLBD_DjNonbuwdR8zfRNH_qgRazaIG0oU-Zte6EgqaKoIyfoRfpA/pub?start=false&loop=false&delayms=3000&slide=id.g85503d545f_0_0)
 
 ## 今回も PWA×Web アクセシビリティネタやります
@@ -31,7 +31,7 @@ topic: accessibility
 
 ## よりよい PWA をつくるための要件「Is fully accessible」
 
-[![見出し「Is fully accessible」のもと、すべての操作がWCAG 2.0を満たすことと、a要素とbutton要素の例が書かれた英文ページ](/src/images/add-verify-pwa-twitter-with-a-screen-reader/edfe7d9160d234889d8e9f22b1641841.png)](/src/images/add-verify-pwa-twitter-with-a-screen-reader/edfe7d9160d234889d8e9f22b1641841.png)
+![見出し「Is fully accessible」のもと、すべての操作がWCAG 2.0を満たすことと、a要素とbutton要素の例が書かれた英文ページ](/src/images/add-verify-pwa-twitter-with-a-screen-reader/edfe7d9160d234889d8e9f22b1641841.png)
 
 ## PWA 版の Twitter でスクリーンリーダー検証してみよう
 
@@ -56,15 +56,15 @@ topic: accessibility
 
 [https://scrapbox.io/files/60d5e9a2ed6716001c954275.mp4](https://storage.googleapis.com/scrapbox-file-distribute/5983f25ce54f440011c2cd40/c030ea410732362f51ef03fe3812160e?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=file-upload%40scrapbox-server.iam.gserviceaccount.com%2F20220920%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220920T015925Z&X-Goog-Expires=3601&X-Goog-SignedHeaders=host&X-Goog-Signature=1e9ba81c25212b38b6a8ce633343fedd74cf827846ac1bad64f70e79c65fea03a5db9ff30b849c50c049262c6d661771fc1d14bac5969c0e5a07307f83cf74f66f694cffb922bcb79b82d086ab2ba4ac521b658864c897aa6c5d54cb865dcd97d81c0e053d4800f06b0b6ecd3db025c124c0917476623e10a5f2b2f23b59a1577ffd136f53b9cb4fc360b03b6d90588d176262838273dfdbcf406334047666ef67f2f43d59f7b442f57471cc1fc940e5178f26357ff2a63b275cd096b93f15f5473efd15f433c9d27ae9bc3eb62542f8523d0d2c878ed7c29bea71594fedadf8d4da73a404a025c6da70f92431afa2262d1d0e62d3557a8043ba43b8bcd99540)
 
-- [![PWA版Twitterで、ツイート全体がdivとして青枠で選ばれ、本文からいいねと共有アイコンまで含まれている画面](/src/images/add-verify-pwa-twitter-with-a-screen-reader/55cfaeaec40b5830422a03443b7fecad.png)](/src/images/add-verify-pwa-twitter-with-a-screen-reader/55cfaeaec40b5830422a03443b7fecad.png)
-  - [![ChromeのAccessibilityパネル。ツイートのarticleにrole="article"が付き、Nameに本文や「1 like」まで入っている](/src/images/add-verify-pwa-twitter-with-a-screen-reader/362e77040a0c4e7c33d3cb638fda17cf.png)](/src/images/add-verify-pwa-twitter-with-a-screen-reader/362e77040a0c4e7c33d3cb638fda17cf.png)
+- ![PWA版Twitterで、ツイート全体がdivとして青枠で選ばれ、本文からいいねと共有アイコンまで含まれている画面](/src/images/add-verify-pwa-twitter-with-a-screen-reader/55cfaeaec40b5830422a03443b7fecad.png)
+  - ![ChromeのAccessibilityパネル。ツイートのarticleにrole="article"が付き、Nameに本文や「1 like」まで入っている](/src/images/add-verify-pwa-twitter-with-a-screen-reader/362e77040a0c4e7c33d3cb638fda17cf.png)
   - `aria-labelledby`で関連する ID が紐付けられている
 
 ### 代替テキストの設定
 
 [https://scrapbox.io/files/60d5e4e0b79b2b001c41fd04.mp4](https://storage.googleapis.com/scrapbox-file-distribute/5983f25ce54f440011c2cd40/95eb8ac158aaa492d0f70b14f8e70f4a?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=file-upload%40scrapbox-server.iam.gserviceaccount.com%2F20220920%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20220920T020004Z&X-Goog-Expires=3600&X-Goog-SignedHeaders=host&X-Goog-Signature=7e8bec6a9d52768982f287a49573c749daf4bae182eb443a89f00d081c4976b3a48a5659fbbcaba48c637fdc68c7193760b99a43828fa435db29755c1e366dc4bb92bf52fd84132354c83ed6357bedccce340f6186f50d1ae87add77cf04316b947622a51c8871893475582d5fdbb72f8a041a5530e53635a1580bfda783f51a64ed3709d9176181702c7594c980f269607a6c1f3228336b9db09bc57047abfa9e664aa4cdc2fecc39d111bda90099c0bfc2e3864bd0d89808891592d1b4966197ccc44663f4b3f66295dae060623beb91ddd26cf513d5aedd93ed9be926fdff5d86b326f6b3610380c842f97471a90061e09261eb9488665b4b72b59045feee)
 
-- [![Twitterの画像投稿でALTタブが選ばれ、階段にいる黒猫の写真の下に「詳細」欄と「代替テキストとは？」がある画面](/src/images/add-verify-pwa-twitter-with-a-screen-reader/42e3164d5c0bdadffd5d1556182f6145.png)](/src/images/add-verify-pwa-twitter-with-a-screen-reader/42e3164d5c0bdadffd5d1556182f6145.png)
+- ![Twitterの画像投稿でALTタブが選ばれ、階段にいる黒猫の写真の下に「詳細」欄と「代替テキストとは？」がある画面](/src/images/add-verify-pwa-twitter-with-a-screen-reader/42e3164d5c0bdadffd5d1556182f6145.png)
 - 画像投稿
 - 「件の説明を追加」
 - 挿入すると画像の読み上げをしてくれる
@@ -83,9 +83,9 @@ topic: accessibility
 ```
 
 - 開閉部分
-  - [![ツイートのメニュー（Delete、Pin to your profile、Embed Tweetなど）が開き、role="menu"のdivが見える画面](/src/images/add-verify-pwa-twitter-with-a-screen-reader/50fd6beab5719ef71f3e259a67469553.png)](/src/images/add-verify-pwa-twitter-with-a-screen-reader/50fd6beab5719ef71f3e259a67469553.png)
+  - ![ツイートのメニュー（Delete、Pin to your profile、Embed Tweetなど）が開き、role="menu"のdivが見える画面](/src/images/add-verify-pwa-twitter-with-a-screen-reader/50fd6beab5719ef71f3e259a67469553.png)
     - メニュー
-  - [![同じツイートメニューが開いた状態で、HTML上にrole="dialog"のdivがあり、その中にmenuが並んでいる画面](/src/images/add-verify-pwa-twitter-with-a-screen-reader/d2a7d47eeef5a8efc6e9e1203f06b1ff.png)](/src/images/add-verify-pwa-twitter-with-a-screen-reader/d2a7d47eeef5a8efc6e9e1203f06b1ff.png)
+  - ![同じツイートメニューが開いた状態で、HTML上にrole="dialog"のdivがあり、その中にmenuが並んでいる画面](/src/images/add-verify-pwa-twitter-with-a-screen-reader/d2a7d47eeef5a8efc6e9e1203f06b1ff.png)
     - ダイアログ
 
 ## まとめ

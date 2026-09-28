@@ -8,7 +8,7 @@ category: essay
 topic: life
 ---
 
-[![ガラス戸に貼られた「営業時間 10時〜20時まで」の紙。上の「10」と下の「20」で数字の字体が違っている](/src/images/discomfort-of-each/ae434ef3e5468faeb1cc16ebfe612cc2.jpg)](/src/images/discomfort-of-each/ae434ef3e5468faeb1cc16ebfe612cc2.jpg)
+![ガラス戸に貼られた「営業時間 10時〜20時まで」の紙。上の「10」と下の「20」で数字の字体が違っている](/src/images/discomfort-of-each/ae434ef3e5468faeb1cc16ebfe612cc2.jpg)
 
 ## Q. 上の画像を見てどこに違和感があるか。
 

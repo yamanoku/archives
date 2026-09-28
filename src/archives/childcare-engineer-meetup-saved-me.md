@@ -8,7 +8,7 @@ category: essay
 topic: life
 ---
 
-[![左にオレンジの菱形と白いおしゃぶり、右に赤・青・黄・緑の点が散らばったアイキャッチ](/src/images/childcare-engineer-meetup-saved-me/6dd0f6163d57807d34a856d8f9472f35.png)](/src/images/childcare-engineer-meetup-saved-me/6dd0f6163d57807d34a856d8f9472f35.png)
+![左にオレンジの菱形と白いおしゃぶり、右に赤・青・黄・緑の点が散らばったアイキャッチ](/src/images/childcare-engineer-meetup-saved-me/6dd0f6163d57807d34a856d8f9472f35.png)
 
 この記事は[子育てエンジニア Advent Calendar 2018](https://adventar.org/calendars/3178)の 9 日目の記事です。
 
@@ -19,7 +19,7 @@ topic: life
 
 ## 娘、誕生
 
-[![ピンクのカバーオールを着ておしゃぶりをし、頭にリボンを付けて座っている赤ちゃんのイラスト](/src/images/childcare-engineer-meetup-saved-me/fd4020eed750367db05996de19318de0.png)](/src/images/childcare-engineer-meetup-saved-me/fd4020eed750367db05996de19318de0.png)
+![ピンクのカバーオールを着ておしゃぶりをし、頭にリボンを付けて座っている赤ちゃんのイラスト](/src/images/childcare-engineer-meetup-saved-me/fd4020eed750367db05996de19318de0.png)
 
 2016 年 3 月に我が大山家に待望の女の子が産まれました。
 
@@ -31,7 +31,7 @@ topic: life
 
 ## 何もできていない自分
 
-[![紺のスーツ姿で目を閉じ、涙を流している男性のイラスト](/src/images/childcare-engineer-meetup-saved-me/3440e5ea2bf3eb108fb44a222cc69a9b.png)](/src/images/childcare-engineer-meetup-saved-me/3440e5ea2bf3eb108fb44a222cc69a9b.png)
+![紺のスーツ姿で目を閉じ、涙を流している男性のイラスト](/src/images/childcare-engineer-meetup-saved-me/3440e5ea2bf3eb108fb44a222cc69a9b.png)
 
 おそらく通常であれば共働きの状況において、お互いのやるべきことや役割分担などを決めるなどがあったのでしょうが、ウチでは妻が妊娠するにあたり、これまでやっていた派遣を辞めて、専業主婦として家に居る状況でした。
 
@@ -45,7 +45,7 @@ topic: life
 
 ## すくすく！　子育てエンジニア MeetUp の存在を知る
 
-[![すくすく！子育てエンジニア MeetUp connpassページ](/src/images/childcare-engineer-meetup-saved-me/d63c09512475e275489f331a0fb719c7.png)](/src/images/childcare-engineer-meetup-saved-me/d63c09512475e275489f331a0fb719c7.png)
+![すくすく！子育てエンジニア MeetUp connpassページ](/src/images/childcare-engineer-meetup-saved-me/d63c09512475e275489f331a0fb719c7.png)
 
 そんな中、Twitter で「子育てをしているエンジニア向けの MeetUp をやる」という情報を見かけました。
 
@@ -94,15 +94,15 @@ MeetUp 後の興奮をそのままに、社内 LT でも家庭内やっていき
 
 父親として未熟な所が多いのですが昔と違うのは、まだまだやれることはあると分かり、多少なりとも自分がやることに自信が持てるようになったことだと思います。
 
-[![Trelloの食材ボード。買うもの・冷蔵庫・調味料・冷蔵品・そのほかのリストに、もやしや料理酒などのカードが並んでいる](/src/images/childcare-engineer-meetup-saved-me/ab84773376a9fdcb7bcfd350f01e8624.png)](/src/images/childcare-engineer-meetup-saved-me/ab84773376a9fdcb7bcfd350f01e8624.png)
+![Trelloの食材ボード。買うもの・冷蔵庫・調味料・冷蔵品・そのほかのリストに、もやしや料理酒などのカードが並んでいる](/src/images/childcare-engineer-meetup-saved-me/ab84773376a9fdcb7bcfd350f01e8624.png)
 
 今はもう使われてませんが[Trello](https://trello.com/)を用いた食材管理などをやっていた時期もありました
 
 ## 同じ境遇の人を救いたい
 
-[![すくすく！子育てエンジニアMeetUpへの謝辞：子どもができてからどう親として家族として接していけばいいかわからなかった。当時専業主婦だった妻が娘のことをほとんどやってくれた。エンジニアとして、父親としてやれることがわからなかった。自分は不要なのでは？と本気で信じてた。共有できる同じ境遇の人がいなかった。当時おそらく軽く鬱になってた。MeetUpの開催が宣伝されて偶然見かけた。聴講枠での参加。「こういう形での子育て方がある」ものすごい感動した。全部が全部活かせたわけではないが、自分にとって励みとなれた。自分も登壇してみて同じような人の背中を押してあげたい 、という形で登壇させていただきます。](/src/images/childcare-engineer-meetup-saved-me/864a8ec720389e59da0b9bb55f2d5183.png)](/src/images/childcare-engineer-meetup-saved-me/864a8ec720389e59da0b9bb55f2d5183.png)
+![すくすく！子育てエンジニアMeetUpへの謝辞：子どもができてからどう親として家族として接していけばいいかわからなかった。当時専業主婦だった妻が娘のことをほとんどやってくれた。エンジニアとして、父親としてやれることがわからなかった。自分は不要なのでは？と本気で信じてた。共有できる同じ境遇の人がいなかった。当時おそらく軽く鬱になってた。MeetUpの開催が宣伝されて偶然見かけた。聴講枠での参加。「こういう形での子育て方がある」ものすごい感動した。全部が全部活かせたわけではないが、自分にとって励みとなれた。自分も登壇してみて同じような人の背中を押してあげたい 、という形で登壇させていただきます。](/src/images/childcare-engineer-meetup-saved-me/864a8ec720389e59da0b9bb55f2d5183.png)
 
-[![MeetUp参加時のLTにて謝辞を述べているところを撮ってもらった](/src/images/childcare-engineer-meetup-saved-me/f0908b04ac1c42c3ebf4c3ddfb9c78d9.png)](/src/images/childcare-engineer-meetup-saved-me/f0908b04ac1c42c3ebf4c3ddfb9c78d9.png)
+![MeetUp参加時のLTにて謝辞を述べているところを撮ってもらった](/src/images/childcare-engineer-meetup-saved-me/f0908b04ac1c42c3ebf4c3ddfb9c78d9.png)
 
 それからしばらく日が空いていたのですが、10 月にすくすく！　子育てエンジニア Meetup#3 が開催されるとのことで、参加してみて社内以外で人前ではじめての LT をやってみるなどしました。
 

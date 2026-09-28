@@ -17,7 +17,7 @@ topic: frontend
 
 ## 前提：[デザインシステム](https://scrapbox.io/yamanoku/%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0)について
 
-- [![Salesforce Lightning Design System のトップ。メニューに What's New、Getting Started、Design Guidelines、Accessibility、Design Tokens などがあり、見出しは「Create the world's best enterprise app experiences.」、ボタンは GET STARTED、Current release は Winter '20 (SLDS 2.10.0)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/bf04495c0db15a3056502137272cc99c.png)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/bf04495c0db15a3056502137272cc99c.png)
+- ![Salesforce Lightning Design System のトップ。メニューに What's New、Getting Started、Design Guidelines、Accessibility、Design Tokens などがあり、見出しは「Create the world's best enterprise app experiences.」、ボタンは GET STARTED、Current release は Winter '20 (SLDS 2.10.0)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/bf04495c0db15a3056502137272cc99c.png)
 - アプリケーションやウェブサイト上での一貫性が保たれ、ユーザーが期待する機能性やユーザビリティを提供できるもの
 - デバイスを超えるもので Web 以外でもモバイルアプリにも提供できる
 - スタイルガイドラインとの違い
@@ -99,7 +99,7 @@ topic: frontend
 ## 例：スタイル名と実際のカラーが不一致
 
 - 起こりうる悲劇
-  - [![腹筋ローラーの力を信じろ（@8845musign）のツイート。「つら」と、.bg__yellow の background が薄い青の色チップ付き #ebf5fe になっている。180 Retweets、459 Likes](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/5dba2a8c0cbbcb58bde3bdf6f81b1108.png)](https://twitter.com/8845musign/status/1176725368696270850)
+  - ![腹筋ローラーの力を信じろ（@8845musign）のツイート。「つら」と、.bg__yellow の background が薄い青の色チップ付き #ebf5fe になっている。180 Retweets、459 Likes](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/5dba2a8c0cbbcb58bde3bdf6f81b1108.png)
 - 使い方として多様なシーンで利用されていたのではないか
 - クラス名だけが形骸化してしまった
 - 色が目視でわかる人ならいいが、わからない人はこの違いに気付けるのか？
@@ -111,12 +111,12 @@ topic: frontend
     - 「いやまぁ green じゃん」「まぁそうですが…」
     - 色盲の人はその色がちゃんと見えるか？
       - 「これは green だから」「（そうは見えないのですが…）はい！」
-- [![猫に怒られる（2）（@murokaco）のツイート。「いつも見かけるたびに感じてるんですけど、$white: #fff; って虚無感すごくないですか…」。3 Likes](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/95a0518dfd6707eb677e5a9ef2a9e26e.png)](https://twitter.com/murokaco/status/1179702099354902528)
+- ![猫に怒られる（2）（@murokaco）のツイート。「いつも見かけるたびに感じてるんですけど、$white: #fff; って虚無感すごくないですか…」。3 Likes](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/95a0518dfd6707eb677e5a9ef2a9e26e.png)
   - わかる
 - 曖昧な色名はどうつける？
-  - [![左半分が赤みのある紫、右半分が青みの強い明るい紫に分かれた色面](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/1f3d9374a1f7d12b658c5ebcf9c25505.png)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/1f3d9374a1f7d12b658c5ebcf9c25505.png)
+  - ![左半分が赤みのある紫、右半分が青みの強い明るい紫に分かれた色面](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/1f3d9374a1f7d12b658c5ebcf9c25505.png)
     - どう変数名をつける？
-  - [![左の赤みのある紫にPURPLE、右の青みのある紫にVIOLETと、白い大文字が載っている](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/6c1a2c95c104ec489de50d84da8a9c20.png)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/6c1a2c95c104ec489de50d84da8a9c20.png)
+  - ![左の赤みのある紫にPURPLE、右の青みのある紫にVIOLETと、白い大文字が載っている](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/6c1a2c95c104ec489de50d84da8a9c20.png)
     - 赤い方が`purple`、青いほうが`violet`
       - と、分かっていたとしてもコードベースだけで瞬時に切り替えられるだろうか？
 - 教養あるなしになってこないか？
@@ -127,12 +127,12 @@ topic: frontend
 
 - [Atlassian](https://scrapbox.io/yamanoku/Atlassian)のデザインシステム
   - カラー名が「色の名前」に準拠しきってない
-  - [![青のB400 Pacific bridge、紺のN800 Squid ink、白のN0 Doctorの3枚。HEXとRGB、コントラスト判定のFAILとPASSが並んでいる](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/f8eb734831a0b41139e7c1b1ce4bc5a9.png)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/f8eb734831a0b41139e7c1b1ce4bc5a9.png)
+  - ![青のB400 Pacific bridge、紺のN800 Squid ink、白のN0 Doctorの3枚。HEXとRGB、コントラスト判定のFAILとPASSが並んでいる](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/f8eb734831a0b41139e7c1b1ce4bc5a9.png)
     - `Pacific bridge`
     - `Squid ink`
     - `Doctor`
   - 「赤」についても Red〜みたいなのばかりではなくバリエーションがある
-    - [![赤系7段の色見本。濃いR500 Dragon's bloodから、Red dirt、Poppy surprise、Salmon sashimi、Alexandria、Bondi sunburn、薄いR50 Rosieまで名前が違い、HEX・RGB・CMYKが付く](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/ca9662a3cd4e78206ccbda34f54f8a3d.png)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/ca9662a3cd4e78206ccbda34f54f8a3d.png)
+    - ![赤系7段の色見本。濃いR500 Dragon's bloodから、Red dirt、Poppy surprise、Salmon sashimi、Alexandria、Bondi sunburn、薄いR50 Rosieまで名前が違い、HEX・RGB・CMYKが付く](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/ca9662a3cd4e78206ccbda34f54f8a3d.png)
     - 覚える内容は増えるが、独立性は保てている
 
 ## 例：その単語はイメージしやすいものか
@@ -144,7 +144,7 @@ topic: frontend
   - `button-color-primary`、`button-color-secondary`
   - みたいな感じで、よく見る Word ですね
   - ではその次はなんでしょうか？
-  - [![1から10の呼び方の表。列は数字・用語・英語・序数・基数・接尾辞で、プライマリ primary 1st、セカンダリ secondary 2nd、ターシャリ tertiary 3rdからデナリ decenary 10thまで並ぶ](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/3649c05e400db327ff4b11af9315f87a.png)](https://kw-note.com/trivia/what-comes-after-primary-secondary/)
+  - ![1から10の呼び方の表。列は数字・用語・英語・序数・基数・接尾辞で、プライマリ primary 1st、セカンダリ secondary 2nd、ターシャリ tertiary 3rdからデナリ decenary 10thまで並ぶ](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/3649c05e400db327ff4b11af9315f87a.png)
     - 教養問題
     - そもそも「プライマリ」ってなんだよ
 - 番号名でやることが正解だろうか？
@@ -152,7 +152,7 @@ topic: frontend
   - `$button-color-01`, `$button-color-02`, `$button-color-03`, `$button-color-04`...
   - うーん
 - モーション・アニメーションがあったりしたら…
-  - [![easings.netのイージング一覧。easeInSine、easeOutQuad、easeInOutCubic、easeInExpoなど、名前の下に緑や白や青の曲線が並び、下の段は途中で切れている](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/febc491246a35fa4dd0590c25d45089b.png)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/febc491246a35fa4dd0590c25d45089b.png)
+  - ![easings.netのイージング一覧。easeInSine、easeOutQuad、easeInOutCubic、easeInExpoなど、名前の下に緑や白や青の曲線が並び、下の段は途中で切れている](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/febc491246a35fa4dd0590c25d45089b.png)
     - [Easing Functions Cheat Sheet](https://easings.net/)
   - 指定された変数名で動きは統一されるけど
   - 果たしてその言葉で想起しやすいだろうか？
@@ -161,7 +161,7 @@ topic: frontend
 
 - [freee 株式会社](https://scrapbox.io/yamanoku/freee%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE)のデザインシステム名は[vibes](https://scrapbox.io/yamanoku/vibes)（バイブス）
   - [デザインシステムの設計とアクセシビリティの実現 - Speaker Deck](https://speakerdeck.com/ymrl/dezainsisutemufalseshe-ji-toakusesibiriteifalseshi-xian?slide=21)
-  - [![汗をかいた三つ編みの女の子が「バイブスが足りないわ!!」と言っている白黒漫画のコマ](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/aba4581a5e8fc595d9d2a95908b6b693.png)](https://twitter.com/hattorixxx/status/917720911914004481)
+  - ![汗をかいた三つ編みの女の子が「バイブスが足りないわ!!」と言っている白黒漫画のコマ](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/aba4581a5e8fc595d9d2a95908b6b693.png)
   - バージョンが上がるのを`バイブスが上がる`とか言ってたらしい
 - 変数名は所詮変数でしかないが
 - 普段使っているものを使いやすくする仕組みはあってもいいと思った
@@ -170,7 +170,7 @@ topic: frontend
 
 - ポートフォリオサイトでもカスタムプロパティを通して Design Tokens を利用している
   - [https://yamanoku.net/about/#about:color-contrast_heading](https://yamanoku.net/about/#about:color-contrast_heading)
-- [![色トークンの見本。var(--black) rgb(21, 32, 43)、var(--white) rgb(210, 210, 210)、var(--gray) rgba(70, 70, 70, 0.5)、var(--blue) rgb(90, 190, 255)、var(--purple) rgb(220, 100, 220)、var(--linkBlue) rgb(18, 122, 200)、var(--linkVisited) rgba(70, 70, 70, 0.5)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/e89b92732c8eec1fc66826bb88ab5f99.png)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/e89b92732c8eec1fc66826bb88ab5f99.png)
+- ![色トークンの見本。var(--black) rgb(21, 32, 43)、var(--white) rgb(210, 210, 210)、var(--gray) rgba(70, 70, 70, 0.5)、var(--blue) rgb(90, 190, 255)、var(--purple) rgb(220, 100, 220)、var(--linkBlue) rgb(18, 122, 200)、var(--linkVisited) rgba(70, 70, 70, 0.5)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/e89b92732c8eec1fc66826bb88ab5f99.png)
   - このほか[バーティカルリズム](https://scrapbox.io/yamanoku/%E3%83%90%E3%83%BC%E3%83%86%E3%82%A3%E3%82%AB%E3%83%AB%E3%83%AA%E3%82%BA%E3%83%A0)の指定もある
     - `--rhythm: 24px`
     - margin とか padding はここに準拠する
@@ -181,9 +181,9 @@ topic: frontend
     - 一部ハードコーディング箇所あり
   - [ダークモード](https://scrapbox.io/yamanoku/%E3%83%80%E3%83%BC%E3%82%AF%E3%83%A2%E3%83%BC%E3%83%89)での指定
     - ライト
-      - [![白背景のyamanoku.net。暗いYのロゴ、水色枠に青字の「ホーム」、グレーで下線の「yamanoku.netについて」、大きな「yamanoku.net」。下端に「基本情報」が少し見える](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/3c7cb17698b69af30a920bd28d53e146.png)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/3c7cb17698b69af30a920bd28d53e146.png)
+      - ![白背景のyamanoku.net。暗いYのロゴ、水色枠に青字の「ホーム」、グレーで下線の「yamanoku.netについて」、大きな「yamanoku.net」。下端に「基本情報」が少し見える](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/3c7cb17698b69af30a920bd28d53e146.png)
     - ダーク
-      - [![暗い背景のyamanoku.net。薄いYのロゴ、水色枠の「ホーム」、紫で下線の「yamanoku.netについて」、薄いグレーの「yamanoku.net」](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/2633a27e6eb32e7f4e69cb5890aa1e7c.png)](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/2633a27e6eb32e7f4e69cb5890aa1e7c.png)
+      - ![暗い背景のyamanoku.net。薄いYのロゴ、水色枠の「ホーム」、紫で下線の「yamanoku.netについて」、薄いグレーの「yamanoku.net」](/src/images/we-think-about-design-tokens-we-might-have-to-rethink-variable-names/2633a27e6eb32e7f4e69cb5890aa1e7c.png)
     - リンクカラーはライトが`linkBlue`だけどダークは`blue`を使用している
       - 後付でやってしまったがための功罪
       - そもそも`blue`とは何のためのものなのか？

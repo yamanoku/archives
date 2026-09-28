@@ -8,7 +8,7 @@ category: retrospective
 topic: work
 ---
 
-[![ギネスの瓶、角ハイボール、サッポロ、プレミアムモルツ〈香る〉エールを並べ、中央の黄色に「INPUT & OUTPUT」と書いたアイキャッチ](/src/images/2018-for-inputs_and_outputs/60f869fb8d060073a7af85db11402aa2.png)](/src/images/2018-for-inputs_and_outputs/60f869fb8d060073a7af85db11402aa2.png)
+![ギネスの瓶、角ハイボール、サッポロ、プレミアムモルツ〈香る〉エールを並べ、中央の黄色に「INPUT & OUTPUT」と書いたアイキャッチ](/src/images/2018-for-inputs_and_outputs/60f869fb8d060073a7af85db11402aa2.png)
 
 この記事は[GEEK Inc. Advent Calendar 2018](https://adventar.org/calendars/3108)の 15 日目の記事となります。
 
@@ -104,17 +104,17 @@ topic: work
 
 ## メモ帳として大活躍、Scrapbox
 
-[![scrapbox logo](/src/images/2018-for-inputs_and_outputs/9abb9d4a2208c7d055a2391a792e826e.png)](/src/images/2018-for-inputs_and_outputs/9abb9d4a2208c7d055a2391a792e826e.png)
+![scrapbox logo](/src/images/2018-for-inputs_and_outputs/9abb9d4a2208c7d055a2391a792e826e.png)
 
 勉強会などで参加すると、資料が公開されたりもしますが、現場でしか聞けないことはメモしたりすることもあります。テキストエディタや Twitter などの SNS に発信するのもありますが私は Scrapbox を使ってメモを取っています。
 Scrapbox でメモを取るメリットして以下のようなことがあります。
 
 - スピード感をもって記述できる
   - 長文ではなく短文や単語区切りで書ける
-  - [![NuxtMeetup#05のメモ例。コードの自動分割→これが足かせになった→CommonChankPlugin→vendor.{hash_id}.js…という感じで単語区切りで段落落ちして記述している](/src/images/2018-for-inputs_and_outputs/dba20e88b5fe09e474b3b467a123950b.png)](/src/images/2018-for-inputs_and_outputs/dba20e88b5fe09e474b3b467a123950b.png)
+  - ![NuxtMeetup#05のメモ例。コードの自動分割→これが足かせになった→CommonChankPlugin→vendor.{hash_id}.js…という感じで単語区切りで段落落ちして記述している](/src/images/2018-for-inputs_and_outputs/dba20e88b5fe09e474b3b467a123950b.png)
     - そもそも Scrapbox を使って書き慣れているのがありますが
 - リンクがあるとインクリメンタル検索みたいに関連 Word がでてくる
-  - [![kubernetesと打つ時にScrapboxのリンク記述を使うとすでにページとして登録していればインクリメンタル検索のように「kubernetes」がすぐ出てくる](/src/images/2018-for-inputs_and_outputs/89534f15e40fdc56297b4d0e592d4ab1.gif)](/src/images/2018-for-inputs_and_outputs/89534f15e40fdc56297b4d0e592d4ab1.gif)
+  - ![kubernetesと打つ時にScrapboxのリンク記述を使うとすでにページとして登録していればインクリメンタル検索のように「kubernetes」がすぐ出てくる](/src/images/2018-for-inputs_and_outputs/89534f15e40fdc56297b4d0e592d4ab1.gif)
 - まとめた分が１つのドキュメントとしてすぐに公開できる
   - ブログ枠で参加する時、勉強会が終わったらそれを公開することも可能に
 
@@ -126,14 +126,14 @@ Scrapbox でメモを取るメリットして以下のようなことがあり�
 
 ### 社内 Slack で共有
 
-[![Slackで「来る11/3、Vue Fes Japan 2018参加してきました」と報告し、vuefes.jpとScrapboxのメモへのリンクを貼っている投稿](/src/images/2018-for-inputs_and_outputs/129fad0a7d2a366be3ee078607d5cb1a.png)](/src/images/2018-for-inputs_and_outputs/129fad0a7d2a366be3ee078607d5cb1a.png)
+![Slackで「来る11/3、Vue Fes Japan 2018参加してきました」と報告し、vuefes.jpとScrapboxのメモへのリンクを貼っている投稿](/src/images/2018-for-inputs_and_outputs/129fad0a7d2a366be3ee078607d5cb1a.png)
 
 社内 Slack チェンネルにて勉強会参加してきた旨を報告・メモを公開
 
 参加したあとの翌日であれば基本的には Scrapbox でまとめたドキュメントを社内の Scrapbox でもコピーして共有するようにしています。
 自分の Scrapbox で共有していないのは、社内のものであればメンバーが質問したり感想を書いてくれることもあるからです。
 
-[![Scrapboxの「家族間での情報共有・蓄積について」に、TimeTree、ぴよログ、iPhoneのメモ帳の話へコメントが並んでいる画面](/src/images/2018-for-inputs_and_outputs/5477b8c3878953d4a6ab5aa95e9f5c17.png)](/src/images/2018-for-inputs_and_outputs/5477b8c3878953d4a6ab5aa95e9f5c17.png)
+![Scrapboxの「家族間での情報共有・蓄積について」に、TimeTree、ぴよログ、iPhoneのメモ帳の話へコメントが並んでいる画面](/src/images/2018-for-inputs_and_outputs/5477b8c3878953d4a6ab5aa95e9f5c17.png)
 
 子育てエンジニア MeetUp のメモにディレクターの塚田パパがコメントしてもらっている図
 
@@ -161,7 +161,7 @@ Scrapbox でメモを取るメリットして以下のようなことがあり�
 
 ### 技術書典#5 でサークル参加
 
-[![ドーベルマンの横顔を配した表紙。上部に Web accessibility for beginners.、下部に「これからはじめる webアクセシビリティ」](/src/images/2018-for-inputs_and_outputs/bc2ac5f1c41fd8ea01cc77f85d871d00.png)](/src/images/2018-for-inputs_and_outputs/bc2ac5f1c41fd8ea01cc77f85d871d00.png)
+![ドーベルマンの横顔を配した表紙。上部に Web accessibility for beginners.、下部に「これからはじめる webアクセシビリティ」](/src/images/2018-for-inputs_and_outputs/bc2ac5f1c41fd8ea01cc77f85d871d00.png)
 
 これもおさらいみたいな感じですが、[技術書典#5](https://techbookfest.org/event/tbf05)ではサークル側として参加しました。
 

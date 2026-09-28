@@ -20,7 +20,7 @@ Github 上でもマイルストーンや Issue を作ってあげたり Wiki で
 
 あと自分は Git の履歴を見る上でネットワークで図示されたのを見るので backlog のは割と分かりやすくてよいのだけれど、Github はそこに行き着くまでが若干分かりづらいかなとも思った。見れるには見れるんだけど。
 
-[![GitHubのInsightsのGraphsを開き、Networkタブにmasterのコミットが横一列に並ぶグラフが出るまでをたどっている](/src/images/thinks-of-backlog-to-github/fdc90d716464eb2c0ff5d2533a805fc0.gif)](/src/images/thinks-of-backlog-to-github/fdc90d716464eb2c0ff5d2533a805fc0.gif)
+![GitHubのInsightsのGraphsを開き、Networkタブにmasterのコミットが横一列に並ぶグラフが出るまでをたどっている](/src/images/thinks-of-backlog-to-github/fdc90d716464eb2c0ff5d2533a805fc0.gif)
 
 ## 逆行して考える力の必要性
 
@@ -40,7 +40,7 @@ backlog には無い機能として、CI ツールとの連携が Github には�
 
 連携自体は割と簡単で各サービスにサインアップしてプロジェクトを連結させるだけ。あとは設定ファイル（.yml とか）を弄って push して自動で走らすなどしておけば、コミットログの横にチェックマークが出てちゃんと出来てますよーという確認ができる。
 
-[![2017年9月5日のGitHubコミット一覧。CircleCIの設定に関するコミットの横に、緑のチェックと赤のバツが並んでいる](/src/images/thinks-of-backlog-to-github/245de11675ea5b876c35ea2c3491e19a.png)](/src/images/thinks-of-backlog-to-github/245de11675ea5b876c35ea2c3491e19a.png)
+![2017年9月5日のGitHubコミット一覧。CircleCIの設定に関するコミットの横に、緑のチェックと赤のバツが並んでいる](/src/images/thinks-of-backlog-to-github/245de11675ea5b876c35ea2c3491e19a.png)
 
 コード品質管理をどうするかということでテストなどを走らせるというのがあり、今までだとこうした連携がなかったので、厳密なものは自社のガイドライン遵守でコード内容が守られているかとかを目測確認したり、そこまででなかったら結構省略することもあったので、PullRequest よろしくレビュー文化みたいなのをやっていく上でも、こうした指標は便利かなと感じた。
 
@@ -50,7 +50,7 @@ backlog には無い機能として、CI ツールとの連携が Github には�
 
 backlog と関係ない完全に私的な内容だけど、芝（＝ Contributions）が濃くなるのは単純に嬉しい。個人開発をやれている人なら毎日濃くはなるだろうけど、実際問題なかなか芝を濃くしていくのは難しいと思う。通常業務であれば backlog のプロジェクト上で結構頻繁に push 作業をしているので（跨いでるプロジェクトが多いのもあるけど）、自分の芝はもっと濃かったのではないかと思っちゃう。
 
-[![GitHubのコントリビューショングラフ。8月後半から9月にかけて緑のマスが濃く集まっている](/src/images/thinks-of-backlog-to-github/b74a108b765bdf9bc7eaf3ae9c0f4e59.png)](/src/images/thinks-of-backlog-to-github/b74a108b765bdf9bc7eaf3ae9c0f4e59.png)
+![GitHubのコントリビューショングラフ。8月後半から9月にかけて緑のマスが濃く集まっている](/src/images/thinks-of-backlog-to-github/b74a108b765bdf9bc7eaf3ae9c0f4e59.png)
 
 もちろん Contribution activity とかをしっかり見れば何をしていたかは分かるのだけれど一見のインパクトというものは凄いなとも感じるところ。あとはモチベ維持につながるとかかな。
 

@@ -96,7 +96,7 @@ noindex: true
 
 業務委託として長年参加されているフロントエンドエンジニアの方が、とあるページのリニューアルに際してコンポーネントとスタイル定義をしたページを作成してくれました。
 
-[![ボタンコンポーネントのガイド](/src/images/looking-back-at-crowdworks-front-end-activities-2020/9cb40ace4fa8b7e7384858eb3824335d.png)](/src/images/looking-back-at-crowdworks-front-end-activities-2020/9cb40ace4fa8b7e7384858eb3824335d.png)
+![ボタンコンポーネントのガイド](/src/images/looking-back-at-crowdworks-front-end-activities-2020/9cb40ace4fa8b7e7384858eb3824335d.png)
 ![カラムのガイド](/src/images/looking-back-at-crowdworks-front-end-activities-2020/ce49ae964e0606d596ec8fc3fcf65680.png)
 ![ユーティリティクラスのガイド](/src/images/looking-back-at-crowdworks-front-end-activities-2020/13124071b0419e8e2158fa035067f963.png)
 

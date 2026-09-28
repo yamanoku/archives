@@ -23,7 +23,7 @@ noindex: true
 
 ## 東京都 新型コロナウイルス対策サイトとは
 
-[![東京都 新型コロナウイルス感染症対策サイト トップページのキャプチャ](/src/images/covid-19-site-a11y-contribute/3864297656ddf0b0f480d9832db166bc.png)](https://stopcovid19.metro.tokyo.lg.jp/)
+![東京都 新型コロナウイルス感染症対策サイト トップページのキャプチャ](/src/images/covid-19-site-a11y-contribute/3864297656ddf0b0f480d9832db166bc.png)
 
 東京都 新型コロナウイルス対策サイト（以下、covid-19 対策サイト）は非営利団体「[Code for Japan](https://www.code4japan.org/)」の有志によって作成されました。
 
@@ -62,7 +62,7 @@ covid-19 対策サイトの[行動規範](https://github.com/tokyo-metropolitan-
 私が確認した時点では、スクリーンリーダーという音声による支援技術をもって、ページにアクセスすることができていない状態でした。この Issue 上でそれができないことを指摘しました。<br>
 （こちらの指摘分は現在反映済みになっています）
 
-[![GitHubのユニバーサルデザインにまつわるIssue内でのコメント。yamanokuが「i18n対応されている最中ですが、 <html lang="en"> だとスクリーンリーダーで日本語が読まれません。（Android10のTalkBackでは再現されました） 出来る限り早めの対応であるとありがたいです。よろしくお願いいたします。」とコメントしている。](/src/images/covid-19-site-a11y-contribute/953fa25f2aa8cb0caa67c1c9100db2dd.png)](https://github.com/tokyo-metropolitan-gov/covid19/issues/65#issuecomment-594555464)
+![GitHubのユニバーサルデザインにまつわるIssue内でのコメント。yamanokuが「i18n対応されている最中ですが、 <html lang="en"> だとスクリーンリーダーで日本語が読まれません。（Android10のTalkBackでは再現されました） 出来る限り早めの対応であるとありがたいです。よろしくお願いいたします。」とコメントしている。](/src/images/covid-19-site-a11y-contribute/953fa25f2aa8cb0caa67c1c9100db2dd.png)
 
 ただ、この Issue 内で小出しに上げていくよりかは、一度まとめてページをチェックをしてみて、そこからラベル付けをして Issue 登録したほうがいいのではとアクセシビリティ向上に取り組む有志が反応しました。
 
