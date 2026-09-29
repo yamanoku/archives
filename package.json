@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@types/node": "^24.3.0",
-    "budoux": "0.9.2",
+    "budoux": "0.9.3",
     "gray-matter": "4.0.3",
     "prettier": "3.9.9",
     "puppeteer": "25.12.0",
