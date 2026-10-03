@@ -8,7 +8,7 @@ category: tech
 topic: frontend
 ---
 
-[![Image from Gyazo](https://i.gyazo.com/fbb497cbab8715df69b3cdbb47879216.png)](https://gyazo.com/fbb497cbab8715df69b3cdbb47879216)
+![青い背景に白い円が二つ重なり、中央に「Design System」と書かれた図](/src/images/everyone-should-know-that-design-system/fbb497cbab8715df69b3cdbb47879216.png)
 
 この記事は[クラウドワークス Advent Calendar 2019](https://qiita.com/advent-calendar/2019/crowdworks) の 15 日目になります。
 

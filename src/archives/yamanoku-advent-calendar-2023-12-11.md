@@ -48,7 +48,7 @@ noindex: true
 
 Tailwind CSSを使う際に、HTMLへの記述量が増えていくことに違和感をもつことはあると思います。実際のコード例をみるためにとあるサインインフォームを想定してみましょう。
 
-![ユーザーネームとパスワードのテキストボックスとSign inと書かれた送信ボタンが並ぶサインインフォーム。フォーム内部は白背景で外枠は角丸になっており薄いシャドウボックスがつけられている。](https://i.gyazo.com/85f8040534019a309a8c605dea8e90c9.png)
+![ユーザーネームとパスワードのテキストボックスとSign inと書かれた送信ボタンが並ぶサインインフォーム。フォーム内部は白背景で外枠は角丸になっており薄いシャドウボックスがつけられている。](/src/images/yamanoku-advent-calendar-2023-12-11/85f8040534019a309a8c605dea8e90c9.png)
 
 このサインインフォームをTailwind CSSでスタイリングすると以下のようなコードになります。
 
@@ -224,7 +224,7 @@ GitHub Copilotを用いて、こうした表現をしたいというプロンプ
 <!-- prettier-ignore-end -->
 
 <figure>
-  <img src="https://i.gyazo.com/61cbaefc9ec36e03270d62253fc95f6c.png" alt="GitHub Copilotにより生成されたカードUI。カード全体は角丸になっていてダミー画像が入った後にタイトルと説明文の順番で並んでおりその部分は白背景になっている。" width="480" loading="lazy">
+  <img src="/src/images/yamanoku-advent-calendar-2023-12-11/61cbaefc9ec36e03270d62253fc95f6c.png" alt="GitHub Copilotにより生成されたカードUI。カード全体は角丸になっていてダミー画像が入った後にタイトルと説明文の順番で並んでおりその部分は白背景になっている。" width="480" loading="lazy">
   <figcaption>GitHub Copilotにより生成されたカードUI</figcaption>
 </figure>
 

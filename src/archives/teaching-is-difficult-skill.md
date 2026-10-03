@@ -8,7 +8,7 @@ category: essay
 topic: work
 ---
 
-[![Image from Gyazo](https://i.gyazo.com/628338659a05e326da02b7d2531e5f2d.png)](https://gyazo.com/628338659a05e326da02b7d2531e5f2d)
+![斜体の青灰色で「Teach」と書かれた文字](/src/images/teaching-is-difficult-skill/628338659a05e326da02b7d2531e5f2d.png)
 
 教えるという技術、普通は習うことのないことです。
 
@@ -22,7 +22,7 @@ topic: work
 
 こういった認知の仕方や速度というのは人それぞれであり、それを経験値の有無抜きでダメだとか語る輩がいるけどなんなんすかねって話です。
 
-[![Image from Gyazo](https://i.gyazo.com/21556f361ea5fbca3e08f21d051ccf2b.jpg)](https://gyazo.com/21556f361ea5fbca3e08f21d051ccf2b)
+![認識の早さの比較図。Aは赤の人が6分・青の人が1分、Bは赤が30秒・青が6分で、「人によって事象を理解する早さは違う」と書かれている](/src/images/teaching-is-difficult-skill/21556f361ea5fbca3e08f21d051ccf2b.jpg)
 
 僕は大学の時にバイトで職業訓練校でおじさんおばさんに PC の使い方、Office の使い方をアシスタントで教えていたりした
 
@@ -40,7 +40,7 @@ topic: work
 
 ですがそれによってもたらされる不条理な扱いやら言説による圧力は勘弁しろということはお忘れなく。
 
-[![Image from Gyazo](https://i.gyazo.com/46da22b14cf528756797e9d02861b189.jpg)](https://gyazo.com/46da22b14cf528756797e9d02861b189)
+![左右の目が白から黒のグラデーションの球を反対側から見ている図。「自分が見ていた部分以外でも見える部分があるかもしれない。」と書かれている](/src/images/teaching-is-difficult-skill/46da22b14cf528756797e9d02861b189.jpg)
 
 なんやかんやありましたが、結局教えるってことは難しいわけですが、そんなに躍起になる必要はないんじゃないかと思います。
 

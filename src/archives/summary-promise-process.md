@@ -113,7 +113,7 @@ fetchSomething1()
 
 ## ブラウザ対応状況 -- CanIUse
 
-[![Image from Gyazo](https://i.gyazo.com/27f6663a05cf677796e44911a766c161.png)](https://gyazo.com/27f6663a05cf677796e44911a766c161)
+![Can I UseのPromises対応表。全世界88.39%で、IE 11とOpera Miniは赤、Edge・Firefox・Chrome・Safariなどは緑](/src/images/summary-promise-process/27f6663a05cf677796e44911a766c161.png)
 
 発表されてからだいぶ時間が経ったのでブラウザ対応であれば、現状 IE11 以外だったら大丈夫。
 
@@ -123,11 +123,11 @@ fetchSomething1()
 
 ### Promise vs Callback
 
-[![Image from Gyazo](https://i.gyazo.com/9eb43867d18465da067d59ea659365e1.png)](https://gyazo.com/9eb43867d18465da067d59ea659365e1)
+![Chrome 58でのjsPerf。非同期のCallbackが208 ops/secで最速、Promiseは204 ops/secで1% slower](/src/images/summary-promise-process/9eb43867d18465da067d59ea659365e1.png)
 
 ### Native Promise vs Callback
 
-[![Image from Gyazo](https://i.gyazo.com/363caf653209063133a294aca9e1e8e1.png)](https://gyazo.com/363caf653209063133a294aca9e1e8e1)
+![Chrome 58でのjsPerf。Callbackが13,027 ops/secで最速、Native Promiseは1,014 ops/secで92% slower](/src/images/summary-promise-process/363caf653209063133a294aca9e1e8e1.png)
 
 非同期処理だとそこまで差はないけどそのまま使う Promise だと圧倒的に Callback のがパフォーマンス良い。素で使わないほうがよさそう。
 

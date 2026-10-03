@@ -8,7 +8,7 @@ category: retrospective
 topic: frontend
 ---
 
-[![Image from Gyazo](https://i.gyazo.com/baf0bffa88a384d25b672d4f9cecaa62.jpg)](https://gyazo.com/baf0bffa88a384d25b672d4f9cecaa62)
+![古いWindowsのウィンドウ「Poste de travail」に、水色背景とピンク縁のPLAYBACK TECH 2017の文字](/src/images/playback-tech-2017/baf0bffa88a384d25b672d4f9cecaa62.jpg)
 
 ## Velocity.js
 
@@ -31,7 +31,7 @@ topic: frontend
 
 ## Docker + WordPress
 
-[![Image from Gyazo](https://i.gyazo.com/69af6f1b89ec88b2af36e7988f45af44.jpg)](https://gyazo.com/69af6f1b89ec88b2af36e7988f45af44) [![Image from Gyazo](https://i.gyazo.com/2e2cbb5e6bc6f1531149f12f0d43c31d.png)](https://gyazo.com/2e2cbb5e6bc6f1531149f12f0d43c31d)
+![Dockerのロゴ](https://i.gyazo.com/69af6f1b89ec88b2af36e7988f45af44.jpg) ![黒背景に描かれた、ダークグレーのWordPressのWロゴ](/src/images/playback-tech-2017/2e2cbb5e6bc6f1531149f12f0d43c31d.png)
 
 - 社内案件で Docker を使っていたので個人的にもなんか使えないかと画策。
 - WordPress を動かすのがちょうどチュートリアルとして良さそうでした。
@@ -95,7 +95,7 @@ render() {
 
 # PostCSS
 
-[![Image from Gyazo](https://i.gyazo.com/2599c040c415d83db1ebc75e021bfd45.png)](https://gyazo.com/2599c040c415d83db1ebc75e021bfd45)
+![白い背景に赤い手描きの円。中に三角と四角と円を重ねたPostCSSのロゴ](/src/images/playback-tech-2017/2599c040c415d83db1ebc75e021bfd45.png)
 
 - 社内的には Stylus をこれまで使用していたが、更新があまりない（2~4 年前の）CSS プリプロセッサだったので、改めて一体どのようなオプションだけが必要なのか・PostCSS 自体も業務に導入すべきかなどあった上で自分の方で試してみた感じです。
 - 感想としては css 単体で使うよりも sass や less などに付随させて必要なものを動かすのがてっとり早いという感じ。
@@ -127,7 +127,7 @@ render() {
 
 ## Vue.js、Nuxt.js
 
-[![Image from Gyazo](https://i.gyazo.com/3a2a2919e156d721277ae29ebc7a9eae.png)](https://gyazo.com/3a2a2919e156d721277ae29ebc7a9eae) [![Image from Gyazo](https://i.gyazo.com/ad0755fc9babcc4f48c7080944f04ac4.jpg)](https://gyazo.com/ad0755fc9babcc4f48c7080944f04ac4)
+![Vue.jsのロゴ](https://i.gyazo.com/3a2a2919e156d721277ae29ebc7a9eae.png) ![Nuxt.jsのロゴ](https://i.gyazo.com/ad0755fc9babcc4f48c7080944f04ac4.jpg)
 
 - 去年、個人的に動かしてみて理解につなげてみてましたが、実は社内案件でこっそり使い始めています。
 - Nuxt.js は興味湧いたので個人的に触ってみてます。SPA、SSR ほか静的ジェネレータとしても使えるようなのでマークアップ案件で活かせないかと検討中。
@@ -160,7 +160,7 @@ render() {
 
 - デザインツールではあるが弊社デザイナーが取り入れてみた上記２点も体験してみました。
 - CSS コード自動生成がすごい。100％希望通りのこととはならないが、画像化されているものの CSS 判定の精度の高さに感動しました。
-  - [![Image from Gyazo](https://i.gyazo.com/8eaefa123b187ebcb3ef3e03f469b67d.png)](https://gyazo.com/8eaefa123b187ebcb3ef3e03f469b67d)
+  - ![デザインツールが自動生成したCSSの画面](https://i.gyazo.com/8eaefa123b187ebcb3ef3e03f469b67d.png)
   - と当時書いてみたがどうやら微妙に px が違う問題があるらしい
 - あと Sketch も案件によっては触れる機会がありました。
 

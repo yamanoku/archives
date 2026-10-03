@@ -45,7 +45,7 @@ Intersection（交点）Observer（監視）ということで要素自体が交
 
 <CodePen url="https://codepen.io/yamanoku/pen/KqLWZM" embed="https://codepen.io/yamanoku/embed/KqLWZM" title="Intersection Obeserver Test code" author="@yamanoku" />
 
-[![https://gyazo.com/bebf722e1e507c4b4a1fe9b5c01dd81b](https://i.gyazo.com/bebf722e1e507c4b4a1fe9b5c01dd81b.gif)](https://gyazo.com/bebf722e1e507c4b4a1fe9b5c01dd81b)
+![https://gyazo.com/bebf722e1e507c4b4a1fe9b5c01dd81b](https://i.gyazo.com/bebf722e1e507c4b4a1fe9b5c01dd81b.gif)
 
 いわゆる「ある程度の表示にきたらヘッダの色を変える」アレです。スクロール量に制御されないので、レスポンシブなどで要素の高さが変わった場合でもこの調整は効きます。
 

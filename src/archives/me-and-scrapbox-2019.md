@@ -17,8 +17,8 @@ topic: life
 - Drinkup の会場提供をでき
   - [Scrapbox Drinkup #9](https://scrapbox.io/yamanoku/Scrapbox_Drinkup_%239)
     - [「Scrapbox Drinkup #9」面白活用法から悩み相談まで。LT 大会！ - Scrapbox - Medium](https://medium.com/@scrapbox/scrapbox-drinkup-9-f12e6b06f939)
-    - [![Image](https://gyazo.com/ee74bcf4c342acdbd50e4ba6f25dcac0/thumb/1000)](https://gyazo.com/ee74bcf4c342acdbd50e4ba6f25dcac0)
-    - [![Image](https://gyazo.com/9d641538309060936bb229f45d64eeff/thumb/1000)](https://gyazo.com/9d641538309060936bb229f45d64eeff)
+    - ![Scrapbox Drinkup #9 の会場の写真](https://gyazo.com/ee74bcf4c342acdbd50e4ba6f25dcac0/thumb/1000)
+    - ![Scrapbox Drinkup #9 で、会社ロゴのTシャツの代わりにパーカーを着ている写真](https://gyazo.com/9d641538309060936bb229f45d64eeff/thumb/1000)
       - この時暑かったのに男物の会社ロゴ T シャツがなかったのでパーカー着てました
   - きっかけ
     - [/scrapbox-drinkup/Scrapbox Drinkup のテーマや開催場所を募集します](https://scrapbox.io/scrapbox-drinkup/Scrapbox_Drinkup%E3%81%AE%E3%83%86%E3%83%BC%E3%83%9E%E3%82%84%E9%96%8B%E5%82%AC%E5%A0%B4%E6%89%80%E3%82%92%E5%8B%9F%E9%9B%86%E3%81%97%E3%81%BE%E3%81%99)
@@ -54,9 +54,9 @@ topic: life
     - 来年は[Ruby](https://scrapbox.io/yamanoku/Ruby)系行くと思う
   - 基本メモは[Scrapbox](https://scrapbox.io/yamanoku/Scrapbox)で取る
     - 秘匿情報とかは社内[Slack](https://scrapbox.io/yamanoku/Slack)とかに
-  - [![Image](https://gyazo.com/fa84c40a62daed27489f55a0c5548823/thumb/1000)](https://twitter.com/morumoru72/status/1095120544213553152)
+  - ![Scrapboxで勉強会のメモを取ったことへの反応のツイート](https://gyazo.com/fa84c40a62daed27489f55a0c5548823/thumb/1000)
     - うれしい
-  - [![Image](https://gyazo.com/51aadb806dbaa3de145e4d367e7a34dc/thumb/1000)](https://twitter.com/yamanoku/status/1126279518476324864)
+  - ![やまのくのツイート。「自分のがはてなブックマーク上位にくることなんてまず無いだろうから記念にスクショ撮っておいた」](https://gyazo.com/51aadb806dbaa3de145e4d367e7a34dc/thumb/1000)
     - [最近の DMM のフロントエンドの動向とその先について](https://scrapbox.io/yamanoku/%E6%9C%80%E8%BF%91%E3%81%AEDMM%E3%81%AE%E3%83%95%E3%83%AD%E3%83%B3%E3%83%88%E3%82%A8%E3%83%B3%E3%83%89%E3%81%AE%E5%8B%95%E5%90%91%E3%81%A8%E3%81%9D%E3%81%AE%E5%85%88%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
     - まとめたのがはてブにあがった
 - メモを取るもの
@@ -67,7 +67,7 @@ topic: life
       - ただのメモと別格になりうる
       - 関係ない Word でも紐づくことがある
     - 自分だけの Wikipedia のようなものができる
-    - [![Image](https://gyazo.com/81f2910a9761d7bfb48197c7919e4f03/thumb/1000)](https://twitter.com/daizplus/status/1122018302098722816)
+    - ![daiizさん（@daizplus）のツイート。「勉強会に参加してScrapboxでメモ取っていくと、初めて知ったことがオレンジ色のリンクになり、知識の広がりを感じられる」。1 Retweet、16 Likes](/src/images/me-and-scrapbox-2019/81f2910a9761d7bfb48197c7919e4f03.png)
 
 ## Web にあげる資料は極力はテキスト情報であってほしい
 
@@ -108,8 +108,8 @@ topic: life
 
 - 視覚障害者の意見（掲載許可もらった）
   - 全盲エンジニアの方
-    - [![Image](https://gyazo.com/5b259b752521774d0bf69f778c38d2fa/thumb/1000)](https://twitter.com/nyanchan2013/status/1112530965824339968)
-    - [![Image](https://gyazo.com/67eb7ad4b9fec816dd50c31544bcbc01/thumb/1000)](https://twitter.com/nyanchan2013/status/1186629127324848129)
+    - ![猫さん（@nyanchan2013）のツイート。Scrapboxのような入力エリアは、全部コピーしてローカルエディタで編集し、戻って入れ替える、と書いている](https://gyazo.com/5b259b752521774d0bf69f778c38d2fa/thumb/1000)
+    - ![猫さん（@nyanchan2013）の返信。「数年前から変わっていなければ、読めますが、入力はできません。」](https://gyazo.com/67eb7ad4b9fec816dd50c31544bcbc01/thumb/1000)
       - [NVDA](https://scrapbox.io/yamanoku/NVDA)では読み取れることはできる
       - 書き込むことはできない
   - 個人的な観測として
@@ -128,7 +128,7 @@ topic: life
   - [https://github.com/nota/key-focus-visible](https://github.com/nota/key-focus-visible)
   - [https://github.com/nota/mouse-hover-visible](https://github.com/nota/mouse-hover-visible)
 - マウスフォーカスとキーフォーカスの違い対応
-  - [![Image](https://gyazo.com/05b6b73c50228ae5901d852d0b73a903/thumb/1000)](https://gyazo.com/05b6b73c50228ae5901d852d0b73a903)
+  - ![Scrapboxのメニューで青いフォーカス枠が「more (7 projects, 1 business)」から上の項目へ移り、その後マウスポインタが項目をなぞると青枠は出ず灰色の背景だけになる](/src/images/me-and-scrapbox-2019/05b6b73c50228ae5901d852d0b73a903.gif)
     - フォーカスしてるときはアウトラインが出てる
     - クリックするときはアウトラインが出ない
     - [what-input](https://scrapbox.io/yamanoku/what-input)のそれに近い

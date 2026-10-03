@@ -134,7 +134,7 @@ block contents
 
 そんな中、`Vue.js`からの派生フレームワークで今年バージョン 1.0 がリリースされた`Nuxt.js`というものの存在を知りました。
 
-[![Screenshot from Gyazo](https://gyazo.com/0a683b30754e8e77285eb23fd5230cb0/raw)](https://gyazo.com/0a683b30754e8e77285eb23fd5230cb0)
+![Nuxt.jsの紹介が写っている画面](https://gyazo.com/0a683b30754e8e77285eb23fd5230cb0/raw)
 
 最初は`Vue.js`を使って SPA や SSR といった開発が容易にできる！　といった評判を聞いており、自分は「へ〜こういうのがリリースされたのね」という感覚で受け取っていて、あとで触ってみるかなーという感じで、知った当時はそれほど興味なりはそこまでといった感じでした。
 
@@ -229,11 +229,11 @@ module.exports = {
 
 そして CSS 管理においては`scoped CSS`を使用すると、コンポーネントやレイアウト、ページ単体の CSS 管理ができます。
 
-[![Screenshot from Gyazo](https://gyazo.com/3ba66219ffec42b5e34e50a659d165f4/raw)](https://gyazo.com/3ba66219ffec42b5e34e50a659d165f4)
+![style scoped内のCSS。articleを全面に絶対配置し、.detailと.detail_headingの背景・余白・角丸を指定している](/src/images/markup-engineer-think-nuxtjs/3ba66219ffec42b5e34e50a659d165f4.png)
 
 こうすると
 
-[![Screenshot from Gyazo](https://gyazo.com/a72042dcd05dfb09e4b085f427e1cf95/raw)](https://gyazo.com/a72042dcd05dfb09e4b085f427e1cf95)
+![開発者ツールのElementsとStyles。div.detailにクラス_v-3557b288が付き、右に同じセレクタのCSSが出ている](/src/images/markup-engineer-think-nuxtjs/a72042dcd05dfb09e4b085f427e1cf95.png)
 
 クラスにユニーク名が付与されてこういうことができます（画像のは Nuxt.js ではないのですがイメージとして）。
 
