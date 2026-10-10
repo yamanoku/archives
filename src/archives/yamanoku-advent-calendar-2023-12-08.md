@@ -11,11 +11,6 @@ noindex: true
 
 みなさんは日々の記録は取っているだろうか。TODOサービスで今日やったことを記していたり、ブログで記事として更新していたり、NotionやObsidianのようなサービスを使っていたり、あるいはOSのメモ帳で書いていたりなど様々あると思う。私はそうした記録を[Scrapbox](https://scrapbox.io/)で書くようにしている。
 
-<figure>
-  <img src="https://i.gyazo.com/5f93e65a3b979ae5333aca4f32600611.png" alt="Scrapboxのロゴマーク" loading="lazy">
-  <figcaption>Scrapbox</figcaption>
-</figure>
-
 私のScrapboxには「[日報](https://scrapbox.io/yamanoku/nippo%E3%81%BE%E3%81%A8%E3%82%81)」という形でその日あったことや思ったことの内容を1ページ1日分としてまとめていってる。2021年からやりはじめて、今まで継続できている。今年も残すところわずかではあるが、毎日更新できていたのは個人的にも褒めてやりたい気持ちである。
 
 <figure>

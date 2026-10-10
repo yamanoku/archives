@@ -28,8 +28,6 @@ topic: frontend
 
 ## アクセシビリティ活動
 
-![2018年のアクセシビリティ活動を示す画像](https://gyazo.com/9e358448e053d1f1998bd045d413562b/thumb/1000)
-
 - 去年からやっていくぞみたいなことをやってたので個人的に色々やってみてます。
 - WAI-ARIA の導入・実施
   - 去年より引き続き
@@ -73,7 +71,6 @@ topic: frontend
   - 個人的一押しサービス
   - プライベートリポジトリも無料でホスティングできる
 - Firebase
-  - ![Firebaseのロゴ](https://gyazo.com/c6e057f43e4dc45e6a30fa051d61d668/thumb/1000)
   - 最近人気がある？　 GCP よりかは名前をよく聞く
   - 年収 1000 万いけるらしい
   - [11. フロントエンドエンジニアのキャリアパス](https://bkkcast.me/011/)
@@ -86,8 +83,6 @@ topic: frontend
     - [新サービス「AWS Amplify Console」登場！簡単 3 ステップで Web アプリの CI/CD 環境を構築！ #reinvent ｜ DevelopersIO](https://dev.classmethod.jp/cloud/aws/amplify-console/)
 
 ## Renovate
-
-![Renovateのロゴ](https://gyazo.com/330388a9f5d6d18640bd029b0bf20a0e/thumb/1000)
 
 - サイボウズフロントエンド MeetUp の[Teppeis](https://twitter.com/teppeis)さんのスライドで知った
   - [Automated Dependency Updates with Renovate](https://www.slideshare.net/teppeis/automated-dependency-updates-with-renovate-102769685)
@@ -123,8 +118,6 @@ topic: frontend
 
 ## Scrapbox の社内活用
 
-![Scrapboxのロゴマーク](https://gyazo.com/5f93e65a3b979ae5333aca4f32600611/thumb/1000)
-
 - もともと自分で使ってみていた
 - 会社内でもやってみようとのことでクリエイティブチーム内で実施
 - [Scrapbox Drinkup #4 Tokyo Edition](https://nota.connpass.com/event/87600/)に参加してみて改めてその凄さを実感
@@ -148,17 +141,13 @@ topic: frontend
 - とあるパフォーマンス・チューニング結果の紹介
 - lighthouse Performance 評価
   - Before
-    - ![改善前のLighthouseのPerformance。First Contentful Paint以外は赤で、総合25点](https://gyazo.com/f17c1d5c17a0110f02b1fe6040ab4dd8/thumb/1000)
     - First Contentful Paint を除き赤点。全体評価として 25 点
   - After
-    - ![改善後のLighthouseのPerformance。First Meaningful PaintとSpeed Indexが合格で、総合53点](https://gyazo.com/5d0e20c2072216fbda4757339a7e8211/thumb/1000)
     - First Meaningful Paint, Speed Index が合格判定、ほか赤点箇所も秒数をほぼ減らせて合計 53 点
 - 初回ロード時のリクエスト比較
   - Before
-    - ![改善前の初回ロード。画像や動画の読み込みが重なり、20000msかかっている](https://i.gyazo.com/3695db66547ec47ceeec0ede67462be2.png)
     - 主に画像や動画などの読み込みが多重化しており、20000ms かかっていた
   - After
-    - ![遅延読み込み後の初回ロード。リクエストが減り、2000msになっている](https://gyazo.com/eb0aa95ee51f245a875b1843fe94c668/thumb/1000)
     - 遅延読み込みを活用し、初回のリクエストを減らした結果 2000ms という 1/10 の短縮に成功！
 - lighthouse と少し仲良くなれた
   - [Lighthouse によるウェブアプリの監査 | Tools for Web Developers | Google Developers](https://developers.google.com/web/tools/lighthouse/?hl=ja)

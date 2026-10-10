@@ -10,8 +10,6 @@ topic: frontend
 
 ## 追記（2018/10/26）
 
-![vue init nuxt-community/starter-template がdeprecatedになったという告知](https://i.gyazo.com/e91df68c9bb73a2637ad2fb09da78d64.png)
-
 `vue init nuxt-community/starter-template` が公式発表 10/14 で**deprecated**になったようです。
 
 https://github.com/nuxt-community/starter-template/commit/82513c7306563b2dd42c7da3efed57803d25aea2

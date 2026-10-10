@@ -74,8 +74,6 @@ export class Hogehoge extends React.Component {
 
 #### 結果
 
-![https://gyazo.com/e8336990759c1b762050251c0c7fe510](https://i.gyazo.com/e8336990759c1b762050251c0c7fe510.png)
-
 ちなみに `<img>` の src 読み込みでも同じこと出来ます。
 
 ```tsx
@@ -92,8 +90,6 @@ export class Hogehoge extends React.Component {
   }
 }
 ```
-
-![https://gyazo.com/c5174a5a6a99b4d7570ca7c5e8080ecf](https://i.gyazo.com/c5174a5a6a99b4d7570ca7c5e8080ecf.png)
 
 ### 参考 URL
 

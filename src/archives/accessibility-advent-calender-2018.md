@@ -86,7 +86,6 @@ topic: accessibility
   - つまり「知らなかった」というのが多い印象だったので話せてよかった
   - あと発表内容で株式会社オロさんのサイトに
   - ハンバーガーメニューが`div`になってるよって突っ込んだら
-    - ![株式会社オロのサイトで、ハンバーガーメニューがdiv要素になっている箇所](https://i.gyazo.com/62de914247a206399a0a67f7f60589a3.gif)
   - その後`button`タグに変更していただいたのが嬉しかった。神
     - ![開発者ツールでハンバーガーアイコンがbutton要素として選ばれ、aria-labelが「メニュー」になっている画面](https://images.yamanoku.net/accessibility-advent-calender-2018/8aa25117edf1d9f19f7239d747274f8b.png)
     - [outline: none;](https://scrapbox.io/yamanoku/outline:_none%3B#5be123a8c2cd3f0000effce3)

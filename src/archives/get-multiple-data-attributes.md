@@ -45,13 +45,9 @@ console.log(obj.name); // 名前
 
 https://jsfiddle.net/z56ryn6L/
 
-![demo2](https://i.gyazo.com/b765e53468af449c647ee78431270049.png)
-
 #### デモ（失敗パターン）
 
 https://jsfiddle.net/z56ryn6L/1/
-
-![demo1](https://i.gyazo.com/f70f6b62962682d57cefdfb1779e5ce0.png)
 
 失敗パターンでは、配列時は全体が文字列と化しているので、そこから何番目のものかを取得してきています。
 オブジェクトの場合は key から value を参照できません。
