@@ -8,7 +8,7 @@ category: tech
 topic: frontend
 ---
 
-![青い背景に文書アイコンが3枚並び、中央の紙に「<html>」、下に「hyper text markup language」と書かれている](https://images.yamanoku.net/revisit-web-from-html/42acf3b5c065db36cd9ef55287a47549.jpg)
+![青い背景に文書アイコンが3枚並び、中央の紙に「`<html>`」、下に「hyper text markup language」と書かれている](https://images.yamanoku.net/revisit-web-from-html/42acf3b5c065db36cd9ef55287a47549.jpg)
 
 ## そもそも HTML とは何なのか？
 

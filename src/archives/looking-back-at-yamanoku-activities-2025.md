@@ -441,7 +441,7 @@ topic: life
 - [**Vueユーザーから見るReact Tokyoコミュニティ**](https://zenn.dev/yamanoku/articles/react-tokyo-advent-calender-2025)**書いた**
 - [東葛.devの年忘れ交流会](https://scrapbox.io/toukatsu-dev/%E5%B9%B4%E5%BF%98%E3%82%8C%E4%BA%A4%E6%B5%81%E4%BC%9A%5F2025%2F12%2F13%28%E6%97%A5%29%5F18:00%5F-%5F22:00%5F@%E6%B5%81%E5%B1%B1)に参加
 - 娘のダンス教室での成果発表会があったので寒空の下で観てきた
-- [**東葛.dev**](http://東葛.dev)[**アドカレ2025「**](https://scrapbox.io/toukatsu-dev/%E6%9D%B1%E8%91%9B.dev%E3%82%A2%E3%83%89%E3%82%AB%E3%83%AC2025%E3%80%8C%E6%9D%B1%E8%91%9B.dev%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%A61%E5%B9%B4%E7%B5%8C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7%E8%89%AF%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D%E3%82%9210%E5%80%8B%E6%8C%99%E3%81%92%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F%E3%80%8D)[**東葛.dev**](http://東葛.dev)[**に参加して1年経ったので良いところを10個挙げてみました」**](https://scrapbox.io/toukatsu-dev/%E6%9D%B1%E8%91%9B.dev%E3%82%A2%E3%83%89%E3%82%AB%E3%83%AC2025%E3%80%8C%E6%9D%B1%E8%91%9B.dev%E3%81%AB%E5%8F%82%E5%8A%A0%E3%81%97%E3%81%A61%E5%B9%B4%E7%B5%8C%E3%81%A3%E3%81%9F%E3%81%AE%E3%81%A7%E8%89%AF%E3%81%84%E3%81%A8%E3%81%93%E3%82%8D%E3%82%9210%E5%80%8B%E6%8C%99%E3%81%92%E3%81%A6%E3%81%BF%E3%81%BE%E3%81%97%E3%81%9F%E3%80%8D)**書いた**
+- [**東葛.devアドカレ2025「東葛.devに参加して1年経ったので良いところを10個挙げてみました」**](./toukatsu-dev-10-good-things)**書いた**
 - [honobon](https://honobon.jp/)のオープンベータリリースにつきDiscordサーバーにジョイン
 - [Mita.ts #9](https://mitats.connpass.com/event/373208/)へ参加・発表
   - [株式会社バックテック](https://backtech.co.jp/)に初潜入

@@ -16,7 +16,7 @@ topic: frontend
 
 例えばフォームで送信する際に通常であれば名前や住所といった文字列を入力するとおもいますが、ここにスクリプトタグを書き込んで送信されると、XSS 対策されているサイトであればタグ囲み部分がエスケープされて実行されませんが、対策がされていないとそのままスクリプトタグを読み込んでしまい、実行がされてしまうといった流れです。
 
-![コメント欄に「<script>alert('XSS');</script>」と入れてsubmitすると、ダイアログに「XSS」と出る画面](https://images.yamanoku.net/risks-of-xss_and_how-to-counteract/9fd2a746caa6623a7b8b58136df0aa8c.png)
+![コメント欄に「`<script>alert('XSS');</script>`」と入れてsubmitすると、ダイアログに「XSS」と出る画面](https://images.yamanoku.net/risks-of-xss_and_how-to-counteract/9fd2a746caa6623a7b8b58136df0aa8c.png)
 
 このように動的な要素を生成する場合、XSS 脆弱性を発生させやすくなっています。他にも以下の様な危険性があげられます。
 

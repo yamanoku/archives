@@ -62,7 +62,7 @@ covid-19 対策サイトの[行動規範](https://github.com/tokyo-metropolitan-
 私が確認した時点では、スクリーンリーダーという音声による支援技術をもって、ページにアクセスすることができていない状態でした。この Issue 上でそれができないことを指摘しました。<br>
 （こちらの指摘分は現在反映済みになっています）
 
-![GitHubのユニバーサルデザインにまつわるIssue内でのコメント。yamanokuが「i18n対応されている最中ですが、 <html lang="en"> だとスクリーンリーダーで日本語が読まれません。（Android10のTalkBackでは再現されました） 出来る限り早めの対応であるとありがたいです。よろしくお願いいたします。」とコメントしている。](https://images.yamanoku.net/covid-19-site-a11y-contribute/953fa25f2aa8cb0caa67c1c9100db2dd.png)
+![GitHubのユニバーサルデザインにまつわるIssue内でのコメント。yamanokuが「i18n対応されている最中ですが、 `<html lang="en">` だとスクリーンリーダーで日本語が読まれません。（Android10のTalkBackでは再現されました） 出来る限り早めの対応であるとありがたいです。よろしくお願いいたします。」とコメントしている。](https://images.yamanoku.net/covid-19-site-a11y-contribute/953fa25f2aa8cb0caa67c1c9100db2dd.png)
 
 ただ、この Issue 内で小出しに上げていくよりかは、一度まとめてページをチェックをしてみて、そこからラベル付けをして Issue 登録したほうがいいのではとアクセシビリティ向上に取り組む有志が反応しました。
 

@@ -37,7 +37,7 @@ Web標準技術の相互運用向上プロジェクトである[Interop](https:/
 
 Custom Elementsの具体的な使用例を上げると、GitHubのリポジトリ内での更新日付部分で使用されており、開発ツールで該当部分を見ると独自のHTML要素で定義されていることがわかります[^2]。
 
-[^2]: [github/relative-time-element: Web component extensions to the standard <time> element.](https://github.com/github/relative-time-element)
+[^2]: [github/relative-time-element: Web component extensions to the standard `<time>` element.](https://github.com/github/relative-time-element)
 
 ![relative-timeというCustom Elementsによって「last week」と表示されている](https://images.yamanoku.net/improvements-to-custom-elements-in-vue3-5/51a182f6b9bf3c266eaa65d41434b1b2.png)
 
