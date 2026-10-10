@@ -28,10 +28,9 @@ topic: frontend
 
 ## [https://nagareyama.yamanoku.net/](https://nagareyama.yamanoku.net/)
 
-- ![流山市の周辺情報。避難所、小児科、ご飯どころが並んでいるページ](https://gyazo.com/d4b4fad35f4449b38284acf64b523a43/thumb/1000)
-  - 流山市避難所
-  - 小児科
-  - ご飯どころ
+- 流山市避難所
+- 小児科
+- ご飯どころ
 - 現状周辺のことを載せてるだけですね
   - 全然足りんし
 

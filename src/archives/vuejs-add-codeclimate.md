@@ -13,8 +13,6 @@ topic: frontend
 vue.js で作ったプロジェクトを[CodeClimate](https://codeclimate.com/)で試そうと思ったのだけれど、
 通常時では `.vue` ファイルは CodeClimate の判定に入らない。
 
-![https://gyazo.com/3b6d92ed3d572446412316149a671855](https://i.gyazo.com/3b6d92ed3d572446412316149a671855.png)
-
 ## 解決
 
 ### 公式ドキュメント
@@ -65,17 +63,11 @@ ratings:
 
 ### リポジトリを追加する
 
-![https://gyazo.com/d7b3f4fefe8bd36f1728c77524f5ad18](https://i.gyazo.com/d7b3f4fefe8bd36f1728c77524f5ad18.png)
-
 「Open sourse」→「Add a repository」で移動して、対象のリポジトリを追加する。
-
-![https://gyazo.com/723ddf55036630f0a108a0d11d155e5e](https://i.gyazo.com/723ddf55036630f0a108a0d11d155e5e.png)
 
 判定、通過しているか確認。
 
 ### 結果
-
-![https://gyazo.com/12753c13ba022e6e4fe5504fc17ac2d2](https://i.gyazo.com/12753c13ba022e6e4fe5504fc17ac2d2.png)
 
 判定できた！　ちなみに今回は細かい `.eslintsrc` ほか、詳細な eslint 設定などはしてないです。
 

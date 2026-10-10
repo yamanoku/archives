@@ -31,7 +31,7 @@ topic: frontend
 
 ## Docker + WordPress
 
-![Dockerのロゴ](https://i.gyazo.com/69af6f1b89ec88b2af36e7988f45af44.jpg) ![黒背景に描かれた、ダークグレーのWordPressのWロゴ](https://images.yamanoku.net/playback-tech-2017/2e2cbb5e6bc6f1531149f12f0d43c31d.png)
+![黒背景に描かれた、ダークグレーのWordPressのWロゴ](https://images.yamanoku.net/playback-tech-2017/2e2cbb5e6bc6f1531149f12f0d43c31d.png)
 
 - 社内案件で Docker を使っていたので個人的にもなんか使えないかと画策。
 - WordPress を動かすのがちょうどチュートリアルとして良さそうでした。
@@ -127,8 +127,6 @@ render() {
 
 ## Vue.js、Nuxt.js
 
-![Vue.jsのロゴ](https://i.gyazo.com/3a2a2919e156d721277ae29ebc7a9eae.png) ![Nuxt.jsのロゴ](https://i.gyazo.com/ad0755fc9babcc4f48c7080944f04ac4.jpg)
-
 - 去年、個人的に動かしてみて理解につなげてみてましたが、実は社内案件でこっそり使い始めています。
 - Nuxt.js は興味湧いたので個人的に触ってみてます。SPA、SSR ほか静的ジェネレータとしても使えるようなのでマークアップ案件で活かせないかと検討中。
   - [Vue.js 製フレームワーク Nuxt.js ではじめる Universal アプリケーション開発](https://html5experts.jp/potato4d/24346/)
@@ -160,7 +158,6 @@ render() {
 
 - デザインツールではあるが弊社デザイナーが取り入れてみた上記２点も体験してみました。
 - CSS コード自動生成がすごい。100％希望通りのこととはならないが、画像化されているものの CSS 判定の精度の高さに感動しました。
-  - ![デザインツールが自動生成したCSSの画面](https://i.gyazo.com/8eaefa123b187ebcb3ef3e03f469b67d.png)
   - と当時書いてみたがどうやら微妙に px が違う問題があるらしい
 - あと Sketch も案件によっては触れる機会がありました。
 

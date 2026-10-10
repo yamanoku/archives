@@ -8,8 +8,6 @@ category: tech
 topic: frontend
 ---
 
-![Velocity.js](https://i.gyazo.com/e4ff99807a7e6917ee9f5dfa0be8f5fc.png)
-
 Velocity.js、アニメーションさせる際には[CSS で動かすよりも圧倒的パフォーマンス](https://davidwalsh.name/css-js-animation)を出すことで非常に便利なのですが、とある機能の日本語情報が見受けられなかったのでここに記載します！
 
 ## 一時停止 → 再生機能
@@ -63,8 +61,6 @@ $(function () {
 ## デモ
 
 [https://jsfiddle.net/g09jkr80/1/](https://jsfiddle.net/g09jkr80/1/)
-
-![demo](https://i.gyazo.com/cc2cc731deccdd699f8f16437702945f.gif)
 
 ## 得られた教訓
 
