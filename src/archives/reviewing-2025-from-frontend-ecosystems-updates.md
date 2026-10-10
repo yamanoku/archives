@@ -125,7 +125,7 @@ Remixは方向性を一転し、これまでのReact Router構成のアプリケ
 Bunはv1.3からフルスタック開発機能を搭載しオールインワンの開発体験を提供しています。
 また、今年からsosukesuzukiさんが入社され、内部で使用されているJavaScriptCoreの改善にコミットされています。
 
-https://x.com/jarredsumner/status/1957406750329442771
+<Tweet url="https://x.com/jarredsumner/status/1957406750329442771" displayName="Jarred Sumner" handle="jarredsumner" dateLabel="August 18, 2025">Sosuke is one of JavaScriptCore’s most prolific contributors, and will help us make JavaScript faster and Bun more compatible with Node</Tweet>
 
 ## CSS
 
@@ -178,7 +178,7 @@ daisyUIはv5からわずかに残っていた依存関係をゼロにしてセ�
 
 日本人が作ったYamada UIは[VercelのOpen Source Program](https://vercel.com/open-source-program)にノミネートされました。
 
-https://x.com/vercel/status/1993070637989216588?s=20
+<Tweet url="https://x.com/vercel/status/1993070637989216588" displayName="Vercel" handle="vercel" dateLabel="November 24, 2025">Open source powers the web. We're helping power open source. Meet the Vercel OSS Program, Fall cohort.</Tweet>
 
 ## パッケージマネージャ
 

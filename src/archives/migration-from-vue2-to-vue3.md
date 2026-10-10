@@ -22,7 +22,7 @@ noindex: true
 
 <!-- more -->
 
-[https://twitter.com/vuejs/status/1484160249686749191](https://twitter.com/vuejs/status/1484160249686749191)
+<Tweet url="https://x.com/vuejs/status/1484160249686749191" displayName="Vue" handle="vuejs" dateLabel="January 20, 2022">Save the date: Vue 3 is becoming the new default version on Monday Feb 7, 2022. https://blog.vuejs.org/posts/vue-3-as-the-new-default.html</Tweet>
 
 2022 年 2 月 7 日から、Vue.js のデフォルトバージョンが ver.3 になりましたね！<br>
 ver.3 になって進化した Vue.js を味わい尽くしたいです。

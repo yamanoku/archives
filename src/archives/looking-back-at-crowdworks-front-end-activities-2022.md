@@ -81,7 +81,9 @@ crowdworks.jp におけるフロントエンドの技術的負債としても名
 
 ### Webpacker から Simpacker + webpack 構成へ
 
-長らく crowdworks.jp のモダンフロントエンド開発に尽力してくれていた [Webpacker](https://github.com/rails/webpacker) ですが、今年の 1 月に[メンテナンス終了することが発表](https://twitter.com/rails/status/1483772667756957699)され、EOL 対応をどうしようかとなっていました。
+長らく crowdworks.jp のモダンフロントエンド開発に尽力してくれていた [Webpacker](https://github.com/rails/webpacker) ですが、今年の 1 月にメンテナンス終了することが発表され、EOL 対応をどうしようかとなっていました。
+
+<Tweet url="https://x.com/rails/status/1483772667756957699" displayName="Ruby on Rails" handle="rails" dateLabel="January 19, 2022">RETIREMENT: Webpacker has served the Rails community for over five years as a bridge to compiled and bundled JavaScript. This bridge is no longer needed for most people in most situations following the release of Rails 7. https://github.com/rails/webpacker#webpacker-has-been-retired-</Tweet>
 
 後続の [Shakapacker](https://github.com/shakacode/shakapacker) ほか Rails 公式のフロントエンドライブラリを使用する選択肢もありますが、フロントエンドのリソースと Rails との密結合は断ち切りたいと思っていたのと、各社での Webpacker を廃止する事例もいくつか見受けられたので、脱 Webpacker 作業に取り組みました。
 
@@ -193,7 +195,9 @@ HTML 解体新書が発売されてよかったことの１つに社内での HT
 
 これまでは HTML の使い方について現行の仕様を参照するしかなかったのですが、その橋がけとして HTML タグの具体的な用法を知ることができ、アクセシビリティ上の注意点も確認できるのでとてもありがたいです。
 
-書評についても以下エンジニアブログにて公開しております。[リフロー版の電子書籍](https://twitter.com/bd_publishing/status/1581843012904452096)も販売開始されておりますので気になった方は是非購入してみてください。
+書評についても以下エンジニアブログにて公開しております。リフロー版の電子書籍も販売開始されておりますので気になった方は是非購入してみてください。
+
+<Tweet url="https://x.com/bd_publishing/status/1581843012904452096" displayName="ボーンデジタル出版事業部" handle="bd_publishing" dateLabel="October 17, 2022">長らくお待たせしました！「HTML解体新書」のリフロー型の電子書籍が発売となりました。https://www.amazon.co.jp/dp/B0BJ1SGBG5 amazon、Apple Store、楽天Koboで入手いただけます。諸般の事情により、ほかの電子書店での販売はございません。ご容赦ください。#HTML解体新書</Tweet>
 
 [「HTML解体新書」HTMLのこれからと向き合うための本](./review-html-anatomische-tabell-book)
 
@@ -229,7 +233,7 @@ Saitama.js にて Stroybook を活用したフロントエンドの負債解消�
 
 #### WEB+DB PRESS 連載記事の査読協力
 
-[https://twitter.com/takepepe/status/1583428778331901953](https://twitter.com/takepepe/status/1583428778331901953)
+<Tweet url="https://x.com/takepepe/status/1583428778331901953" displayName="Takepepe" handle="takepepe" dateLabel="October 21, 2022">同じコンポーネント構造でもa11y tree に明白な差が出るサンプルを用意しました。今回はWebアクセシビリティ分野に注力されている @yamanoku さんにもご協力頂いていますmm 是非読んでみてください</Tweet>
 
 吉井さん（[@takepepe](https://twitter.com/takepepe)）が WEB+DB PRESS にて連載している「フロントエンド コンポーネント駆動開発」のアクセシビリティ改善記事に査読協力いたしました。知人も寄稿していた WEB+DB PRESS ですが、生原稿が見られたのは貴重な体験でした。フロントエンド開発での意識し忘れがちな部分でもあるので是非読んでもらいたいです。
 

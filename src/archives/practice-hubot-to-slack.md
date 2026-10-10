@@ -12,7 +12,7 @@ topic: frontend
 
 [割と本気で家庭用 Slack Bot を作ってみた - 八発白中](https://blog.8arrow.org/entry/2016/01/13/183349)
 
-[slack で残業申告時間前になったら残業するやつは申告しろって通知する bot 作りたいんだけど、通知されたところで自分たちが申告するのを仕事一旦止めてすぐやれるかという人間性の問題について考えてる。](https://twitter.com/yamanoku/status/687067575998525440)
+<Tweet url="https://x.com/yamanoku/status/687067575998525440" displayName="やまのく🐶" handle="yamanoku" dateLabel="January 13, 2016">slackで残業申告時間前になったら残業するやつは申告しろって通知するbot作りたいんだけど、通知されたところで自分たちが申告するのを仕事一旦止めてすぐやれるかという人間性の問題について考えてる。</Tweet>
 
 勉強がてら色々と弄ってみたい。とりあえず環境構築してみる。
 
