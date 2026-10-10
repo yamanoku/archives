@@ -44,7 +44,7 @@ topic: frontend
 
 ## ロゴ
 
-- [![細い線で描かれた、丸い頭と長い首をもつ恐竜の手書きロゴ](https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20190204/20190204030029.png)](https://cdn-ak.f.st-hatena.com/images/fotolife/h/hashrock/20190204/20190204030029.png) 手書きロゴ
+- [![細い線で描かれた、丸い頭と長い首をもつ恐竜の手書きロゴ](https://images.yamanoku.net/share-what-learned-about-deno/556a36258125fd9e8a7fb46d78e1ed55.png)](https://images.yamanoku.net/share-what-learned-about-deno/556a36258125fd9e8a7fb46d78e1ed55.png) 手書きロゴ
 - [チンアナゴ](https://scrapbox.io/yamanoku/%E3%83%81%E3%83%B3%E3%82%A2%E3%83%8A%E3%82%B4)っぽいが
   - 日本ユーザーグループではそう言われていた
 - どうやら恐竜らしい

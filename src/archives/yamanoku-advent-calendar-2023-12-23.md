@@ -82,7 +82,7 @@ Content Collection機能、ハイブリッドレンダリング、開発中の�
 Vue.js Nation 2023のEvan Youの発表にて、RFCとして開発していたReactive Transformがv3.4より削除されることが発表されました。
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/45793869/214797069-9a245dab-99fb-4ae9-837b-4f51d94754cc.png" alt="R.I.P Reactivity Transformという見出しのスライドを発表するEvan You">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-23/367683048b2d8262d5d04211d5e5e1b6.png" alt="R.I.P Reactivity Transformという見出しのスライドを発表するEvan You">
   <figcaption><a href="https://youtu.be/OrT0tHGXyqE?t=844">Vue.js Nation 2023</a>の発表</figcaption>
 </figure>
 
@@ -132,7 +132,7 @@ Eleventyのv2.0.0がリリースされました。大きな変更として依存
 > [What's New In DevTools (Chrome 110)  |  Blog  |  Chrome for Developers](https://developer.chrome.com/blog/new-in-devtools-110/#highlight)
 
 <figure>
-  <img src="https://developer.chrome.com/static/blog/new-in-devtools-110/image/syntax-highlighting-vue-be47894e26359_1920.png" alt="Vueファイルのシンタックスハイライトが効くようになった">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-23/349df1f157be9dbbc8c96795d38180d6.png" alt="Vueファイルのシンタックスハイライトが効くようになった">
   <figcaption>What's New In DevTools (Chrome 110)より引用</figcaption>
 </figure>
 
@@ -368,7 +368,7 @@ v3.3になりdefinePropsにて複合の型が書ける、Generic Componentsの�
 Bunのネイティブバンドラのベータ版が登場しました。CLIからは`bun build`、JavaScript APIからは`bun.build()`で実行できます。
 
 <figure>
-  <img src="https://bun.sh/images/bundler-speed.png" alt="Bunのビルド速度比較。速度の順番はBun（0.17秒）、esbuild（0.30秒）、rspack（4.45秒）、Percel2（26.32秒）、Rollup+Terser（32.00秒）、Webpack5（38.02秒）になっている。">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-23/f270514753bad98687665304f5add2dd.png" alt="Bunのビルド速度比較。速度の順番はBun（0.17秒）、esbuild（0.30秒）、rspack（4.45秒）、Percel2（26.32秒）、Rollup+Terser（32.00秒）、Webpack5（38.02秒）になっている。">
   <figcaption>ソースマップと最小化を使ってthree.jsの10個複製した分をゼロからバンドルした比較</figcaption>
 </figure>
 

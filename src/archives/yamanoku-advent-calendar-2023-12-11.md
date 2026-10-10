@@ -214,7 +214,7 @@ GitHub Copilotを用いて、こうした表現をしたいというプロンプ
 ```html
 <div class="max-w-sm mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
   <!-- 生成時の画像ソースのURLは404だったためそこだけ差し替えました -->
-  <img class="w-full h-56 object-cover object-center" src="https://placehold.jp/640x480.png" alt="カード画像">
+  <img class="w-full h-56 object-cover object-center" src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-11/bb40f5bed3bdb2a1502c43e84eddb2e2.png" alt="カード画像">
   <div class="p-4">
     <h2 class="text-xl font-semibold text-gray-800">カードのタイトル</h2>
     <p class="mt-2 text-gray-600">カードの説明文が入ります。</p>

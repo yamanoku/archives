@@ -13,7 +13,7 @@ noindex: true
 
 突然ですが、皆さんは10/25に開催されたVueエコシステムにまつわる日本最大規模のカンファレンス「[Vue Fes Japan 2025](https://vuefes.jp/2025/)」をご存知でしょうか。
 
-![Vue Fes Japan 2025のアイキャッチ。中央にリブランディングされたVue Fes Japanロゴが載っている。](https://vuefes.jp/2025/og-image.png)
+![Vue Fes Japan 2025のアイキャッチ。中央にリブランディングされたVue Fes Japanロゴが載っている。](https://images.yamanoku.net/vuefes-japan-2025-after-talk/b18b65a63bb82a0016b4b25f15be7afc.png)
 
 2018年にVue.jsやNuxtの開発者向けイベントとしてスタートしたこのカンファレンスですが、2025年の今年は、ReactとSvelteのコアコントリビューターとEvan You氏がパネルディスカッションを行う豪華なイベントも開催され、Vueのエコシステムの進化や広がりを体感できるカンファレンスとなりました。
 
@@ -114,7 +114,7 @@ Nuxt 4がリリースされましたが、2025年内には次のバージョン�
 
 NuxtにてこのAPIを使用することで、これまでクライアントとサーバーでViteを2つ起動していたところを1本化できるようになります。これによりDev Serverのログが簡潔になることが利点として挙げられていました。
 
-![experimental.viteEnvironmentApiがfalseかtrueの違いによるDevServer起動のログの違い。falseは旧来通りclientとserverそれぞれのビルド・事前ウォームアップが表示されているがtrueにするとclientとserverそれぞれのログが削除され１本化されている。](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3871108/0e51cd9f-7745-47ae-bea5-d056a76996a2.png)
+![experimental.viteEnvironmentApiがfalseかtrueの違いによるDevServer起動のログの違い。falseは旧来通りclientとserverそれぞれのビルド・事前ウォームアップが表示されているがtrueにするとclientとserverそれぞれのログが削除され１本化されている。](https://images.yamanoku.net/vuefes-japan-2025-after-talk/4b8668feed743c7c662a1d6680652038.png)
 
 さらにDev Serverのインスタンスが1本化されたことにより、NuxtをViteプラグインとして扱えるようになるのではないか、とも言われております。
 

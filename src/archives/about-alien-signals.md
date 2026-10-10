@@ -109,7 +109,7 @@ Vue.jsでのComposition APIである [`ref`](https://vuejs.org/api/reactivity-co
 
 ## alien-signalsとは？
 
-<img src="https://github.com/stackblitz/alien-signals/raw/master/assets/logo.png" alt="alien-signalsのロゴ" width="300">
+<img src="https://images.yamanoku.net/about-alien-signals/dfe9725d3c19dcd5c160c6eab958d084.png" alt="alien-signalsのロゴ" width="300">
 
 このようなSignalsの潮流の中で登場したのが **alien-signals** です。alien-signalsは、**非常に軽量なリアクティブライブラリ**であることを特徴としています。
 

@@ -236,7 +236,7 @@ UIコンポーネントをカタログ化して管理・開発するためのツ
 Storybookにはサイドバーにキャンバスへのスキップリンクが存在します。サイドバーに登録されているロゴが縦長の場合や横幅を広げた場合にスキップリンクが表示されることがありました。
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/845031/205020926-36bf316d-b901-4faf-9c89-082f006e0694.png" alt="サイドバーに登録されているロゴが縦長の場合にスキップリンクが表示されているスクリーンショット" width="640">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-03/04430c2a02ffb1f6ce4d99c9e896f9c5.png" alt="サイドバーに登録されているロゴが縦長の場合にスキップリンクが表示されているスクリーンショット" width="640">
   <figcaption><a href="https://github.com/storybookjs/storybook/pull/15740#issuecomment-1333496719">該当Issue</a>より引用</figcaption>
 </figure>
 

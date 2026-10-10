@@ -93,7 +93,7 @@ export default defineNuxtPlugin(() => {
 
 `datadogLogs`の型も効くようになります。
 
-![VS Code上で$datadogLogs.logger.infoのメソッドにホバーしてパラメーターや返り値の型情報が表示されている。](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3871108/6d90cc51-826e-428b-a750-7fd378d55f13.png)
+![VS Code上で$datadogLogs.logger.infoのメソッドにホバーしてパラメーターや返り値の型情報が表示されている。](https://images.yamanoku.net/nuxt3-datadog-logs-rum-trace/2f1d876042b5357323dec56d380e041e.png)
 
 ## `dd-trace`の設置について
 

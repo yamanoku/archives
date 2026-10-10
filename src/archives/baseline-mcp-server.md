@@ -28,7 +28,7 @@ Baselineについての詳細は「[Baseline (互換性) - MDN Web Docs 用語�
 
 例えば、「`<dialog>` 要素はどのブラウザでサポートされているの？」といった質問に対して、LLmがBaseline MCP Serverを通じて最新の対応状況を取得し、より正確に回答できるようになります。
 
-![Claude Desktop上でdetails要素にまつわるBaseline情報を質問してMCPサーバーを経由してその結果が反映されている。](https://github.com/yamanoku/baseline-mcp-server/raw/main/screenshot_claude_desktop.png)
+![Claude Desktop上でdetails要素にまつわるBaseline情報を質問してMCPサーバーを経由してその結果が反映されている。](https://images.yamanoku.net/baseline-mcp-server/53ac7723efcdacdfe4a1453e05af4c2e.png)
 
 ## なぜBaseline MCP Serverを開発したのか
 

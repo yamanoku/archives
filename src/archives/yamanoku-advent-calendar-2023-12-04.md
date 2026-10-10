@@ -302,7 +302,7 @@ OpenUIはW3Cコミュニティグループの1つで、組み込み用のUIコ�
 <!-- prettier-ignore-end -->
 
 <figure>
-  <img src="https://open-ui.org/images/selectlist-usecase-button.png" alt="The rendering of a selectlist with an author-provided button" width="320">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-04/2be4ce68cd7721ca6ce59de0168aec4e.png" alt="The rendering of a selectlist with an author-provided button" width="320">
   <figcaption><a href="https://open-ui.org/components/selectlist/#replacing-the-button">Replacing the button より引用</a></figcaption>
 </figure>
 

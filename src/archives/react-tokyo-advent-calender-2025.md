@@ -79,7 +79,7 @@ React Tokyoについて触れる前に、まずコロナ禍以前の国内のRea
 
 <figure>
 
-<img src="https://res.cloudinary.com/zenn/image/fetch/s--ra_xsO7f--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/d32d25246e5a05f936883c26.png%3Fsha%3Dc676df8a2b5e0fde5d7d89f49288ceb4004e3d6c" alt="yamanokuが「こんにちは。Xの宣伝を見かけて参加しました。yamanokuと言います。よろしくお願いします。業務ではVue.js/Nuxtメインですが、ReactやNext.jsほかフレームワークにも興味があるフロントエンドエンジニアです。」と記載しポートフォリオサイトのURLも添付して自己紹介している">
+<img src="https://images.yamanoku.net/react-tokyo-advent-calender-2025/208e9300bb26baec546773ed38f35355.jpg" alt="yamanokuが「こんにちは。Xの宣伝を見かけて参加しました。yamanokuと言います。よろしくお願いします。業務ではVue.js/Nuxtメインですが、ReactやNext.jsほかフレームワークにも興味があるフロントエンドエンジニアです。」と記載しポートフォリオサイトのURLも添付して自己紹介している">
 
 <figcaption>React TokyoのDiscordサーバーへ参加したときのログ</figcaption>
 </figure>
@@ -102,13 +102,13 @@ React TokyoのDiscordへ入ってから印象に残っていることは、運�
 
 まず最初にDiscordへジョインすると、チャンネル参加やロール付与のためのカスタマイズ設定が行われています。これにより興味のある領域のチャンネルに参加したり、特定のメンバー向けの通知やメンションができるようになっています。
 
-![チャンネルやロールのアクセスをするためのカスタマイズ画面。興味のあるコミュニティ活動、興味のある技術領域、興味のあるライブラリ・フレームワーク、英語チャンネルを閲覧するか、のそれぞれにチェックを入れることができる。](https://res.cloudinary.com/zenn/image/fetch/s--sJqz71L---/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/e9a68993946b31c67ca9cab5.png%3Fsha%3D9f30c13907ca7a99c5bce13f3e7f033c36e5f424)
+![チャンネルやロールのアクセスをするためのカスタマイズ画面。興味のあるコミュニティ活動、興味のある技術領域、興味のあるライブラリ・フレームワーク、英語チャンネルを閲覧するか、のそれぞれにチェックを入れることができる。](https://images.yamanoku.net/react-tokyo-advent-calender-2025/453ebfd21a048f9f6e6d15f07decd499.png)
 
 オンライン上の交流において、フロー型のUIであると、特定の話題を出しても別の話題が盛り上がるとそれが流れていってしまったり話題が大きくなりすぎて発散してしまうことがあります。それを防ぐために「情報・質問部屋」というフォーラムページが用意されています。個別に部屋が作成されていくので気になった話題をフォローして後からウォッチしにいくことも可能です。
 
 <figure>
 
-<img src="https://res.cloudinary.com/zenn/image/fetch/s--Ltb0A4F_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/c5a53dd625b2e4e5a9acaa8c.png%3Fsha%3D7df442fffc4e0a5adb9148de2f23bd131c5a4563" alt="情報・質問部屋のフォーラムページ。新しいページを作成できるフォームや並び替えやカテゴライズ制御するメニューがある。作られたフォーラムページにはReact Tokyoサポートメンバー募集、セキュリティ小部屋、Misskeyっぽい何かを作る、Jotai小部屋、Waku小部屋、認証小部屋が写っており他にも多くのページが存在している。">
+<img src="https://images.yamanoku.net/react-tokyo-advent-calender-2025/30df1788653959a4e542a62e16fbb097.png" alt="情報・質問部屋のフォーラムページ。新しいページを作成できるフォームや並び替えやカテゴライズ制御するメニューがある。作られたフォーラムページにはReact Tokyoサポートメンバー募集、セキュリティ小部屋、Misskeyっぽい何かを作る、Jotai小部屋、Waku小部屋、認証小部屋が写っており他にも多くのページが存在している。">
 
 <figcaption>ほかにもState of　React 2025、CSS設計・戦略、再就職へのアドバイスなどジャンルは多岐にわたる</figcaption>
 </figure>
@@ -117,7 +117,7 @@ React TokyoのDiscordへ入ってから印象に残っていることは、運�
 
 <figure>
 
-<img src="https://res.cloudinary.com/zenn/image/fetch/s--Ltb0A4F_--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/c5a53dd625b2e4e5a9acaa8c.png%3Fsha%3D7df442fffc4e0a5adb9148de2f23bd131c5a4563" alt="react-tokyo-botが過去1週間で発言が多かった人を表彰したリーダーボード。1位から3位までは個別に表彰され、4位以降はまとめて表示されている。yamanokuも4位以降に受賞している。">
+<img src="https://images.yamanoku.net/react-tokyo-advent-calender-2025/30df1788653959a4e542a62e16fbb097.png" alt="react-tokyo-botが過去1週間で発言が多かった人を表彰したリーダーボード。1位から3位までは個別に表彰され、4位以降はまとめて表示されている。yamanokuも4位以降に受賞している。">
 
 <figcaption>まだ3位以上に入賞できたことはない</figcaption>
 </figure>
@@ -128,7 +128,7 @@ React TokyoのDiscordへ入ってから印象に残っていることは、運�
 
 React Tokyoではコミュニティスポンサーを募集しています。勉強会の会場提供としてのスポンサーなどはよく見かけますが、コミュニティそのものへのスポンサーを募集しているという点では珍しいなと感じています。12/10現在、Goldスポンサーとして6社、Silverスポンサー1社、Bronzeスポンサー1社が協賛しています。
 
-![Goldスポンサーに株式会社キッカケクリエイション、株式会社Rebase、Dress Code株式会社、株式会社カケハシ、株式会社ALGO ARTIS、MOSH株式会社。Silverスポンサーに株式会社オプティム。Bronzeスポンサーに株式会社バニッシュ・スタンダード。](https://res.cloudinary.com/zenn/image/fetch/s--N3XGj4fc--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/95f8f720470992d107a3842f.png%3Fsha%3D96512ca8d40671ed34a54b79eda123170bd50946)
+![Goldスポンサーに株式会社キッカケクリエイション、株式会社Rebase、Dress Code株式会社、株式会社カケハシ、株式会社ALGO ARTIS、MOSH株式会社。Silverスポンサーに株式会社オプティム。Bronzeスポンサーに株式会社バニッシュ・スタンダード。](https://images.yamanoku.net/react-tokyo-advent-calender-2025/a0d6e959c2ef089f33d9d04e4bbdff22.png)
 
 また、全国各地でのミートアップ開催も視野に入れた地方開催スポンサーも募集しています。興味のある企業・団体は以下ページより申し込みを受け付けているようです。
 

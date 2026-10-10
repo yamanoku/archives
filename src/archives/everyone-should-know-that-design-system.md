@@ -35,14 +35,14 @@ topic: frontend
 
 スタイルガイドやパターンライブラリは、一覧性を重視したガイドの機能しかなく、それらを作りきることに完結してしまい、プロダクトの成長に追随することまで考慮されているものではありませんでした。
 
-![デザインシステムがスタイルガイドとパターンライブラリの機能を内包している図](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/16841088/picture_pc_2ea769e5bb3a5212ef2dcf53a622118e.png)
+![デザインシステムがスタイルガイドとパターンライブラリの機能を内包している図](https://images.yamanoku.net/everyone-should-know-that-design-system/616e51877e3b64918210a921503e2327.png)
 
 デザインシステムにおいては、それらを包括した上で、デザイン原則、情報設計、基盤、アクセシビリティ、についても定義されています。これらはガイドやライブラリだけでは分からない、それによって**何が実現できるのか**、**何を解決しうるものなのか**、といったプロダクトのアイデンティティをも体現してくれます。
 原理・原則についてもドキュメント化されるので、プロダクトで新たな機能をつくったり、改修を行うにあたり「何を基準にしていけば行えばよいか」がより分かりやすくなります。
 
 プロダクトのアイデンティティを示すものとして UI コンポーネント以外にも、今年発表された Adobe のデザインシステムである[Spectrum](https://spectrum.adobe.com/)では「Voice and Tone」「Grammar and mechanics」といった言葉やライティングにおけるスタイルガイドラインも制定されているなど、より広義でのデザインについてもシステム化されています。
 
-![SpectrumのVoice and toneページ](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/16817816/picture_pc_a0cf0017c583b00ce98e524354c4ccf1.png)
+![SpectrumのVoice and toneページ](https://images.yamanoku.net/everyone-should-know-that-design-system/119e0f462085ec56ac6f1cf1557358ca.png)
 
 - [Voice and tone - Spectrum](https://spectrum.adobe.com/page/voice-and-tone/)
 - [Grammar and mechanics - Spectrum](https://spectrum.adobe.com/page/grammar-and-mechanics/)
@@ -51,7 +51,7 @@ topic: frontend
 
 [USWDS: The United States Web Design System](https://designsystem.digital.gov/)
 
-![United States Web Design Systemサイトのスクリーンショット](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/16713084/picture_pc_0965a8fe801a09748c28e5b1ae13e59f.png)
+![United States Web Design Systemサイトのスクリーンショット](https://images.yamanoku.net/everyone-should-know-that-design-system/cda80ff0fa78e0b5f2a111543279b691.png)
 
 また、日本でもさまざまな企業が活用事例をあげるようになってきています。以下はその事例になります。
 
@@ -105,7 +105,7 @@ topic: frontend
 ボタン（button）というコンポーネントを例にとって考えてみます。
 通常のとき、フォーカスされたとき、アクティブになっているとき、操作不能になったとき、とボタン１つにしても状態が色々と存在します。
 
-![ボタンの操作状態について。通常、フォーカス、アクティブ、利用不能の図](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/16747503/picture_pc_b6dc796079e9c304756df14c2fa4adf4.png)
+![ボタンの操作状態について。通常、フォーカス、アクティブ、利用不能の図](https://images.yamanoku.net/everyone-should-know-that-design-system/5d0f531845720374d1b110068bb08bb1.png)
 
 またボタン自体がリンク（a タグ）であるときはその状態とはまた違った定義をしないといけません（disabled は使えない等）。
 
@@ -132,7 +132,7 @@ $brand-primary-transparent: rgba(21, 137, 238, 0.1);
 
 Shopify のデザインシステム「[Polaris](https://polaris.shopify.com/)」の例をあげると、国際化対応において各国の文化の違いを汲み取る、というのがあります。
 
-![ShopifyのデザインシステムPolarisでの国際化対応における正しいUIと間違っているUIを説明する図](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/16755821/picture_pc_22193c04007fdb5f4547abf8fa613434.png)
+![ShopifyのデザインシステムPolarisでの国際化対応における正しいUIと間違っているUIを説明する図](https://images.yamanoku.net/everyone-should-know-that-design-system/b6f49e2d4bb22bcd04e4570caf341a1b.png)
 
 日本であれば Country につづいて Prefecture（都道府県）の入力項目を追加してあげたり、名前入力を北米式のような姓名入力フォームで設置しないようにするといった例を上げています。こうした例を示すことで、何故そうしたデザインになっているかの理解に大いに役立ちます。
 
