@@ -166,6 +166,19 @@ describe(
       assert.equal(existsSync(join(distDir, 'tategaki.js')), false);
     });
 
+    it('serves article images from the R2 custom domain', () => {
+      const article = readFileSync(
+        join(distDir, 'why-schoo-choose-vue-nuxt/index.html'),
+        'utf8',
+      );
+      assert.match(
+        article,
+        /https:\/\/images\.yamanoku\.net\/why-schoo-choose-vue-nuxt\/06985046cec45d688883fdaf876f34c3\.png/,
+      );
+      assert.doesNotMatch(article, /\/src\/images\//);
+      assert.equal(existsSync(join(distDir, 'src/images')), false);
+    });
+
     it('omits third-party widget scripts from embed pages', () => {
       const tweetArticle = readFileSync(
         join(distDir, 'vuejs-2024-year-in-review/index.html'),
@@ -187,6 +200,34 @@ describe(
     });
   },
 );
+
+describe('article images', () => {
+  const archivesDir = join(process.cwd(), 'src/archives');
+  const r2ImageUrl = /https:\/\/images\.yamanoku\.net\/([^\s)"'\]]+)/g;
+
+  it('points article images at the R2 custom domain', () => {
+    let count = 0;
+    for (const name of readdirSync(archivesDir).filter((file) =>
+      file.endsWith('.md'),
+    )) {
+      const source = readFileSync(join(archivesDir, name), 'utf8');
+      assert.doesNotMatch(
+        source,
+        /\/src\/images\//,
+        `${name} still references /src/images/`,
+      );
+      for (const match of source.matchAll(r2ImageUrl)) {
+        assert.match(
+          match[1],
+          /^[^/]+\/[a-f0-9]{32}\.(png|jpe?g|gif|webp|mp4)$/,
+          `${name} -> ${match[0]}`,
+        );
+        count += 1;
+      }
+    }
+    assert.ok(count > 0);
+  });
+});
 
 describe('archive embed sources', () => {
   it('keeps only ox-content tags for former widget embeds', () => {
