@@ -212,9 +212,7 @@ NotebookLMに要約してもらった情報を咀嚼し、どういった構成�
 
 正直、登壇準備は毎回大変です…。普段の業務をこなす合間で準備することが基本なので、いかにスピード感をもって完成までもっていけるかが、最近考えている課題です。
 
-ですが、そうした苦労を経て自分自身が一番理解を深められるのが登壇の良いところです。さらに、発表後に「わかりやすかったです！」「面白かったです！」と言ってもらえると、本当にやってよかったなと感じます（alien-signals作者のJohnson氏も、発表内容を見ていただけていたようです）。
-
-<Tweet url="https://x.com/johnsoncodehk/status/1906949711157948618" displayName="Johnson Chu" handle="johnsoncodehk" dateLabel="April 1, 2025">My review</Tweet>
+ですが、そうした苦労を経て自分自身が一番理解を深められるのが登壇の良いところです。さらに、発表後に「わかりやすかったです！」「面白かったです！」と言ってもらえると、本当にやってよかったなと感じます（[alien-signals作者のJohnson氏も、発表内容を見ていただけていた](https://x.com/johnsoncodehk/status/1906949711157948618)ようです）。
 
 <Tweet url="https://x.com/dir20634/status/1905566682783121636" displayName="とと / totocalcio" handle="dir20634" dateLabel="March 28, 2025">導入優しい #v_tokyo22</Tweet>
 
