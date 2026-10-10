@@ -257,9 +257,7 @@ IE11 も対応しているサイトだったとのことなので使えるプロ
 
 災害関連ニュース記事ページでのラジオボタン操作の補助と、バグ報告をさせてもらいました。
 
-余談ですが yuiseki さんが副業として OSS コミッターで働かれるようです。個人的にとても興味深い話でありました。おめでとうございます！
-
-<Tweet url="https://x.com/yuiseki_/status/1466702240941752320" displayName="yuiseki" handle="yuiseki_" dateLabel="December 3, 2021">副業として OSS コミッターで働かれる</Tweet>
+余談ですが yuiseki さんが[副業として OSS コミッターで働かれる](https://twitter.com/yuiseki_/status/1466702240941752320)ようです。個人的にとても興味深い話でありました。おめでとうございます！
 
 ## miyaoka/employment-ojisan
 
