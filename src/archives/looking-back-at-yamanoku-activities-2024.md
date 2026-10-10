@@ -46,7 +46,7 @@ topic: life
   - 店舗限定のアサイボウルを食べられた
 - 娘の塾を検討しだす
   - マイクラのプログラミング教室やっているところに体験会に行ってそこに通うことになった
-- [eslint-plugin-vuejs-accessibility入門](https://zenn.dev/comm%5Fvue%5Fnuxt/articles/eslint-plugin-vuejs-accessibility-introduction)書いた
+- [eslint-plugin-vuejs-accessibility入門](/eslint-plugin-vuejs-accessibility-introduction)書いた
 - プロダクト事業部の全体会があったため参加
   - 今後の事業説明とワークショップを行った
 - 流山おおたかの森駅前に新しくできた[新時代](https://shinjidai-nagareyamaootakanomori.owst.jp/)に家族で行ってくる
@@ -209,7 +209,7 @@ topic: life
 
 [nippo-2024-07 - yamaScrapbox](https://scrapbox.io/yamanoku/nippo-2024-07)
 
-- [SPA のアクセシビリティを強化する Nuxt の Route Announcer 機能](https://zenn.dev/comm%5Fvue%5Fnuxt/articles/feat-nuxt-route-announcer)書いた
+- [SPA のアクセシビリティを強化する Nuxt の Route Announcer 機能](/feat-nuxt-route-announcer)書いた
 - ウェルカムランチで会社に初出社
   - うなぎ重を食べました
 - 雇入れ検診してくる
@@ -223,7 +223,7 @@ topic: life
 - Amazon Prime Dayで[Shokz OpenFit](https://jp.shokz.com/products/openfit)買った
   - マルチポイント接続らくちん
 - [アクセシビリティLT会](https://yumemi.connpass.com/event/323801/)で元同僚が初登壇していたので見守る
-- 2.4.0よりルールが追加されたので[eslint-plugin-vuejs-accessibility入門](https://zenn.dev/comm%5Fvue%5Fnuxt/articles/eslint-plugin-vuejs-accessibility-introduction)を更新
+- 2.4.0よりルールが追加されたので[eslint-plugin-vuejs-accessibility入門](/eslint-plugin-vuejs-accessibility-introduction)を更新
 - [なかひこくん](https://x.com/takanakahiko)のDiscordメンバーと高田馬場のすたみな太郎NEXTでオフ会
   - ほとんど直接会うのは初めましてのメンバーだった
   - すたみな太郎は初体験でしたがなんかまぁもういいですって感じです
@@ -276,7 +276,7 @@ topic: life
 - 8月に入社したエンジニアのウェルカムランチのために出社
   - ハンバーガー食べた
   - ランチ後にCTOと1on1してから帰った
-- [Vue Fes Japanの歴代スピーカー一覧を見られるページを作った](https://zenn.dev/yamanoku/articles/vuefes-japan-speakers)を書いた
+- [Vue Fes Japanの歴代スピーカー一覧を見られるページを作った](/create-page-vuefes-japan-speakers)を書いた
   - [Vue Fes Japan Speakers](https://vuefes-japan-speakers.nuxt.dev/)
 - 仕事、ポジティブとネガティブの間を反復横跳びしているような感覚
   - フロントエンド関連のイベント行くと救われる気持ちになる
@@ -305,7 +305,7 @@ topic: life
 - [きみの色](https://kiminoiro.jp/)を観てくる
   - 話や演出が終始美しくてびっくりしたが、前日がエイリアンだったので温度差のが凄かった
   - 映画観終わったらworld's end girlfriendを思い出した
-- [フロントエンドカンファレンス北海道2024の補足記事](https://qiita.com/okuto%5Foyama/items/d15a5e49530a93848366)を出した
+- [フロントエンドカンファレンス北海道2024の補足記事](/presented-at-frontend-conference-hokkaido-2024)を出した
 - お義父さんの古希祝いをしに家族一同大宮へ
   - 妻の姉弟が勢揃いしてた
   - 久々にあった甥っ子たち可愛すぎワロタ
@@ -317,11 +317,11 @@ topic: life
 - [Ｓｃｈｏｏ、東京証券取引所グロース市場への上場承認に関するお知らせ | 株式会社Schooのプレスリリース](https://prtimes.jp/main/html/rd/p/000000289.000006391.html)
   - 所属企業の上場承認がされる実績を解除した
 - 業務で次期プロジェクトのためのBFF検討としてPoCなどをやっていた
-- [Interop2025のプロポーザル投票が始まりました！](https://zenn.dev/yamanoku/articles/interop-2025-opens-for-proposals)を書いた
+- [Interop2025のプロポーザル投票が始まりました！](/interop-2025-opens-for-proposals)を書いた
 - [PIXIV DEV MEETUP 2024](https://conference.pixiv.co.jp/2024/dev-meetup)に参加してくる
   - フロントエンドの進捗含め興味深い話を聴けました
   - 偶然にも制作会社時代の元同僚と再会した
-- [Vue3.5からの改善と振り返るdefineCustomElementについて](https://zenn.dev/comm%5Fvue%5Fnuxt/articles/improvements-to-custom-elements-in-vue3-5)を書いた
+- [Vue3.5からの改善と振り返るdefineCustomElementについて](/improvements-to-custom-elements-in-vue3-5)を書いた
   - chibivue landの方たちにレビューというか背中押してもらって書ききれました。ありがとうございました！
 - ワンピースコラボがあるからということで久々にくら寿司に行った
 - STORES Tech Conf 2024に参加してくる
@@ -364,7 +364,7 @@ topic: life
 - [Vue Fes Japan 2024](https://vuefes.jp/2024/)に参加してくる
   - 職場の同僚2人も参加していた
   - chibivue landの皆さんやVue老人会（v1から使っている人たち）のみなさんと会えてよかった
-  - [レポート記事](https://qiita.com/okuto%5Foyama/items/b4591d5ed30c011121c9)も書いた
+  - [レポート記事](/report-vue-fes-japan-2024)も書いた
 - 免許更新した
   - 今年も優良ゴールドペーパードライバーです
 - Svelte 5がリリースされたので個人プロダクトで触ってみる
@@ -427,8 +427,8 @@ topic: life
 
 - 転職して半年が経過していた
 - アドベントカレンダーに寄稿
-  - 会社のやつ - [フロントエンド技術周辺のアップデートから振り返る2024年](https://qiita.com/okuto%5Foyama/items/12d119671f4b350042e4)
-  - Vue.js / Nuxt関連 - [Vue.jsと周辺エコシステムで振り返る2024年](https://zenn.dev/comm%5Fvue%5Fnuxt/articles/vuejs-2024-year-in-review) - [Nuxt/UnJSと周辺エコシステムで振り返る2024年](https://zenn.dev/comm%5Fvue%5Fnuxt/articles/nuxt-unjs-2024-year-in-review)
+  - 会社のやつ - [フロントエンド技術周辺のアップデートから振り返る2024年](/reviewing-2024-from-frontend-ecosystems-updates)
+  - Vue.js / Nuxt関連 - [Vue.jsと周辺エコシステムで振り返る2024年](/vuejs-2024-year-in-review) - [Nuxt/UnJSと周辺エコシステムで振り返る2024年](/nuxt-unjs-2024-year-in-review)
 - 会社の上期キックオフ・MVP表彰式が開催される
   - 懇親会も含めて楽しかったし、改めて表彰されたいなと思った
   - がんばっていきます

@@ -199,7 +199,7 @@ HTML 解体新書が発売されてよかったことの１つに社内での HT
 
 #### OSS へのコントリビュート
 
-今年は[去年の活動](https://zenn.dev/yamanoku/articles/bd8d86ee79459b)と比較してそこまで活動できていませんでしたが、フロントエンドにまつわる OSS の翻訳やドキュメントの修正などを行っておりました。
+今年は[去年の活動](/looking-back-at-crowdworks-front-end-activities-2021)と比較してそこまで活動できていませんでしたが、フロントエンドにまつわる OSS の翻訳やドキュメントの修正などを行っておりました。
 
 [trasnlate: a11y-no-redundant-roles by yamanoku · Pull Request #523 · svelte-jp/svelte-site-jp](https://github.com/svelte-jp/svelte-site-jp/pull/523)
 

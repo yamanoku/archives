@@ -60,7 +60,7 @@ https://github.com/punkpeye/awesome-mcp-servers/pull/653
 
 関連してMCPサーバーのキュレーションリスト（Awesome List）の[awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers)にも[Baseline MCP Server](https://github.com/yamanoku/baseline-mcp-server)を追加。
 
-[^1]: MCPサーバーの詳細は[Baseline MCP Serverを公開しました！](https://zenn.dev/yamanoku/articles/baseline-mcp-server)を参照。
+[^1]: MCPサーバーの詳細は[Baseline MCP Serverを公開しました！](/baseline-mcp-server)を参照。
 
 ## chibivue-land/japanese-companies-using-vuejs
 

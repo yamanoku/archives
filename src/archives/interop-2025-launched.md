@@ -353,6 +353,6 @@ Interopプロジェクトは各ブラウザベンダ、コンサル企業らの�
 
 ちなみに重点対象のものが、各ブラウザで利用可能となる機能の指標（Baseline）として追加されると、[Web Platform Status DashboardのBaseline 2025リスト](https://webstatus.dev/?q=baseline_date%3A2025-01-01..2025-12-31)にも反映されるそうなので、こちらもチェックしておくとよいでしょう。
 
-筆者は[前回の記事](https://zenn.dev/yamanoku/articles/interop-2025-opens-for-proposals)でも述べた通り、Navigation APIの採用を願っておりましたが、今年ついに重点対象に選出されて大変うれしく思っております。今年のInteropを通じて来年以降に安定した使用ができることを祈り、改めて技術の素振りをしておきたいと思っております。また、View Transition APIの相互運用性も徐々に高まっていき、来年以降でMPA環境での相互運用性も向上していくことを期待しています。
+筆者は[前回の記事](/interop-2025-opens-for-proposals)でも述べた通り、Navigation APIの採用を願っておりましたが、今年ついに重点対象に選出されて大変うれしく思っております。今年のInteropを通じて来年以降に安定した使用ができることを祈り、改めて技術の素振りをしておきたいと思っております。また、View Transition APIの相互運用性も徐々に高まっていき、来年以降でMPA環境での相互運用性も向上していくことを期待しています。
 
 皆さんも今後のInterop 2025の進捗に注目していきましょう。
