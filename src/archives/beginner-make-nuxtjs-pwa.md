@@ -55,8 +55,7 @@ Nuxt.js のプラグイン・モジュールは以下を使用
 
 あと当初は Nuxt1.0 で作成していましたが、今年の 2.0 の発表に合わせて[アップデートしました](https://github.com/yamanoku/reading/commit/6124198e300dc1f8ccc74e14c6b9118e09f36a5d)。
 
-> Nuxt 2 で generate した PWA サイトです
-> https://twitter.com/yamanoku/status/1043119076489318401
+<Tweet url="https://x.com/yamanoku/status/1043119076489318401" displayName="やまのく🐶" handle="yamanoku" dateLabel="September 21, 2018">Nuxt 2でgenerateしたPWAサイトです https://reading.yamanoku.net/</Tweet>
 
 ### フローチャート
 

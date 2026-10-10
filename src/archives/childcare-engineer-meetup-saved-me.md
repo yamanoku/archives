@@ -110,7 +110,7 @@ MeetUp 後の興奮をそのままに、社内 LT でも家庭内やっていき
 
 そしてその際に謝辞を述べさせてもらいました（以下全文抜粋）。
 
-[Jun Osaki@田町の採用広報さんのツイート: “イベントに参加者から謝辞もらえるなんてすごい ww #子育てエンジニア… “](https://twitter.com/nobosemon21/status/1051754307006021632)
+<Tweet url="https://x.com/nobosemon21/status/1051754307006021632" displayName="おおさき" handle="nobosemon21" dateLabel="October 15, 2018">イベントに参加者から謝辞もらえるなんてすごいww #子育てエンジニア</Tweet>
 
 もちろん MeetUp の方が意図的に自分を助けてくれたということはなく、こうした謝辞自体が主催者側は寝耳に水だったと思います。
 

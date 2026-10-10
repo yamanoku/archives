@@ -34,7 +34,7 @@ HTML や CSS に関しては gulp やテンプレートエンジンをやっと�
 
 南委員長は神。
 
-https://twitter.com/yamanoku/status/682421732272017408
+<Tweet url="https://x.com/yamanoku/status/682421732272017408" displayName="やまのく🐶" handle="yamanoku" dateLabel="December 31, 2015">納めの様子です</Tweet>
 
 ## スプラトゥーン
 

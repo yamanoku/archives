@@ -10,7 +10,7 @@ topic: work
 
 このへん見てて思ったこと。
 
-<Tweet url="https://twitter.com/oturu333/status/1911727347470078084" displayName="いっしー🐱" handle="oturu333" dateLabel="April 14, 2025">「EMは〇〇すべき」「EMは〇〇すべきでない」という話に終止符を打ちたいというテーマで収録したいな。参加してくれるゲストさんいたら検討したい🙋</Tweet>
+<Tweet url="https://x.com/oturu333/status/1911727347470078084" displayName="いっしー🐱" handle="oturu333" dateLabel="April 14, 2025">「EMは〇〇すべき」「EMは〇〇すべきでない」という話に終止符を打ちたいというテーマで収録したいな。参加してくれるゲストさんいたら検討したい🙋</Tweet>
 
 EMに限らないけど「〇〇は△△すべき〜」も含めて、無意識的な職業差別だと思ってる。
 

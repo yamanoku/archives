@@ -28,7 +28,7 @@ Vue.js ユーザーでアクセシビリティに関心が高い人たちが集�
 今年は[サイトの日本語ページ](https://vue-a11y.com/jp/)開設やドキュメントの翻訳対応やそのレビューなどを行いました。
 日本語翻訳に参加してくれた [かずやん](https://twitter.com/D_kazuyan)さん、[manak1](https://twitter.com/mikeanakida) さん、ありがとうございました！
 
-https://twitter.com/yamanoku/status/1351683841191149568
+<Tweet url="https://x.com/yamanoku/status/1351683841191149568" displayName="やまのく🐶" handle="yamanoku" dateLabel="January 20, 2021">Vue.jsのWebアクセシビリティコミュニティ @vue_a11y サイトの日本語版ページが公開されました。 ただ共通設定箇所のみ翻訳で、一部の箇所やコンテンツはまだ英語なので徐々に翻訳させていきます。 https://vue-a11y.com/jp/</Tweet>
 
 しかしながら今年は諸事情で主催の Alan 氏や私自身が vue-a11y に割く時間がなかったため、グループ全体の活動としてはあまり進捗がない形でした。
 
@@ -212,7 +212,7 @@ IE11 も対応しているサイトだったとのことなので使えるプロ
 
 なおその後、神の怒りに触れてリバートされました（文字量でカラムサイズ決めないでおくれ）。
 
-https://twitter.com/sadnessOjisan/status/1394898107041652736
+<Tweet url="https://x.com/sadnessOjisan/status/1394898107041652736" displayName="sadnessOjisan" handle="sadnessOjisan" dateLabel="May 19, 2021" />
 
 ## tokyo-metropolitan-gov/covid19
 
@@ -275,7 +275,7 @@ https://twitter.com/sadnessOjisan/status/1394898107041652736
 
 [translate: docs/ja/05-accessibility-warnings by yamanoku · Pull Request #471 · svelte-jp/svelte-site-jp](https://github.com/svelte-jp/svelte-site-jp/pull/471)
 
-[ Blog What's new in Svelte: August 2021 の翻訳 by yamanoku · Pull Request #484 · svelte-jp/svelte-site-jp](https://github.com/svelte-jp/svelte-site-jp/pull/484)
+[Blog What's new in Svelte: August 2021 の翻訳 by yamanoku · Pull Request #484 · svelte-jp/svelte-site-jp](https://github.com/svelte-jp/svelte-site-jp/pull/484)
 
 SvelteJP の Discord にある「ドキュメント翻訳」チャンネルがあり、運営メンバーの [tomoam](https://twitter.com/tomoam_mat) さんから翻訳作業の募集が出ていたりします。
 Svelte の雰囲気を知るために翻訳作業に参加させてもらいました。

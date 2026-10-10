@@ -80,7 +80,7 @@ GAAD の日は世界各地でアクセシビリティに関連するイベント
 
 GAAD Japan 実行委員会ならびにイベント関係者の皆様、お疲れさまでした。 9:45〜20:00 の長丁場でしたが、各セッションを楽しむことが出来ました。
 
-<Tweet url="https://twitter.com/GAAD_jp/status/1527491818127994880" displayName="GAAD Japan 🇯🇵" handle="GAAD_jp" dateLabel="May 20, 2022">【満員御礼】 昨日開催した「GAAD Japan 2022」は、671名もの皆さんに参加登録をいただきました。本当にありがとうございました！ また、ご協賛いただいた14社、9組のセッション登壇者、8組のLT登壇者の皆さんに感謝申し上げます。 本日よりフォローアップメールをお送りしてまいります！#GAADjp</Tweet>
+<Tweet url="https://x.com/GAAD_jp/status/1527491818127994880" displayName="GAAD Japan 🇯🇵" handle="GAAD_jp" dateLabel="May 20, 2022">【満員御礼】 昨日開催した「GAAD Japan 2022」は、671名もの皆さんに参加登録をいただきました。本当にありがとうございました！ また、ご協賛いただいた14社、9組のセッション登壇者、8組のLT登壇者の皆さんに感謝申し上げます。 本日よりフォローアップメールをお送りしてまいります！#GAADjp</Tweet>
 
 当日の各セッションごとでの様子は [togetter](https://togetter.com/li/1889734) にてまとめられておりますので、併せてご覧ください。
 

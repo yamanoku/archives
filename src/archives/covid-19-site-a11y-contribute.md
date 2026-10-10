@@ -27,7 +27,7 @@ noindex: true
 
 東京都 新型コロナウイルス対策サイト（以下、covid-19 対策サイト）は非営利団体「[Code for Japan](https://www.code4japan.org/)」の有志によって作成されました。
 
-https://twitter.com/fujiiakiratokyo/status/1234971283432960000
+<Tweet url="https://x.com/FujiiAkiraTOKYO/status/1234971283432960000" displayName="藤井あきら🗻デジタル都議👩‍💻町田市選挙区" handle="FujiiAkiraTOKYO" dateLabel="March 3, 2020">東京都のアドバイザーを務めるCode for Japanの関さんが中心となって、 新型コロナウイルスの東京都が発表してきた情報をワンストップに確認できるダッシュボードができました！！！！ これは良い取り組み。ぜひ皆様ご確認ください。 ・東京都公式COVID-19対策サイト https://stopcovid19.metro.tokyo.lg.jp/</Tweet>
 
 ページ数も少なく、自分も馴染みがある構成の Nuxt.js ＋ Netlify で作られていたので、確認を含めた環境構築に時間がかからなくてよかったです。
 
@@ -66,7 +66,7 @@ covid-19 対策サイトの[行動規範](https://github.com/tokyo-metropolitan-
 
 ただ、この Issue 内で小出しに上げていくよりかは、一度まとめてページをチェックをしてみて、そこからラベル付けをして Issue 登録したほうがいいのではとアクセシビリティ向上に取り組む有志が反応しました。
 
-https://twitter.com/masuP9/status/1235126162675789824
+<Tweet url="https://x.com/masuP9/status/1235126162675789824" displayName="ますぴー" handle="masuP9" dateLabel="March 4, 2020">こういうissue出しというか、ウェブサイトのアクセシビリティチェックの様子を配信したりすると面白いかなと思ってる。今ジャストの思いつき</Tweet>
 
 その流れから、covid-19 対策サイトのアクセシビリティの改善をする**オンラインアクセシビリティもくもく会**のイベントが発足されました。
 
@@ -150,7 +150,7 @@ covid-19 対策サイトでは、ラベル自体があまりなく、共通と�
 
 Lighthouse では axe-core という[Deque Systems](https://www.deque.com/)が開発したアクセシビリティチェックエンジンを使用して、その結果 97 点という高得点を出してはいます。（試験当日の時点）
 
-https://twitter.com/yamanoku/status/1235905844253822977
+<Tweet url="https://x.com/yamanoku/status/1235905844253822977" displayName="やまのく🐶" handle="yamanoku" dateLabel="March 6, 2020">新型コロナウイルス対策サイト、auditのアクセシビリティ97点なのか #a11y_moku2</Tweet>
 
 ですが、今回目視チェックであげられてきた Issue を見るに、Lighthouse の数値が信頼できるかは怪しく感じられます。
 
@@ -174,7 +174,7 @@ https://twitter.com/yamanoku/status/1235905844253822977
 
 また、ユニバーサルデザインの Issue については東京都副知事の宮坂氏も以下のように反応していました。
 
-https://twitter.com/miyasaka/status/1238306057836879875
+<Tweet url="https://x.com/miyasaka/status/1238306057836879875" displayName="miyasaka" handle="miyasaka" dateLabel="March 13, 2020">新型コロナウイルスサイトではユニバーサルデザインに取り組んでいます。ユニバーサルデザインって具体的な何してるのか？が開発経験のない方には想像つきにくいと思うのでその一端をご紹介。グラフ色のコントラストをより多くの人の届けるには？の取組です。 https://github.com/tokyo-metropolitan-gov/covid19/pull/740</Tweet>
 
 ## おわりに
 

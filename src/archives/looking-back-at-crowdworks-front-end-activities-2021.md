@@ -208,7 +208,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 
 ### 東京都新型コロナウイルス感染症対策サイトのアクセシビリティ「プレ」試験に参加
 
-[https://twitter.com/magi1125/status/1443510024383307782](https://twitter.com/magi1125/status/1443510024383307782)
+<Tweet url="https://x.com/magi1125/status/1443510024383307782" displayName="Rikiya Ihara / magi" handle="magi1125" dateLabel="September 30, 2021">東京都新型コロナウイルス感染症対策サイトのウェブアクセシビリティ試験結果が公開されました。JIS X 8341-3:2016の適合レベルAAに準拠したと判断しています。ここをひとつのマイルストーンとして、よりアクセスしやすく利用しやすい形を引き続き模索していきます。 https://stopcovid19.metro.tokyo.lg.jp/accessibility-results</Tweet>
 
 - [東京都新型コロナウイルス感染症対策サイト](https://stopcovid19.metro.tokyo.lg.jp/)の JIS 適応チェックに向け、事前に問題点がないかを洗い出す会に参加しました
 - [去年問題点がありそうなところは有志で確認してみた](https://ca11y.connpass.com/event/169901/)のですが

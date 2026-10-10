@@ -31,9 +31,9 @@ HTML の lint ツールとして[HTMLLint](https://github.com/htmllint/htmllint)
 
 パーサーについては以前私からの要望で作者に erb も作成してもらったのですが、erb ファイルが膨大すぎて使う機会がなく作らせてしまっただけになりました。
 
-[https://twitter.com/yamanoku/status/1311527268397707264](https://twitter.com/yamanoku/status/1311527268397707264)
+<Tweet url="https://x.com/yamanoku/status/1311527268397707264" displayName="やまのく🐶" handle="yamanoku" dateLabel="October 1, 2020">markuplintでerbの静的解析してくれたりとかは…その…あの…（モジモジ）</Tweet>
 
-[https://twitter.com/cloud10designs/status/1361115436117450753](https://twitter.com/cloud10designs/status/1361115436117450753)
+<Tweet url="https://x.com/cloud10designs/status/1361115436117450753" displayName="ゆうてん🖖" handle="cloud10designs" dateLabel="February 15, 2021">@yamanoku おまたせしました！erb対応完了です。バグがあったら教えて下さい。 https://x.com/cloud10designs/status/1361112221254782979</Tweet>
 
 （作者にはお伝えしましたがこの場を借りて改めて）使えておらず大変申し訳ありませんでした…。
 
@@ -89,7 +89,7 @@ markuplint のルールについては以下で適用しています。
 
 現在 markuplint では[GitHub Sponsor の窓口](https://github.com/sponsors/markuplint)も作られており、弊社社員からもスポンサードしています。
 
-[https://twitter.com/markuplint/status/1433027060524470272](https://twitter.com/markuplint/status/1433027060524470272)
+<Tweet url="https://x.com/markuplint/status/1433027060524470272" displayName="Markuplint" handle="markuplint" dateLabel="September 1, 2021">Thank you, @earlgrayMK(mikimhk). Added to README you as a personal supporter. Appreciate your continued support🥰</Tweet>
 
 そのほかこうした要望がある、こういう問題があった、と Issue で報告することもサポートする形だと思います。
 更に使い込んでいってソースコード側のプルリクエストにてコントリビュートもしていければと考えております。

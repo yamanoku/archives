@@ -190,7 +190,7 @@ crowdworks.jp のフロントエンド開発の歴史を振り返り、私が所
 
 Storybookの公式X（旧Twitter）にてコントリビューターとして紹介してもらったのが大変うれしかったのを記憶しております。
 
-<Tweet url="https://twitter.com/storybookjs/status/1631006416986165254" displayName="Storybook" handle="storybookjs" dateLabel="March 1, 2023">Shoutout to @okuto_oyama for the spot-on contribution🔍. Thanks to him, we merged improving our UI. Great job at getting your first contribution in💪. Looking forward to your next one.</Tweet>
+<Tweet url="https://x.com/storybookjs/status/1631006416986165254" displayName="Storybook" handle="storybookjs" dateLabel="March 1, 2023">Shoutout to @okuto_oyama for the spot-on contribution🔍. Thanks to him, we merged improving our UI. Great job at getting your first contribution in💪. Looking forward to your next one.</Tweet>
 
 もう１つは社内導入をしてみて個人でも活用しているAstroへのコントリビュートです。静的なHTMLを出力する際にインラインで `<style>` が記述されるのですが、現在既に非推奨となった `type="text/css"` が付与されていました。個人でMarkuplintを活用してHTMLをチェックしている身としては不要な記述だと感じていたので修正PRを作成しました。こちらはv3.0.13にて反映されました。
 

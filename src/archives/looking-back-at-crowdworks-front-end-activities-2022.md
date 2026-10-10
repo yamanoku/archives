@@ -229,7 +229,7 @@ Saitama.js にて Stroybook を活用したフロントエンドの負債解消�
 
 #### WEB+DB PRESS 連載記事の査読協力
 
-[https://twitter.com/takepepe/status/1583428778331901953](https://twitter.com/takepepe/status/1583428778331901953)
+<Tweet url="https://x.com/takepepe/status/1583428778331901953" displayName="Takepepe" handle="takepepe" dateLabel="October 21, 2022">同じコンポーネント構造でもa11y tree に明白な差が出るサンプルを用意しました。今回はWebアクセシビリティ分野に注力されている @yamanoku さんにもご協力頂いていますmm 是非読んでみてください</Tweet>
 
 吉井さん（[@takepepe](https://twitter.com/takepepe)）が WEB+DB PRESS にて連載している「フロントエンド コンポーネント駆動開発」のアクセシビリティ改善記事に査読協力いたしました。知人も寄稿していた WEB+DB PRESS ですが、生原稿が見られたのは貴重な体験でした。フロントエンド開発での意識し忘れがちな部分でもあるので是非読んでもらいたいです。
 

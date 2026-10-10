@@ -37,7 +37,7 @@ Vue3 から内部実装として搭載された Composition API の RFC は 2019
 
 現在開発中の Vapor モードや Resumable hydration については Solid.js、Qwik の実装を参考にしているとのことです。各 OSS フロントエンドライブラリが影響しあい、現在のフロントエンド開発の問題点を解決していっているのは進化における良い相互作用だなと思います。
 
-[https://twitter.com/\_jessicasachs/status/1532283507145420801](https://twitter.com/_jessicasachs/status/1532283507145420801)
+<Tweet url="https://x.com/_jessicasachs/status/1532283507145420801" displayName="jess" handle="_jessicasachs" dateLabel="June 2, 2022">Vue “vapor” - an experimental, Solid.js-inspired compilation strategy.</Tweet>
 
 ## Evan You に聞こう
 
@@ -47,7 +47,7 @@ Vue.js に関してほかフレームワークより優れている点、今後�
 
 個人的には、興味があった「仕事とOSSの両立」に対する回答が印象に残りました。
 
-[https://twitter.com/kannkyoshi/status/1581455290393690112](https://twitter.com/kannkyoshi/status/1581455290393690112)
+<Tweet url="https://x.com/kannkyoshi/status/1581455290393690112" displayName="kannkyo" handle="kannkyoshi" dateLabel="October 16, 2022">@vuefes 仕事とOSS貢献を両立するコツは？ #vuefes_qa</Tweet>
 
 自分のワークライフバランスを大事にしたいなら趣味でやるべきで、本格的に OSS フルコミットをしていくのであれば取り組む目的をしっかりと明確にし、時にはワークライフバランスを犠牲にする必要もある、とのことでした。
 
