@@ -27,6 +27,7 @@ export function oxContentPluginOptions(): OxContentOptions {
       speakerDeck: true,
       googleSlides: true,
       playgrounds: { iframe: true },
+      video: true,
     },
     search: {
       placeholder: '記事を検索',

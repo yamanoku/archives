@@ -19,11 +19,11 @@ noindex: true
 
 ### vue-a11y
 
-![スクリーンショット：Vue A11y 日本語サイト TOPページ](https://i.gyazo.com/0f3fb436378fec876d44315706c15857.png)
+![スクリーンショット：Vue A11y 日本語サイト TOPページ](https://images.yamanoku.net/open-source-contribution-activity-2021/0f3fb436378fec876d44315706c15857.png)
 
 Vue.js ユーザーでアクセシビリティに関心が高い人たちが集まるチームがあり、それが vue-a11y です。主催は [Alan Ktquez](https://github.com/ktquez) 氏で、なにか手伝えることはないかと手を挙げてみたところ、私もメンバーとして誘ってもらいました。
 
-![スクリーンショット：Vue A11y 公式サイトのメンバー紹介ページ](https://i.gyazo.com/fb5ab33e561b178000d93086a1795802.png)
+![スクリーンショット：Vue A11y 公式サイトのメンバー紹介ページ](https://images.yamanoku.net/open-source-contribution-activity-2021/fb5ab33e561b178000d93086a1795802.png)
 
 今年は[サイトの日本語ページ](https://vue-a11y.com/jp/)開設やドキュメントの翻訳対応やそのレビューなどを行いました。
 日本語翻訳に参加してくれた [かずやん](https://twitter.com/D_kazuyan)さん、[manak1](https://twitter.com/mikeanakida) さん、ありがとうございました！
@@ -32,7 +32,7 @@ https://twitter.com/yamanoku/status/1351683841191149568
 
 しかしながら今年は諸事情で主催の Alan 氏や私自身が vue-a11y に割く時間がなかったため、グループ全体の活動としてはあまり進捗がない形でした。
 
-![スクリーンショット：Accessible Vue 公式サイト](https://i.gyazo.com/c864aa971aa52f536d534ec91d9ac8df.png)
+![スクリーンショット：Accessible Vue 公式サイト](https://images.yamanoku.net/open-source-contribution-activity-2021/c864aa971aa52f536d534ec91d9ac8df.png)
 
 オープンソースとは別件ですが、メンバーの [Marcus Herrmann](https://twitter.com/_marcusherrmann) 氏が [Accessible Vue](https://accessible-vue.com/)という電子書籍を今年リリースしました。
 Vue.js 開発においてのアクセシビリティ考慮する点をあげた書籍なので、ぜひご覧ください。
@@ -101,7 +101,7 @@ Reset.css、Normalize.css といった CSS リセットの良いとこ取りし�
 サイトのドキュメントスタイルが崩れていたことを報告しました。
 単純に事象を伝えただけですが、コントリビューターとして追加してもらいました（今確認しましたがコントリビューター欄はなくなってそう）。
 
-![スクリーンショット：reseter.css の README にあったコントリビューター一覧に Okuto Oyama として追加されている](https://i.gyazo.com/12c0d5f3c39f8c006513ab263ec90e9c.png)
+![スクリーンショット：reseter.css の README にあったコントリビューター一覧に Okuto Oyama として追加されている](https://images.yamanoku.net/open-source-contribution-activity-2021/12c0d5f3c39f8c006513ab263ec90e9c.png)
 
 ## zenn-dev/zenn-community
 
@@ -113,12 +113,12 @@ Zenn のユーザが要望や質問などを投稿できるリポジトリ
 
 再現の確認として gif アニメーションで確認できるようにしました。
 
-![zenn スクラップページでのフォーカスの動き再現。いちばん下へジャンプするボタンにフォーカスが上がっていない。](https://i.gyazo.com/32dc1c28094bc449aa64b4afdf9f454a.gif)
+![zenn スクラップページでのフォーカスの動き再現。いちばん下へジャンプするボタンにフォーカスが上がっていない。](https://images.yamanoku.net/open-source-contribution-activity-2021/32dc1c28094bc449aa64b4afdf9f454a.gif)
 
 上記要望は対応していただいてキーボードフォーカスが当たるようになっていました。
 スピーディな対応、ありがとうございました！
 
-![スクリーンショット：「いちばん下へジャンプする」ボタンにフォーカスが当たっている](https://i.gyazo.com/57af09f2160b2e761e4f962a070c468f.png)
+![スクリーンショット：「いちばん下へジャンプする」ボタンにフォーカスが当たっている](https://images.yamanoku.net/open-source-contribution-activity-2021/57af09f2160b2e761e4f962a070c468f.png)
 
 ## microcmsio/microcms-blog
 
@@ -208,7 +208,7 @@ IE11 も対応しているサイトだったとのことなので使えるプロ
 
 | `word-break: break-all;`                                                                                        | `overflow-wrap: break-word;`                                                                                                |
 | --------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| ![スクリーンショット：記事内の英単語が改行されている](https://i.gyazo.com/46a6681a3026dd1b6ec4e61380556360.png) | ![スクリーンショット：記事内の英単語が改行されていなくなっている](https://i.gyazo.com/b3908b6b44d56acc347fd780fcb20a7f.png) |
+| ![スクリーンショット：記事内の英単語が改行されている](https://images.yamanoku.net/open-source-contribution-activity-2021/46a6681a3026dd1b6ec4e61380556360.png) | ![スクリーンショット：記事内の英単語が改行されていなくなっている](https://images.yamanoku.net/open-source-contribution-activity-2021/b3908b6b44d56acc347fd780fcb20a7f.png) |
 
 なおその後、神の怒りに触れてリバートされました（文字量でカラムサイズ決めないでおくれ）。
 
@@ -233,7 +233,7 @@ https://twitter.com/sadnessOjisan/status/1394898107041652736
 
 [SnO2WMaN](https://twitter.com/SnO2WMaN) さん作のトホホ…な画像を生成するジェネレーター
 
-![tohohoify で生成された画像](https://i.gyazo.com/7d69f2e4610112ae654bf628ef568ef9.png)
+![tohohoify で生成された画像](https://images.yamanoku.net/open-source-contribution-activity-2021/7d69f2e4610112ae654bf628ef568ef9.png)
 
 [fix: Axe DevTools Critical Issues by yamanoku · Pull Request #20 · SnO2WMaN/tohohoify](https://github.com/SnO2WMaN/tohohoify/pull/20)
 

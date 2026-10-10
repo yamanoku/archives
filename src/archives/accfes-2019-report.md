@@ -8,7 +8,7 @@ category: event
 topic: accessibility
 ---
 
-![Image from Gyazo](https://i.gyazo.com/2c72232c0f83648ffab61e95a17ddfc7.jpg)
+![車いす、白杖、松葉杖の人を含むイラストに囲まれ、中央に「INCLUSIVE WORLD」「インクルーシブな世界」とある2019年5月16日のポスター](https://images.yamanoku.net/accfes-2019-report/2c72232c0f83648ffab61e95a17ddfc7.jpg)
 
 皆さんこんにちは。[株式会社プレイド](https://plaid.co.jp/)でデザインエンジニアをやっております大山です。
 
@@ -31,7 +31,7 @@ topic: accessibility
 
 UD トークは、もとは１人の開発者が助成金などはなしで趣味で作ったものだそうです。それが今では 400 団体で導入、43 万ダウンロード達成しており、議事録作成などのビジネスツールとして活用されてもいます。
 
-![画像1](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/11822419/picture_pc_9cbd62e0c72c72bc11c1a7b5d9908c06.gif)
+![画像1](https://images.yamanoku.net/accfes-2019-report/228b680d24cfb79eead93924467f412f.gif)
 
 合計 6 名ほどの手話通訳士の方が交代しながらでセッションを通訳していました。簡単な手話を覚えるコーナー（「こんにちは」「ありがとう」「令和」等）もありました。
 
@@ -43,7 +43,7 @@ UD トークは、もとは１人の開発者が助成金などはなしで趣�
 
 スクリーンリーダーによるバグなのかと思いきや、ブラウザ・ユーザーエージェントによる判定で精密すぎたり、誤認識があったりして理解できない部分がありました。普段よりマークアップは意識してるのですが、使い方を間違うとこうした影響が出るのか、と改めて自戒しました。
 
-![aタグが display: table になってるため「リンク」ではなく「クリック可能」で呼び出されています。](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/11878501/picture_pc_9aa4b516a240cc51fdfa5f8e0264a42f.png)
+![aタグが display: table になってるため「リンク」ではなく「クリック可能」で呼び出されています。](https://images.yamanoku.net/accfes-2019-report/ed46ed41c45ec9e0c4b6516cd56686ea.png)
 
 中でも印象的だったのが、AdSense による配信広告の中に[<ins>要素](https://developer.mozilla.org/ja/docs/Web/HTML/Element/ins)（差し込み）が入り組んでいたことでスクリーンリーダーがうまく読み取ってくれなかったことで、普段あまり意識してなかったのですが、他もそうなってるのだろうか？　と気になりました。
 
@@ -71,21 +71,21 @@ UD トークは、もとは１人の開発者が助成金などはなしで趣�
 
 > 日本マイクロソフト株式会社ではインクルーシブに機能拡張された Xbox Adaptive Controller ほか、Microsoft AI、Windows の最新アクセシビリティ機能や、文字情報をテキストデータに変換して読み上げる Office Lens の紹介。
 
-![画像3](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/11823183/picture_pc_b71e7b0377607a5300893022fb87734c.jpg)
+![画像3](https://images.yamanoku.net/accfes-2019-report/a8b08e03108ed365c5111aaeb7ed6d30.jpg)
 
 > 視覚障害者が使用する白杖に画像解析を合わせて、拡声放送にて周囲の状況や周辺への注意喚起などをしてくれる音声誘導システム。
 
-![画像4](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/11823174/picture_pc_03d6869c73f3d30a6e2265527a628f18.jpg)
+![画像4](https://images.yamanoku.net/accfes-2019-report/9b6fc9f4ff80c0e3f9c5fa1c09813848.jpg)
 
 > 株式会社アシックスでは、フラット磁気展示を踏むと振動を知らせてくれるシューズ（写真左）と、障がい者が運動し易いシューズ（写真右）の研究展示。
 
-![画像5](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/11823169/picture_pc_2e70cc23409001b6099cd78a8bcb98e8.jpg)
+![画像5](https://images.yamanoku.net/accfes-2019-report/b6dd04901382a2c85502f81b6b5bfaa9.jpg)
 
 > その他にも、バスの降車ボタンをスマホ操作で補佐してくれるアプリ、脳波をキャッチして今の感情を表現してくれるコミュニケーションツール、発達障害の方への Web サービスを作るハッカソンの展示、手を使わずに動かせる車いすなどがありました。
 
 ## アクセシビリティな未来の課題について
 
-![画像6](https://d2l930y2yx77uc.cloudfront.net/production/uploads/images/11823129/picture_pc_68c45132a5465b6174c349c8cb2ead0c.jpg)
+![画像6](https://images.yamanoku.net/accfes-2019-report/ec50980a67c3ecdc0b6174abf08cbe2b.jpg)
 
 最後は株式会社ミツエーリンクスの木達さんと、クラスメソッド株式会社
 の持田さんによる「[アクセシビリティの未来を考える](https://accfes.com/2019/session/session6.php)」対談セッションでした。

@@ -72,7 +72,7 @@ Androidは多様なデバイスを販売しており、日本国内発の端末�
 しかしAndroid端末で忘れられてしまいがちな事実があります。それはCPUパフォーマンスについてです。
 
 <figure>
-  <img src="https://infrequently.org/2022/12/performance-baseline-2023/single_core_scores.png" alt="2013年から2022年までのスマートフォンのGeekbenchを使ったシングルコアスコアを示す線グラフ。データは横軸に年を、縦軸にスコアを示す形式で表されている。スコアには、iOSデバイスのスコアを表す青い線と、高スペックのAndroidのスコアは濃い青緑の線、中程度のスペックのAndroidはオレンジ色の線、低スペックのAndroidは薄い青緑の線で書かれている。グラフは時間の経過と共に、iOSデバイスがもっともスコアが向上していることを示しており、高スペックのAndroidとで大きく差をつけている。各ポイントには、特定のデバイスの名前（例：iPhone 13、Galaxy S22 Ultraなど）がラベル付けされている。">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-09/e8395f715d04c8f5b85dd4fabbdab19d.png" alt="2013年から2022年までのスマートフォンのGeekbenchを使ったシングルコアスコアを示す線グラフ。データは横軸に年を、縦軸にスコアを示す形式で表されている。スコアには、iOSデバイスのスコアを表す青い線と、高スペックのAndroidのスコアは濃い青緑の線、中程度のスペックのAndroidはオレンジ色の線、低スペックのAndroidは薄い青緑の線で書かれている。グラフは時間の経過と共に、iOSデバイスがもっともスコアが向上していることを示しており、高スペックのAndroidとで大きく差をつけている。各ポイントには、特定のデバイスの名前（例：iPhone 13、Galaxy S22 Ultraなど）がラベル付けされている。">
   <figcaption>
     引用: <a href="https://infrequently.org/2022/12/performance-baseline-2023/#devices-1">
      The Performance Inequality Gap, 2023 - Infrequently Noted
@@ -81,7 +81,7 @@ Androidは多様なデバイスを販売しており、日本国内発の端末�
 </figure>
 
 <figure>
-  <img src="https://infrequently.org/2022/12/performance-baseline-2023/multi_core_scores.png" alt="2013年から2022年までのスマートフォンのGeekbenchを使ったマルチコアスコアを示す線グラフ。データは横軸に年を、縦軸にスコアを示す形式で表されている。スコアには、iOSデバイスのスコアを表す青い線と、高スペックのAndroidのスコアは濃い青緑の線、中程度のスペックのAndroidはオレンジ色の線、低スペックのAndroidは薄い青緑の線で書かれている。グラフは時間の経過と共に、iOSデバイスがもっともスコアが向上していることを示しており、高スペックのAndroidとで大きく差をつけている。各ポイントには、特定のデバイスの名前（例：iPhone 13、Galaxy S22 Ultraなど）がラベル付けされている。">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-09/9001a33221fb02881910aa5d3b745ba7.png" alt="2013年から2022年までのスマートフォンのGeekbenchを使ったマルチコアスコアを示す線グラフ。データは横軸に年を、縦軸にスコアを示す形式で表されている。スコアには、iOSデバイスのスコアを表す青い線と、高スペックのAndroidのスコアは濃い青緑の線、中程度のスペックのAndroidはオレンジ色の線、低スペックのAndroidは薄い青緑の線で書かれている。グラフは時間の経過と共に、iOSデバイスがもっともスコアが向上していることを示しており、高スペックのAndroidとで大きく差をつけている。各ポイントには、特定のデバイスの名前（例：iPhone 13、Galaxy S22 Ultraなど）がラベル付けされている。">
   <figcaption>
     引用: <a href="https://infrequently.org/2022/12/performance-baseline-2023/#devices-1">
      The Performance Inequality Gap, 2023 - Infrequently Noted

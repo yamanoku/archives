@@ -13,7 +13,7 @@ noindex: true
 
 3/28（金）にVue.js日本ユーザーグループが主催する[Vue.js v-tokyo Meetup #22](https://vuejs-meetup.connpass.com/event/343338/)にて登壇・発表してきました。
 
-![当日の勉強会会場でもあるユニークビジョン社で登壇・発表する大山の様子。登壇スライドの表紙が映し出されている。周囲には椅子に座っている聴衆が見える。室内には黒いテーブルと椅子が並べられており、天井の照明は白色で、部屋全体は白色、天井の一部も白色で覆われている。](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3871108/16c4abb6-22a2-4076-abd5-cb109e6a8208.png)
+![当日の勉強会会場でもあるユニークビジョン社で登壇・発表する大山の様子。登壇スライドの表紙が映し出されている。周囲には椅子に座っている聴衆が見える。室内には黒いテーブルと椅子が並べられており、天井の照明は白色で、部屋全体は白色、天井の一部も白色で覆われている。](https://images.yamanoku.net/from-not-knowing-to-presenting/5b8854839fd28d57cac37c8e3ab67f21.png)
 
 当記事内の写真はVue.js日本ユーザーグループの[keigo](https://github.com/kspace-trk)さんに撮影していただいたものを掲載しています。感謝申し上げます。
 
@@ -43,7 +43,7 @@ noindex: true
 
 今回はVue.js日本ユーザーグループの[kazupon](https://github.com/kazupon)さんにalien-signalsにまつわる発表者を、[chibivue land](https://github.com/chibivue-land)のDiscordにて募集していたのがきっかけになっています。
 
-![kazuponが「次の v-tokyo を考えているのですが、alien-signals がリリースされたので、この discord にいる人で、話してみたいという人います？」とDiscord上でコメントしている](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3871108/5adef742-cb93-4327-be29-fd39ea1e8e6a.png)
+![kazuponが「次の v-tokyo を考えているのですが、alien-signals がリリースされたので、この discord にいる人で、話してみたいという人います？」とDiscord上でコメントしている](https://images.yamanoku.net/from-not-knowing-to-presenting/cf72c56dd0abd71468a103475ed4123f.png)
 
 この時点で自分自身がどこまで発表できるレベルにあるのかは未知数でしたが、**社内で活用しているVue.jsの内部に関連する部分であり**、（実装の詳細はさておき）**人に説明できるレベルで理解としておきたい気持ちがあった**ので手を挙げてみました。
 
@@ -85,7 +85,7 @@ alien-signalsについては、[GitHubリポジトリのREADME](https://github.c
 
 今回はGoogleが提供するAIリサーチアシスタントである[NotebookLM](https://notebooklm.google.com/)を活用して、収集した一次情報群をインプットさせていきました。
 
-![NotebookLM Plusで「リアクティブシステムの入門編」というページが作られている。３つの枠に別れていて、１つは関連するサイトやYouTube動画が並んでいるソースに関連する部分。１つはソースを元にした概要が書かれているチャットで質問が投げられる部分。１つはStudioと書かれた音声ガイドやメモ機能が使える部分。](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3871108/d323c0fd-3ef3-41ab-962c-49d7871ce4d1.png)
+![NotebookLM Plusで「リアクティブシステムの入門編」というページが作られている。３つの枠に別れていて、１つは関連するサイトやYouTube動画が並んでいるソースに関連する部分。１つはソースを元にした概要が書かれているチャットで質問が投げられる部分。１つはStudioと書かれた音声ガイドやメモ機能が使える部分。](https://images.yamanoku.net/from-not-knowing-to-presenting/3604dd2bf5506dc76739bd08bb05047e.png)
 
 NotebookLMの良いところは、ウェブサイトやPDFからのテキストデータだけではなく、YouTubeといった動画データも要約してまとめてくれるところです。関連するカンファレンスでの発表動画を読み込ませることができたので非常にありがたかったです。
 
@@ -128,7 +128,7 @@ NotebookLMに要約してもらった情報を咀嚼し、どういった構成�
 
 私の発表ではアジェンダの代わりに、今回の発表ではどういうことを伝えたいと思っているのか、どういうゴールを目指しているのかを伝えるようにしてみました。
 
-![This Session's Goalと書かれたスライドのスクリーンショット。「Understanding Reactivity System」「Learning about alien-signals」「To help you understand the next presentations」という３つの目的が書かれている。](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3871108/53088cef-2cb9-47e8-be22-55af515cd7b3.png)
+![This Session's Goalと書かれたスライドのスクリーンショット。「Understanding Reactivity System」「Learning about alien-signals」「To help you understand the next presentations」という３つの目的が書かれている。](https://images.yamanoku.net/from-not-knowing-to-presenting/483e7f596d251778cffe11ae6e2d95f3.png)
 
 ### 理解しやすくする工夫
 
@@ -138,7 +138,7 @@ NotebookLMに要約してもらった情報を咀嚼し、どういった構成�
 
 リアクティビティに関する挙動についても、一枚の図を作るだけではなく、どういった動きで伝播していくのかがイメージしやすいようにスライドアニメーションをつけました。
 
-![Push-Pullの概要をアニメーション付きでどのように変更がされて通知が来ているのかについてを説明しているスライド。](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3871108/88d0d7a1-2d38-438c-a4cb-f7e539a5b6f0.gif)
+![Push-Pullの概要をアニメーション付きでどのように変更がされて通知が来ているのかについてを説明しているスライド。](https://images.yamanoku.net/from-not-knowing-to-presenting/a7303ac066b92df367a715f59ef25e23.gif)
 
 ### スライドツールは使いやすいものを使う
 
@@ -172,7 +172,7 @@ NotebookLMに要約してもらった情報を咀嚼し、どういった構成�
 
 ただし事前に聴いてもらうことは発表内容のネタバレとなってしまうので、念の為、そういったことが気にならない方へ依頼しておくとよいでしょう。
 
-![プレゼンテーションを行う大山と、スクリーンを見ている聴衆。スクリーンには大山奥人の顔写真と名前、所属、ポッドキャストの情報、SNSアカウントが記載されている。](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3871108/00e6a20a-e7c3-49e4-945f-ae46a1fcfac2.png)
+![プレゼンテーションを行う大山と、スクリーンを見ている聴衆。スクリーンには大山奥人の顔写真と名前、所属、ポッドキャストの情報、SNSアカウントが記載されている。](https://images.yamanoku.net/from-not-knowing-to-presenting/cf91a381c0bcb9de1c41c1f491f221db.png)
 
 ## 6. 発表当日
 
@@ -196,7 +196,7 @@ NotebookLMに要約してもらった情報を咀嚼し、どういった構成�
 
 他にも、始まる前に軽く深呼吸したり、好きな飲み物を手元に置いておいておく、聴いてくれている誰かを見て話すようにする、などして緊張を緩和していました。
 
-![マイクを持ち話をする大山奥人の上半身の画像。スクリーンには大きく「signals」という文字が表示されている。左側には観葉植物が配置され、手前の机の上にはノートパソコンと飲み物が置かれている。](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/3871108/cad67b57-a739-444a-ae5c-d80a60ae5926.png)
+![マイクを持ち話をする大山奥人の上半身の画像。スクリーンには大きく「signals」という文字が表示されている。左側には観葉植物が配置され、手前の机の上にはノートパソコンと飲み物が置かれている。](https://images.yamanoku.net/from-not-knowing-to-presenting/7143d308778ab289f020d05293f8f9a1.png)
 
 ### 質疑応答について
 

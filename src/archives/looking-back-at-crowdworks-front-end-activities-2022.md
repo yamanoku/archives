@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![アイキャッチ：crowdworks.jp のフロントエンド活動を振り返る 2022](https://i.gyazo.com/86e6df2800df4963c772c41ceb1b5eb8.png)
+![アイキャッチ：crowdworks.jp のフロントエンド活動を振り返る 2022](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2022/86e6df2800df4963c772c41ceb1b5eb8.png)
 
 この記事は [クラウドワークス Advent Calendar 2022](https://qiita.com/advent-calendar/2022/crowdworks) の１日目の記事です。
 
@@ -105,7 +105,7 @@ Vue.js 化においてはチームのフロントエンドのレベル感もバ�
 
 現在は Rails の Controller においてアクセスが多いページを参考に、どの画面を Vue.js 化するかという計画を立てています。
 
-![クラウドワークス QiitaTeam に載ってある jp フロントエンド開発概要ページのスクリーンショット](https://i.gyazo.com/791d9fa6db3ae0f73f6780b52ee45be1.png)
+![クラウドワークス QiitaTeam に載ってある jp フロントエンド開発概要ページのスクリーンショット](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2022/791d9fa6db3ae0f73f6780b52ee45be1.png)
 
 フロントエンド開発におけるドキュメントも随時整備しており、他チームでも Vue.js 化を前提にした開発しやすいような土壌を作っていっております。
 
@@ -121,11 +121,11 @@ crowdworks.jp における施策・機能開発をする際に他チームにて
 
 昨年の取り組みでも紹介しましたが、デザインにおける負債解消に取り組むデザイン基盤チームは現在デザインシステム「norman」の開発を進めています。今年は norman におけるデザイントークンを定義していくことに注力し、カラーやフォント、余白、シャドウといったものを決めていきました。
 
-![カラーパレットやテーマカラーに関する Figma データのスクリーンショット](https://i.gyazo.com/046b79d30b40359eebb87a7e46770f4f.png)
+![カラーパレットやテーマカラーに関する Figma データのスクリーンショット](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2022/046b79d30b40359eebb87a7e46770f4f.png)
 
-![タイポグラフィに関する Figma データのスクリーンショット](https://i.gyazo.com/6e94f50601ceeb47401ae31c9236978e.png)
+![タイポグラフィに関する Figma データのスクリーンショット](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2022/6e94f50601ceeb47401ae31c9236978e.png)
 
-![シャドウ、ボーダー、角丸に関する Figma データのスクリーンショット](https://i.gyazo.com/75caa8d3893f6a756d4b8e58e74522d7.png)
+![シャドウ、ボーダー、角丸に関する Figma データのスクリーンショット](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2022/75caa8d3893f6a756d4b8e58e74522d7.png)
 
 ベーストークンとセマンティクストークンでのそれぞれ定義したものを既存の norman コンポーネントに変更していっております。デザイントークンに関しての説明については過去の取り組みをご覧ください。
 

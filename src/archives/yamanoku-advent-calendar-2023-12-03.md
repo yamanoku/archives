@@ -93,11 +93,11 @@ Zennでページを一部拡大して読みたい場合（主にスマートフ�
 
 再現の確認としてGIFアニメーションで確認できるようにしました。
 
-![zenn スクラップページでのフォーカスの動き再現。いちばん下へジャンプするボタンにフォーカスが上がっていない。](https://i.gyazo.com/32dc1c28094bc449aa64b4afdf9f454a.gif)
+![zenn スクラップページでのフォーカスの動き再現。いちばん下へジャンプするボタンにフォーカスが上がっていない。](https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-03/32dc1c28094bc449aa64b4afdf9f454a.gif)
 
 上記要望は対応していただいてキーボードフォーカスが当たるようになっていました。
 
-![スクリーンショット：「いちばん下へジャンプする」ボタンにフォーカスが当たっている](https://i.gyazo.com/57af09f2160b2e761e4f962a070c468f.png)
+![スクリーンショット：「いちばん下へジャンプする」ボタンにフォーカスが当たっている](https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-03/57af09f2160b2e761e4f962a070c468f.png)
 
 ## microcmsio/microcms-blog
 
@@ -149,7 +149,7 @@ React.js製のソーシャルシェアボタンライブラリ。
 
 [SnO2WMaN](https://twitter.com/SnO2WMaN)作のアイリスアウト（画面を丸く閉じながら暗転させる手法）のような画像を生成するジェネレーター。
 
-![tohohoifyで生成されたアイリスアウト風の画像](https://i.gyazo.com/7d69f2e4610112ae654bf628ef568ef9.png)
+![tohohoifyで生成されたアイリスアウト風の画像](https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-03/7d69f2e4610112ae654bf628ef568ef9.png)
 
 > [fix: Axe DevTools Critical Issues by yamanoku · Pull Request #20 · SnO2WMaN/tohohoify](https://github.com/SnO2WMaN/tohohoify/pull/20)
 
@@ -236,7 +236,7 @@ UIコンポーネントをカタログ化して管理・開発するためのツ
 Storybookにはサイドバーにキャンバスへのスキップリンクが存在します。サイドバーに登録されているロゴが縦長の場合や横幅を広げた場合にスキップリンクが表示されることがありました。
 
 <figure>
-  <img src="https://user-images.githubusercontent.com/845031/205020926-36bf316d-b901-4faf-9c89-082f006e0694.png" alt="サイドバーに登録されているロゴが縦長の場合にスキップリンクが表示されているスクリーンショット" width="640">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-03/04430c2a02ffb1f6ce4d99c9e896f9c5.png" alt="サイドバーに登録されているロゴが縦長の場合にスキップリンクが表示されているスクリーンショット" width="640">
   <figcaption><a href="https://github.com/storybookjs/storybook/pull/15740#issuecomment-1333496719">該当Issue</a>より引用</figcaption>
 </figure>
 

@@ -27,7 +27,7 @@ Interopは、Web Platform Tests（以下、WPT）プロジェクトの一部で�
 
 期待していた新たなAPIがブラウザへ実装されたときに「早くクロスブラウザで安定的に使えるようになったら…」とやきもきしている方もいるかもしれません。そんな相互運用性を高めてほしいと思ったときにInteropのIssueよりプロポーザルとして投票できます。
 
-![InteropのIssue選択画面。Focus Area Proposal、Investigation Effort Proposal、Other、Test Change Proposalの4項目がある](https://i.gyazo.com/d3ffc133cda2f519756c39a40ff81c0a.png)
+![InteropのIssue選択画面。Focus Area Proposal、Investigation Effort Proposal、Other、Test Change Proposalの4項目がある](https://images.yamanoku.net/interop-2025-opens-for-proposals/d3ffc133cda2f519756c39a40ff81c0a.png)
 
 Interop 2025に向けたIssueとして以下の２つから投票できます。
 
@@ -62,7 +62,7 @@ Interop 2025に向けたIssueとして以下の２つから投票できます。
 
 | Stable                                                                                                                                             | Experimental                                                                                                                                             |
 | -------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Interop2021のStable版WPTダッシュボード。Chromium系が97点、Firefoxが94点、Safariが92点](https://i.gyazo.com/0c2ba3857134a940c4489fef106fa9bf.png) | ![Interop2021のExperimental版WPTダッシュボード。Chromium系が98点、Firefoxが94点、Safariが94点](https://i.gyazo.com/4f68adb75db2b50f30654d50d8150a61.png) |
+| ![Interop2021のStable版WPTダッシュボード。Chromium系が97点、Firefoxが94点、Safariが92点](https://images.yamanoku.net/interop-2025-opens-for-proposals/0c2ba3857134a940c4489fef106fa9bf.png) | ![Interop2021のExperimental版WPTダッシュボード。Chromium系が98点、Firefoxが94点、Safariが94点](https://images.yamanoku.net/interop-2025-opens-for-proposals/4f68adb75db2b50f30654d50d8150a61.png) |
 
 - Aspect Ratio
 - Flexbox
@@ -76,7 +76,7 @@ Interop 2025に向けたIssueとして以下の２つから投票できます。
 
 | Stable                                                                                                                                                                                 | Experimental                                                                                                                                                                                 |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Interop2022のStable版WPTダッシュボード。重点対象全体が82点、調査対象が80点、Chromium系が87点、Firefoxが90点、Safariが96点](https://i.gyazo.com/900110b1e37f569c0af091c0ab29d57a.png) | ![Interop2022のExperimental版WPTダッシュボード。重点対象全体が85点、調査対象が80点、Chromium系が92点、Firefoxが91点、Safariが96点](https://i.gyazo.com/891a2cf8d4f7451375bc69d42c449e42.png) |
+| ![Interop2022のStable版WPTダッシュボード。重点対象全体が82点、調査対象が80点、Chromium系が87点、Firefoxが90点、Safariが96点](https://images.yamanoku.net/interop-2025-opens-for-proposals/900110b1e37f569c0af091c0ab29d57a.png) | ![Interop2022のExperimental版WPTダッシュボード。重点対象全体が85点、調査対象が80点、Chromium系が92点、Firefoxが91点、Safariが96点](https://images.yamanoku.net/interop-2025-opens-for-proposals/891a2cf8d4f7451375bc69d42c449e42.png) |
 
 - Aspect Ratio
 - Cascade Layers
@@ -104,7 +104,7 @@ Interop 2025に向けたIssueとして以下の２つから投票できます。
 
 | Stable                                                                                                                                                                                 | Experimental                                                                                                                                                                                 |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Interop2023のStable版WPTダッシュボード。重点対象全体が83点、調査対象が85点、Chromium系が97点、Firefoxが86点、Safariが95点](https://i.gyazo.com/7976c62219d0626cb392b9b0766a1a19.png) | ![Interop2022のExperimental版WPTダッシュボード。重点対象全体が95点、調査対象が85点、Chromium系が99点、Firefoxが98点、Safariが97点](https://i.gyazo.com/306a049a47b7d0e4f6884e26c60ef07b.png) |
+| ![Interop2023のStable版WPTダッシュボード。重点対象全体が83点、調査対象が85点、Chromium系が97点、Firefoxが86点、Safariが95点](https://images.yamanoku.net/interop-2025-opens-for-proposals/7976c62219d0626cb392b9b0766a1a19.png) | ![Interop2022のExperimental版WPTダッシュボード。重点対象全体が95点、調査対象が85点、Chromium系が99点、Firefoxが98点、Safariが97点](https://images.yamanoku.net/interop-2025-opens-for-proposals/306a049a47b7d0e4f6884e26c60ef07b.png) |
 
 - Border Image
 - Color Spaces and Functions
@@ -143,7 +143,7 @@ Interop 2025に向けたIssueとして以下の２つから投票できます。
 
 | Stable                                                                                                                                                                                         | Experimental                                                                                                                                                                                         |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Interop2024のStable版WPTダッシュボード。重点対象全体が74点、調査対象が12点、Chromeが90点、Edgeが89点、Firefoxが87点、Safariが83点](https://i.gyazo.com/1b1b43ae478a5fe406b53260df136e1b.png) | ![Interop2024のExperimental版WPTダッシュボード。重点対象全体が89点、調査対象が12点、Chromeが98点、Edgeが93点、Firefoxが93点、Safariが97点](https://i.gyazo.com/1b1b43ae478a5fe406b53260df136e1b.png) |
+| ![Interop2024のStable版WPTダッシュボード。重点対象全体が74点、調査対象が12点、Chromeが90点、Edgeが89点、Firefoxが87点、Safariが83点](https://images.yamanoku.net/interop-2025-opens-for-proposals/1b1b43ae478a5fe406b53260df136e1b.png) | ![Interop2024のExperimental版WPTダッシュボード。重点対象全体が89点、調査対象が12点、Chromeが98点、Edgeが93点、Firefoxが93点、Safariが97点](https://images.yamanoku.net/interop-2025-opens-for-proposals/1b1b43ae478a5fe406b53260df136e1b.png) |
 
 ※ 2024のスクリーンショットは2024/9/19時点のものです。
 

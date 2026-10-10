@@ -22,11 +22,11 @@ noindex: true
   - 1回目は懇親会も含めて楽しくやれたのですが、その後コロナ禍により開催できなくなってしまった
   - オンライン勉強会はいくつもできたが、逆にオンラインで地域コミュニティをやる意味は…？となり自然消滅しました
 - そこから早幾年…東葛.devと出会いました
-  - [![Image from Gyazo](https://i.gyazo.com/9e5f26d229287f706fb9dd9678bc3573.png)](https://gyazo.com/9e5f26d229287f706fb9dd9678bc3573)
+  - ![Discordの自己紹介。「はじめまして。やまのくと申します。流山市民（おおたかの森）です。」と書き、yamanoku.netのプレビューが付いている](https://images.yamanoku.net/toukatsu-dev-10-good-things/9e5f26d229287f706fb9dd9678bc3573.png)
     - `#自己紹介`チャンネルみたら2024年10月20日に参加してました
-  - [![Image from Gyazo](https://i.gyazo.com/660765c3a9b4c0b0b8de4ee1dd5628d6.png)](https://gyazo.com/660765c3a9b4c0b0b8de4ee1dd5628d6)
+  - ![Discordの投稿。「toukatsu.connpass.com の存在を今知った」と書き、東葛.devのconnpassプレビューが付いている](https://images.yamanoku.net/toukatsu-dev-10-good-things/660765c3a9b4c0b0b8de4ee1dd5628d6.png)
     - chibivue landのナイトウさんが東葛.devの話をしていたのがキッカケだった
-    - [![Image from Gyazo](https://i.gyazo.com/409814f25a4f72541a29a8ea3b957c4a.png)](https://gyazo.com/409814f25a4f72541a29a8ea3b957c4a)
+    - ![Discordの返信。「実はTX.jsにインスパイアされて始めました！サーバー参加マジで嬉しいですありがとうございます」と書いている](https://images.yamanoku.net/toukatsu-dev-10-good-things/409814f25a4f72541a29a8ea3b957c4a.png)
     - ナイトウさん曰く、過去自分がやっていたTX.jsをインスパイアしていたとのことだった
       - ちょっと嬉しい
   - 技術コミュニティをウォッチしている身でかつご近所でこういうコミュニティがあるのかと思い、参加してみた
@@ -150,7 +150,7 @@ noindex: true
   - 当時娘が産まれたばかりでこれからどうやっていけばいいんだろうと行動よりも頭で考えることが多く、それで行動が移せなくて何もできていないという負のループがありました
   - その状況の中でこのコミュニティのMeetupに参加して安心感と勇気をもらえたという話があります
   - 自分もそこで登壇して（人生初登壇だった）コミュニティに謝辞を伝えてきました
-    - [![Image from Gyazo](https://i.gyazo.com/864a8ec720389e59da0b9bb55f2d5183.png)](https://gyazo.com/864a8ec720389e59da0b9bb55f2d5183)
+    - ![発表スライド「すくすく！子育てエンジニアMeetUpへの謝辞」。子育て開始時の戸惑いと、Meetupで励まされて自分も登壇したいという箇条書き](https://images.yamanoku.net/toukatsu-dev-10-good-things/864a8ec720389e59da0b9bb55f2d5183.png)
   - これまで見る側だった自分がコミュニティの人と会話できたのも記憶に残っています
 - そこからしばらく経ってこうしたコミュニティへの感謝の気持ちが薄れつつあった中、直近の転職などのイベントを経て不安定になっていたときに救ってもらったのもコミュニティの存在だなと改めて思い返していました
   - 東葛.devに限らず色々なところで色々な人に支えられていた一年だったなと振り返っています

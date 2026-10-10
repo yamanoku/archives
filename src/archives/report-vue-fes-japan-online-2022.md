@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![アイキャッチ：Vue Fes Japan Online 2022 参加レポート](https://i.gyazo.com/9838392af5f4017764ce61f51887b161.png)
+![アイキャッチ：Vue Fes Japan Online 2022 参加レポート](https://images.yamanoku.net/report-vue-fes-japan-online-2022/9838392af5f4017764ce61f51887b161.png)
 
 皆様こんにちは、クラウドワークスのジャンヌチーム所属の [@okuto_oyama](https://twitter.com/okuto_oyama) です。最近飼い始めた大型犬と一緒に散歩できるようになり最高に幸せな日々を送っております。
 

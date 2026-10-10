@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![「BuriKaigi 2026」で「たかがボタン、されどボタン」というテーマで登壇した筆者の様子。登壇スペースで笑顔でダブルピースしている。](https://i.gyazo.com/8f19f09c48134713ea89cfe5fb5a7db1.jpg)
+![「BuriKaigi 2026」で「たかがボタン、されどボタン」というテーマで登壇した筆者の様子。登壇スペースで笑顔でダブルピースしている。](https://images.yamanoku.net/report-burikaigi-2026/8f19f09c48134713ea89cfe5fb5a7db1.jpg)
 
 1/9、1/10に開催された[BuriKaigi 2026](https://burikaigi.dev/)の2日目に参加・登壇しました。この記事はその参加レポートです。
 
@@ -74,53 +74,53 @@ t_wadaさんによるTDD Boot Camp、TinyGoを使ったキーボード開発やA
 イベント中には富山の銘菓や弁当を食べることもでき、イベント中も富山を体感できました。
 
 <figure>
-<img src="https://i.gyazo.com/d9c39079263a424182988b65750bc807.png" width="360" alt="銘菓「反魂旦」を持っている">
+<img src="https://images.yamanoku.net/report-burikaigi-2026/d9c39079263a424182988b65750bc807.png" width="360" alt="銘菓「反魂旦」を持っている">
 <figcaption>休憩コーナーにあった反魂旦という銘菓。<br>お土産にも購入しました。</figcaption>
 </figure>
 
 <figure>
-<img src="https://i.gyazo.com/2c78c967e0e347e217dfb24857be5c1a.png" alt="alt="ぶりかまめしの弁当の中。厚いぶりかま、わかめ、白エビ二匹、刻みショウガが酢飯の上に載っている。"">
+<img src="https://images.yamanoku.net/report-burikaigi-2026/2c78c967e0e347e217dfb24857be5c1a.png" alt="alt="ぶりかまめしの弁当の中。厚いぶりかま、わかめ、白エビ二匹、刻みショウガが酢飯の上に載っている。"">
 <figcaption>ランチセッションで配られたお弁当。<br>ブリかまの厚さにずっと驚きながら食べていました。</figcaption>
 </figure>
 
 クロージングで共有されたBuriKaigiへの参加率（スタッフ含め）は驚異の98%とのことで、このイベントが非常に期待値が高いものだったことが伺えます。
 
-![申し込み数が318、参加者数が313で参加率が98%と書かれているスライド](https://i.gyazo.com/6def944233712903fea78fecf263b39d.png)
+![申し込み数が318、参加者数が313で参加率が98%と書かれているスライド](https://images.yamanoku.net/report-burikaigi-2026/6def944233712903fea78fecf263b39d.png)
 
 ## 富山観光
 
 実は今回の富山入りでは私の家族（妻と娘）も一緒に旅行という形で付いてきました。1/9に富山入りし家族で観光してきて1/10は妻と娘が別行動で富山を堪能していました。一緒に行動していた初日は[富山市ガラス美術館](https://toyama-glass-art-museum.jp/)と[廻る富山湾 すし玉](https://sushitama.co.jp/)に行ってきました。
 
-![富山市ガラス美術館の外観](https://i.gyazo.com/44c686430ca66de9122ff5bdedea3c32.png)
+![富山市ガラス美術館の外観](https://images.yamanoku.net/report-burikaigi-2026/44c686430ca66de9122ff5bdedea3c32.png)
 
-![富山市ガラス美術館の吹き抜け空間。木材とガラスが調和した現代的な内装に、天窓から自然光が差し込む。](https://i.gyazo.com/6a634c03f19abd9e80830ec2c74ae483.png)
+![富山市ガラス美術館の吹き抜け空間。木材とガラスが調和した現代的な内装に、天窓から自然光が差し込む。](https://images.yamanoku.net/report-burikaigi-2026/6a634c03f19abd9e80830ec2c74ae483.png)
 
 <figure>
-<img src="https://i.gyazo.com/ee58bdc8370e83aa8370ca5d20ad1324.png" alt="淺原千代治の「ファンタジー」というガラス作品。透明なガラスの中にブルーと赤紫色の帯が層のように重なり、虹のようなアーチを描いている。">
+<img src="https://images.yamanoku.net/report-burikaigi-2026/ee58bdc8370e83aa8370ca5d20ad1324.png" alt="淺原千代治の「ファンタジー」というガラス作品。透明なガラスの中にブルーと赤紫色の帯が層のように重なり、虹のようなアーチを描いている。">
 <figcaption>昨年<a href="https://scrapbox.io/yamanoku/2025-09-05">北海道旅行</a>した時にも見かけた淺原千代治氏の作品。</figcaption>
 </figure>
 
-![すし玉の看板。富山湾沿岸と北陸の漁港を描いた木製の地図。赤い点で漁港が示され、背景には波模様があしらわれている。](https://i.gyazo.com/36704c362613f4852df8c5fdd4ae1471.png)
+![すし玉の看板。富山湾沿岸と北陸の漁港を描いた木製の地図。赤い点で漁港が示され、背景には波模様があしらわれている。](https://images.yamanoku.net/report-burikaigi-2026/36704c362613f4852df8c5fdd4ae1471.png)
 
-![黒い長方形の皿に盛り付けられた色とりどりの握り寿司。マグロ、イカ、エビ、白身魚、カニ、ホタテなど多彩なネタが並ぶ。](https://i.gyazo.com/046b9e0662e591c13941a24d52d887e7.png)
+![黒い長方形の皿に盛り付けられた色とりどりの握り寿司。マグロ、イカ、エビ、白身魚、カニ、ホタテなど多彩なネタが並ぶ。](https://images.yamanoku.net/report-burikaigi-2026/046b9e0662e591c13941a24d52d887e7.png)
 
-![皿に置かれている白エビの唐揚げ。レモンが添えられている。](https://i.gyazo.com/e6179aa00ac35c946725c9f57e531696.png)
+![皿に置かれている白エビの唐揚げ。レモンが添えられている。](https://images.yamanoku.net/report-burikaigi-2026/e6179aa00ac35c946725c9f57e531696.png)
 
 1/10はBuriKaigiに参加する前に富山市役所の展望台に上がり立山連峰を眺めてきました。この季節では珍しく快晴だったとのことだったので、キレイな立山連峰を生で見ることができて非常に感動しました。
 
-![富山市役所展望台から見る立山連峰と市街地の風景。澄み渡った冬の青空の下、富山市のビル群の背後に、雪を頂き白く輝く立山連峰が雄大に連なっている。](https://i.gyazo.com/5397e3d0518c199ba6ce162da571555f.png)
+![富山市役所展望台から見る立山連峰と市街地の風景。澄み渡った冬の青空の下、富山市のビル群の背後に、雪を頂き白く輝く立山連峰が雄大に連なっている。](https://images.yamanoku.net/report-burikaigi-2026/5397e3d0518c199ba6ce162da571555f.png)
 
 泊まっていたホテルの朝飯会場で調理スタッフのおじさんに今日はどちらに行かれるんですか？と聞かれたので自分はBuriKaigi、妻と娘は別で富山観光です、と伝えたら発表頑張ってくださいとのことでのど飴をもらいました。
 
 <figure>
-<img src="https://i.gyazo.com/d99fc0beb17bc76f71d9c35a566f4d8b.png" alt="Kanroのボイスケアのど飴が２つ">
+<img src="https://images.yamanoku.net/report-burikaigi-2026/d99fc0beb17bc76f71d9c35a566f4d8b.png" alt="Kanroのボイスケアのど飴が２つ">
 <figcaption>のど飴のおかげで無事に発表することができました。<br>ありがとうございました！</figcaption>
 </figure>
 
 最終日はあいにくの天気でしたが、無事に家に帰ることができました。家についてからはお土産を堪能しておりました。
 
 <figure>
-<img src="https://i.gyazo.com/0889351c18dfe3f071ef62cf511ef338.png" alt="皿に盛られた3切れの鱒寿司">
+<img src="https://images.yamanoku.net/report-burikaigi-2026/0889351c18dfe3f071ef62cf511ef338.png" alt="皿に盛られた3切れの鱒寿司">
 <figcaption>妻が買ってきた鱒の寿しまつ川の鱒寿司を食べました。</figcaption>
 </figure>
 

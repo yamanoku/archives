@@ -10,7 +10,7 @@ topic: frontend
 
 ## 追記（2018/10/26）
 
-[![Image from Gyazo](https://i.gyazo.com/e91df68c9bb73a2637ad2fb09da78d64.png)](https://gyazo.com/e91df68c9bb73a2637ad2fb09da78d64)
+![vue init nuxt-community/starter-template がdeprecatedになったという告知](https://i.gyazo.com/e91df68c9bb73a2637ad2fb09da78d64.png)
 
 `vue init nuxt-community/starter-template` が公式発表 10/14 で**deprecated**になったようです。
 
@@ -20,7 +20,7 @@ https://github.com/nuxt-community/starter-template/commit/82513c7306563b2dd42c7d
 
 ## Nuxt.js 2.0 Release !
 
-[![Image from Gyazo](https://i.gyazo.com/f8a82a7c384f33360aed3884a2fbdba8.png)](https://gyazo.com/f8a82a7c384f33360aed3884a2fbdba8)
+![Nuxt公式ドキュメント VERSION 2.0.0 のIntroduction。「What is Nuxt.js?」の見出しがある](https://images.yamanoku.net/nuxt-starter-template-v2-migration/f8a82a7c384f33360aed3884a2fbdba8.png)
 
 [Nuxt.js 2.0: Webpack 4, ESM Modules, create-nuxt-app and more! 💫
 ](https://medium.com/@nuxt_js/nuxt-js-2-0-webpack-4-esm-modules-create-nuxt-app-and-more-6936ce80d94c)
@@ -87,11 +87,11 @@ yarn run v1.9.4
 $ nuxt
 ```
 
-[![Image from Gyazo](https://i.gyazo.com/d790ef2cbcef0071a90531d7cbe157e2.png)](https://gyazo.com/d790ef2cbcef0071a90531d7cbe157e2)
+![ターミナル。INFO Building projectの下に、Builder initializedとNuxt files generatedのsuccessが緑で出ている](https://images.yamanoku.net/nuxt-starter-template-v2-migration/d790ef2cbcef0071a90531d7cbe157e2.png)
 
 おっ動いてる
 
-[![Image from Gyazo](https://i.gyazo.com/22a2bd507b01a49725c8221be7b93a88.png)](https://gyazo.com/22a2bd507b01a49725c8221be7b93a88)
+![ターミナルのERROR。Failed to compile with 1 errorsと、eslint-loaderのCannot read property 'eslint' of undefined](https://images.yamanoku.net/nuxt-starter-template-v2-migration/22a2bd507b01a49725c8221be7b93a88.png)
 
 と思いきや`eslint`でなにやらコケてる
 
@@ -139,15 +139,15 @@ $ nuxt
   }
 ```
 
-[![Image from Gyazo](https://i.gyazo.com/b0864a60c02e61e7e90d58f43887f7ac.png)](https://gyazo.com/b0864a60c02e61e7e90d58f43887f7ac)
+![ビルド成功のあと、READY Listening on http://localhost:3000 と出ているターミナル](https://images.yamanoku.net/nuxt-starter-template-v2-migration/b0864a60c02e61e7e90d58f43887f7ac.png)
 
 エラー消えた！
 
-[![Image from Gyazo](https://i.gyazo.com/c0cc3fead577df1aa4edcabc985866a7.gif)](https://gyazo.com/c0cc3fead577df1aa4edcabc985866a7)
+![ターミナルでプロンプトから yarn build と入力している画面](https://images.yamanoku.net/nuxt-starter-template-v2-migration/c0cc3fead577df1aa4edcabc985866a7.gif)
 
 `build`も動く
 
-[![Image from Gyazo](https://i.gyazo.com/394756cc959d76f9ccfa09fd63bfd1ac.gif)](https://gyazo.com/394756cc959d76f9ccfa09fd63bfd1ac)
+![ターミナルでプロンプトから yarn generate と入力している画面](https://images.yamanoku.net/nuxt-starter-template-v2-migration/394756cc959d76f9ccfa09fd63bfd1ac.gif)
 
 `generate`も動く
 

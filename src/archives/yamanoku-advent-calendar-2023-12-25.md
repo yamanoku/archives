@@ -13,7 +13,7 @@ noindex: true
 
 yamanoku Advent Calendar 2023は[yamanoku](https://yamanoku.net)が一人で12月1日から12月25日までを**完走した**アドベントカレンダーです。
 
-![スクリーンショット：Adventar での yamanoku Advent Calendar 2023 カレンダー。12月1日から12月25日がすべて埋まっている。](https://i.gyazo.com/2cd0d070e33f3665340e3fad21ba4497.png)
+![スクリーンショット：Adventar での yamanoku Advent Calendar 2023 カレンダー。12月1日から12月25日がすべて埋まっている。](https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-25/2cd0d070e33f3665340e3fad21ba4497.png)
 
 途中書きつつ、果たして25日までネタは出せるのか不安になることもありましたが、なんとか今日に至るまで記事を書き続けることができました。偉い。
 
@@ -236,7 +236,7 @@ takanoripと続けているポッドキャストも2年が経過しています�
 ここまでご覧いただきありがとうございました！またどこかで会いましょう。
 
 <img
-  src="https://i.gyazo.com/4c1d0df4903765cc351797c10f903ba1.jpg"
+  src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-25/4c1d0df4903765cc351797c10f903ba1.jpg"
   alt="サムズアップの写真"
   width="360"
 />

@@ -229,6 +229,14 @@ iframe.ox-speaker-deck {
   border: 0;
 }
 
+article video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  margin-block: var(--y-rhythm-3);
+}
+
 .tategaki-mode sup {
   top: auto;
   inset-block-end: 0.5em;

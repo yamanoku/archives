@@ -13,7 +13,7 @@ noindex: true
 
 ## 例：ボタン UI を実装する際に気をつけること
 
-![ボタン UI のイメージ図](https://i.gyazo.com/74969d0f4c95aeda9243587c59c2c592.png)
+![ボタン UI のイメージ図](https://images.yamanoku.net/things-to-think-about-when-implementing-ui-things-to-keep-in-mind/74969d0f4c95aeda9243587c59c2c592.png)
 
 いろいろな文脈があるとは思いますが、まず最初にこれは「リンクとしてのボタン」なのか「何かを動かすためのボタン」なのか「送信するボタン」なのかというのを考えます。
 

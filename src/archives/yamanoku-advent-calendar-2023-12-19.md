@@ -15,11 +15,11 @@ noindex: true
 
 ちなみに「お元気ですか.fm」の提案は私がきっかけになっています。以下は当時に提案した際のダイレクトメッセージを引っ張ってきました。
 
-![名前、お元気ですか.fm とか考えてた](https://i.gyazo.com/0d05c52a7d2f5a479e30352b64bbcea3.png)
+![名前、お元気ですか.fm とか考えてた](https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-19/0d05c52a7d2f5a479e30352b64bbcea3.png)
 
-![最初は2人共「お元気ですか?」で会話してスタートする](https://i.gyazo.com/4db09cf5792fc9fbd3ba7b380733a8ab.png)
+![最初は2人共「お元気ですか?」で会話してスタートする](https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-19/4db09cf5792fc9fbd3ba7b380733a8ab.png)
 
-![なんか1ヶ月位のスパンイメージなので、最近元気?くらいのノリでやりたいなとおもって浮かんだ](https://i.gyazo.com/f457996f513a942a478c693f74b45da6.png)
+![なんか1ヶ月位のスパンイメージなので、最近元気?くらいのノリでやりたいなとおもって浮かんだ](https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-19/f457996f513a942a478c693f74b45da6.png)
 
 それを元にタイトルロゴをtakanoripが作ってくれました。
 

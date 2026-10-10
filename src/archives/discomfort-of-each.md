@@ -8,7 +8,7 @@ category: essay
 topic: life
 ---
 
-[![Image from Gyazo](https://i.gyazo.com/ae434ef3e5468faeb1cc16ebfe612cc2.jpg)](https://gyazo.com/ae434ef3e5468faeb1cc16ebfe612cc2)
+![ガラス戸に貼られた「営業時間 10時〜20時まで」の紙。上の「10」と下の「20」で数字の字体が違っている](https://images.yamanoku.net/discomfort-of-each/ae434ef3e5468faeb1cc16ebfe612cc2.jpg)
 
 ## Q. 上の画像を見てどこに違和感があるか。
 

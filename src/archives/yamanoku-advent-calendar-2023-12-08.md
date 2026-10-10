@@ -19,12 +19,12 @@ noindex: true
 私のScrapboxには「[日報](https://scrapbox.io/yamanoku/nippo%E3%81%BE%E3%81%A8%E3%82%81)」という形でその日あったことや思ったことの内容を1ページ1日分としてまとめていってる。2021年からやりはじめて、今まで継続できている。今年も残すところわずかではあるが、毎日更新できていたのは個人的にも褒めてやりたい気持ちである。
 
 <figure>
-  <img src="https://i.gyazo.com/02b3269ce7144fa2c070ef170d07215a.png" alt="2023年1月から12月までの各月のリンクページが写っているスクリーンショット" loading="lazy">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-08/02b3269ce7144fa2c070ef170d07215a.png" alt="2023年1月から12月までの各月のリンクページが写っているスクリーンショット" loading="lazy">
   <figcaption><a href="https://scrapbox.io/yamanoku/nippo-2023">2023年日報の各月</a>のページ一覧</figcaption>
 </figure>
 
 <figure>
-  <img src="https://i.gyazo.com/c07f7fb3c9cd3af040e6440adbae3656.png" alt="Scrapboxの日報で2023年10月の個別ページが写ったスクリーンショット" loading="lazy">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-08/c07f7fb3c9cd3af040e6440adbae3656.png" alt="Scrapboxの日報で2023年10月の個別ページが写ったスクリーンショット" loading="lazy">
   <figcaption><a href="https://scrapbox.io/yamanoku/nippo-2023-10">2023年10月</a>のページ一部</figcaption>
 </figure>
 
@@ -34,7 +34,7 @@ noindex: true
 
 このまま徐々に書かなくなって日報はフェードアウトしていくのかなと感じていたが、とあるタイミングで1日ごとに1ページ作るのではなく、1ページをひと月にした「**月報**」のようなスタイルで書いてみるとどうだろうと思った。
 
-![nippo-2021-05と書かれたScrapboxページ。最初に「５月から個別にページをつくるよりかは１つのページで逐一更新する方にした。順不同でもいいじゃない」と書かれている](https://i.gyazo.com/8ac6b770988cc7fa04b24d7b995babcc.png)
+![nippo-2021-05と書かれたScrapboxページ。最初に「５月から個別にページをつくるよりかは１つのページで逐一更新する方にした。順不同でもいいじゃない」と書かれている](https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-08/8ac6b770988cc7fa04b24d7b995babcc.png)
 
 このスタイルにしたところ、1日ごとに書くよりも書きやすくなった。1日ごとに書くと、その日のページを新たに作りつつ書くのに時間がかかってしまう。それに対して月報のようにすると、特定の日の出来事を都度区切らずに書くことができ、時間が節約できる。更に順不同でも良いという形にしているので、その月で思い出したことを順次書き足していくということができる。
 

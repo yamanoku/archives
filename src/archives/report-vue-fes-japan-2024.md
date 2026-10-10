@@ -84,7 +84,7 @@ ReactやVue.jsでは仮想DOMを用いていますが、Svelteでは仮想DOMを
 
 ### 次世代フロントエンドクロストーク
 
-![Vue Fes Japan 2024のステージスクリーンに『次世代フロントエンドクロストーク』の情報が表示されている。登壇者にはEvan You、Sosuke Suzuki、Boshen Chen、Kia King Ishii、太田 洋介、Unvalleyが含まれている。](https://i.gyazo.com/c285dc5ad1aa369eedecff3f776036c5.png)
+![Vue Fes Japan 2024のステージスクリーンに『次世代フロントエンドクロストーク』の情報が表示されている。登壇者にはEvan You、Sosuke Suzuki、Boshen Chen、Kia King Ishii、太田 洋介、Unvalleyが含まれている。](https://images.yamanoku.net/report-vue-fes-japan-2024/c285dc5ad1aa369eedecff3f776036c5.png)
 
 Evan You、OxCクリエイターのBoshen Chen、ESLint Communityコアチームの太田 洋介さん、PrettierメンテナのSosuke Suzukiさん、Biomeコアコントリビューターのunvalleyさんらが集まりフロントエンドツールのこれからについてを語るパネルディスカッションがありました。このメンバーが一度に揃うことはまず無いのでかなり豪華な対談となりました。
 
@@ -108,7 +108,7 @@ Evan You、OxCクリエイターのBoshen Chen、ESLint Communityコアチーム
 
 Vueエコシステムのコミュニティで活動しているメンバーたちによる、どのようにコミュニティに参加し貢献できるかについてのパネルディスカッションがありました。私は途中から参加しましたが、立ち見が発生するほどの満員で大盛況でした。
 
-<img src="https://i.gyazo.com/8fb151346c2eed7f4a2bcf97c8760f0b.png" width="240" alt="多くの参加者が座ってスクリーンを見つめており、前方には登壇者がパネルディスカッションを行っている。スクリーンには『Vueコミュニティの課題と未来のビジョン』といった内容の発表スライドが表示されている。">
+<img src="https://images.yamanoku.net/report-vue-fes-japan-2024/8fb151346c2eed7f4a2bcf97c8760f0b.png" width="240" alt="多くの参加者が座ってスクリーンを見つめており、前方には登壇者がパネルディスカッションを行っている。スクリーンには『Vueコミュニティの課題と未来のビジョン』といった内容の発表スライドが表示されている。">
 
 セッション内では[chibivue](https://ubugeeei.github.io/chibivue/)という学習コンテンツ向けのDiscordサーバー（現在はchibivueに閉じず様々なコンテンツを扱っています）の紹介がありました。そこから一気に参加者が増えてサーバー内でアラートがでるほどの人気ぶりでした。
 
@@ -141,4 +141,4 @@ Schooからは私を含めたエンジニア3名が参加してきました（�
 
 SchooでもVue.jsやNuxtをプロダクト開発に活用させてもらっています。引き続きVueエコシステムを活用しつつ、そこから得られた知見を通じて、コミュニティやOSSへ貢献をしていければと思っています。
 
-![黒のクリエイティブウォールにカラフルなペンで会社ロゴや個人の思いなどが所狭しと描かれている](https://i.gyazo.com/6cb49b47537d700f1a016de8db723a02.png)
+![黒のクリエイティブウォールにカラフルなペンで会社ロゴや個人の思いなどが所狭しと描かれている](https://images.yamanoku.net/report-vue-fes-japan-2024/6cb49b47537d700f1a016de8db723a02.png)

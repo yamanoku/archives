@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![TSKaigi 2026の会場入口に設置されていたスポンサーが掲載されている垂れ幕。白地に青い文字で Welcome to TSKaigi 2026と書かれ、多数のスポンサー企業ロゴが並んでいる。](https://i.gyazo.com/7f80887bf305e7e7e4dc59ffaeca9165.png)
+![TSKaigi 2026の会場入口に設置されていたスポンサーが掲載されている垂れ幕。白地に青い文字で Welcome to TSKaigi 2026と書かれ、多数のスポンサー企業ロゴが並んでいる。](https://images.yamanoku.net/report-tskaigi-2026/7f80887bf305e7e7e4dc59ffaeca9165.png)
 
 こんにちは。株式会社Schooの[@okuto_oyama](https://qiita.com/okuto_oyama)です。
 2026年5月22〜23日に開催された[TSKaigi 2026](https://2026.tskaigi.org/)へ参加・登壇してきました。
@@ -20,7 +20,7 @@ noindex: true
 
 TSKaigiはオフラインでは世界最大級と言われているTypeScriptのカンファレンスです。
 
-![TSKaigi 2026のオープニングトークで投影されたスライド。スクリーンには『去年に引き続き、今年もオフラインの TypeScript のカンファレンスとしては世界一の規模です』と表示されている。](https://i.gyazo.com/d94c835f7f33f3c497033e811662278a.png)
+![TSKaigi 2026のオープニングトークで投影されたスライド。スクリーンには『去年に引き続き、今年もオフラインの TypeScript のカンファレンスとしては世界一の規模です』と表示されている。](https://images.yamanoku.net/report-tskaigi-2026/d94c835f7f33f3c497033e811662278a.png)
 
 2024年から始まって今年で3年目を迎えたTSKaigiは、企業のスポンサーも非常に多く、この2日間で約800名のエンジニアが現地参加されていたそうです。TypeScriptにまつわる国内のオフラインイベントでこの規模のものはなかなか見られないと思います。
 
@@ -138,6 +138,6 @@ TypeScriptの進化はまだ続いており、Web開発に関わる自分とし�
 
 TSKaigi 2026以降も様々な[サイドイベント](https://2026.tskaigi.org/side-events)が開催されるみたいです。また次回のTSKaigiは[仙台で開催される](https://sendai.tskaigi.org/)とのことです。
 
-![TSKaigi 2026の会場出口に設置されたホワイトボード。青と赤の手書き文字で「TskKaigi 2026」「トートバッグご自由にどうぞ！」「おつかれさまでした！次は？」などのメッセージがあり、伊達政宗像のイラストと「SENDAl」 の文字、日本地図の描き込みがある。](https://i.gyazo.com/500edd1a67a9118eb1d5d81ea27d6695.png)
+![TSKaigi 2026の会場出口に設置されたホワイトボード。青と赤の手書き文字で「TskKaigi 2026」「トートバッグご自由にどうぞ！」「おつかれさまでした！次は？」などのメッセージがあり、伊達政宗像のイラストと「SENDAl」 の文字、日本地図の描き込みがある。](https://images.yamanoku.net/report-tskaigi-2026/500edd1a67a9118eb1d5d81ea27d6695.png)
 
 改めて、TSKaigi 2026に参加した皆さん、お疲れさまでした！

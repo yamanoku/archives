@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![](https://i.gyazo.com/fe4a2e7b145af6bdeed58321dc1e0c84.png)
+![「生まれ変わったログインページにまつわるフロントエンド開発の話」と、ログイン画面のスマホの横に立つ人のイラスト。下に CrowdWorks Engineer Blog](https://images.yamanoku.net/renewal-crowdworks-login-page/fe4a2e7b145af6bdeed58321dc1e0c84.png)
 
 こんにちは！クラウドワークスで引き続きフロントエンドと Web の可能性を模索し続けている [@yamanoku](https://twitter.com/yamanoku) です。
 
@@ -17,11 +17,11 @@ noindex: true
 
 <b>Before</b>
 
-![スクリーンショット：リニューアル前のログインページ](https://i.gyazo.com/9e2f15f24af30b177a209a3ece9514b3.png)
+![スクリーンショット：リニューアル前のログインページ](https://images.yamanoku.net/renewal-crowdworks-login-page/9e2f15f24af30b177a209a3ece9514b3.png)
 
 <b>After</b>
 
-![スクリーンショット：リニューアル後のログインページ](https://i.gyazo.com/1c00cf8ddb2fc2b7f5ec11b9b22f2800.png)
+![スクリーンショット：リニューアル後のログインページ](https://images.yamanoku.net/renewal-crowdworks-login-page/1c00cf8ddb2fc2b7f5ec11b9b22f2800.png)
 
 以前は PC・モバイル画面それぞれ定義されていましたが、今回の改修でレスポンシブ対応したモバイルファーストな改修になりましたね。
 
@@ -48,7 +48,7 @@ noindex: true
 
 ちなみにリニューアルに際して、コード上で判別できるようにコードネームを決めようとなり、プロダクトオーナーが何気なく提案した「Norman」がそのまま採用されました。
 
-![ミハイ・チクセントミハイさんの後継者とか居ないかな、または誰デザの著者への敬意を込めて「Norman」とか じゃあ、Normanで（スマイルマーク）](https://i.gyazo.com/2a5c8fdb7501e8a29fa4ed577c152bc4.png)
+![ミハイ・チクセントミハイさんの後継者とか居ないかな、または誰デザの著者への敬意を込めて「Norman」とか じゃあ、Normanで（スマイルマーク）](https://images.yamanoku.net/renewal-crowdworks-login-page/2a5c8fdb7501e8a29fa4ed577c152bc4.png)
 
 ノリで決まったところはありますが、個人的にはお気に入りです。<br>
 ※ミハイの後継者、というくだりは以前作成していた CSS フレームワーク「Mihaly」のプロジェクトネームから来ています。
@@ -61,7 +61,7 @@ noindex: true
 
 そこで [@t0yohei](https://twitter.com/t0yohei) がエンジニア観点での実装難易度を比較したシートを作成してくれました。
 
-![重要性検討一覧（実装難易度メモ付き）シートが開いているスプレッドシートのスクリーンショット](https://i.gyazo.com/4ceab07769d29bbc43fabfdb97f1712a.png)
+![重要性検討一覧（実装難易度メモ付き）シートが開いているスプレッドシートのスクリーンショット](https://images.yamanoku.net/renewal-crowdworks-login-page/4ceab07769d29bbc43fabfdb97f1712a.png)
 
 実装難易度については以下の観点で考慮しました。
 
@@ -206,7 +206,7 @@ Storybook 開発は今年 6 月にリリースされた[カンタン発注プラ
 
 また、color の数値を決める際には [Material Design](https://material.io/inline-tools/color/) のカラーピックツールを使用しました。
 
-![Color palettesで青色の数値を検証しているスクリーンショット](https://i.gyazo.com/d7f3e5caf8eac27c0779f120cfebe652.png)
+![Color palettesで青色の数値を検証しているスクリーンショット](https://images.yamanoku.net/renewal-crowdworks-login-page/d7f3e5caf8eac27c0779f120cfebe652.png)
 
 ### レイアウト制御コンポーネント
 

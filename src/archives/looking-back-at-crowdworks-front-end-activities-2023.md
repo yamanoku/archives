@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![アイキャッチ：crowdworks.jp のフロントエンド活動を振り返る 2023](https://i.gyazo.com/4f59a785ee61d1a601d789a27294f9a9.png)
+![アイキャッチ：crowdworks.jp のフロントエンド活動を振り返る 2023](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2023/4f59a785ee61d1a601d789a27294f9a9.png)
 
 この記事は[クラウドワークス Advent Calendar 2023](https://qiita.com/advent-calendar/2023/crowdworks)シリーズ 1の1日目の記事です。
 
@@ -34,7 +34,7 @@ noindex: true
 
 Vue.jsへの移行に伴うスタイルの移植作業もスムーズに行えるよう、わかりやすいガイドラインを策定しました。
 
-![Vue化におけるCSS対応ガイドラインのスクリーンショット。どういう目的で制定されたのか、いくつかのチェック観点についてまとめている。](https://i.gyazo.com/866de21d5c628b7f50f1c1604e6adbfb.png)
+![Vue化におけるCSS対応ガイドラインのスクリーンショット。どういう目的で制定されたのか、いくつかのチェック観点についてまとめている。](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2023/866de21d5c628b7f50f1c1604e6adbfb.png)
 
 今後はVueコンポーネントの粒度やComposablesを用いたビジネスロジックの設計に関するドキュメントを作成する予定です。
 
@@ -159,7 +159,7 @@ crowdworks.jp のフロントエンド開発の歴史を振り返り、私が所
 
 日本最大級のVue.jsカンファレンス「Vue Fes Japan 2023」が今年オフラインで開催されました。今年は株式会社クラウドワークスが同時通訳スポンサーとして協賛し、社員3名が登壇しました。ボランティアスタッフと一般参加者を含めて合計6名がイベントに参加しました。
 
-![クリエイティブウォールにクラウドワークスのロゴが書かれており、当日参加した社員でそのマークを指さしながら記念撮影している様子](https://i.gyazo.com/973927111c8fd906e32466266f98b2e8.png)
+![クリエイティブウォールにクラウドワークスのロゴが書かれており、当日参加した社員でそのマークを指さしながら記念撮影している様子](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2023/973927111c8fd906e32466266f98b2e8.png)
 
 以前、2019年のカンファレンスにてスポンサー協賛していたことがありましたが、台風のため中止となりました。その後のコロナ禍という長い期間を経て、4年ぶりに再びオフラインカンファレンスにてスポンサーとして参加できたのは大変感慨深い経験でした。
 

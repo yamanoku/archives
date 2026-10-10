@@ -19,7 +19,7 @@ Svelteはコンパイル時にアクセシビリティに関する誤った記�
 
 ```html
 <img
-  src="https://i.gyazo.com/809a6f523937838d9ba5eaf20717feee.png"
+  src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-07/809a6f523937838d9ba5eaf20717feee.png"
   width="320"
 />
 ```

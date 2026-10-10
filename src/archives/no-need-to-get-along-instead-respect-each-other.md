@@ -8,7 +8,7 @@ category: essay
 topic: life
 ---
 
-![人々が友好的でお互いを尊重し合っている様子を表現したアイコン](https://r2.sizu.me/users/2474/post-images/r8abcd9t3o0wrmwh1nkv.png)
+![人々が友好的でお互いを尊重し合っている様子を表現したアイコン](https://images.yamanoku.net/no-need-to-get-along-instead-respect-each-other/925d31ce720b6b9b0392299f986ad792.png)
 
 題名で言いたいこと終わってる気がする。各位仲良くするな、各位リスペクトを持て。
 

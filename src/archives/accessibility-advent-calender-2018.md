@@ -13,7 +13,7 @@ topic: accessibility
 
 ## これからはじめる Web アクセシビリティを作った
 
-[![Image from Gyazo](https://i.gyazo.com/bf7b22b3e820bbb41c7f6336a0cc26ca.jpg)](https://gyazo.com/bf7b22b3e820bbb41c7f6336a0cc26ca)
+![右を向くドーベルマンの表紙に「これからはじめる webアクセシビリティ」と書かれた技術書典の本](https://images.yamanoku.net/accessibility-advent-calender-2018/bf7b22b3e820bbb41c7f6336a0cc26ca.jpg)
 
 - 技術書典#5 で発表させてもらったアクセシビリティ入門書
   - AccSell クリッピングにて取り上げてもらった
@@ -54,7 +54,7 @@ topic: accessibility
       - なので視点をそっち側に寄せて書いてみようとしたという裏話がある
         - もう素人と名乗れないねぇ
 - Google ドライブで版管理しているのでいつでも最新状態を保てるようにしている
-  - [![Image from Gyazo](https://i.gyazo.com/cd3d6efa0359abf5b88e001a88ec9812.png)](https://gyazo.com/cd3d6efa0359abf5b88e001a88ec9812)
+  - ![Googleドライブの「版を管理」。これからはじめるwebアクセシビリティ.pdfの現行版と、10月22日のバージョン1が並んでいる](https://images.yamanoku.net/accessibility-advent-calender-2018/cd3d6efa0359abf5b88e001a88ec9812.png)
   - これは実際に紙の本にしたり電子書籍（どこかに登録）にすると更新までラグがあるので
   - 更新 → 即反映といったアクセスは良くしようとおもってこの媒体にした
   - ただ販売・流通のアクセスは良くない課題がある…（booth のみ、note でも販売予定）
@@ -86,9 +86,9 @@ topic: accessibility
   - つまり「知らなかった」というのが多い印象だったので話せてよかった
   - あと発表内容で株式会社オロさんのサイトに
   - ハンバーガーメニューが`div`になってるよって突っ込んだら
-    - [![Image from Gyazo](https://i.gyazo.com/62de914247a206399a0a67f7f60589a3.gif)](https://gyazo.com/62de914247a206399a0a67f7f60589a3)
+    - ![株式会社オロのサイトで、ハンバーガーメニューがdiv要素になっている箇所](https://i.gyazo.com/62de914247a206399a0a67f7f60589a3.gif)
   - その後`button`タグに変更していただいたのが嬉しかった。神
-    - [![Image from Gyazo](https://i.gyazo.com/8aa25117edf1d9f19f7239d747274f8b.png)](https://gyazo.com/8aa25117edf1d9f19f7239d747274f8b)
+    - ![開発者ツールでハンバーガーアイコンがbutton要素として選ばれ、aria-labelが「メニュー」になっている画面](https://images.yamanoku.net/accessibility-advent-calender-2018/8aa25117edf1d9f19f7239d747274f8b.png)
     - [outline: none;](https://scrapbox.io/yamanoku/outline:_none%3B#5be123a8c2cd3f0000effce3)
 - また、発表時に`アクセシビリティやっていき太郎`と自己紹介した結果そういう風に認識されるようになった
   - 主にダーシノさんにだけど
@@ -136,11 +136,11 @@ Vue.js とか PWA 技術とかブロックチェインとか他にも気にな�
 新しい何かをやるときにそれ単体の機能としてはアリだが
 お互いの関係性をするものでないければ円から枝を生やすがごとくトゲトゲしくなって鋭利なものだけに目が行きがちで根本のプロダクトがもつビジョンや理念に注目されなくなると思う
 
-[![Image from Gyazo](https://i.gyazo.com/338a3f8418cdf25e76f300f84b90f6dd.png)](https://gyazo.com/338a3f8418cdf25e76f300f84b90f6dd)
+![白い円のまわりから、黒い線がトゲのように外へ突き出している手描きの図](https://images.yamanoku.net/accessibility-advent-calender-2018/338a3f8418cdf25e76f300f84b90f6dd.png)
 
 そこでアクセシビリティというあらゆるニーズに向けたものをつくれる基盤をつくっておくと新しいものをつくるときにもその指標やガイドラインが活きてまるで層を重ねるがごとく大きな円として拡大できると思っている
 
-[![Image from Gyazo](https://i.gyazo.com/36f4d696ab0f8919af7fe4cac8c1490c.png)](https://gyazo.com/36f4d696ab0f8919af7fe4cac8c1490c)
+![黒、灰、白の輪が何重にも重なり、中心に小さな灰色の円がある手描きの図](https://images.yamanoku.net/accessibility-advent-calender-2018/36f4d696ab0f8919af7fe4cac8c1490c.png)
 
 この大きな円をつくることが**堅牢な強固なものをつくっていきたい**それにあたると思っている
 
