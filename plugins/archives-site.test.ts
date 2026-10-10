@@ -279,7 +279,7 @@ describe('article images', () => {
       for (const match of source.matchAll(r2ImageUrl)) {
         assert.match(
           match[1],
-          /^[^/]+\/[a-f0-9]{32}\.(png|jpe?g|gif|webp)$/,
+          /^[^/]+\/[a-f0-9]{32}\.(png|jpe?g|gif|webp|mp4)$/,
           `${name} -> ${match[0]}`,
         );
         count += 1;
