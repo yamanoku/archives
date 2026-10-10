@@ -46,7 +46,7 @@ topic: life
 
 [絶賛フレンド募集中](https://www.duolingo.com/profile/yamanoku?via=share_profile_link)ですのでよろしくお願いします。
 
-![Duolingoのマイプロフィール画像。右下にフレンド追加のQRコードがある。](/src/images/still-continuing-in-2025/08f4aa898e22d3ad6bda4d7a03281186.png)
+![Duolingoのマイプロフィール画像。右下にフレンド追加のQRコードがある。](https://images.yamanoku.net/still-continuing-in-2025/08f4aa898e22d3ad6bda4d7a03281186.png)
 
 ## プロレス観戦
 

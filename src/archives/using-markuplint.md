@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![「markuplint をプロダクトに導入してみた」と、山括弧に M を入れた markuplint のロゴ。右ではチェック印のついた書類を人が持っている。下に CrowdWorks Engineer Blog](/src/images/using-markuplint/96e1d4851ca4e1c5221bb06cdb750995.png)
+![「markuplint をプロダクトに導入してみた」と、山括弧に M を入れた markuplint のロゴ。右ではチェック印のついた書類を人が持っている。下に CrowdWorks Engineer Blog](https://images.yamanoku.net/using-markuplint/96e1d4851ca4e1c5221bb06cdb750995.png)
 
 こんにちは、こんにちは。フロントエンドと Web の可能性を信じる[@yamanoku](https://twitter.com/yamanoku)です。<br>
 最近気になっている W3C Working Draft は[CSS Nesting Module](https://www.w3.org/TR/css-nesting-1/)です。[^1]
@@ -53,7 +53,7 @@ markuplint の対象はデザイン基盤のコードのみに絞り、
 
 CircleCI にてジョブを追加し、新たにチェック対象として動作するようにしました。
 
-![CircleCIのjobで「markuplintの実行」が成功しているスクリーンショット](/src/images/using-markuplint/8f8cf9a9bac98bed56868563ba796a3d.png)
+![CircleCIのjobで「markuplintの実行」が成功しているスクリーンショット](https://images.yamanoku.net/using-markuplint/8f8cf9a9bac98bed56868563ba796a3d.png)
 
 ## ルールの適用について
 

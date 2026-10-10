@@ -160,14 +160,6 @@ function postprocessHtml(outDir: string): void {
   }
 }
 
-function copyArchiveImages(outDir: string): void {
-  const imagesDir = join(rootDir, 'src/images');
-  if (!existsSync(imagesDir)) {
-    return;
-  }
-  cpSync(imagesDir, join(outDir, 'src/images'), { recursive: true });
-}
-
 function copyPublicAssets(outDir: string): void {
   const publicDir = join(rootDir, 'public');
   if (existsSync(publicDir)) {
@@ -209,7 +201,6 @@ export function archivesSitePlugin(): Plugin {
         }
         rewritePrettyUrls(outDir);
         copyPublicAssets(outDir);
-        copyArchiveImages(outDir);
         postprocessHtml(outDir);
         rewriteSearchIndex(outDir);
         const archives = loadArchives();

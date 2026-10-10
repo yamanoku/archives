@@ -16,7 +16,7 @@ noindex: true
 かつて「[こんのいぬ](https://scrapbox.io/konnoinu/)」というサークル名でWebアクセシビリティの技術同人誌を書いたことがあります。当時は自分が知っているWebアクセシビリティにまつわるアウトプットを形にしてみたい、という思いで知りうる限りの知識をもって作ってみたのがきっかけです。
 
 <figure>
-  <img src="/src/images/yamanoku-advent-calendar-2023-12-20/bf7b22b3e820bbb41c7f6336a0cc26ca.jpg" alt="「これからはじめるWebアクセシビリティ」の表紙画像。犬の写真が入っている" width="340" loading="lazy">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-20/bf7b22b3e820bbb41c7f6336a0cc26ca.jpg" alt="「これからはじめるWebアクセシビリティ」の表紙画像。犬の写真が入っている" width="340" loading="lazy">
 </figure>
 
 これまで遠巻きでしか見れてなかったWebアクセシビリティの世界にこのアウトプットをもって初めて近づくことができたと思っております。この本をきっかけに私の活動を知ってくださった方も居て、現在所属する企業へ入社できる縁も作ってくれました。

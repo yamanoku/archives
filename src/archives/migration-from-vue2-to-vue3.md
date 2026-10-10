@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![アイキャッチ：Vue2 から Vue3 に移行完了しました！](/src/images/migration-from-vue2-to-vue3/f37e1f4b21bab6bd8a9d0a0f2ff09fa5.png)
+![アイキャッチ：Vue2 から Vue3 に移行完了しました！](https://images.yamanoku.net/migration-from-vue2-to-vue3/f37e1f4b21bab6bd8a9d0a0f2ff09fa5.png)
 
 ## はじめに
 
@@ -54,7 +54,7 @@ Vue 3 は幸い周辺の準備も整いつつあり、新たに利用できる�
 
 ### Storybook 駆動移行
 
-![スクリーンショット：Storybook 公式サイト TOP ページ](/src/images/migration-from-vue2-to-vue3/b7e0722a37dd53e5cde9f12534987379.png)
+![スクリーンショット：Storybook 公式サイト TOP ページ](https://images.yamanoku.net/migration-from-vue2-to-vue3/b7e0722a37dd53e5cde9f12534987379.png)
 
 クラウドワークスでは通常の Webpacker ビルド環境と Storybook ビルド環境は分かれています。<br>
 この構成を利用し、Storybook 環境と、Storybook Vue 3 環境を同時に作成してメンテすることにしました。
@@ -79,11 +79,11 @@ Storybook はクラウドワークスでは昨年より導入されたことも�
 
 対応すべき 250 ファイルをスプレッドシートで管理し、ひとつひとつ確認をして移行していきました。
 
-![スクリーンショット：Vue 3 移行作業のスプレッドシート](/src/images/migration-from-vue2-to-vue3/794fb3b1f890a8f1806f87855081b435.png)
+![スクリーンショット：Vue 3 移行作業のスプレッドシート](https://images.yamanoku.net/migration-from-vue2-to-vue3/794fb3b1f890a8f1806f87855081b435.png)
 
 少なくとも Vue 3 の Storybook でコンポーネントが表示されているなら、動作は可能という最低限の担保ができます。
 
-![スクリーンショット：ログインページの Storybook が表示されている](/src/images/migration-from-vue2-to-vue3/46a88b847feabbb8fdaa2789d13969e4.png)
+![スクリーンショット：ログインページの Storybook が表示されている](https://images.yamanoku.net/migration-from-vue2-to-vue3/46a88b847feabbb8fdaa2789d13969e4.png)
 
 ### ファイルを１つずつ対応
 
@@ -129,7 +129,7 @@ Vue 3 に置き換え対応ができた！プロダクションリリースさ�
 すでに [Issue](https://github.com/nuxt/vue-meta/issues/696) に取り上げられていますが、meta の name が `meta` になることがあります。<br>
 これが原因で viewport に正しい値を設定できず、スマートフォンから閲覧した際に画面サイズが通常と異なる問題が起きていました。
 
-![iPhoneからのスクリーンショット：PCをから閲覧した倍率のままスマートフォンで縮小表示されている](/src/images/migration-from-vue2-to-vue3/97ef52c848de3bad53f2ceee75ebe5d4.png)
+![iPhoneからのスクリーンショット：PCをから閲覧した倍率のままスマートフォンで縮小表示されている](https://images.yamanoku.net/migration-from-vue2-to-vue3/97ef52c848de3bad53f2ceee75ebe5d4.png)
 
 BFF を導入していない本プロダクトでは OGP に対応するため Rails でも meta をレンダリングしているため、一時対応として VueMeta によるレンダリングがなくても最低限動作するように変更しました。
 

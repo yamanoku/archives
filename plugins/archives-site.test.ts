@@ -166,16 +166,17 @@ describe(
       assert.equal(existsSync(join(distDir, 'tategaki.js')), false);
     });
 
-    it('copies article images into the site output', () => {
-      assert.equal(
-        existsSync(
-          join(
-            distDir,
-            'src/images/why-schoo-choose-vue-nuxt/06985046cec45d688883fdaf876f34c3.png',
-          ),
-        ),
-        true,
+    it('serves article images from the R2 custom domain', () => {
+      const article = readFileSync(
+        join(distDir, 'why-schoo-choose-vue-nuxt/index.html'),
+        'utf8',
       );
+      assert.match(
+        article,
+        /https:\/\/images\.yamanoku\.net\/why-schoo-choose-vue-nuxt\/06985046cec45d688883fdaf876f34c3\.png/,
+      );
+      assert.doesNotMatch(article, /\/src\/images\//);
+      assert.equal(existsSync(join(distDir, 'src/images')), false);
     });
 
     it('omits third-party widget scripts from embed pages', () => {
@@ -200,11 +201,12 @@ describe(
   },
 );
 
-describe('local article images', () => {
+describe('article images', () => {
   const archivesDir = join(process.cwd(), 'src/archives');
   const gyazoImageUrl =
     /https:\/\/i\.gyazo\.com\/([a-f0-9]{32})|https:\/\/gyazo\.com\/([a-f0-9]{32})/g;
-  const localImageUrl = /\/src\/images\/[^\s)"'\]]+/g;
+  const r2ImageUrl =
+    /https:\/\/images\.yamanoku\.net\/([^\s)"'\]]+)/g;
   // Gyazo returns 503 and a null file size for these IDs, so the bytes cannot be stored yet.
   const unavailableGyazoIds = new Set([
     '0a683b30754e8e77285eb23fd5230cb0', // markup-engineer-think-nuxtjs.md
@@ -263,20 +265,27 @@ describe('local article images', () => {
     assert.deepEqual([...seen].sort(), [...unavailableGyazoIds].sort());
   });
 
-  it('stores referenced images under src/images', () => {
+  it('points article images at the R2 custom domain', () => {
+    let count = 0;
     for (const name of readdirSync(archivesDir).filter((file) =>
       file.endsWith('.md'),
     )) {
       const source = readFileSync(join(archivesDir, name), 'utf8');
-      for (const match of source.matchAll(localImageUrl)) {
-        const relativePath = match[0].replace(/^\//, '');
-        assert.equal(
-          existsSync(join(process.cwd(), relativePath)),
-          true,
+      assert.doesNotMatch(
+        source,
+        /\/src\/images\//,
+        `${name} still references /src/images/`,
+      );
+      for (const match of source.matchAll(r2ImageUrl)) {
+        assert.match(
+          match[1],
+          /^[^/]+\/[a-f0-9]{32}\.(png|jpe?g|gif|webp)$/,
           `${name} -> ${match[0]}`,
         );
+        count += 1;
       }
     }
+    assert.ok(count > 0);
   });
 });
 

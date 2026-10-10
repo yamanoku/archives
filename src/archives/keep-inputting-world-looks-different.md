@@ -92,7 +92,7 @@ topic: work
   - 箇条書きスタイルでサクサク書ける
   - 書き出した情報が[リンク](https://scrapbox.io/yamanoku/%E3%83%AA%E3%83%B3%E3%82%AF)でページごとで紐づく - 関係ない Word でも紐づくことがある
   - 自分だけの Wikipedia のようなものができる
-  - ![daiizさん（@daizplus）のツイート。「勉強会に参加してScrapboxでメモ取っていくと、初めて知ったことがオレンジ色のリンクになり、知識の広がりを感じられる」。1 Retweet、16 Likes](/src/images/keep-inputting-world-looks-different/81f2910a9761d7bfb48197c7919e4f03.png)
+  - ![daiizさん（@daizplus）のツイート。「勉強会に参加してScrapboxでメモ取っていくと、初めて知ったことがオレンジ色のリンクになり、知識の広がりを感じられる」。1 Retweet、16 Likes](https://images.yamanoku.net/keep-inputting-world-looks-different/81f2910a9761d7bfb48197c7919e4f03.png)
   - 会社の議事録にも有用だと思うので使ってみるといいかも
 
 ## ところで[Speaker Deck](https://scrapbox.io/yamanoku/Speaker_Deck)って便利ですね
@@ -135,4 +135,4 @@ topic: work
 
 ## ご清聴ありがとうございました
 
-![黒い背景に、紺の服で床に両手をつき、頭を下げて深くお辞儀している人を真上から描いたイラスト](/src/images/keep-inputting-world-looks-different/6745efc47e307e9e6cb130e2120714b8.png)
+![黒い背景に、紺の服で床に両手をつき、頭を下げて深くお辞儀している人を真上から描いたイラスト](https://images.yamanoku.net/keep-inputting-world-looks-different/6745efc47e307e9e6cb130e2120714b8.png)

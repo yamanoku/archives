@@ -8,7 +8,7 @@ category: event
 topic: accessibility
 ---
 
-![車いす、白杖、松葉杖の人を含むイラストに囲まれ、中央に「INCLUSIVE WORLD」「インクルーシブな世界」とある2019年5月16日のポスター](/src/images/accfes-2019-report/2c72232c0f83648ffab61e95a17ddfc7.jpg)
+![車いす、白杖、松葉杖の人を含むイラストに囲まれ、中央に「INCLUSIVE WORLD」「インクルーシブな世界」とある2019年5月16日のポスター](https://images.yamanoku.net/accfes-2019-report/2c72232c0f83648ffab61e95a17ddfc7.jpg)
 
 皆さんこんにちは。[株式会社プレイド](https://plaid.co.jp/)でデザインエンジニアをやっております大山です。
 

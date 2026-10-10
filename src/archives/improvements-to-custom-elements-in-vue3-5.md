@@ -39,9 +39,9 @@ Custom Elementsの具体的な使用例を上げると、GitHubのリポジト�
 
 [^2]: [github/relative-time-element: Web component extensions to the standard <time> element.](https://github.com/github/relative-time-element)
 
-![relative-timeというCustom Elementsによって「last week」と表示されている](/src/images/improvements-to-custom-elements-in-vue3-5/51a182f6b9bf3c266eaa65d41434b1b2.png)
+![relative-timeというCustom Elementsによって「last week」と表示されている](https://images.yamanoku.net/improvements-to-custom-elements-in-vue3-5/51a182f6b9bf3c266eaa65d41434b1b2.png)
 
-![実際に開発者ツール上で表示されるrelative-timeとして使用されているコード](/src/images/improvements-to-custom-elements-in-vue3-5/474e1423dc198e6fc5805c9349688c20.png)
+![実際に開発者ツール上で表示されるrelative-timeとして使用されているコード](https://images.yamanoku.net/improvements-to-custom-elements-in-vue3-5/474e1423dc198e6fc5805c9349688c20.png)
 
 ## VueコンポーネントをCustom Elementsとして配布する
 
@@ -91,7 +91,7 @@ export default defineConfig({
 
 Viteを起動すると、描画されているVueコンポーネント部分がCustom Elementsとして表示されます。内部のボタンをクリックするとカウント数が増えることも確認できます。
 
-![ViteのVueアプリサンプルがvue-app-elementというCustom Elementsによって表示されている。ボタンも正常に動作してカウント数が5まで増えている。](/src/images/improvements-to-custom-elements-in-vue3-5/e06629f24fa4896ad40e299537e6b941.gif)
+![ViteのVueアプリサンプルがvue-app-elementというCustom Elementsによって表示されている。ボタンも正常に動作してカウント数が5まで増えている。](https://images.yamanoku.net/improvements-to-custom-elements-in-vue3-5/e06629f24fa4896ad40e299537e6b941.gif)
 
 ### 実際の使用事例
 

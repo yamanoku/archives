@@ -84,11 +84,11 @@ $ git push heroku master
 
 [http://my.slack.com/services/new/hubot](http://my.slack.com/services/new/hubot)
 
-![SlackのHubot連携の新規作成画面。Usernameの入力欄と、緑の「Add Hubot Integration」ボタンがある](/src/images/practice-hubot-to-slack/10c5e0bcff205475bac1a3e7142025b8.png)
+![SlackのHubot連携の新規作成画面。Usernameの入力欄と、緑の「Add Hubot Integration」ボタンがある](https://images.yamanoku.net/practice-hubot-to-slack/10c5e0bcff205475bac1a3e7142025b8.png)
 
 名前を入力して決定を押すと API が表示されますのでコピーします。
 
-![HubotのSetup Instructions。環境変数に設定するAPIトークン欄が赤い帯で隠され、下にIntegration Settingsの見出しがある](/src/images/practice-hubot-to-slack/323ce8c5a952d8090a05a53b4b665c26.png)
+![HubotのSetup Instructions。環境変数に設定するAPIトークン欄が赤い帯で隠され、下にIntegration Settingsの見出しがある](https://images.yamanoku.net/practice-hubot-to-slack/323ce8c5a952d8090a05a53b4b665c26.png)
 
 コピーした API を以下`<Your token>`に入力して登録します
 
@@ -111,7 +111,7 @@ Heroku のダッシュボードに入って登録したプロジェクトの Set
 
 ## Slack を見る
 
-![SlackのDIRECT MESSAGESに、slackbotとyamabotが並んでいる](/src/images/practice-hubot-to-slack/6e2b8677ec2aa84f9291027947e6b42f.png)
+![SlackのDIRECT MESSAGESに、slackbotとyamabotが並んでいる](https://images.yamanoku.net/practice-hubot-to-slack/6e2b8677ec2aa84f9291027947e6b42f.png)
 
 登録した slack を見ると slack bot 以外にも自分が登録した Hubot が居るかと思われるので
 ひとまず適当なチャンネルを作って Invite します。
@@ -119,7 +119,7 @@ Heroku のダッシュボードに入って登録したプロジェクトの Set
 そこで bot 名を入力した後 ping と入力。
 直後に bot が PONG と返せたらたぶん設定完了。
 
-![Slackで「yamabot ping」と送ると、yamabotが「PONG」と返している](/src/images/practice-hubot-to-slack/d347e4c0add0fb1e3e4408e875061132.png)
+![Slackで「yamabot ping」と送ると、yamabotが「PONG」と返している](https://images.yamanoku.net/practice-hubot-to-slack/d347e4c0add0fb1e3e4408e875061132.png)
 
 自分は色々右往左往しながらやったのでちゃんと設定がキレイにできてるか怪しいのですが
 bot が登録されて PONG 言ってるしまあ良いか的な感じです。

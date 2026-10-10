@@ -20,7 +20,7 @@ https://github.com/yamanoku/baseline-mcp-server
 
 ## Baseline MCP Serverとは何か
 
-<img src="/src/images/baseline-mcp-server/493a6b8fc6775e8951df4c6c433c5c28.png" alt="Baseline MCP Serverのロゴ" width="350">
+<img src="https://images.yamanoku.net/baseline-mcp-server/493a6b8fc6775e8951df4c6c433c5c28.png" alt="Baseline MCP Serverのロゴ" width="350">
 
 Baseline MCP Serverは、[Web Platform Dashboard](https://webstatus.dev/)のAPIを利用して、WebのAPI機能のBaselineステータス（ブラウザ対応状況）を取得できるMCPサーバーです。Claude DesktopやCline、VSCodeなどでMCPクライアントを通じてWeb機能のBaseline情報へアクセスできるようになります。
 
@@ -80,6 +80,6 @@ https://github.com/yamanoku/baseline-mcp-server
 
 [WebDX Community Group](https://www.w3.org/community/webdx/)が運営するBaselineホームページ内の[Baseline in the wild](https://web-platform-dx.github.io/web-features/baseline-in-the-wild/)にて、Baseline MCP ServerをBaselineの活用事例としてToolsのセクションに追加させてもらいました。
 
-![Baselineサイトのスクリーンショット。画面の左半分にはBaselineのロゴと「Baseline gives you clear information about which web platform features work across browsers.」という説明文、その下には関連するリンク一覧がある。右半分には様々なBaselineに関連ツールやプロジェクトのリストがあり、赤枠で強調されている項目にはBaseline MCP Serverが載っていて、説明文には「Baseline MCP Server, a Model Context Protocol (MCP) server that provides Baseline information for web features.」と書かれている。](/src/images/baseline-mcp-server/32972dc3d6b79d703bfbebfd6c84e38b.png)
+![Baselineサイトのスクリーンショット。画面の左半分にはBaselineのロゴと「Baseline gives you clear information about which web platform features work across browsers.」という説明文、その下には関連するリンク一覧がある。右半分には様々なBaselineに関連ツールやプロジェクトのリストがあり、赤枠で強調されている項目にはBaseline MCP Serverが載っていて、説明文には「Baseline MCP Server, a Model Context Protocol (MCP) server that provides Baseline information for web features.」と書かれている。](https://images.yamanoku.net/baseline-mcp-server/32972dc3d6b79d703bfbebfd6c84e38b.png)
 
 https://github.com/web-platform-dx/web-features/pull/2877

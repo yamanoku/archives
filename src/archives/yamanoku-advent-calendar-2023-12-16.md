@@ -73,7 +73,7 @@ Webのサステナビリティは、誰もが参加しやすいものになっ�
 そして本日は[次世代Webカンファレンス2023](https://nextwebconf.connpass.com/event/300174/)が開催されます。
 
 <figure>
-  <img src="/src/images/yamanoku-advent-calendar-2023-12-16/f5b9f54a0220d41201bdde573a3e11c3.png" alt="fetch APIで第一引数に https://next-web-conf/2023 のURLを指定している" loading="lazy">
+  <img src="https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-16/f5b9f54a0220d41201bdde573a3e11c3.png" alt="fetch APIで第一引数に https://next-web-conf/2023 のURLを指定している" loading="lazy">
   <figcaption>画像引用元：次世代 Web カンファレンス 2023</figcaption>
 </figure>
 

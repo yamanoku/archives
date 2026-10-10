@@ -309,7 +309,7 @@ topic: life
 - [TSKaigi Mashup #2 Full-Stack TypeScript](https://typescript-jpc.connpass.com/event/364849/)をオンラインで視聴
 - 腎不全になった猫に家で輸液するようになる
 - [エビスコ酒場](https://ghgx100.gorp.jp/)で前職同僚の3人とでプロレストークや仕事トークしてきた
-  - KUDO選手と[ツーショットを撮らせてもらった](/src/images/looking-back-at-yamanoku-activities-2025/dc0baa7fda3905cb0fca20fa07b57776.png)
+  - KUDO選手と[ツーショットを撮らせてもらった](https://images.yamanoku.net/looking-back-at-yamanoku-activities-2025/dc0baa7fda3905cb0fca20fa07b57776.png)
 
 ## 9月
 
@@ -342,7 +342,7 @@ topic: life
 - [Kaigi on Rails 2025](https://kaigionrails.org/)をオンラインで視聴
 - **ガンダムオタクの人たちと**[**秋葉原工作室**](https://x.com/akihabarakousak)**でガンプラ組み立てオフ会した**
   - 積みプラモを１つ譲り受けました
-  - 無事組み立て終わって[墨入れまでチャレンジ](/src/images/looking-back-at-yamanoku-activities-2025/922fd6d5fd5ea62f94883cb8e9ff554b.png)してみました
+  - 無事組み立て終わって[墨入れまでチャレンジ](https://images.yamanoku.net/looking-back-at-yamanoku-activities-2025/922fd6d5fd5ea62f94883cb8e9ff554b.png)してみました
 - [Next.js vs Nuxt それぞれの良さを知る Frontend Night](https://offers.connpass.com/event/368017/)をオンライン視聴
 
 ## 10月

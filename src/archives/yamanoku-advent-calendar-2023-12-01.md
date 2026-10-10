@@ -13,7 +13,7 @@ noindex: true
 
 yamanoku Advent Calendar 2023は[yamanoku](https://yamanoku.net)が一人で12月1日から12月25日までを完遂する予定のアドベントカレンダーです。
 
-![スクリーンショット：Adventar での yamanoku Advent Calendar 2023 カレンダー](/src/images/yamanoku-advent-calendar-2023-12-01/128f1c97d825d7f6e086a8fe27691bd0.png)
+![スクリーンショット：Adventar での yamanoku Advent Calendar 2023 カレンダー](https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-01/128f1c97d825d7f6e086a8fe27691bd0.png)
 
 ## なぜやるのか
 

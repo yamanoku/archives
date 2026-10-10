@@ -38,7 +38,7 @@ document.head.insertAdjacentHTML(
 
 ## デモ
 
-![/src/images/comeback-qiita-code-style-chrome-extension/923e0fd8f4151121597121378f848b9d.gif](/src/images/comeback-qiita-code-style-chrome-extension/923e0fd8f4151121597121378f848b9d.gif)
+![https://images.yamanoku.net/comeback-qiita-code-style-chrome-extension/923e0fd8f4151121597121378f848b9d.gif](https://images.yamanoku.net/comeback-qiita-code-style-chrome-extension/923e0fd8f4151121597121378f848b9d.gif)
 
 ラグありますが、読み込み完了したら反映みたいな感じです。
 

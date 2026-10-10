@@ -8,7 +8,7 @@ category: retrospective
 topic: frontend
 ---
 
-![古いWindowsのウィンドウ「Poste de travail」に、水色背景とピンク縁のPLAYBACK TECH 2017の文字](/src/images/playback-tech-2017/baf0bffa88a384d25b672d4f9cecaa62.jpg)
+![古いWindowsのウィンドウ「Poste de travail」に、水色背景とピンク縁のPLAYBACK TECH 2017の文字](https://images.yamanoku.net/playback-tech-2017/baf0bffa88a384d25b672d4f9cecaa62.jpg)
 
 ## Velocity.js
 
@@ -31,7 +31,7 @@ topic: frontend
 
 ## Docker + WordPress
 
-![Dockerのロゴ](https://i.gyazo.com/69af6f1b89ec88b2af36e7988f45af44.jpg) ![黒背景に描かれた、ダークグレーのWordPressのWロゴ](/src/images/playback-tech-2017/2e2cbb5e6bc6f1531149f12f0d43c31d.png)
+![Dockerのロゴ](https://i.gyazo.com/69af6f1b89ec88b2af36e7988f45af44.jpg) ![黒背景に描かれた、ダークグレーのWordPressのWロゴ](https://images.yamanoku.net/playback-tech-2017/2e2cbb5e6bc6f1531149f12f0d43c31d.png)
 
 - 社内案件で Docker を使っていたので個人的にもなんか使えないかと画策。
 - WordPress を動かすのがちょうどチュートリアルとして良さそうでした。
@@ -95,7 +95,7 @@ render() {
 
 # PostCSS
 
-![白い背景に赤い手描きの円。中に三角と四角と円を重ねたPostCSSのロゴ](/src/images/playback-tech-2017/2599c040c415d83db1ebc75e021bfd45.png)
+![白い背景に赤い手描きの円。中に三角と四角と円を重ねたPostCSSのロゴ](https://images.yamanoku.net/playback-tech-2017/2599c040c415d83db1ebc75e021bfd45.png)
 
 - 社内的には Stylus をこれまで使用していたが、更新があまりない（2~4 年前の）CSS プリプロセッサだったので、改めて一体どのようなオプションだけが必要なのか・PostCSS 自体も業務に導入すべきかなどあった上で自分の方で試してみた感じです。
 - 感想としては css 単体で使うよりも sass や less などに付随させて必要なものを動かすのがてっとり早いという感じ。

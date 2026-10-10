@@ -8,7 +8,7 @@ category: essay
 topic: life
 ---
 
-![青地に、黄色い丸い頭と四角い体の人と小さな吹き出し。右にはほぼ同じ高さの黄色い縦棒が3本並んでいる。](/src/images/a-way-of-life-that-seeks-a-better-example/45f49f76855d41e548d3a16d0b92e98b.png)
+![青地に、黄色い丸い頭と四角い体の人と小さな吹き出し。右にはほぼ同じ高さの黄色い縦棒が3本並んでいる。](https://images.yamanoku.net/a-way-of-life-that-seeks-a-better-example/45f49f76855d41e548d3a16d0b92e98b.png)
 
 自分は人の良い所を真似れるなら、どんどん真似ていくタイプだと思う。
 

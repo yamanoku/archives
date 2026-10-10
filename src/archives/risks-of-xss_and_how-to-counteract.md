@@ -8,7 +8,7 @@ category: tech
 topic: frontend
 ---
 
-![ノートPCの前で青ざめて汗をかく女性と、赤い雲の中で黒い覆面の男がPCを操作しているイラスト](/src/images/risks-of-xss_and_how-to-counteract/a6c2744e875f9ebadb3a9e70bd3d0f89.png)
+![ノートPCの前で青ざめて汗をかく女性と、赤い雲の中で黒い覆面の男がPCを操作しているイラスト](https://images.yamanoku.net/risks-of-xss_and_how-to-counteract/a6c2744e875f9ebadb3a9e70bd3d0f89.png)
 
 ## XSS（クロスサイトスクリプト）とは
 
@@ -16,7 +16,7 @@ topic: frontend
 
 例えばフォームで送信する際に通常であれば名前や住所といった文字列を入力するとおもいますが、ここにスクリプトタグを書き込んで送信されると、XSS 対策されているサイトであればタグ囲み部分がエスケープされて実行されませんが、対策がされていないとそのままスクリプトタグを読み込んでしまい、実行がされてしまうといった流れです。
 
-![コメント欄に「<script>alert('XSS');</script>」と入れてsubmitすると、ダイアログに「XSS」と出る画面](/src/images/risks-of-xss_and_how-to-counteract/9fd2a746caa6623a7b8b58136df0aa8c.png)
+![コメント欄に「<script>alert('XSS');</script>」と入れてsubmitすると、ダイアログに「XSS」と出る画面](https://images.yamanoku.net/risks-of-xss_and_how-to-counteract/9fd2a746caa6623a7b8b58136df0aa8c.png)
 
 このように動的な要素を生成する場合、XSS 脆弱性を発生させやすくなっています。他にも以下の様な危険性があげられます。
 
@@ -144,7 +144,7 @@ jQuery 自身も ver3.0 の更新（2016 年 5 月）があったように、日
 
 ## 仮想 DOM を信じろ！
 
-![黒い背景に水色の原子マークと「React」の文字が並んだロゴ](/src/images/risks-of-xss_and_how-to-counteract/7f12364e058283699217b3e201b615af.png)
+![黒い背景に水色の原子マークと「React」の文字が並んだロゴ](https://images.yamanoku.net/risks-of-xss_and_how-to-counteract/7f12364e058283699217b3e201b615af.png)
 
 上記は素で js を書いたり jQuery を使用する際の注意点でしたが、中級者以上の賢明なエンジニアの方であればフレームワークを使用した開発をされていると思われます。というか大体の web サイト・アプリはフレームワーク使っているんじゃないかなと思われます。
 
@@ -173,7 +173,7 @@ function createMarkup() {
 
 その抑えられない好奇心をどうすればいいか、Google が公開している XSS をゲーム感覚で試せるサイト[XSS game](https://xss-game.appspot.com/)に行ってみてください。
 
-![XSS gameの導入画面。「Warning: You are entering the XSS game area」と緑の「Let me at 'em!」ボタンがある](/src/images/risks-of-xss_and_how-to-counteract/656b1c40b5a0063e805a9cb73be67f10.png)
+![XSS gameの導入画面。「Warning: You are entering the XSS game area」と緑の「Let me at 'em!」ボタンがある](https://images.yamanoku.net/risks-of-xss_and_how-to-counteract/656b1c40b5a0063e805a9cb73be67f10.png)
 
 こちらでは様々なパターンでの XSS 攻撃を体験でき、わからない場合はヒントも教えて頂けるという親切設計になっております。内容はすべて英語となっていますので翻訳しながら見ていただけるとよろしい感じです。クリアするとケーキが見れます。
 
@@ -181,7 +181,7 @@ function createMarkup() {
 
 ちなみに最新版のブラウザー（2016/07 現在：Firefox 除く）であれば、簡易的な XSS を自動的に排除してくれる XSS フィルターがついています（Firefox であれば類似のプラグインがあります）。皆さん大好き Chrome であればインストールしてすでに内蔵されていると思います。
 
-![ChromeのConsole。XSS Auditorがスクリプト実行を拒否し、X-XSS-ProtectionもContent-Security-Policyも送っていないという赤いエラーが出ている](/src/images/risks-of-xss_and_how-to-counteract/3411fbe9ddf6a6b282517c53e5fa203b.png)
+![ChromeのConsole。XSS Auditorがスクリプト実行を拒否し、X-XSS-ProtectionもContent-Security-Policyも送っていないという赤いエラーが出ている](https://images.yamanoku.net/risks-of-xss_and_how-to-counteract/3411fbe9ddf6a6b282517c53e5fa203b.png)
 
 しかしながらフィルタも万全というわけではなく、そもそも誤探知してしまったり、その脆弱性をついてすり抜けてくる XSS も存在していますので、フィルタがあるから大丈夫という油断は禁物です。あくまでも気持ち程度のものとして。
 

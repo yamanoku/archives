@@ -22,7 +22,7 @@ topic: frontend
 
 ## Reading…
 
-<img src="/src/images/beginner-make-nuxtjs-pwa/60ae2a3a628a1c6b7ed77bc356fbaeab.png" alt="Reading… Logo" width="320">
+<img src="https://images.yamanoku.net/beginner-make-nuxtjs-pwa/60ae2a3a628a1c6b7ed77bc356fbaeab.png" alt="Reading… Logo" width="320">
 
 - Link: [https://reading.yamanoku.net](https://reading.yamanoku.net/)
 - GitHub: [https://github.com/yamanoku/reading/](https://github.com/yamanoku/reading/)
@@ -33,7 +33,7 @@ topic: frontend
 
 ### 動作イメージ
 
-![Reading… iPhoneシュミレーターによる実動作イメージ図](/src/images/beginner-make-nuxtjs-pwa/8418eadc1713fd8f083a625706757786.gif)
+![Reading… iPhoneシュミレーターによる実動作イメージ図](https://images.yamanoku.net/beginner-make-nuxtjs-pwa/8418eadc1713fd8f083a625706757786.gif)
 
 自分が最近見た 20 件のニュース × ５ページ分にした計 100 件を表示。
 ページ間はページネーションで動きます。
@@ -62,7 +62,7 @@ Nuxt.js のプラグイン・モジュールは以下を使用
 
 図です。
 
-![フローチャート 以下説明](/src/images/beginner-make-nuxtjs-pwa/6c87beb1a40364b5520050b0963fa3e9.png)
+![フローチャート 以下説明](https://images.yamanoku.net/beginner-make-nuxtjs-pwa/6c87beb1a40364b5520050b0963fa3e9.png)
 
 - 投稿自体は Twitter
   - シェアする内容の文頭に`Reading...`とつけてツイート
@@ -73,7 +73,7 @@ Nuxt.js のプラグイン・モジュールは以下を使用
   - IFTTT で投稿連携
     - Twitter から「Reading...」と紐づけた特定のものを拾ってくる
     - 連携して個人 Slack に投稿されて全件検索される
-    - ![Slackに届いたIFTTT APP 22:50の投稿。@yamanoku : Reading... 日本のエンジニアの質について - ヨーロッパで働く社長のブログ、とTwitter経由のリンクが付いている。](/src/images/beginner-make-nuxtjs-pwa/1948eaf267fa165a4b4b1fef5afff211.png)
+    - ![Slackに届いたIFTTT APP 22:50の投稿。@yamanoku : Reading... 日本のエンジニアの質について - ヨーロッパで働く社長のブログ、とTwitter経由のリンクが付いている。](https://images.yamanoku.net/beginner-make-nuxtjs-pwa/1948eaf267fa165a4b4b1fef5afff211.png)
   - Slack API の制約もあり 100 件までを抽出。古いものは取得内から消えていく。
   - なぜ Slack をデータベースにしたのか？
     - お手軽サーバーレス体験
@@ -86,7 +86,7 @@ Nuxt.js のプラグイン・モジュールは以下を使用
   - Slack API から直接経由だと制約があってしんどかった
     - devtools 使うとどの slack から持ってきてるのかとかがわかっちゃう
     - token を隠蔽しても`nuxt generate`しビルドした JS 内に token とかが見えると警告メールが来て API 止められる（計 4 敗）
-    - ![Slackからyamanokuへのメール。yamanoku.slack.comの認証トークンが公開されたため無効にしたとあり、Token xoxp- 以降は黒塗り。Posted at はGitHubのyamanoku/readingにあるnuxt/pages/indexのJS。](/src/images/beginner-make-nuxtjs-pwa/22343b9c3de68ed9a44d24d81064bc6b.png)
+    - ![Slackからyamanokuへのメール。yamanoku.slack.comの認証トークンが公開されたため無効にしたとあり、Token xoxp- 以降は黒塗り。Posted at はGitHubのyamanoku/readingにあるnuxt/pages/indexのJS。](https://images.yamanoku.net/beginner-make-nuxtjs-pwa/22343b9c3de68ed9a44d24d81064bc6b.png)
   - 変えてよかったこと
     - token を完全隠蔽した
     - CORS 対応したのでどこでも取得できる
@@ -98,7 +98,7 @@ Nuxt.js のプラグイン・モジュールは以下を使用
   - `nuxt generate` & `push-dir --dir=dist --branch=master --cleanup`
   - 静的書き出しした`dist`を`master`ブランチにプッシュ
   - `master`ブランチをホスティング
-    - ![NetlifyのDeploy settings。Repositoryはgithub.com/yamanoku/reading、Production branchはmaster、Build commandとPublish directoryはNot set](/src/images/beginner-make-nuxtjs-pwa/89e1780586aa0aee4322c9a1cdee3fed.png)
+    - ![NetlifyのDeploy settings。Repositoryはgithub.com/yamanoku/reading、Production branchはmaster、Build commandとPublish directoryはNot set](https://images.yamanoku.net/beginner-make-nuxtjs-pwa/89e1780586aa0aee4322c9a1cdee3fed.png)
   - SSL 化やらカスタムドメイン可やらプレレンダリング（今回は未使用）やら無料でやってくれてすごい。
   - あとプライベートリポジトリも使える。
 
@@ -114,11 +114,11 @@ Nuxt.js のプラグイン・モジュールは以下を使用
 
 ##### 2018/9/6 計測
 
-![Perfomance 91, PWA 96, Accessibility 88, Best Practice 100, SEO 100](/src/images/beginner-make-nuxtjs-pwa/798f53d86ca89daf3d3d2c02187c44c2.png)
+![Perfomance 91, PWA 96, Accessibility 88, Best Practice 100, SEO 100](https://images.yamanoku.net/beginner-make-nuxtjs-pwa/798f53d86ca89daf3d3d2c02187c44c2.png)
 
 ##### 2018/12/2 計測
 
-![Perfomance 95, PWA 96, Accessibility 90, Best Practice 100, SEO 100](/src/images/beginner-make-nuxtjs-pwa/62f8aebc83ef63c8637401dca55fa6bd.png)
+![Perfomance 95, PWA 96, Accessibility 90, Best Practice 100, SEO 100](https://images.yamanoku.net/beginner-make-nuxtjs-pwa/62f8aebc83ef63c8637401dca55fa6bd.png)
 
 #### WebPageTest
 
@@ -160,12 +160,12 @@ methods: {
 
 #### 絵文字がパースされていない
 
-![🔥の絵文字が :fire: として出力されている](/src/images/beginner-make-nuxtjs-pwa/515ea122571f395b03d8be35b82e4469.png)
+![🔥の絵文字が :fire: として出力されている](https://images.yamanoku.net/beginner-make-nuxtjs-pwa/515ea122571f395b03d8be35b82e4469.png)
 
 単純にパースしてあげればいいのかなと思ったので、
 [node-emoji](https://www.npmjs.com/package/node-emoji) を使いました。
 
-![🔥絵文字が適応された](/src/images/beginner-make-nuxtjs-pwa/6586344df213347f483f99f7ea95c014.png)
+![🔥絵文字が適応された](https://images.yamanoku.net/beginner-make-nuxtjs-pwa/6586344df213347f483f99f7ea95c014.png)
 
 👍👍👍👍👍
 
@@ -182,7 +182,7 @@ methods: {
 
 - [https://github.com/yamanoku/vue-paginate](https://github.com/yamanoku/vue-paginate)
 
-![aタグからbuttonタグに変更してタブキーのフォーカスが効くようになった](/src/images/beginner-make-nuxtjs-pwa/42475acc4d4f26575615095b57d77a70.gif)
+![aタグからbuttonタグに変更してタブキーのフォーカスが効くようになった](https://images.yamanoku.net/beginner-make-nuxtjs-pwa/42475acc4d4f26575615095b57d77a70.gif)
 
 ただ、開閉時の`aria-expanded`ほか WAI-ARIA 部分などはまだまだ対応しきれていないので、今後も改良する余地はありそうです（自前実装になる？）。
 
@@ -223,7 +223,7 @@ methods: {
 
 ## 【弊社アドベントカレンダー PR】
 
-![株式会社GEEK ロゴ](/src/images/beginner-make-nuxtjs-pwa/a2ce676febed730106792e210ad75eba.jpg)
+![株式会社GEEK ロゴ](https://images.yamanoku.net/beginner-make-nuxtjs-pwa/a2ce676febed730106792e210ad75eba.jpg)
 
 最後に宣伝になりますが、私が所属している[株式会社 GEEK](https://qiita.com/organizations/geekinc)でもアドベントカレンダーをやっております。良ければご覧になってみてください。
 自分はこのアドベントカレンダーほか色んな所に出張執筆予定です。

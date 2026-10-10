@@ -8,7 +8,7 @@ category: essay
 topic: frontend
 ---
 
-![OKUTO OYAMA PORTFOLIOのトップ。YのロゴとABOUT・CONTACT、下にYAMAGRAPH・GitHub・GAME OVER・岩手大学のタイル](/src/images/plan-of-portfolio-renewal/f887aabba3a1b03e65af671af4399435.png)
+![OKUTO OYAMA PORTFOLIOのトップ。YのロゴとABOUT・CONTACT、下にYAMAGRAPH・GitHub・GAME OVER・岩手大学のタイル](https://images.yamanoku.net/plan-of-portfolio-renewal/f887aabba3a1b03e65af671af4399435.png)
 
 計画としてではあるのですが、自分のポートフォリオサイトをリニューアルしたいなという話です。
 
@@ -98,6 +98,6 @@ topic: frontend
 
 実は手の方も少し動かしています。タスクランナーのほうでカタカタと（以下長めです）
 
-![制作途中のポートフォリオ。Aboutに畳の上で仰向けの人物写真、Worksの作品タイル、WeblogとContactがある](/src/images/plan-of-portfolio-renewal/95fef128852c222213820526706138aa.png)
+![制作途中のポートフォリオ。Aboutに畳の上で仰向けの人物写真、Worksの作品タイル、WeblogとContactがある](https://images.yamanoku.net/plan-of-portfolio-renewal/95fef128852c222213820526706138aa.png)
 
 あくまでまだ仮なので少しずつ詰めていきたいなと思います。こちらからは以上です。

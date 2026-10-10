@@ -36,7 +36,7 @@ topic: frontend
   - [Promise](https://scrapbox.io/yamanoku/Promise)がない
   - [gyp](https://scrapbox.io/yamanoku/gyp)（メタビルドシステム）採用の失敗
   - `node_modules`の複雑性
-    - ![太陽、中性子星、ブラックホールより node_modules の重力の窪みが深く、画面の下まで続いている「HEAVIEST OBJECTS IN THE UNIVERSE」の図](/src/images/share-what-learned-about-deno/6f8d9b25b1f294b99ce052471010a25b.png) いつもの図
+    - ![太陽、中性子星、ブラックホールより node_modules の重力の窪みが深く、画面の下まで続いている「HEAVIEST OBJECTS IN THE UNIVERSE」の図](https://images.yamanoku.net/share-what-learned-about-deno/6f8d9b25b1f294b99ce052471010a25b.png) いつもの図
   - モジュールの設計を後回し
     - 管理運営自体を `private controlled` にしてしまったこと
 - それらを一切ゼロベースに戻して新しいランタイムを産み出した
@@ -110,7 +110,7 @@ topic: frontend
 - `deno fmt [FILE]`
   - フォーマッタ
   - [Prettier](https://scrapbox.io/yamanoku/Prettier)が走る
-  - ![暗いエディタで、1行に詰まった Deno のサーバーコードがインデントされた複数行へ整形されていく。import は deno.land/std@v0.3.2/http/server.ts、アドレスは 127.0.0.1:8080、見出しは Hello World](/src/images/share-what-learned-about-deno/36a3442d97fa62def07c7d091bb60759.gif)
+  - ![暗いエディタで、1行に詰まった Deno のサーバーコードがインデントされた複数行へ整形されていく。import は deno.land/std@v0.3.2/http/server.ts、アドレスは 127.0.0.1:8080、見出しは Hello World](https://images.yamanoku.net/share-what-learned-about-deno/36a3442d97fa62def07c7d091bb60759.gif)
     - さっき触ってみたら`503`で動かんかった
       - [https://github.com/denoland/registry/issues/115](https://github.com/denoland/registry/issues/115)
       - レジストリは[aws lambda](https://scrapbox.io/yamanoku/aws_lambda)で実装しているとのこと
@@ -135,7 +135,7 @@ topic: frontend
   - `ws`
 - [deno.land](https://deno.land/) registry のスクリプトをブラウザで見に行くとソースハイライトされて表示される
   - [https://deno.land/std/fs/mod.ts](https://deno.land/std/fs/mod.ts)
-    - ![「View repository on GitHub」の下に、Copyright 2018-2019 the Deno authors から始まる export * from "./empty_dir.ts" などが行番号付きで並び、パスが下線のリンクになっている](/src/images/share-what-learned-about-deno/35a098a488edbec2f9378a1d40c4b181.png)
+    - ![「View repository on GitHub」の下に、Copyright 2018-2019 the Deno authors から始まる export * from "./empty_dir.ts" などが行番号付きで並び、パスが下線のリンクになっている](https://images.yamanoku.net/share-what-learned-about-deno/35a098a488edbec2f9378a1d40c4b181.png)
     - リンクになってるので辿れる
 
 ## yamanoku はどう思ったか
@@ -163,9 +163,9 @@ topic: frontend
   - deno 日本グループの[Slack](https://scrapbox.io/yamanoku/Slack)
 - [https://denolib.gitbook.io/guide/](https://denolib.gitbook.io/guide/)
 - [https://deno-ja.booth.pm/items/1317172](https://deno-ja.booth.pm/items/1317172)
-  - ![緑の島で恐竜たちがピクニックや釣りをしている「Denobook by deno-ja」の表紙](/src/images/share-what-learned-about-deno/c63b12633250d1182236890787093336.png)
+  - ![緑の島で恐竜たちがピクニックや釣りをしている「Denobook by deno-ja」の表紙](https://images.yamanoku.net/share-what-learned-about-deno/c63b12633250d1182236890787093336.png)
     - 表紙がめっちゃかわいい
   - 次回の[技術書典](https://scrapbox.io/yamanoku/%E6%8A%80%E8%A1%93%E6%9B%B8%E5%85%B8)にて denobook 2 だすかは検討中とのこと
   - 出た！
     - [https://booth.pm/ja/items/1574063](https://booth.pm/ja/items/1574063)
-    - ![紅葉と三角旗のある秋の島に恐竜たちがいる「Denobook 02 by deno-ja」の表紙](/src/images/share-what-learned-about-deno/5804a924d764618d5f82e6e93f38fa2f.jpg)
+    - ![紅葉と三角旗のある秋の島に恐竜たちがいる「Denobook 02 by deno-ja」の表紙](https://images.yamanoku.net/share-what-learned-about-deno/5804a924d764618d5f82e6e93f38fa2f.jpg)

@@ -229,11 +229,11 @@ module.exports = {
 
 そして CSS 管理においては`scoped CSS`を使用すると、コンポーネントやレイアウト、ページ単体の CSS 管理ができます。
 
-![style scoped内のCSS。articleを全面に絶対配置し、.detailと.detail_headingの背景・余白・角丸を指定している](/src/images/markup-engineer-think-nuxtjs/3ba66219ffec42b5e34e50a659d165f4.png)
+![style scoped内のCSS。articleを全面に絶対配置し、.detailと.detail_headingの背景・余白・角丸を指定している](https://images.yamanoku.net/markup-engineer-think-nuxtjs/3ba66219ffec42b5e34e50a659d165f4.png)
 
 こうすると
 
-![開発者ツールのElementsとStyles。div.detailにクラス_v-3557b288が付き、右に同じセレクタのCSSが出ている](/src/images/markup-engineer-think-nuxtjs/a72042dcd05dfb09e4b085f427e1cf95.png)
+![開発者ツールのElementsとStyles。div.detailにクラス_v-3557b288が付き、右に同じセレクタのCSSが出ている](https://images.yamanoku.net/markup-engineer-think-nuxtjs/a72042dcd05dfb09e4b085f427e1cf95.png)
 
 クラスにユニーク名が付与されてこういうことができます（画像のは Nuxt.js ではないのですがイメージとして）。
 

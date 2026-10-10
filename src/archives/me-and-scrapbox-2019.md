@@ -67,7 +67,7 @@ topic: life
       - ただのメモと別格になりうる
       - 関係ない Word でも紐づくことがある
     - 自分だけの Wikipedia のようなものができる
-    - ![daiizさん（@daizplus）のツイート。「勉強会に参加してScrapboxでメモ取っていくと、初めて知ったことがオレンジ色のリンクになり、知識の広がりを感じられる」。1 Retweet、16 Likes](/src/images/me-and-scrapbox-2019/81f2910a9761d7bfb48197c7919e4f03.png)
+    - ![daiizさん（@daizplus）のツイート。「勉強会に参加してScrapboxでメモ取っていくと、初めて知ったことがオレンジ色のリンクになり、知識の広がりを感じられる」。1 Retweet、16 Likes](https://images.yamanoku.net/me-and-scrapbox-2019/81f2910a9761d7bfb48197c7919e4f03.png)
 
 ## Web にあげる資料は極力はテキスト情報であってほしい
 
@@ -128,7 +128,7 @@ topic: life
   - [https://github.com/nota/key-focus-visible](https://github.com/nota/key-focus-visible)
   - [https://github.com/nota/mouse-hover-visible](https://github.com/nota/mouse-hover-visible)
 - マウスフォーカスとキーフォーカスの違い対応
-  - ![Scrapboxのメニューで青いフォーカス枠が「more (7 projects, 1 business)」から上の項目へ移り、その後マウスポインタが項目をなぞると青枠は出ず灰色の背景だけになる](/src/images/me-and-scrapbox-2019/05b6b73c50228ae5901d852d0b73a903.gif)
+  - ![Scrapboxのメニューで青いフォーカス枠が「more (7 projects, 1 business)」から上の項目へ移り、その後マウスポインタが項目をなぞると青枠は出ず灰色の背景だけになる](https://images.yamanoku.net/me-and-scrapbox-2019/05b6b73c50228ae5901d852d0b73a903.gif)
     - フォーカスしてるときはアウトラインが出てる
     - クリックするときはアウトラインが出ない
     - [what-input](https://scrapbox.io/yamanoku/what-input)のそれに近い

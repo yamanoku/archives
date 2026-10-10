@@ -54,4 +54,4 @@ Duolingoを続けてて、独自性をもった入力UIに魅かれたり問題�
 
 ひとまず100日は達成できたのでその証拠だけでも貼ってこの記事は終えようと思います。1日うっかり忘れていたことは目を瞑ってください。
 
-![Duolingoアプリで100日連続達成したときに表示される画面](/src/images/why-i-quit-duolingo/09b82263032841db42dae56f8e3da733.png)
+![Duolingoアプリで100日連続達成したときに表示される画面](https://images.yamanoku.net/why-i-quit-duolingo/09b82263032841db42dae56f8e3da733.png)

@@ -9,7 +9,7 @@ topic: accessibility
 noindex: true
 ---
 
-![アイキャッチ：GAAD Japan 2022 でスポンサー協賛とLTをしてきました](/src/images/gaad-japan-2022/9394a2746d69b18fcdc0db6ffa193f23.png)
+![アイキャッチ：GAAD Japan 2022 でスポンサー協賛とLTをしてきました](https://images.yamanoku.net/gaad-japan-2022/9394a2746d69b18fcdc0db6ffa193f23.png)
 
 こんにちは。[@okuto_oyama](https://twitter.com/okuto_oyama)です。
 
@@ -92,4 +92,4 @@ GAAD Japan 実行委員会ならびにイベント関係者の皆様、お疲れ
 
 また、登壇ほか字幕配信にもご協力いただいた Shamrock Records 株式会社の青木さんに感謝申し上げます。 UD トークを通じてリアルタイム字幕を提供できたほか、自身が開発された[字幕エディター](https://tools.udtalk.jp/jimakueditor)にて、自分の発表動画の字幕編集を簡単に行うことが出来ました。 花王さんの事例のように、各企業の字幕提供も進んでいくといいなと思っております。
 
-![スクリーンショット：字幕エディター for YouTube を使用して弊社のスポンサーLT動画の字幕編集をしている](/src/images/gaad-japan-2022/d36d98cb3aa6467f5d4b4c1c8212d2ed.png)
+![スクリーンショット：字幕エディター for YouTube を使用して弊社のスポンサーLT動画の字幕編集をしている](https://images.yamanoku.net/gaad-japan-2022/d36d98cb3aa6467f5d4b4c1c8212d2ed.png)

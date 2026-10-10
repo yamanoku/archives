@@ -21,7 +21,7 @@ jQueryもまたInternet Explorerのように、Webの歴史において重要な
 
 しかしよく忘れがちなことですがjQueryでは現在でも開発が続けられており、機能開発やセキュリティバグ対応がされています。さらに次期バージョンとなる4.0へのロードマップを見るにやるべきことはほぼほぼ完了しており、リリースも近いように見えます。
 
-> ![12月現在での4.0.0へ向けた対応マイルストーンの達成率は99%](/src/images/yamanoku-advent-calendar-2023-12-12/e212c7f5437ea0ddf5e3d9a3b3112cda.png)
+> ![12月現在での4.0.0へ向けた対応マイルストーンの達成率は99%](https://images.yamanoku.net/yamanoku-advent-calendar-2023-12-12/e212c7f5437ea0ddf5e3d9a3b3112cda.png)
 >
 > [4.0.0 Milestone - jquery](https://github.com/jquery/jquery/milestone/7)
 

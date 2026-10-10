@@ -11,7 +11,7 @@ noindex: true
 
 こんにちは。[株式会社Schoo](https://corp.schoo.jp/)（以下Schoo）に所属しております [@okuto_oyama](https://qiita.com/okuto_oyama) です。今年1月から技術戦略部門より開発部門・Schoo開発スクワッドに異動し、プロダクト開発に従事しております。
 
-![フロントエンドでの技術選定 —— 「みんなで」語り尽くそう！の勉強会バナー](/src/images/why-schoo-choose-vue-nuxt/06985046cec45d688883fdaf876f34c3.png)
+![フロントエンドでの技術選定 —— 「みんなで」語り尽くそう！の勉強会バナー](https://images.yamanoku.net/why-schoo-choose-vue-nuxt/06985046cec45d688883fdaf876f34c3.png)
 
 本日は2/12に開催された「[フロントエンドでの技術選定 —— 「みんなで」語り尽くそう！](https://codmon.connpass.com/event/379236/)」での発表内容と、当日行われたアンカンファレンス形式の座談会に社内メンバーで参加した際のレポートをお届けします。
 

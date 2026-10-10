@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![crowdworks.jp Front-End 2021](/src/images/looking-back-at-crowdworks-front-end-activities-2021/a6a059c98551b3510ce7ad3f73359dd0.png)
+![crowdworks.jp Front-End 2021](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/a6a059c98551b3510ce7ad3f73359dd0.png)
 
 この記事は [クラウドワークス Advent Calendar 2021](https://qiita.com/advent-calendar/2021/crowdworks) の１日目の記事です。
 
@@ -29,7 +29,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 
 ### `#frontend` を `#jp_frontend`に分化
 
-![写真：Slackのチャンネル名の変更提案をしている様子](/src/images/looking-back-at-crowdworks-front-end-activities-2021/28a37ef6412bda983779b2c6c0d461cf.png)
+![写真：Slackのチャンネル名の変更提案をしている様子](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/28a37ef6412bda983779b2c6c0d461cf.png)
 
 - Slack のチャンネル名を変更した話です
 - もともと crowdworks.jp エンジニア有志でこっそり始めた「SPA 実験しよう」というチャンネルでした
@@ -46,7 +46,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 
 ### Storybook 開発
 
-![Storybook ロゴ](/src/images/looking-back-at-crowdworks-front-end-activities-2021/a8022f073f33fb2d0543eddb96ab41d4.png)
+![Storybook ロゴ](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/a8022f073f33fb2d0543eddb96ab41d4.png)
 
 - 前年からこっそりと導入してみてました
   - 対応してくれた [@bugfire](https://qiita.com/bugfire) ありがとう
@@ -67,7 +67,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 
 ### Vue3 の勉強会・移行計画と対応方法
 
-![Vue.js ドキュメントサイト 日本語版](/src/images/looking-back-at-crowdworks-front-end-activities-2021/5f8df1e7c05fb84dd4808fe20c46029a.png)
+![Vue.js ドキュメントサイト 日本語版](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/5f8df1e7c05fb84dd4808fe20c46029a.png)
 
 - Vue3 が発表されてしばらく経ちますね
 - プロダクトコードでは [`@vue/composition-api`](https://github.com/vuejs/composition-api) を使用するようになって１から Options API で書くこともなくなりました
@@ -87,7 +87,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 
 ### デザイン基盤整理での画面リニューアル活動
 
-![写真：ログイン画面のリニューアル前後](/src/images/looking-back-at-crowdworks-front-end-activities-2021/2b6ba9a565bdcbef8f60ad4e23d7dcd3.png)
+![写真：ログイン画面のリニューアル前後](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/2b6ba9a565bdcbef8f60ad4e23d7dcd3.png)
 
 - プロダクトを長年運用する中でデザイン作業において以下問題点があがるようになりました
   - 何の意図をもってデザインされたものなのかわからない
@@ -104,7 +104,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
   - アドベントカレンダー開催中にはなんらか良い報告できるかも…？ :eyes:
 - JavaScript が読み込めない環境下での誘導も作成しています（下図参照）
 
-![写真：ブラウザ上でJavaScriptが向こうになっている環境下でのエラー表示](/src/images/looking-back-at-crowdworks-front-end-activities-2021/d12770496321df5ed9595af03d60c65b.png)
+![写真：ブラウザ上でJavaScriptが向こうになっている環境下でのエラー表示](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/d12770496321df5ed9595af03d60c65b.png)
 
 ### ブラウザの IE11 推奨環境を除外
 
@@ -123,7 +123,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 
 ### Core Web Vitals 対応
 
-![写真：LCP、FID、CLS](/src/images/looking-back-at-crowdworks-front-end-activities-2021/e273317036912a9ac944f9073a2af47f.png)
+![写真：LCP、FID、CLS](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/e273317036912a9ac944f9073a2af47f.png)
 
 - 今年の 6 月より Core Web Vitals がランキング要因に関わることが発表されました
   - Core Web Vitals に関しては[公式の記事](https://developers-jp.googleblog.com/2020/05/web-vitals.html)を参考ください
@@ -147,11 +147,11 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 
 #### トップページ改善前（チェック時）
 
-![106 Issues の報告](/src/images/looking-back-at-crowdworks-front-end-activities-2021/1fad6682527b177932ab430ab61edce6.png)
+![106 Issues の報告](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/1fad6682527b177932ab430ab61edce6.png)
 
 #### トップページ改善後（９月９日時点）
 
-![93 Issues の報告](/src/images/looking-back-at-crowdworks-front-end-activities-2021/37658a1e3e5f2ae97c2c6c395c8da042.png)
+![93 Issues の報告](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/37658a1e3e5f2ae97c2c6c395c8da042.png)
 
 ### その他 crowdworks.jp のフロントエンド改善トピック
 
@@ -184,7 +184,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 
 ### オープンソース活動
 
-![Vue A11y 日本語サイト TOPページ](/src/images/looking-back-at-crowdworks-front-end-activities-2021/4469dfa5c839ae55f60b03acb55543fc.png)
+![Vue A11y 日本語サイト TOPページ](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/4469dfa5c839ae55f60b03acb55543fc.png)
 
 - 去年から活動してみて、今年も細々と活動してみました
   - 活動履歴は [Notion](https://www.notion.so/yamanoku/2021-2c4fa51b832645f494698ebd11e069f9) に前期・後期でまとめてみています
@@ -219,7 +219,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 
 ### 他社でアクセシビリティ対応に関する勉強会・壁打ちをしてきた
 
-![勉強会資料の一部。コンテンツによって入れる代替テキストは異なることを説明しているもの](/src/images/looking-back-at-crowdworks-front-end-activities-2021/11f7dbc9c3e33c4e2be5fe7a47a34812.png)
+![勉強会資料の一部。コンテンツによって入れる代替テキストは異なることを説明しているもの](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/11f7dbc9c3e33c4e2be5fe7a47a34812.png)
 
 - ２社ほどお声がけさせていただき勉強会や壁打ちなどをしてきました
 - [FEStudy](https://forkwell.connpass.com/event/198726/) の発表からつながったとしたらありがたいことです
@@ -230,7 +230,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 
 ### PWA Night Conference 2021 にスタッフ参加
 
-![oVice での PWA Night Conference 2021 の様子](/src/images/looking-back-at-crowdworks-front-end-activities-2021/534f5b061cce02f4be2af18278e763eb.png)
+![oVice での PWA Night Conference 2021 の様子](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/534f5b061cce02f4be2af18278e763eb.png)
 
 - 去年はカンファレンスで LT をやってきたのですが今年はスタッフとして参加しました
 - 出演打診、スタンプラリー企画、品物の発送などをしました
@@ -244,7 +244,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 
 ### JSConfJP 2021 に登壇
 
-![JSConfJP での大山奥人の登壇情報](/src/images/looking-back-at-crowdworks-front-end-activities-2021/4e92fbd9125d70ca7aac0a9c9e5f141d.png)
+![JSConfJP での大山奥人の登壇情報](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/4e92fbd9125d70ca7aac0a9c9e5f141d.png)
 
 - １１月２７日に開催された [JSConfJP 2021](https://jsconf.jp/2021) に登壇してきました！
   - [スピーカー詳細ページ](https://jsconf.jp/2021/talk/the-past-and-future-of-accessible-front-end-development)
@@ -266,7 +266,7 @@ crowdworks.jp でフロントエンドの可能性をやはり模索し続ける
 （ちなみにチーム名は、協業しつつもエンジニアチーム全体とリードしていくことから「**ジャンヌ**」になりました）
 今後のフロントエンド開発の方向性を定めた現状レガシーになっている箇所の改善ロードマップを提示していきます。
 
-![写真：フロントエンド基盤整理の方針](/src/images/looking-back-at-crowdworks-front-end-activities-2021/2f4dd7fd92b8079d2ed460a3fe1e831c.png)
+![写真：フロントエンド基盤整理の方針](https://images.yamanoku.net/looking-back-at-crowdworks-front-end-activities-2021/2f4dd7fd92b8079d2ed460a3fe1e831c.png)
 
 _基盤整備に伴い提示した整理方針の一部_
 

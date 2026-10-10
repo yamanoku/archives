@@ -8,7 +8,7 @@ category: tech
 topic: frontend
 ---
 
-![青い背景に文書アイコンが3枚並び、中央の紙に「<html>」、下に「hyper text markup language」と書かれている](/src/images/revisit-web-from-html/42acf3b5c065db36cd9ef55287a47549.jpg)
+![青い背景に文書アイコンが3枚並び、中央の紙に「<html>」、下に「hyper text markup language」と書かれている](https://images.yamanoku.net/revisit-web-from-html/42acf3b5c065db36cd9ef55287a47549.jpg)
 
 ## そもそも HTML とは何なのか？
 
@@ -48,7 +48,7 @@ head はあくまでもその文書が何かを指し示すものでここでは
 
 > 参考：[http://www.htmq.com/HTML5/](http://www.htmq.com/HTML5/)
 
-![Validator.nuの(X)HTML5 Validator。Addressの入力欄、Show Image ReportとShow Sourceのチェック、Validateボタンがある](/src/images/revisit-web-from-html/188538b4613879fd49782950a81cfb43.png)
+![Validator.nuの(X)HTML5 Validator。Addressの入力欄、Show Image ReportとShow Sourceのチェック、Validateボタンがある](https://images.yamanoku.net/revisit-web-from-html/188538b4613879fd49782950a81cfb43.png)
 
 このパーツたちを見て、なにやら既視感みたいなものを感じるかもしれませんが、社会人や大学生だったら普段よく目にする Microsoft Word といった文書作成ツールが持つものと同じ要素で出来ております。そう考えると HTML というものにより親近感が湧いてはこないでしょうか？（湧かなければそれはそれで大丈夫です）
 
@@ -63,9 +63,9 @@ HTML には正しくマークアップできたかを調べるバリデーター
 
 ## サイトの文書構造を理解する一番いい方法
 
-![装飾された日本経済新聞電子版（2017年12月12日）。見出し「ビットコイン、取引シェア日本4割　個人の投機大半」と速報ニュースが並ぶ](/src/images/revisit-web-from-html/28fed5d2d299723b7f591f9e868cd58a.png)
+![装飾された日本経済新聞電子版（2017年12月12日）。見出し「ビットコイン、取引シェア日本4割　個人の投機大半」と速報ニュースが並ぶ](https://images.yamanoku.net/revisit-web-from-html/28fed5d2d299723b7f591f9e868cd58a.png)
 
-![CSSを外した日本経済新聞電子版を下へスクロールするアニメーション。リンクが箇条書きになり、見出しが並ぶ](/src/images/revisit-web-from-html/f0168b9e16edf385c59f6a838985108b.gif)
+![CSSを外した日本経済新聞電子版を下へスクロールするアニメーション。リンクが箇条書きになり、見出しが並ぶ](https://images.yamanoku.net/revisit-web-from-html/f0168b9e16edf385c59f6a838985108b.gif)
 
 これは簡単なことで、適応しているスタイル CSS を外すと分かりやすいと思います。**要は素の状態の HTML**を見る。
 Chrome のエクステンションで CSS を無効化にするものもありますのでこれを使ってみましょう。
@@ -79,7 +79,7 @@ Chrome のエクステンションで CSS を無効化にするものもあり�
 
 ## 「クソ酷いウェブサイト」が教えてくれること
 
-![「これはクソ酷いウェブサイトだ」という見出しの、CSSや画像のないテキストページ](/src/images/revisit-web-from-html/309de70e04de5416f94f664c02828545.png)
+![「これはクソ酷いウェブサイトだ」という見出しの、CSSや画像のないテキストページ](https://images.yamanoku.net/revisit-web-from-html/309de70e04de5416f94f664c02828545.png)
 
 今年５月くらいに注目が集まった「[クソ酷いウェブサイト](https://toshimaru.net/motherfuckingwebsite/)」についてを皆さんはしっていますでしょうか。
 
