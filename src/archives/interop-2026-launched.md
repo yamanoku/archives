@@ -13,7 +13,7 @@ noindex: true
 
 この記事では、昨年のInterop 2025の振り返りと、新たにInterop 2026でどのAPIが重点対象として選出されたのかについて触れていきます。
 
-前提知識として、Interopそのものの取り組みについての解説については、以前書いた[Interop 2025のプロポーザル投票が始まりました！](https://zenn.dev/yamanoku/articles/interop-2025-opens-for-proposals)をご覧ください。
+前提知識として、Interopそのものの取り組みについての解説については、以前書いた[Interop 2025のプロポーザル投票が始まりました！](/interop-2025-opens-for-proposals)をご覧ください。
 
 ## Interop 2025の振り返り
 

@@ -28,7 +28,7 @@ noindex: true
 当日の発表したalien-signalsの詳細については以下発表スライド、関連する解説記事、勉強会のアーカイブ動画よりご覧になってみてください。
 
 - [発表スライド（Speaker Deck）](https://speakerdeck.com/yamanoku/learning-alien-signals-from-the-evolution-of-reactive-systems)
-- [解説記事（Zenn）](https://zenn.dev/comm_vue_nuxt/articles/about-alien-signals)
+- [解説記事（Zenn）](/about-alien-signals)
 - [アーカイブ動画（YouTube）](https://www.youtube.com/watch?v=yM2Us-ZQHSE)
 
 ## この記事の対象読者

@@ -13,7 +13,7 @@ noindex: true
 
 こんにちは。技術戦略部門に所属するエンジニアの [@okuto_oyama](https://qiita.com/okuto_oyama) です。
 
-Schooアドベントカレンダー最初の記事では、[昨年も実施](https://qiita.com/okuto_oyama/items/12d119671f4b350042e4)した、フロントエンド開発にまつわる周辺技術が今年どれだけアップデートされたかを見つつ、2025年を振り返ってみる内容をお送りいたします。
+Schooアドベントカレンダー最初の記事では、[昨年も実施](/reviewing-2024-from-frontend-ecosystems-updates)した、フロントエンド開発にまつわる周辺技術が今年どれだけアップデートされたかを見つつ、2025年を振り返ってみる内容をお送りいたします。
 
 昨年に引き続き、以下のジャンルで括ろうと思っております。
 
@@ -363,7 +363,7 @@ UIライブラリやメタフレームワークのように、それぞれの機
 
 ## おわりに - 昨年の予測振り返りと来年の予測
 
-[前回の記事](https://qiita.com/okuto_oyama/items/12d119671f4b350042e4)では以下のような2025年の展望を予想しました。
+[前回の記事](/reviewing-2024-from-frontend-ecosystems-updates)では以下のような2025年の展望を予想しました。
 
 - 脱仮想DOMでの宣言的UIが主流となる（[Fine Grained Reactivity](https://docs.solidjs.com/advanced-concepts/fine-grained-reactivity)の実現）
 - サーバーコンポーネントの普及に伴うクライアントとサーバーとの境界がより曖昧に

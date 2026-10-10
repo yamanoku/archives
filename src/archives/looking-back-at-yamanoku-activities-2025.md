@@ -61,7 +61,7 @@ topic: life
 - [**archives.yamanoku.net**](http://archives.yamanoku.net) **のOGP画像生成スクリプトのリファクタリングとNode Test Runnerでのテスト追加対応をした（**[**GitHub PR**](https://github.com/yamanoku/archives/pull/656)**）**
 - [野生の島のロズ](https://gaga.ne.jp/roz-movie/)を観てくる
 - **MTG内で同僚に対してキレる事案が発生**。マネージャーから注意をもらい、各所への謝罪対応。
-- [Interop 2025が始まりました！](https://zenn.dev/yamanoku/articles/interop-2025-launched)を書いた
+- [Interop 2025が始まりました！](/interop-2025-launched)を書いた
 - **以前のHolloへのコントリビューション対応に**[**物言い**](https://github.com/fedify-dev/hollo/issues/99#issuecomment-2661146833)**がついたので、**[**妥協案としての対応**](https://github.com/fedify-dev/hollo/pull/110)**をしてきた**
 - [UV Study : Vue.js LT会 \~業務で活きる実践的なVue\~](https://uniquevision.connpass.com/event/343955/)へオンライン登壇
 - [A11y Tokyo Meetup オフライン交流会](https://a11ytyo.connpass.com/event/343991/)に現地参加
@@ -103,7 +103,7 @@ topic: life
 - yamaScrapboxに登録していた便利画像にまつわるページを削除して[usefule-gyazo](https://scrapbox.io/useful-gyazo/)を新たに作成してそちらへ移行
 - [Web Speed Hackathon 2025](https://cyberagent.connpass.com/event/338797/)に初日だけ参加
   - 2日目は解説・総評のみ参加
-- [**Webフロントエンドでのリアクティビティからalien-signalsを知ろう**](https://zenn.dev/comm%5Fvue%5Fnuxt/articles/about-alien-signals)**を公開**
+- [**Webフロントエンドでのリアクティビティからalien-signalsを知ろう**](/about-alien-signals)**を公開**
   - 公開にあたり、ubugeeeiさんから手厚いレビューをいただけて非常に感謝
   - alien-signalsの[README修正コントリビュート](https://github.com/stackblitz/alien-signals/pull/53)してきた
 - [TSKaigi 2025](https://2025.tskaigi.org/)からプロポーザル採択のお知らせが届く
@@ -123,7 +123,7 @@ topic: life
   - shokaiさんと初めて会話できて楽しかった
 - [**Baseline MCP Server**](https://github.com/yamanoku/baseline-mcp-server)**を公開した**
   - **Denoで作ってみたので初めて**[**JSR**](https://jsr.io/@yamanoku/baseline-mcp-server)**に登録してみた**
-  - [**Baseline MCP Serverを公開しました！**](https://zenn.dev/yamanoku/articles/baseline-mcp-server)**記事も書いた**
+  - [**Baseline MCP Serverを公開しました！**](/baseline-mcp-server)**記事も書いた**
   - **web-plarform-dxの管理する**[**Baselineサイトの事例紹介ページ**](https://web-platform-dx.github.io/web-features/baseline-in-the-wild/)**に含めてもらった**
 - ClaudeのProプランへ加入した
 - [ブラクラクラ(Browser Crash Club) #1](https://browsercrashclub.connpass.com/event/350203/)に現地参加
@@ -326,7 +326,7 @@ topic: life
   - [改めてカルーセルを見つめ直してみる Summer 2025](https://scrapbox.io/yamanoku/%E6%94%B9%E3%82%81%E3%81%A6%E3%82%AB%E3%83%AB%E3%83%BC%E3%82%BB%E3%83%AB%E3%82%92%E8%A6%8B%E3%81%A4%E3%82%81%E7%9B%B4%E3%81%97%E3%81%A6%E3%81%BF%E3%82%8B%5FSummer%5F2025)
   - Studio株式会社に転職された[terkel](https://x.com/terkel)さんと久々に会話出来た
 - **MDNドキュメントに**[**修正PR**](https://github.com/mdn/content/pull/41056)**出した**
-- [**Nuxt設定ファイルにあるcompatibilityDateとは何か？**](https://zenn.dev/comm%5Fvue%5Fnuxt/articles/what-is-nuxt-compatibility-date-config)**書いた**
+- [**Nuxt設定ファイルにあるcompatibilityDateとは何か？**](/what-is-nuxt-compatibility-date-config)**書いた**
 - [映画キミとアイドルプリキュア♪ お待たせ！キミに届けるキラッキライブ！](https://2025.precure-movie.com/)を家族で観てきた
 - **歯医者で左上下の親知らずを抜歯**
 - [アクセシビリティカンファレンスCHIBA2025](https://a11y-chiba.com/)に現地参加
@@ -400,7 +400,7 @@ topic: life
   - 2次会にも初参加できた。柏の呑み屋は多くていいですね
 - [プレデター：バッドランド](https://www.20thcenturystudios.jp/movies/predator-badlands)を観てくる
 - [Vue Fes Japan 2025 After Talk](https://yappli.connpass.com/event/368396/)に現地参加
-  - [**Vue Fes Japan 2025 After Talk参加レポート**](https://qiita.com/okuto%5Foyama/items/7e7d6d2bc26d652516b3)**を書いた**
+  - [**Vue Fes Japan 2025 After Talk参加レポート**](/vuefes-japan-2025-after-talk)**を書いた**
 - 娘の授業参観に久々に参加
 - [Web UI 実装勉強会 #2](https://ui-devs.connpass.com/event/369228/)に参加
   - [森田リーナ](https://x.com/mirka)さんと久々にお会いする
@@ -431,14 +431,14 @@ topic: life
 
 [nippo-2025-12 - yamaScrapbox](https://scrapbox.io/yamanoku/nippo-2025-12)
 
-- [**フロントエンド技術周辺のアップデートから振り返る2025年**](https://qiita.com/okuto%5Foyama/items/6a5e5029c385a360f7fc)**を書いた**
+- [**フロントエンド技術周辺のアップデートから振り返る2025年**](/reviewing-2025-from-frontend-ecosystems-updates)**を書いた**
 - [BAKA GAIJIN + FRIENDS Vol. 26](https://shinjuku-face.com/events/5986)を観に行ってくる
 - 元同僚の2人と恵比寿で呑み会
 - 会社のキックオフ・半期MVP表彰式に参加
   - **来年からチーム異動することになったため異動先のチームメンバーに挨拶させてもらった**
 - [アクセシビリティカンファレンス福岡 2025](https://fukuoka.a11yconf.net/)をオンライン視聴
 - 家族で[ズートピア2](https://www.disney.co.jp/movie/zootopia2)を観てくる
-- [**Vueユーザーから見るReact Tokyoコミュニティ**](https://zenn.dev/yamanoku/articles/react-tokyo-advent-calender-2025)**書いた**
+- [**Vueユーザーから見るReact Tokyoコミュニティ**](/react-tokyo-advent-calender-2025)**書いた**
 - [東葛.devの年忘れ交流会](https://scrapbox.io/toukatsu-dev/%E5%B9%B4%E5%BF%98%E3%82%8C%E4%BA%A4%E6%B5%81%E4%BC%9A%5F2025%2F12%2F13%28%E6%97%A5%29%5F18:00%5F-%5F22:00%5F@%E6%B5%81%E5%B1%B1)に参加
 - 娘のダンス教室での成果発表会があったので寒空の下で観てきた
 - [**東葛.devアドカレ2025「東葛.devに参加して1年経ったので良いところを10個挙げてみました」**](./toukatsu-dev-10-good-things)**書いた**
@@ -446,7 +446,7 @@ topic: life
 - [Mita.ts #9](https://mitats.connpass.com/event/373208/)へ参加・発表
   - [株式会社バックテック](https://backtech.co.jp/)に初潜入
   - [**ひとりNavigation API Advent Calendarの紹介 / Mita.ts #9**](https://speakerdeck.com/yamanoku/solo-navigation-api-advent-calendar) **を発表**
-- [**SvelteKitのクライアントサイドルーティングはどういう仕組みなの？**](https://zenn.dev/yamanoku/articles/svelte-advent-calender-2025)**書いた**
+- [**SvelteKitのクライアントサイドルーティングはどういう仕組みなの？**](/svelte-advent-calender-2025)**書いた**
 - [フロントエンドエキスパートチームについて Node学園47時限目](https://nodejs.connpass.com/event/377035/)をオンライン視聴
 - 前職の人たちとオンライン近況報告会をした
 - 東葛.devのコミュニティメンバーの4人とおおたかの森で突発呑み会

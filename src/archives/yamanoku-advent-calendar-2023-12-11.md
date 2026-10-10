@@ -17,7 +17,7 @@ noindex: true
 
 私がWeb制作の仕事をしていた2017年頃、CSS設計思想としてBEMやFLOCSSといったものがある中で、そうした考え方を使わない「使いまわせるCSS」についてを考えていました。
 
-> [最近考えてる「使いまわせるCSS」について | yamanoku.net](https://archives.yamanoku.net/i-think-reuse-css)
+> [最近考えてる「使いまわせるCSS」について | yamanoku.net](/i-think-reuse-css)
 
 要素の空き・余白の関係性を示すためにそれぞれの値を定義したり、ボタンの幅についてもクラス名で決め打ちで定義するようにしたりと、いわゆるユーティリティファーストなCSSを書くのがよいのではないか、と考えていた事がありました。
 
