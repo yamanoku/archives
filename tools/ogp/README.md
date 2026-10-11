@@ -21,8 +21,9 @@ npm run generateOgImage
 
 ## 挙動について
 
-1. `git status`を実行して新たに追加（unstage）された`src/archives`配下のマークダウンファイルを取得する
-   - 存在しない場合は処理を終了する
+1. `src/archives` 配下のマークダウンファイルと `public/og-images` 配下の PNG を照合し、OG画像が未生成の記事を取得する
+   - `index.md` と `404.md` は対象外
+   - 未生成の記事が存在しない場合は処理を終了する
 1. `puppeteer`を起動する
 1. マークダウンファイルを配列として取得してくる
    1. マークダウンファイルのfrontmatterから`title`を取得する

@@ -1,22 +1,29 @@
+import fs from 'fs';
 import { dirname, join } from 'path';
 import { fileURLToPath, pathToFileURL } from 'url';
-import { execSync } from 'child_process';
 import puppeteer from 'puppeteer';
 import { loadDefaultJapaneseParser } from 'budoux';
-import { getUnstagedFiles } from './lib/getUnstagedFiles.mjs';
+import { getMissingOgImages } from './lib/getMissingOgImages.mjs';
 import { getPostTitle } from './lib/getPostTitle.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '../..');
+const archivesDir = join(ROOT, 'src/archives');
+const ogImagesDir = join(ROOT, 'public/og-images');
 const templateHtml = join(__dirname, 'template.html');
 
-// gitにまだ登録されていない新規ファイルを取得する
-const output = execSync('git status --porcelain', {
-  encoding: 'utf-8',
-  cwd: ROOT,
-});
-const lines = output.split('\n');
-const unstagedFiles = getUnstagedFiles(lines);
+const mdFilenames = fs
+  .readdirSync(archivesDir)
+  .filter((name) => name.endsWith('.md'));
+const ogImageFilenames = fs.existsSync(ogImagesDir)
+  ? fs.readdirSync(ogImagesDir).filter((name) => name.endsWith('.png'))
+  : [];
+const missingFiles = getMissingOgImages(mdFilenames, ogImageFilenames);
+
+if (missingFiles.length === 0) {
+  console.log('No missing OG images.');
+  process.exit(0);
+}
 
 const parser = loadDefaultJapaneseParser();
 
@@ -25,7 +32,7 @@ const parser = loadDefaultJapaneseParser();
   const page = await browser.newPage();
   // テンプレートファイルを開く
   await page.goto(pathToFileURL(templateHtml).href);
-  for (const mdFilename of unstagedFiles) {
+  for (const mdFilename of missingFiles) {
     const title = getPostTitle(mdFilename);
     try {
       // BudouXを適用したタイトルを取得する
@@ -40,11 +47,7 @@ const parser = loadDefaultJapaneseParser();
       );
       // スクリーンショットを撮る
       await page.screenshot({
-        path: join(
-          ROOT,
-          'public/og-images',
-          `${mdFilename.replace('.md', '')}.png`,
-        ),
+        path: join(ogImagesDir, `${mdFilename.replace('.md', '')}.png`),
         clip: { x: 0, y: 0, width: 1200, height: 630 },
       });
       console.log(`Create: ${mdFilename.replace('.md', '')}.png`);
