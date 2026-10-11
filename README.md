@@ -8,7 +8,7 @@ Markdown 記事を Vite + [@ox-content/vite-plugin](https://github.com/ox-conten
 
 ```mermaid
 flowchart TB
-  subgraph content["Content"]
+  subgraph content["Content (ox-content)"]
     MD["src/archives/*.md<br/>frontmatter + Markdown"]
     PUBLIC["public/<br/>favicon, og-images, …"]
     STYLES["src/styles/global.css"]
@@ -57,11 +57,11 @@ flowchart TB
 
 | レイヤ | 役割 |
 | --- | --- |
-| `src/archives/` | 記事本体（Markdown） |
+| `src/archives/` | アーカイブ記事本体（Markdown） |
 | `theme/` | ページレイアウトと共通コンポーネント |
-| `plugins/` | ox-content 設定・脚注・フィード・ビルド後処理 |
-| `tools/` | OG 画像生成・カテゴリ分類（ビルド外） |
-| `dist/` | 静的成果物（Vercel へデプロイ） |
+| `plugins/` | ox-content プラグイン（設定・脚注・フィード・ビルド後処理） |
+| `tools/` | OG 画像生成・カテゴリ分類 |
+| `dist/` | 静的成果物 |
 
 ## Build Setup
 
