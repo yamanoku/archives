@@ -9,7 +9,7 @@ topic: frontend
 noindex: true
 ---
 
-![Vue Fes Japan 2026の会場。空席が並ぶ客席の向こうのステージに、@cosmeのスポンサー投影とVue Fes Japan 2026の縦バナーが見える。](https://assets.st-note.com/production/uploads/images/328382067/rectangle_large_type_2_a9d4416fa133f7bb9f5e62427134f454.jpeg)
+![Vue Fes Japan 2026の会場。空席が並ぶ客席の向こうのステージに、@cosmeのスポンサー投影とVue Fes Japan 2026の縦バナーが見える。](https://images.yamanoku.net/report-vue-fes-japan-2026/ceac571001d7e2ea5b6d0e719ba24466.jpeg)
 
 10/24に開催されたVue Fes Japan 2026に登壇・コアスタッフとして参加しました。この記事はその振り返り記事です。
 
@@ -52,7 +52,7 @@ Vue Fes全体統括の沖さんからも「ホームみたいなものですよ�
 
 今年のVue Fes Japanでは登壇だけではなくコアスタッフとして内部から関わることにもチャレンジしてみました。関わっていたチームとしてはWebスタッフ班で主にWebサイトの更新や運営にまつわる業務をしていました。
 
-![Vue Fes Japan 2026のメインビジュアル。淡いピンクの背景に緑のV字と、緑と金の渦が入った円が並び、2026年10月24日、大手町プレイスホール＆カンファレンスと英語・日本語で書かれている。](https://assets.st-note.com/img/1793144570-KTVPbjslC1O8gqX2ZymroF9B.png)
+![Vue Fes Japan 2026のメインビジュアル。淡いピンクの背景に緑のV字と、緑と金の渦が入った円が並び、2026年10月24日、大手町プレイスホール＆カンファレンスと英語・日本語で書かれている。](https://images.yamanoku.net/report-vue-fes-japan-2026/dc2cd6a2b14e1e7d2aaf481c18393ab1.png)
 
 Webサイトは昨年リニューアルされたこともあり、基本的にはそのデザインを踏襲するような形になっていました。なので一から作り直すということもなくスムーズにスタートできました。
 
@@ -66,11 +66,11 @@ Webサイト公開後はデザイン班やスポンサー班などから渡さ�
 
 Webサイトチーム以外の取り組みとしては広報でのSNSで投稿するにあたり画像の代替テキストの入れ方についてをesa上にまとめて共有させてもらいました。
 
-![esaにまとめてある「広報画像への代替テキスト」のページ一部。どのようなときに代替テキストを入れるのか、どういった代替テキストをつけると良いのか、に関する章が載っている。](https://assets.st-note.com/img/1793144984-D5k8TM34cvVYxWhCQp7qGdfy.png)
+![esaにまとめてある「広報画像への代替テキスト」のページ一部。どのようなときに代替テキストを入れるのか、どういった代替テキストをつけると良いのか、に関する章が載っている。](https://images.yamanoku.net/report-vue-fes-japan-2026/a73a8cbd2fdac921c83d83550a3bb699.png)
 
 その後にXのアクセシビリティ設定より「画像の説明がない場合にメッセージを受け取る」をオンにしてもらい、代替テキストを入れていただけるようになりました。
 
-![Xのポスト画像でVueのマグネットシート画像に対する代替テキストが表示されている](https://assets.st-note.com/img/1793145098-EaQFIxl7obtzTMKDH5gJUwXs.png)
+![Xのポスト画像でVueのマグネットシート画像に対する代替テキストが表示されている](https://images.yamanoku.net/report-vue-fes-japan-2026/67d455a167a7b9f5920e4c9b9d5b335a.png)
 
 ## 当日スタッフの振り返り
 
