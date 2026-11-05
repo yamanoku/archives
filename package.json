@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "engines": {
-    "node": "24.x"
+    "node": "26.x"
   },
   "scripts": {
     "dev": "vite",
@@ -22,7 +22,7 @@
     "yama-normalize": "2.6.1"
   },
   "devDependencies": {
-    "@types/node": "^24.3.0",
+    "@types/node": "^26.0.0",
     "budoux": "0.9.3",
     "gray-matter": "4.0.3",
     "prettier": "3.9.10",
