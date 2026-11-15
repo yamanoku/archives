@@ -104,6 +104,9 @@ export function HomeLayout(_props?: { children?: unknown }) {
             <li>
               <a href="https://records.yamanoku.net">Records</a>
             </li>
+            <li>
+              <a href="https://portfolio.yamanoku.net">Portfolio</a>
+            </li>
           </ul>
         </main>
         <Footer />
