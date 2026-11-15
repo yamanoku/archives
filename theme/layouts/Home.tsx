@@ -105,7 +105,7 @@ export function HomeLayout(_props?: { children?: unknown }) {
               <a href="https://records.yamanoku.net">Records</a>
             </li>
             <li>
-              <a href="https://portfolio.yamanoku.net">Portfolio</a>
+              <a href="https://portfolio.yamanoku.net">ポートフォリオ</a>
             </li>
           </ul>
         </main>
