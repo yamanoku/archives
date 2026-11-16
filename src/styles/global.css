@@ -76,6 +76,15 @@
   gap: var(--y-rhythm-1);
 }
 
+.site-url {
+  display: inline-flex;
+  flex-wrap: wrap;
+  
+  span {
+    word-wrap: anywhere;
+  }
+}
+
 .article-meta {
   display: flex;
   flex-wrap: wrap;
