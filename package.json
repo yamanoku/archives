@@ -26,12 +26,17 @@
   },
   "devDependencies": {
     "@types/node": "^26.0.0",
-    "budoux": "0.9.3",
+    "budoux": "0.10.4",
     "gray-matter": "4.0.3",
     "prettier": "3.10.1",
     "puppeteer": "25.18.1",
     "tsrs": "^7.1.0-beta.tsrs3",
     "vite": "^8.0.0"
+  },
+  "overrides": {
+    "@ox-content/vite-plugin": {
+      "budoux": "$budoux"
+    }
   },
   "allowScripts": {
     "puppeteer@25.18.1": true
