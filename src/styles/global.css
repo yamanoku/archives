@@ -79,7 +79,7 @@
 .site-url {
   display: inline-flex;
   flex-wrap: wrap;
-  
+
   span {
     word-wrap: anywhere;
   }
@@ -167,7 +167,7 @@ dialog[open] {
     flex-wrap: wrap;
     gap: var(--y-rhythm-1);
   }
-  
+
   label,
   input[type='search'] {
     flex-grow: 1;
@@ -182,7 +182,7 @@ pre.ox-highlight {
   border-radius: 4px;
   margin-block: 1lh;
   margin-inline: 0;
-  padding: .75lh;
+  padding: 0.75lh;
   overflow: auto;
 }
 

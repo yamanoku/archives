@@ -22,7 +22,10 @@ describe('temporal date helpers', () => {
   });
 
   it('formats RSS pubDate as RFC 822 from a calendar date', () => {
-    assert.equal(formatRfc822Utc('2017-07-27'), 'Thu, 27 Jul 2017 00:00:00 GMT');
+    assert.equal(
+      formatRfc822Utc('2017-07-27'),
+      'Thu, 27 Jul 2017 00:00:00 GMT',
+    );
   });
 
   it('counts calendar years with an explicit now', () => {

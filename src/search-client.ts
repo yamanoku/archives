@@ -89,7 +89,12 @@ if (
   closeModalButton.addEventListener('click', closeModal);
   dialog.addEventListener('click', ({ clientX, clientY }) => {
     const { top, left, width, height } = dialog.getBoundingClientRect();
-    if (clientX > left && clientX < left + width && clientY > top && clientY < top + height) {
+    if (
+      clientX > left &&
+      clientX < left + width &&
+      clientY > top &&
+      clientY < top + height
+    ) {
       return;
     }
     closeModal();

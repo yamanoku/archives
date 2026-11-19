@@ -18,8 +18,8 @@ export function oxContentPluginOptions(): OxContentOptions {
     embeds: {
       twitter: {
         fetch: true,
-        lang: "ja",
-        timeZone: "JTC",
+        lang: 'ja',
+        timeZone: 'JTC',
       },
       openGraph: {
         cache: true,

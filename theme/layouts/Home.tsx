@@ -25,7 +25,8 @@ export function HomeLayout(_props?: { children?: unknown }) {
         <Header />
         <main>
           <h1 class="site-url">
-            <span class="subdomain">archives.</span><span class="domain">yamanoku.net</span>
+            <span class="subdomain">archives.</span>
+            <span class="domain">yamanoku.net</span>
           </h1>
           <p>
             このページはyamanokuこと大山奥人が書いてきた過去の記事やログを収集したページです。
