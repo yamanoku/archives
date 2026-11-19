@@ -50,7 +50,7 @@ export function HomeLayout(_props?: { children?: unknown }) {
                   type="search"
                   name="q"
                   placeholder="記事を検索"
-                  autocomplete="off"
+                  autoComplete="off"
                 />
               </label>
               <button type="submit">検索</button>
@@ -70,7 +70,7 @@ export function HomeLayout(_props?: { children?: unknown }) {
                 return (
                   <tr>
                     <td>
-                      <time class="nowrap" datetime={date}>
+                      <time class="nowrap" dateTime={date}>
                         <TcyDate value={date} />
                       </time>
                     </td>

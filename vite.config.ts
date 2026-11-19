@@ -10,9 +10,11 @@ const searchClientEntry = fileURLToPath(
 
 export default defineConfig({
   appType: 'mpa',
-  esbuild: {
-    jsx: 'automatic',
-    jsxImportSource: '@ox-content/vite-plugin',
+  oxc: {
+    jsx: {
+      runtime: 'automatic',
+      importSource: '@ox-content/vite-plugin',
+    },
   },
   build: {
     rollupOptions: {
