@@ -44,7 +44,7 @@ export function ArticleLayout(_props?: { children?: unknown }) {
               <h1>{raw(titleHtml)}</h1>
               <div class="article-meta">
                 {date ? (
-                  <time datetime={date}>
+                  <time dateTime={date}>
                     created at: <TcyDate value={date} />
                   </time>
                 ) : null}

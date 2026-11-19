@@ -1,6 +1,8 @@
 /** @jsxImportSource @ox-content/vite-plugin */
+import type { JSXChild } from '@ox-content/vite-plugin';
+
 type HeaderProps = {
-  actions?: unknown;
+  actions?: JSXChild;
 };
 
 export function Header({ actions }: HeaderProps) {

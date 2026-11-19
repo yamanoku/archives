@@ -13,7 +13,8 @@
     "prettier": "prettier --write .",
     "generateOgImage": "node tools/ogp/generateOgImage.mjs",
     "test": "node --test --experimental-test-snapshots",
-    "test:update": "node --test --experimental-test-snapshots --test-update-snapshots"
+    "test:update": "node --test --experimental-test-snapshots --test-update-snapshots",
+    "typecheck": "tsrs --noEmit"
   },
   "dependencies": {
     "@ox-content/vite-plugin": "^3.2.8",
@@ -27,7 +28,7 @@
     "gray-matter": "4.0.3",
     "prettier": "3.10.1",
     "puppeteer": "25.16.0",
-    "typescript": "^7.0.0",
+    "tsrs": "^7.1.0-beta.tsrs3",
     "vite": "^8.0.0"
   },
   "allowScripts": {
