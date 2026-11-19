@@ -13,8 +13,9 @@
     "prettier": "prettier --write .",
     "prettier:check": "prettier --check .",
     "generateOgImage": "node tools/ogp/generateOgImage.mjs",
-    "test": "node --test --experimental-test-snapshots",
-    "test:update": "node --test --experimental-test-snapshots --test-update-snapshots",
+    "test": "node --test --experimental-test-snapshots src/**/*.test.ts",
+    "test:ogp": "node --test --experimental-test-snapshots tools/ogp/**/*.test.mjs",
+    "test:update": "node --test --experimental-test-snapshots --test-update-snapshots tools/ogp/**/*.test.mjs",
     "typecheck": "tsrs --noEmit"
   },
   "dependencies": {

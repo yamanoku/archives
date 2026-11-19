@@ -27,6 +27,6 @@ jobs:
       - name: npm ci
         run: npm ci
       - name: Test
-        run: npm run test
+        run: npm run test:ogp
         env:
           CI: true
