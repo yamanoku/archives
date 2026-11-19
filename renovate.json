@@ -16,6 +16,18 @@
       "enabled": false
     }
   ],
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Keep the allowScripts version pin in sync with the puppeteer dependency",
+      "managerFilePatterns": ["/(^|/)package\\.json$/"],
+      "matchStrings": [
+        "\"(?<depName>puppeteer)@(?<currentValue>\\d+\\.\\d+\\.\\d+)\"\\s*:"
+      ],
+      "datasourceTemplate": "npm",
+      "versioningTemplate": "npm"
+    }
+  ],
   "schedule": ["after 10pm and before 6am on every weekday"],
   "assignees": ["yamanoku"]
 }
