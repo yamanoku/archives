@@ -29,7 +29,7 @@
     "budoux": "0.10.4",
     "gray-matter": "4.0.3",
     "prettier": "3.10.1",
-    "puppeteer": "25.18.1",
+    "puppeteer": "25.19.0",
     "tsrs": "^7.1.0-beta.tsrs3",
     "vite": "^8.0.0"
   },
@@ -39,6 +39,6 @@
     }
   },
   "allowScripts": {
-    "puppeteer@25.18.1": true
+    "puppeteer@25.19.0": true
   }
 }
